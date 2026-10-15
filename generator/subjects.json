@@ -1,0 +1,169 @@
+[
+{"id":"regles","num":1,"page":"regles-backgammon.php","seed":11,
+ "short":{"fr":"Règles","en":"Rules","es":"Reglas"},
+ "kick":{"fr":"Les bases","en":"The basics","es":"Lo básico"},
+ "title":{"fr":"Règles du<br><em>backgammon</em>","en":"Backgammon<br><em>rules</em>","es":"Reglas del<br><em>backgammon</em>"},
+ "sub":{"fr":"L'essentiel en 25 secondes","en":"The essentials in 25 seconds","es":"Lo esencial en 25 segundos"},
+ "facts":[
+  {"vis":{"type":"checkers","n":15},"value":{"fr":"15 pions","en":"15 checkers","es":"15 fichas"},"cap":{"fr":"et 2 dés par joueur,<br>sur un plateau de 24 points","en":"and 2 dice each,<br>on a 24-point board","es":"y 2 dados por jugador,<br>en un tablero de 24 puntos"}},
+  {"vis":{"type":"dice","a":4,"b":4},"color":"#ff7a59","value":{"fr":"Double","en":"Doubles","es":"Dobles"},"cap":{"fr":"un double se joue<br>4 fois !","en":"a double is played<br>4 times!","es":"¡un doble se juega<br>4 veces!"}},
+  {"vis":{"type":"board","pos":[[0,2,1],[5,5,0],[7,3,0],[11,5,1],[12,4,0],[9,1,0,"blot"],[16,3,1],[18,5,1],[23,2,0]]},"color":"#c9a86a","value":{"fr":"Le blot","en":"The blot","es":"El blot"},"cap":{"fr":"un pion seul peut être frappé<br>et partir sur la barre","en":"a lone checker can be hit<br>and sent to the bar","es":"una ficha sola puede ser golpeada<br>y va a la barra"}},
+  {"vis":{"type":"badge","text":"×2","color":"#c9a86a"},"value":{"fr":"Gammon","en":"Gammon","es":"Gammon"},"cap":{"fr":"si l'adversaire n'a sorti aucun pion,<br>la partie compte double","en":"if your opponent hasn't borne off,<br>the game counts double","es":"si el rival no ha sacado ninguna ficha,<br>la partida vale doble"}}
+ ],
+ "tip":{"fr":"Un pion seul est en danger : mets 2 pions sur un point pour le protéger !","en":"A lone checker is at risk: put 2 checkers on a point to make it safe!","es":"Una ficha sola está en peligro: pon 2 fichas en un punto para protegerla."},
+ "outro":{"title":{"fr":"Toutes les<br><em>règles</em>","en":"All the<br><em>rules</em>","es":"Todas las<br><em>reglas</em>"},"name":{"fr":"Règles du backgammon","en":"Backgammon rules","es":"Reglas del backgammon"},"desc":{"fr":"Départ, déplacements, sortie, videau…","en":"Setup, moves, bearing off, cube…","es":"Salida, movimientos, retirada, cubo…"}}},
+
+{"id":"ouvertures","num":2,"page":"ouvertures-backgammon.php","seed":23,
+ "short":{"fr":"Ouvertures","en":"Openings","es":"Aperturas"},
+ "kick":{"fr":"Stratégie","en":"Strategy","es":"Estrategia"},
+ "title":{"fr":"Les<br><em>ouvertures</em>","en":"Opening<br><em>moves</em>","es":"Las<br><em>aperturas</em>"},
+ "sub":{"fr":"Bien démarrer chaque partie","en":"Start every game right","es":"Empieza bien cada partida"},
+ "facts":[
+  {"vis":{"type":"badge","text":"15"},"value":{"fr":"15","en":"15","es":"15"},"cap":{"fr":"ouvertures possibles :<br>on relance les doubles","en":"possible opening rolls:<br>doubles are re-rolled","es":"aperturas posibles:<br>los dobles se relanzan"}},
+  {"vis":{"type":"dice","a":3,"b":1},"color":"#c9a86a","value":{"fr":"3-1","en":"3-1","es":"3-1"},"cap":{"fr":"8/5 6/5 : tu fais le point 5,<br>le meilleur du jeu","en":"8/5 6/5: make your 5-point,<br>the best point","es":"8/5 6/5: haces el punto 5,<br>el mejor del juego"}},
+  {"vis":{"type":"dice","a":6,"b":1},"color":"#c9a86a","value":{"fr":"6-1","en":"6-1","es":"6-1"},"cap":{"fr":"13/7 8/7 : tu fais<br>le bar point (point 7)","en":"13/7 8/7: make<br>your bar point","es":"13/7 8/7: haces<br>el bar point (punto 7)"}},
+  {"vis":{"type":"dice","a":6,"b":5},"color":"#ff7a59","value":{"fr":"6-5","en":"6-5","es":"6-5"},"cap":{"fr":"24/13 : le « saut de l'amoureux »,<br>un pion arrière s'échappe","en":"24/13: the “lover's leap”,<br>a back checker escapes","es":"24/13: el «salto del enamorado»,<br>una ficha trasera escapa"}}
+ ],
+ "tip":{"fr":"Au 2e coup, si l'adversaire laisse un blot à portée, le frapper est souvent le meilleur choix !","en":"On your 2nd move, if your opponent leaves a blot in range, hitting it is often best!","es":"En tu 2.ª jugada, si el rival deja un blot al alcance, ¡golpearlo suele ser lo mejor!"},
+ "outro":{"title":{"fr":"Les 15<br><em>ouvertures</em>","en":"All 15<br><em>openings</em>","es":"Las 15<br><em>aperturas</em>"},"name":{"fr":"Les ouvertures","en":"Opening moves","es":"Las aperturas"},"desc":{"fr":"Les meilleurs coups + les doubles","en":"Best moves + doubles","es":"Mejores jugadas + dobles"}}},
+
+{"id":"videau","num":3,"page":"videau-backgammon.php","seed":37,
+ "short":{"fr":"Le videau","en":"The cube","es":"El cubo"},
+ "kick":{"fr":"Le videau","en":"Doubling cube","es":"El cubo"},
+ "title":{"fr":"Le<br><em>videau</em>","en":"The doubling<br><em>cube</em>","es":"El cubo<br><em>de doblaje</em>"},
+ "sub":{"fr":"L'arme secrète du backgammon","en":"Backgammon's secret weapon","es":"El arma secreta del backgammon"},
+ "facts":[
+  {"vis":{"type":"cube"},"color":"#c9a86a","value":{"fr":"2 → 64","en":"2 → 64","es":"2 → 64"},"cap":{"fr":"un dé spécial pour doubler<br>la valeur de la partie","en":"a special die to double<br>the value of the game","es":"un dado especial para doblar<br>el valor de la partida"}},
+  {"vis":{"type":"badge","text":{"fr":"25 %","en":"25%","es":"25 %"},"fs":130,"color":"#ff7a59"},"color":"#ff7a59","value":{"fr":"25 %","en":"25%","es":"25 %"},"cap":{"fr":"accepte un double si tu as<br>au moins 25 % de chances","en":"take a double if you have<br>at least a 25% chance","es":"acepta un doble si tienes<br>al menos un 25 % de opciones"}},
+  {"vis":{"type":"cube","cycle":[2,4]},"color":"#c9a86a","value":{"fr":"8 points","en":"8 points","es":"8 puntos"},"cap":{"fr":"pour un gammon (×2)<br>avec le videau à 4","en":"for a gammon (×2)<br>with the cube on 4","es":"por un gammon (×2)<br>con el cubo en 4"}},
+  {"vis":{"type":"badge","text":"1920","fs":120},"value":{"fr":"Années 20","en":"The 1920s","es":"Años 20"},"cap":{"fr":"inventé dans les clubs<br>de New York","en":"invented in<br>New York clubs","es":"inventado en los clubes<br>de Nueva York"}}
+ ],
+ "tip":{"fr":"Double quand ta position devient très forte, avant de « perdre ton marché » !","en":"Double when your position gets strong, before you “lose your market”!","es":"Dobla cuando tu posición sea muy fuerte, ¡antes de «perder tu mercado»!"},
+ "outro":{"title":{"fr":"Maîtrise<br><em>le videau</em>","en":"Master<br><em>the cube</em>","es":"Domina<br><em>el cubo</em>"},"name":{"fr":"Le videau","en":"The doubling cube","es":"El cubo de doblaje"},"desc":{"fr":"Règle des 25 %, Crawford, Jacoby…","en":"25% rule, Crawford, Jacoby…","es":"Regla del 25 %, Crawford, Jacoby…"}}},
+
+{"id":"jacquet","num":4,"page":"jacquet-trictrac-backgammon.php","seed":41,
+ "short":{"fr":"Culture","en":"Culture","es":"Cultura"},
+ "kick":{"fr":"Culture","en":"Culture","es":"Cultura"},
+ "title":{"fr":"Jacquet<br><em>ou backgammon ?</em>","en":"Jacquet<br><em>or backgammon?</em>","es":"¿Jacquet<br><em>o backgammon?</em>"},
+ "sub":{"fr":"3 jeux cousins, 3 façons de jouer","en":"3 related games, 3 ways to play","es":"3 juegos primos, 3 formas de jugar"},
+ "facts":[
+  {"vis":{"type":"checkers","n":15},"value":{"fr":"15 + 2 + 24","en":"15 + 2 + 24","es":"15 + 2 + 24"},"vfs":0.8,"cap":{"fr":"15 pions, 2 dés, 24 flèches :<br>leurs points communs","en":"15 checkers, 2 dice, 24 points:<br>what they share","es":"15 fichas, 2 dados, 24 puntos:<br>lo que comparten"}},
+  {"vis":{"type":"icon","icon":"arrows"},"color":"#c9a86a","value":{"fr":"Jacquet","en":"Jacquet","es":"Jacquet"},"cap":{"fr":"même sens pour tous,<br>et on ne frappe jamais","en":"both players go the same way,<br>and nobody gets hit","es":"todos en el mismo sentido<br>y nunca se golpea"}},
+  {"vis":{"type":"icon","icon":"scroll"},"color":"#c9a86a","value":{"fr":"Trictrac","en":"Trictrac","es":"Trictrac"},"cap":{"fr":"on marque des points<br>en réussissant certains coups","en":"you score points<br>for certain clever moves","es":"se suman puntos<br>con ciertas jugadas"}},
+  {"vis":{"type":"board"},"color":"#ff7a59","value":{"fr":"Backgammon","en":"Backgammon","es":"Backgammon"},"vfs":0.8,"cap":{"fr":"sens opposés, frappe<br>et videau pour doubler","en":"opposite directions, hitting<br>and the doubling cube","es":"sentidos opuestos, golpes<br>y cubo de doblaje"}}
+ ],
+ "tip":{"fr":"Tu as déjà joué au jacquet ? Tu connais déjà une bonne partie des bases du backgammon !","en":"Played jacquet or trictrac before? You already know many backgammon basics!","es":"¿Has jugado al jacquet? ¡Ya conoces buena parte de las bases del backgammon!"},
+ "outro":{"title":{"fr":"Toutes les<br><em>différences</em>","en":"Spot the<br><em>differences</em>","es":"Todas las<br><em>diferencias</em>"},"name":{"fr":"Jacquet, trictrac et backgammon","en":"Jacquet, trictrac & backgammon","es":"Jacquet, trictrac y backgammon"},"desc":{"fr":"Sens, départ, règles particulières","en":"Direction, setup, special rules","es":"Sentido, salida, reglas propias"}}},
+
+{"id":"chouette","num":5,"page":"chouette-backgammon.php","seed":53,
+ "short":{"fr":"La chouette","en":"Chouette","es":"La chouette"},
+ "kick":{"fr":"À plusieurs","en":"Multiplayer","es":"Multijugador"},
+ "title":{"fr":"La<br><em>chouette</em>","en":"The<br><em>chouette</em>","es":"La<br><em>chouette</em>"},
+ "sub":{"fr":"Le backgammon à 3 joueurs et plus","en":"Backgammon for 3 or more players","es":"Backgammon para 3 o más jugadores"},
+ "facts":[
+  {"vis":{"type":"icon","icon":"users"},"color":"#c9a86a","value":{"fr":"3 et +","en":"3+","es":"3 o más"},"cap":{"fr":"joueurs sur<br>un seul plateau","en":"players on<br>a single board","es":"jugadores en<br>un solo tablero"}},
+  {"vis":{"type":"icon","icon":"crown"},"color":"#c9a86a","value":{"fr":"Le box","en":"The box","es":"El box"},"cap":{"fr":"joue seul contre<br>toute l'équipe","en":"plays alone against<br>the whole team","es":"juega solo contra<br>todo el equipo"}},
+  {"vis":{"type":"dice","a":5,"b":3},"color":"#ff7a59","value":{"fr":"Le capitaine","en":"The captain","es":"El capitán"},"vfs":0.85,"cap":{"fr":"lance les dés et décide<br>pour l'équipe","en":"rolls the dice and decides<br>for the team","es":"tira los dados y decide<br>por el equipo"}},
+  {"vis":{"type":"cube","cycle":[2]},"value":{"fr":"1 videau","en":"1 cube","es":"1 cubo"},"cap":{"fr":"par joueur de l'équipe<br>(version la plus courante)","en":"per team member<br>(most common version)","es":"por jugador del equipo<br>(versión más común)"}}
+ ],
+ "tip":{"fr":"La chouette arrive bientôt en ligne sur TickGammon, avec les scores calculés automatiquement !","en":"Chouette is coming soon to TickGammon, with automatic scoring!","es":"¡La chouette llega pronto a TickGammon, con puntuación automática!"},
+ "outro":{"title":{"fr":"Bientôt<br><em>en ligne</em>","en":"Coming<br><em>soon</em>","es":"Muy<br><em>pronto</em>"},"name":{"fr":"La chouette","en":"Chouette backgammon","es":"La chouette"},"desc":{"fr":"Box, capitaine, rotation, videau","en":"Box, captain, rotation, cube","es":"Box, capitán, rotación, cubo"}}},
+
+{"id":"probabilites","num":6,"page":"probabilites-des-backgammon.php","seed":67,
+ "short":{"fr":"Probabilités","en":"Probabilities","es":"Probabilidades"},
+ "kick":{"fr":"Le savais-tu ?","en":"Did you know?","es":"¿Sabías que…?"},
+ "title":{"fr":"Probabilités<br><em>aux dés</em>","en":"Dice<br><em>probabilities</em>","es":"Probabilidades<br><em>de los dados</em>"},
+ "sub":{"fr":"Les chiffres qui font gagner","en":"The numbers that win games","es":"Los números que hacen ganar"},
+ "facts":[
+  {"vis":{"type":"grid","key":"all"},"value":{"fr":"36","en":"36","es":"36"},"cap":{"fr":"combinaisons possibles<br>avec 2 dés","en":"possible rolls<br>with 2 dice","es":"combinaciones posibles<br>con 2 dados"}},
+  {"vis":{"type":"grid","key":"dbl"},"color":"#ff7a59","value":{"fr":"16,7 %","en":"16.7%","es":"16,7 %"},"cap":{"fr":"de chances de faire un double,<br>soit 1 fois sur 6","en":"chance of rolling a double,<br>1 time in 6","es":"de probabilidad de sacar un doble,<br>1 vez de cada 6"}},
+  {"vis":{"type":"grid","key":"d66"},"color":"#ff7a59","value":{"fr":"2,8 %","en":"2.8%","es":"2,8 %"},"cap":{"fr":"pour un double 6 :<br>1 seule combinaison sur 36","en":"for double 6:<br>just 1 roll in 36","es":"para un doble 6:<br>solo 1 combinación de 36"}},
+  {"vis":{"type":"grid","key":"hit"},"color":"#c9a86a","value":{"fr":"47 %","en":"47%","es":"47 %"},"cap":{"fr":"de chances de toucher un pion<br>à 6 cases (17 sur 36)","en":"chance to hit a checker<br>6 pips away (17 in 36)","es":"de probabilidad de golpear una ficha<br>a 6 puntos (17 de 36)"}}
+ ],
+ "tip":{"fr":"À 7 cases, le risque tombe à 16,7 % : éloigne tes pions seuls !","en":"7 pips away, the risk drops to 16.7%: keep your blots far away!","es":"A 7 puntos, el riesgo baja al 16,7 %: ¡aleja tus fichas sueltas!"},
+ "outro":{"title":{"fr":"Tous les<br><em>tableaux de chances</em>","en":"All the<br><em>odds tables</em>","es":"Todas las<br><em>tablas de probabilidad</em>"},"name":{"fr":"Probabilités aux dés","en":"Dice probabilities","es":"Probabilidades de los dados"},"desc":{"fr":"Doubles, coups directs, coups indirects…","en":"Doubles, direct and indirect shots…","es":"Dobles, tiros directos e indirectos…"}}},
+
+{"id":"strategie","num":7,"page":"strategie-backgammon-debutant.php","seed":79,
+ "short":{"fr":"Stratégie","en":"Strategy","es":"Estrategia"},
+ "kick":{"fr":"Débutants","en":"Beginners","es":"Principiantes"},
+ "title":{"fr":"10 conseils<br><em>pour progresser</em>","en":"10 tips<br><em>to improve</em>","es":"10 consejos<br><em>para mejorar</em>"},
+ "sub":{"fr":"La stratégie, simplement","en":"Strategy made simple","es":"La estrategia, fácil"},
+ "facts":[
+  {"vis":{"type":"icon","icon":"chart"},"value":{"fr":"Compte les pips","en":"Count the pips","es":"Cuenta los pips"},"vfs":0.8,"cap":{"fr":"pour savoir qui mène<br>la course","en":"to know who's ahead<br>in the race","es":"para saber quién va<br>por delante"}},
+  {"vis":{"type":"board","prime":[2,3,4,5,6,7],"pos":[[2,2,0],[3,2,0],[4,2,0],[5,2,0],[6,2,0],[7,2,0],[0,2,1],[12,3,0],[16,3,1],[18,5,1],[11,5,1]]},"color":"#c9a86a","value":{"fr":"Fais une prime","en":"Build a prime","es":"Haz un prime"},"vfs":0.8,"cap":{"fr":"6 points bloqués d'affilée :<br>l'adversaire est coincé","en":"6 blocked points in a row:<br>your opponent is trapped","es":"6 puntos bloqueados seguidos:<br>el rival queda atrapado"}},
+  {"vis":{"type":"icon","icon":"anchor"},"color":"#c9a86a","value":{"fr":"Garde une ancre","en":"Keep an anchor","es":"Mantén un ancla"},"vfs":0.8,"cap":{"fr":"un point tenu chez l'adversaire<br>pour rester en sécurité","en":"a point held in your opponent's home<br>keeps you safe","es":"un punto en casa del rival<br>para estar a salvo"}},
+  {"vis":{"type":"cube"},"color":"#ff7a59","value":{"fr":"Utilise le videau","en":"Use the cube","es":"Usa el cubo"},"vfs":0.8,"cap":{"fr":"doubler au bon moment<br>fait gagner des points","en":"doubling at the right time<br>wins you points","es":"doblar en el momento justo<br>te da puntos"}}
+ ],
+ "tip":{"fr":"En course, cours ! Quand il n'y a plus de contact, ramène vite tes pions.","en":"In a race, run! When there's no more contact, bring your checkers home fast.","es":"En carrera, ¡corre! Sin contacto, lleva rápido tus fichas a casa."},
+ "outro":{"title":{"fr":"Les 10<br><em>conseils</em>","en":"All 10<br><em>tips</em>","es":"Los 10<br><em>consejos</em>"},"name":{"fr":"Stratégie pour débutants","en":"Beginner strategy","es":"Estrategia para principiantes"},"desc":{"fr":"Pips, primes, ancres, frappe…","en":"Pips, primes, anchors, hitting…","es":"Pips, primes, anclas, golpes…"}}},
+
+{"id":"ordinateur","num":8,"page":"backgammon-contre-ordinateur.php","seed":83,
+ "short":{"fr":"Contre l'ordi","en":"Vs computer","es":"Contra el ordenador"},
+ "kick":{"fr":"Entraînement","en":"Practice","es":"Entrenamiento"},
+ "title":{"fr":"Joue contre<br><em>l'ordinateur</em>","en":"Play against<br><em>the computer</em>","es":"Juega contra<br><em>el ordenador</em>"},
+ "sub":{"fr":"Gratuit, à toute heure","en":"Free, any time","es":"Gratis, a cualquier hora"},
+ "facts":[
+  {"vis":{"type":"icon","icon":"robot"},"color":"#c9a86a","value":{"fr":"gnubg","en":"gnubg","es":"gnubg"},"cap":{"fr":"le moteur de nos robots, plus fort<br>que la plupart des joueurs","en":"the engine behind our bots,<br>stronger than most players","es":"el motor de nuestros bots, más fuerte<br>que la mayoría de jugadores"}},
+  {"vis":{"type":"icon","icon":"clock"},"value":{"fr":"24 h / 24","en":"24/7","es":"24 h"},"cap":{"fr":"des adversaires toujours<br>disponibles, gratuitement","en":"opponents always available,<br>for free","es":"rivales siempre disponibles,<br>gratis"}},
+  {"vis":{"type":"icon","icon":"chart"},"color":"#c9a86a","value":{"fr":"Analyse","en":"Analysis","es":"Análisis"},"cap":{"fr":"vois les meilleurs coups<br>et le coût de tes erreurs","en":"see the best moves<br>and what your mistakes cost","es":"ve las mejores jugadas<br>y lo que cuestan tus errores"}},
+  {"vis":{"type":"icon","icon":"bulb"},"color":"#ff7a59","value":{"fr":"Entraînement","en":"Training","es":"Entrenamiento"},"vfs":0.85,"cap":{"fr":"travaille des positions<br>et progresse plus vite","en":"practice positions<br>and improve faster","es":"practica posiciones<br>y mejora más rápido"}}
+ ],
+ "tip":{"fr":"Après chaque partie, regarde l'analyse : c'est là qu'on progresse le plus !","en":"Check the analysis after every game: that's where you improve the most!","es":"Tras cada partida, mira el análisis: ¡ahí es donde más se mejora!"},
+ "outro":{"title":{"fr":"Défie<br><em>les robots</em>","en":"Challenge<br><em>the bots</em>","es":"Desafía<br><em>a los bots</em>"},"name":{"fr":"Jouer contre l'ordinateur","en":"Play the computer","es":"Jugar contra el ordenador"},"desc":{"fr":"gnubg, analyse, entraînement","en":"gnubg, analysis, training","es":"gnubg, análisis, entrenamiento"}}},
+
+{"id":"histoire","num":9,"page":"histoire-backgammon.php","seed":97,
+ "short":{"fr":"Histoire","en":"History","es":"Historia"},
+ "kick":{"fr":"Histoire","en":"History","es":"Historia"},
+ "title":{"fr":"4 500 ans<br><em>d'histoire</em>","en":"4,500 years<br><em>of history</em>","es":"4500 años<br><em>de historia</em>"},
+ "sub":{"fr":"Du jeu royal d'Ur à l'IA","en":"From the Royal Game of Ur to AI","es":"Del juego real de Ur a la IA"},
+ "facts":[
+  {"vis":{"type":"icon","icon":"tablet"},"color":"#c9a86a","value":{"fr":"Ur","en":"Ur","es":"Ur"},"cap":{"fr":"le jeu royal, retrouvé dans<br>les tombes d'Ur (Irak)","en":"the Royal Game, found in<br>the tombs of Ur (Iraq)","es":"el juego real, hallado en<br>las tumbas de Ur (Irak)"}},
+  {"vis":{"type":"badge","text":"XXIV","fs":120},"value":{"fr":"Tabula","en":"Tabula","es":"Tabula"},"cap":{"fr":"l'ancêtre direct à Rome :<br>24 cases, 15 pions","en":"the direct ancestor in Rome:<br>24 points, 15 checkers","es":"el antepasado directo en Roma:<br>24 casillas, 15 fichas"}},
+  {"vis":{"type":"icon","icon":"scroll"},"color":"#ff7a59","value":{"fr":"1743","en":"1743","es":"1743"},"cap":{"fr":"Edmond Hoyle publie<br>les règles","en":"Edmond Hoyle publishes<br>the rules","es":"Edmond Hoyle publica<br>las reglas"}},
+  {"vis":{"type":"icon","icon":"robot"},"color":"#c9a86a","value":{"fr":"Années 90","en":"The 1990s","es":"Años 90"},"cap":{"fr":"TD-Gammon, l'IA d'IBM,<br>atteint le niveau des meilleurs","en":"IBM's TD-Gammon AI<br>reaches top-player level","es":"la IA TD-Gammon de IBM<br>alcanza el nivel de los mejores"}}
+ ],
+ "tip":{"fr":"Le videau n'a qu'un siècle : il est né à New York dans les années 1920 !","en":"The doubling cube is only a century old: born in 1920s New York!","es":"El cubo de doblaje solo tiene un siglo: ¡nació en Nueva York en los años 20!"},
+ "outro":{"title":{"fr":"Toute<br><em>l'histoire</em>","en":"The full<br><em>story</em>","es":"Toda<br><em>la historia</em>"},"name":{"fr":"Histoire du backgammon","en":"History of backgammon","es":"Historia del backgammon"},"desc":{"fr":"D'Ur à l'intelligence artificielle","en":"From Ur to artificial intelligence","es":"De Ur a la inteligencia artificial"}}},
+
+{"id":"lexique","num":10,"page":"lexique-backgammon.php","seed":101,
+ "short":{"fr":"Lexique","en":"Glossary","es":"Glosario"},
+ "kick":{"fr":"Vocabulaire","en":"Glossary","es":"Vocabulario"},
+ "title":{"fr":"Parle<br><em>backgammon</em>","en":"Speak<br><em>backgammon</em>","es":"Habla<br><em>backgammon</em>"},
+ "sub":{"fr":"4 mots à connaître","en":"4 words to know","es":"4 palabras clave"},
+ "facts":[
+  {"vis":{"type":"board","pos":[[0,2,1],[5,5,0],[7,3,0],[11,5,1],[12,4,0],[9,1,0,"blot"],[16,3,1],[18,5,1],[23,2,0]]},"color":"#ff7a59","value":{"fr":"Blot","en":"Blot","es":"Blot"},"cap":{"fr":"un pion seul sur un point :<br>il peut être frappé","en":"a lone checker on a point:<br>it can be hit","es":"una ficha sola en un punto:<br>puede ser golpeada"}},
+  {"vis":{"type":"board","prime":[2,3,4,5,6,7],"pos":[[2,2,0],[3,2,0],[4,2,0],[5,2,0],[6,2,0],[7,2,0],[0,2,1],[12,3,0],[16,3,1],[18,5,1],[11,5,1]]},"color":"#c9a86a","value":{"fr":"Prime","en":"Prime","es":"Prime"},"cap":{"fr":"6 points bloqués<br>d'affilée","en":"6 blocked points<br>in a row","es":"6 puntos bloqueados<br>seguidos"}},
+  {"vis":{"type":"icon","icon":"anchor"},"color":"#c9a86a","value":{"fr":"Ancre","en":"Anchor","es":"Ancla"},"cap":{"fr":"un point tenu dans le jan<br>intérieur adverse","en":"a point you hold in<br>your opponent's home board","es":"un punto que tienes en<br>el cuadrante interior rival"}},
+  {"vis":{"type":"badge","text":"×2","color":"#c9a86a"},"value":{"fr":"Gammon","en":"Gammon","es":"Gammon"},"cap":{"fr":"gagner avant que l'adversaire<br>ait sorti un pion : ×2","en":"winning before your opponent<br>bears off a checker: ×2","es":"ganar antes de que el rival<br>saque una ficha: ×2"}}
+ ],
+ "tip":{"fr":"Les « pips », c'est le nombre total de cases qu'il te reste à parcourir.","en":"“Pips” are the total number of points you still have to travel.","es":"Los «pips» son el total de casillas que te quedan por recorrer."},
+ "outro":{"title":{"fr":"Le lexique<br><em>complet</em>","en":"The full<br><em>glossary</em>","es":"El glosario<br><em>completo</em>"},"name":{"fr":"Lexique du backgammon","en":"Backgammon glossary","es":"Glosario de backgammon"},"desc":{"fr":"25 termes expliqués simplement","en":"25 terms, simply explained","es":"25 términos explicados"}}},
+
+{"id":"communaute","num":11,"page":"cours-tournois-clubs-backgammon.php","seed":113,
+ "short":{"fr":"Communauté","en":"Community","es":"Comunidad"},
+ "kick":{"fr":"Communauté","en":"Community","es":"Comunidad"},
+ "title":{"fr":"Cours, tournois<br><em>et clubs</em>","en":"Lessons, tournaments<br><em>& clubs</em>","es":"Clases, torneos<br><em>y clubs</em>"},
+ "sub":{"fr":"Progresse et joue ensemble","en":"Learn and play together","es":"Aprende y juega en grupo"},
+ "facts":[
+  {"vis":{"type":"icon","icon":"video"},"color":"#c9a86a","value":{"fr":"Cours en direct","en":"Live lessons","es":"Clases en directo"},"vfs":0.8,"cap":{"fr":"avec des profs validés :<br>Amateur, Expert ou Confirmé","en":"with approved teachers:<br>Amateur, Expert or Confirmed","es":"con profesores validados:<br>Amateur, Experto o Confirmado"}},
+  {"vis":{"type":"icon","icon":"trophy"},"color":"#c9a86a","value":{"fr":"Tournois","en":"Tournaments","es":"Torneos"},"vfs":0.85,"cap":{"fr":"publics ou privés :<br>crée le tien !","en":"public or private:<br>create your own!","es":"públicos o privados:<br>¡crea el tuyo!"}},
+  {"vis":{"type":"icon","icon":"users"},"color":"#ff7a59","value":{"fr":"Clubs","en":"Clubs","es":"Clubs"},"cap":{"fr":"fil d'actualité, événements<br>et cours réservés aux membres","en":"news feed, events<br>and members-only lessons","es":"noticias, eventos<br>y clases para socios"}},
+  {"vis":{"type":"icon","icon":"calendar"},"value":{"fr":"Agenda","en":"Calendar","es":"Agenda"},"cap":{"fr":"réserve ton cours,<br>avec rappels automatiques","en":"book your lesson,<br>with automatic reminders","es":"reserva tu clase,<br>con recordatorios automáticos"}}
+ ],
+ "tip":{"fr":"Passionné ? Dépose ta candidature pour devenir prof sur TickGammon !","en":"Passionate about the game? Apply to become a teacher on TickGammon!","es":"¿Te apasiona? ¡Postúlate para ser profesor en TickGammon!"},
+ "outro":{"title":{"fr":"Rejoins<br><em>la communauté</em>","en":"Join<br><em>the community</em>","es":"Únete a<br><em>la comunidad</em>"},"name":{"fr":"Cours, tournois et clubs","en":"Lessons, tournaments & clubs","es":"Clases, torneos y clubs"},"desc":{"fr":"Profs, tournois, clubs et clans","en":"Teachers, tournaments, clubs, clans","es":"Profesores, torneos, clubs y clanes"}}},
+
+{"id":"enligne","num":12,"page":"jouer-backgammon-en-ligne.php","seed":127,
+ "short":{"fr":"En ligne","en":"Online","es":"Online"},
+ "kick":{"fr":"Joue maintenant","en":"Play now","es":"Juega ya"},
+ "title":{"fr":"Backgammon<br><em>en ligne</em>","en":"Online<br><em>backgammon</em>","es":"Backgammon<br><em>online</em>"},
+ "sub":{"fr":"Gratuit, sans installation","en":"Free, nothing to install","es":"Gratis, sin instalar nada"},
+ "facts":[
+  {"vis":{"type":"icon","icon":"devices"},"color":"#c9a86a","value":{"fr":"Partout","en":"Everywhere","es":"En todas partes"},"vfs":0.85,"cap":{"fr":"navigateur, Android et Windows,<br>un seul compte","en":"browser, Android and Windows,<br>one single account","es":"navegador, Android y Windows,<br>una sola cuenta"}},
+  {"vis":{"type":"badge","text":"ELO","color":"#c9a86a"},"value":{"fr":"Classement","en":"Ranking","es":"Ranking"},"vfs":0.85,"cap":{"fr":"chaque victoire te fait<br>grimper au classement ELO","en":"every win climbs you up<br>the ELO ranking","es":"cada victoria te hace subir<br>en el ranking ELO"}},
+  {"vis":{"type":"icon","icon":"bolt"},"color":"#ff7a59","value":{"fr":"4 formats","en":"4 formats","es":"4 formatos"},"cap":{"fr":"Zen, Classique,<br>Blitz et Bullet","en":"Zen, Classic,<br>Blitz and Bullet","es":"Zen, Clásico,<br>Blitz y Bullet"}},
+  {"vis":{"type":"icon","icon":"users"},"value":{"fr":"Entre amis","en":"With friends","es":"Con amigos"},"vfs":0.85,"cap":{"fr":"défis, même hors ligne,<br>et mode spectateur","en":"challenges, even offline,<br>and spectator mode","es":"desafíos, incluso offline,<br>y modo espectador"}}
+ ],
+ "tip":{"fr":"Le compte est gratuit, et le site existe en français, en anglais et en espagnol !","en":"Your account is free, and the site is in English, French and Spanish!","es":"¡La cuenta es gratis y la web está en español, inglés y francés!"},
+ "outro":{"title":{"fr":"Joue<br><em>maintenant</em>","en":"Play<br><em>now</em>","es":"Juega<br><em>ya</em>"},"name":{"fr":"Backgammon en ligne","en":"Online backgammon","es":"Backgammon online"},"desc":{"fr":"Joueurs, robots, tournois, clubs","en":"Players, bots, tournaments, clubs","es":"Jugadores, bots, torneos, clubs"}}}
+]
