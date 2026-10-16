@@ -1,0 +1,106 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 1 — TEXTES À COLLER DANS ELEVENLABS (FR)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que ton test.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1.mp3, bloc2.mp3, bloc3.mp3.
+
+########## BLOC 1 (P01 à P17, 1861 caractères) → bloc1.mp3 ##########
+============================================================
+Bonjour et bienvenue dans les Leçons de la chouette ! Je suis la chouette de TickGammon, et aujourd'hui, je vais vous apprendre à jouer au backgammon.
+
+Le backgammon est l'un des plus vieux jeux du monde. On y jouait déjà il y a près de cinq mille ans, en Mésopotamie.
+
+C'est un jeu qui mélange la chance, grâce aux dés, et la stratégie, grâce à vos choix. Les règles s'apprennent en quelques minutes. Prêts ? On y va !
+
+Le but du jeu est simple. Chaque joueur possède quinze pions.
+
+Vous devez leur faire faire le tour du plateau, les ramener tous dans votre camp, puis les sortir du plateau.
+
+Le premier qui a sorti ses quinze pions gagne la partie. C'est donc une course… mais une course où l'on peut se bloquer et se faire tomber ! [laughs]
+
+Regardons le plateau. Il compte vingt-quatre flèches, qu'on appelle des points.
+
+Chaque joueur les numérote de un à vingt-quatre, dans le sens de sa marche. Votre point numéro un est donc le point numéro vingt-quatre de votre adversaire.
+
+Au milieu, la bande centrale s'appelle la barre. Nous verrons bientôt à quoi elle sert.
+
+Vos points un à six forment votre jan intérieur : c'est votre maison, là où vous devez ramener tous vos pions. Les points sept à douze forment votre jan extérieur.
+
+Il vous faut aussi deux dés, et un dé spécial, le videau, marqué deux, quatre, huit, seize, trente-deux et soixante-quatre. On en reparlera à la fin.
+
+Au début de la partie, chaque joueur place ses quinze pions de la même façon, vu de son côté.
+
+Deux pions sur le point vingt-quatre, le plus éloigné.
+
+Cinq pions sur le point treize.
+
+Trois pions sur le point huit.
+
+Et cinq pions sur le point six. Votre adversaire fait exactement la même chose de son côté, en miroir.
+
+Les Blancs avancent du point vingt-quatre vers le point un. Les Noirs font le chemin inverse. Les deux armées se croisent donc pendant toute la partie.
+============================================================
+
+########## BLOC 2 (P18 à P34, 2337 caractères) → bloc2.mp3 ##########
+============================================================
+Pour savoir qui commence, chaque joueur lance un seul dé. Le plus fort commence, et joue tout de suite avec les deux dés qui viennent d'être lancés.
+
+Ensuite, chacun lance ses deux dés à tour de rôle. Chaque dé correspond à un déplacement.
+
+Avec un cinq et un deux, vous avancez un pion de cinq points et un autre de deux points… ou le même pion de cinq, puis de deux.
+
+Un pion peut s'arrêter sur un point vide, sur un point où vous avez déjà des pions, ou sur un point où l'adversaire n'a qu'un seul pion.
+
+En revanche, un point occupé par deux pions adverses ou plus est bloqué. Impossible de s'y arrêter !
+
+Si vous faites un double, deux dés identiques, vous jouez le chiffre quatre fois. Un double trois, c'est quatre déplacements de trois.
+
+Vous devez utiliser vos deux dés si c'est possible. Si un seul peut être joué, jouez le plus fort quand vous le pouvez. Et si aucun coup n'est possible, vous passez votre tour.
+
+Un pion tout seul sur un point s'appelle un blot. Et un blot, c'est une cible !
+
+Si un pion adverse s'arrête sur votre blot, votre pion est frappé. Il part sur la barre, au milieu du plateau.
+
+Tant que vous avez un pion sur la barre, vous ne pouvez rien jouer d'autre. Vous devez d'abord le faire rentrer dans le jan intérieur de votre adversaire.
+
+Pour rentrer, il faut un dé qui tombe sur un point libre : avec un trois, vous entrez sur le troisième point de votre adversaire. Si tous les points possibles sont bloqués, vous passez votre tour.
+
+Le conseil de la chouette : deux pions ou plus sur un même point sont à l'abri. Et six points bloqués à la suite forment une prime : un mur que votre adversaire ne peut pas franchir.
+
+Dès que vos quinze pions sont dans votre jan intérieur, sur les points un à six, vous pouvez commencer à les sortir du plateau.
+
+Un quatre permet de sortir un pion du point quatre, un six un pion du point six, et ainsi de suite.
+
+Si votre dé est plus fort que votre pion le plus éloigné, vous sortez ce pion-là. Par exemple, avec un six alors que votre pion le plus loin est sur le point quatre, vous sortez le pion du point quatre.
+
+Vous pouvez aussi utiliser un dé pour avancer un pion à l'intérieur de votre jan, au lieu de le sortir.
+
+Attention : si l'un de vos pions est frappé pendant la sortie, vous devez le faire rentrer et le ramener chez vous avant de continuer à sortir.
+============================================================
+
+########## BLOC 3 (P35 à P46, 1568 caractères) → bloc3.mp3 ##########
+============================================================
+Le premier joueur qui a sorti ses quinze pions gagne. Mais la victoire vaut plus ou moins de points selon la situation de l'adversaire.
+
+Si le perdant a déjà sorti au moins un pion, c'est une victoire simple : un point.
+
+S'il n'a sorti aucun pion, c'est un gammon : deux points.
+
+Et s'il n'a sorti aucun pion et qu'il lui reste encore un pion sur la barre ou dans votre jan intérieur, c'est un backgammon : trois points !
+
+Ces points sont ensuite multipliés par la valeur du videau. Justement, parlons-en.
+
+Le videau permet de doubler l'enjeu en cours de partie. Au départ, il vaut un et il est posé au milieu : les deux joueurs peuvent l'utiliser.
+
+Au début de votre tour, avant de lancer les dés, vous pouvez proposer de doubler.
+
+Si votre adversaire refuse, il abandonne la partie et perd la valeur actuelle du videau.
+
+S'il accepte, l'enjeu double, et c'est lui qui garde le videau. Lui seul pourra proposer le prochain doublement : quatre, puis huit, et ainsi de suite.
+
+En match, par exemple en cinq points, une règle s'ajoute : quand un joueur arrive à un point de la victoire, la partie suivante se joue sans videau. C'est la règle de Crawford.
+
+Et voilà, vous connaissez toutes les règles du backgammon ! Le reste, c'est de la pratique… et un peu de chance.
+
+Pour vous entraîner, rendez-vous sur TickGammon : jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows. La prochaine fois, je vous apprends les meilleures ouvertures. Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
+============================================================
