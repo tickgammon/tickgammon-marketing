@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:'Brico';src:url(brico800.woff2);font-weight:800}
+@font-face{font-family:'Man';src:url(manrope800.woff2);font-weight:800}
+html,body{margin:0}
+#s{width:1080px;height:1920px;position:relative;overflow:hidden;font-family:Man;color:#fdfbf0;background:radial-gradient(circle at 50% 30%,#174a35 0,#0d3326 60%,#0a2a1f 100%)}
+#s:before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.025) 0 3px,transparent 3px 20px)}
+.pill{display:inline-block;background:#ff7a59;color:#0d3326;font-weight:800;letter-spacing:4px;text-transform:uppercase;border-radius:999px;padding:12px 30px;font-size:30px}
+.t{font-family:Brico;font-weight:800;text-transform:uppercase;line-height:.95;letter-spacing:-2px}
+</style></head><body><div id="s">
+<div style="position:absolute;left:0;right:0;top:120px;text-align:center">
+ <div style="display:flex;align-items:center;justify-content:center;gap:22px"><img src="logo_circle.png" style="width:110px;height:110px"><div style="text-align:left"><div style="color:#c9a86a;font-weight:800;letter-spacing:4px;font-size:30px" id="series"></div><div style="font-weight:800;font-size:30px;color:#d9e6dc" id="ep"></div></div></div>
+ <div style="margin-top:60px"><span class="pill" id="chap"></span></div>
+ <div class="t" id="title" style="font-size:96px;margin:30px 60px 0"></div>
+</div>
+<div style="position:absolute;left:0;right:0;top:1330px;text-align:center">
+ <div style="font-weight:800;font-size:40px;color:#d9e6dc" id="full"></div>
+ <div style="display:inline-block;margin-top:34px;background:#fdfbf0;color:#0d3326;font-family:Brico;font-weight:800;font-size:64px;border-radius:30px;padding:22px 50px;box-shadow:0 12px 0 rgba(0,0,0,.25)">tickgammon.com</div>
+ <div style="margin-top:34px;font-weight:800;font-size:32px;color:#c9a86a" id="free"></div>
+</div>
+</div><script>
+const P=window.P;for(const k in P)document.getElementById(k).innerHTML=P[k];
+</script></body></html>

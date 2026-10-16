@@ -1,6 +1,7 @@
 import subprocess,re,json,sys
-L=[l.split('|',2) for l in open('passages_fr.txt',encoding='utf8').read().strip().split('\n')]
-groups={'bloc1':'0123','bloc2':'456','bloc3':'789'}
+LANG=sys.argv[1] if len(sys.argv)>1 else 'fr'; SUF='' if LANG=='fr' else '_'+LANG
+L=[l.split('|',2) for l in open(f'passages_{LANG}.txt',encoding='utf8').read().strip().split('\n')]
+groups={'bloc1'+SUF:'0123','bloc2'+SUF:'456','bloc3'+SUF:'789'}
 res=[]
 for b,chs in groups.items():
     P=[(p,t) for p,c,t in L if c in chs]
@@ -46,4 +47,4 @@ for b,chs in groups.items():
         if i<n-1:a=C[idx[i]][1]
     for s in segs: print(b,s, round(s[2]-s[1],2))
     res+= [dict(p=s[0],bloc=b,start=s[1],end=s[2]) for s in segs]
-json.dump(res,open('align.json','w'),indent=1)
+json.dump(res,open(f'align{SUF}.json','w'),indent=1)

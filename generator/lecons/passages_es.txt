@@ -1,0 +1,46 @@
+P01|0|¡Hola y bienvenidos a las Lecciones de la lechuza! Soy la lechuza de TickGammon, y hoy voy a enseñaros a jugar al backgammon.
+P02|0|El backgammon es uno de los juegos más antiguos del mundo. Ya se jugaba hace casi cinco mil años, en Mesopotamia.
+P03|0|Es un juego que mezcla la suerte, gracias a los dados, y la estrategia, gracias a vuestras decisiones. Las reglas se aprenden en pocos minutos. ¿Listos? ¡Vamos allá!
+P04|1|El objetivo del juego es sencillo. Cada jugador tiene quince fichas.
+P05|1|Tenéis que hacerles dar la vuelta al tablero, llevarlas todas a vuestra casa y luego sacarlas del tablero.
+P06|1|El primero que saca sus quince fichas gana la partida. Así que es una carrera… ¡pero una carrera en la que uno puede bloquearse y hacerse caer! [laughs]
+P07|2|Miremos el tablero. Tiene veinticuatro triángulos, que llamamos puntos.
+P08|2|Cada jugador los numera del uno al veinticuatro, en el sentido de su marcha. Así que vuestro punto número uno es el punto número veinticuatro de vuestro rival.
+P09|2|En el centro, la franja central se llama la barra. Pronto veremos para qué sirve.
+P10|2|Vuestros puntos del uno al seis forman vuestro cuadrante interior: es vuestra casa, adonde tenéis que llevar todas vuestras fichas. Los puntos del siete al doce forman vuestro cuadrante exterior.
+P11|2|También hacen falta dos dados, y un dado especial, el cubo doblador, marcado con dos, cuatro, ocho, dieciséis, treinta y dos y sesenta y cuatro. Hablaremos de él al final.
+P12|3|Al principio de la partida, cada jugador coloca sus quince fichas de la misma manera, visto desde su lado.
+P13|3|Dos fichas en el punto veinticuatro, el más lejano.
+P14|3|Cinco fichas en el punto trece.
+P15|3|Tres fichas en el punto ocho.
+P16|3|Y cinco fichas en el punto seis. Vuestro rival hace exactamente lo mismo en su lado, como en un espejo.
+P17|3|Las blancas avanzan del punto veinticuatro hacia el punto uno. Las negras hacen el camino contrario. Así que los dos ejércitos se cruzan durante toda la partida.
+P18|4|Para saber quién empieza, cada jugador tira un solo dado. El que saca más empieza, y juega enseguida con los dos dados que se acaban de tirar.
+P19|4|Después, cada uno tira sus dos dados por turnos. Cada dado corresponde a un movimiento.
+P20|4|Con un cinco y un dos, movéis una ficha cinco puntos y otra dos puntos… o la misma ficha cinco, y luego dos.
+P21|4|Una ficha puede pararse en un punto vacío, en un punto donde ya tenéis fichas, o en un punto donde el rival solo tiene una ficha.
+P22|4|En cambio, un punto ocupado por dos o más fichas rivales está bloqueado. ¡Imposible pararse ahí!
+P23|4|Si sacáis un doble, dos dados iguales, jugáis ese número cuatro veces. Un doble tres son cuatro movimientos de tres.
+P24|4|Tenéis que usar los dos dados si es posible. Si solo se puede jugar uno, jugad el más alto cuando podáis. Y si no hay ningún movimiento posible, perdéis el turno.
+P25|5|Una ficha sola en un punto se llama blot. ¡Y un blot es un blanco!
+P26|5|Si una ficha rival se para en vuestro blot, vuestra ficha queda golpeada. Se va a la barra, en el centro del tablero.
+P27|5|Mientras tengáis una ficha en la barra, no podéis mover nada más. Primero tenéis que hacerla entrar en el cuadrante interior de vuestro rival.
+P28|5|Para entrar, hace falta un dado que caiga en un punto libre: con un tres, entráis en el tercer punto de vuestro rival. Si todos los puntos posibles están bloqueados, perdéis el turno.
+P29|5|El consejo de la lechuza: dos fichas o más en un mismo punto están a salvo. Y seis puntos bloqueados seguidos forman una prima: un muro que vuestro rival no puede atravesar.
+P30|6|En cuanto vuestras quince fichas están en vuestro cuadrante interior, en los puntos del uno al seis, podéis empezar a sacarlas del tablero.
+P31|6|Un cuatro permite sacar una ficha del punto cuatro, un seis una ficha del punto seis, y así sucesivamente.
+P32|6|Si vuestro dado es más alto que vuestra ficha más lejana, sacáis esa ficha. Por ejemplo, con un seis cuando vuestra ficha más lejana está en el punto cuatro, sacáis la ficha del punto cuatro.
+P33|6|También podéis usar un dado para avanzar una ficha dentro de vuestro cuadrante, en lugar de sacarla.
+P34|6|Cuidado: si una de vuestras fichas es golpeada durante la salida, tenéis que hacerla entrar y llevarla de vuelta a casa antes de seguir sacando.
+P35|7|El primer jugador que saca sus quince fichas gana. Pero la victoria vale más o menos puntos según la situación del rival.
+P36|7|Si el perdedor ya ha sacado al menos una ficha, es una victoria simple: un punto.
+P37|7|Si no ha sacado ninguna ficha, es un gammon: dos puntos.
+P38|7|¡Y si no ha sacado ninguna ficha y todavía le queda una en la barra o en vuestro cuadrante interior, es un backgammon: tres puntos!
+P39|7|Estos puntos se multiplican después por el valor del cubo doblador. Precisamente, hablemos de él.
+P40|8|El cubo doblador permite doblar el valor de la partida mientras se juega. Al principio vale uno y está en el centro: los dos jugadores pueden usarlo.
+P41|8|Al principio de vuestro turno, antes de tirar los dados, podéis proponer doblar.
+P42|8|Si vuestro rival rechaza, abandona la partida y pierde el valor actual del cubo.
+P43|8|Si acepta, el valor de la partida se dobla, y es él quien se queda el cubo. Solo él podrá proponer el siguiente doble: cuatro, luego ocho, y así sucesivamente.
+P44|8|En un match, por ejemplo a cinco puntos, se añade una regla: cuando un jugador llega a un punto de la victoria, la partida siguiente se juega sin cubo. Es la regla Crawford.
+P45|9|¡Y ya está, ya conocéis todas las reglas del backgammon! El resto es práctica… y un poco de suerte.
+P46|9|Para entrenaros, venid a TickGammon: jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows. La próxima vez, os enseño las mejores aperturas. ¡Suscribíos para no perdérosla! ¡Hasta muy pronto alrededor del tablero!

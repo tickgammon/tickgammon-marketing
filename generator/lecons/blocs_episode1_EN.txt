@@ -1,0 +1,106 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 1 — TEXTES À COLLER DANS ELEVENLABS (ENGLISH)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que pour le français.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1_en.mp3, bloc2_en.mp3, bloc3_en.mp3.
+
+########## BLOC 1 (P01–P17, 1863 caractères) → bloc1_en.mp3 ##########
+============================================================
+Hello and welcome to the Owl's Lessons! I'm the TickGammon owl, and today I'm going to teach you how to play backgammon.
+
+Backgammon is one of the oldest games in the world. People were already playing it nearly five thousand years ago, in Mesopotamia.
+
+It's a game that mixes luck, thanks to the dice, and strategy, thanks to your choices. The rules take just a few minutes to learn. Ready? Let's go!
+
+The goal of the game is simple. Each player has fifteen checkers.
+
+You have to move them all the way around the board, bring them all back into your home, and then take them off the board.
+
+The first player to bear off all fifteen checkers wins the game. So it's a race… but a race where you can block each other and knock each other down! [laughs]
+
+Let's look at the board. It has twenty-four triangles, which we call points.
+
+Each player numbers them from one to twenty-four, in the direction they move. So your point number one is your opponent's point number twenty-four.
+
+In the middle, the central strip is called the bar. We'll soon see what it's for.
+
+Your points one to six make up your home board: that's your house, where you must bring all your checkers. Points seven to twelve make up your outer board.
+
+You also need two dice, and a special die, the doubling cube, marked two, four, eight, sixteen, thirty-two and sixty-four. We'll come back to it at the end.
+
+At the start of the game, each player sets up their fifteen checkers the same way, seen from their own side.
+
+Two checkers on the twenty-four point, the farthest one.
+
+Five checkers on the thirteen point.
+
+Three checkers on the eight point.
+
+And five checkers on the six point. Your opponent does exactly the same on their side, like a mirror.
+
+White moves from the twenty-four point towards the one point. Black goes the opposite way. So the two armies cross paths for the whole game.
+============================================================
+
+########## BLOC 2 (P18–P34, 2128 caractères) → bloc2_en.mp3 ##########
+============================================================
+To decide who starts, each player rolls a single die. The higher number starts, and plays right away with the two dice that were just rolled.
+
+After that, players take turns rolling both dice. Each die is one move.
+
+With a five and a two, you move one checker five points and another one two points… or the same checker five, then two.
+
+A checker can land on an empty point, on a point where you already have checkers, or on a point where your opponent has only one checker.
+
+But a point held by two or more opposing checkers is blocked. You can't land there!
+
+If you roll a double, two identical dice, you play that number four times. A double three means four moves of three.
+
+You must use both dice if you can. If only one can be played, play the higher one when you can. And if no move is possible, you lose your turn.
+
+A single checker alone on a point is called a blot. And a blot is a target!
+
+If an opposing checker lands on your blot, your checker is hit. It goes onto the bar, in the middle of the board.
+
+As long as you have a checker on the bar, you can't move anything else. You must first bring it back in, into your opponent's home board.
+
+To enter, you need a die that lands on an open point: with a three, you enter on your opponent's third point. If all the possible points are blocked, you lose your turn.
+
+The owl's tip: two or more checkers on the same point are safe. And six blocked points in a row make a prime: a wall your opponent can't get past.
+
+As soon as all fifteen of your checkers are in your home board, on points one to six, you can start bearing them off.
+
+A four lets you bear off a checker from the four point, a six a checker from the six point, and so on.
+
+If your die is higher than your farthest checker, you bear off that one. For example, with a six when your farthest checker is on the four point, you bear off the checker from the four point.
+
+You can also use a die to move a checker inside your home board, instead of bearing it off.
+
+Careful: if one of your checkers gets hit while you're bearing off, you must bring it back in and home again before you can carry on bearing off.
+============================================================
+
+########## BLOC 3 (P35–P46, 1522 caractères) → bloc3_en.mp3 ##########
+============================================================
+The first player to bear off all fifteen checkers wins. But the win is worth more or fewer points depending on the opponent's position.
+
+If the loser has already borne off at least one checker, it's a single win: one point.
+
+If they haven't borne off any checker, it's a gammon: two points.
+
+And if they haven't borne off any checker and still have one on the bar or in your home board, it's a backgammon: three points!
+
+These points are then multiplied by the value of the doubling cube. Speaking of which, let's talk about it.
+
+The doubling cube lets you double the value of the game while you play. At the start, it's worth one and sits in the middle: both players can use it.
+
+At the start of your turn, before rolling the dice, you can offer a double.
+
+If your opponent refuses, they give up the game and lose the current value of the cube.
+
+If they accept, the value of the game doubles, and they keep the cube. Only they can offer the next double: four, then eight, and so on.
+
+In a match, for example a five-point match, one more rule applies: when a player gets to one point from victory, the next game is played without the cube. That's the Crawford rule.
+
+And there you go, you now know all the rules of backgammon! The rest is practice… and a little luck.
+
+To practise, come and play on TickGammon: play for free against other players or against the computer, in your browser, on Android or on Windows. Next time, I'll teach you the best openings. Subscribe so you don't miss it! See you soon around the board!
+============================================================

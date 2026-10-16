@@ -55,6 +55,36 @@ const STR={fr:{
  recap:['Le but','Le plateau','Le départ','Déplacer','Frapper','Sortir'],
  play:'Jouez gratuitement',where:'Navigateur · Android · Windows',next:'Prochaine leçon',nextt:'Les ouvertures',sub:'Abonnez-vous !',
  haha:'Ha ha !',ep:'Épisode 1',vs:'contre'
+},en:{
+ chap:['Introduction','The goal of the game','The board and the equipment','The starting position','Rolling the dice and moving','Hitting and the bar','Bearing off','Single, gammon, backgammon','The doubling cube and the Crawford rule','Conclusion'],
+ chapw:'Chapter',brand:"THE OWL'S LESSONS",
+ t_series:"The <em>Owl's</em><br>Lessons",t_ep:'Episode 1 · The rules of backgammon',
+ years:'years',meso:'Mesopotamia',today:'Today',chance:'Luck',strat:'Strategy',dice:'the dice',choices:'your choices',
+ checkers:'checkers',barre:'Bar',home:'Home board',homes:'your house',outer:'Outer board',
+ cube:'Doubling cube',whites:'White',blacks:'Black',start:'Starting position',
+ wstart:'White starts with 5-2',good:'Good to know',
+ r1:'Use both dice if you can',r2:'Only one die playable? The higher one',r3:'No legal move? You lose your turn',
+ blot:'Blot',tac:'Hit!',passed:'Turn lost',tip:"The owl's tip",safe:'Safe',prime:'Prime',
+ oups:'Oops!',simple:'Single',gammon:'Gammon',bg:'Backgammon',xcube:'× cube',idouble:'I double!',
+ refuse:'Refuses',accept:'Accepts',over:'Game over',match:'5-point match',crawford:'Crawford rule',nocube:'no cube',
+ recap:['The goal','The board','The start','Moving','Hitting','Bearing off'],
+ play:'Play for free',where:'Browser · Android · Windows',next:'Next lesson',nextt:'The openings',sub:'Subscribe!',
+ haha:'Ha ha!',ep:'Episode 1',vs:'vs'
+},es:{
+ chap:['Introducción','El objetivo del juego','El tablero y el material','La posición inicial','Tirar los dados y mover','Golpear una ficha y la barra','Sacar las fichas','Simple, gammon, backgammon','El cubo doblador y la regla Crawford','Conclusión'],
+ chapw:'Capítulo',brand:'LAS LECCIONES DE LA LECHUZA',
+ t_series:'Las lecciones<br>de la <em>lechuza</em>',t_ep:'Episodio 1 · Las reglas del backgammon',
+ years:'años',meso:'Mesopotamia',today:'Hoy',chance:'La suerte',strat:'La estrategia',dice:'los dados',choices:'tus decisiones',
+ checkers:'fichas',barre:'Barra',home:'Cuadrante interior',homes:'tu casa',outer:'Cuadrante exterior',
+ cube:'El cubo doblador',whites:'Blancas',blacks:'Negras',start:'Posición inicial',
+ wstart:'Las blancas empiezan con 5-2',good:'Bueno saberlo',
+ r1:'Usa los dos dados si es posible',r2:'¿Solo un dado jugable? El más alto',r3:'¿Ningún movimiento? Pierdes el turno',
+ blot:'Blot',tac:'¡Zas!',passed:'Turno perdido',tip:'El consejo de la lechuza',safe:'A salvo',prime:'Prima',
+ oups:'¡Uy!',simple:'Simple',gammon:'Gammon',bg:'Backgammon',xcube:'× cubo',idouble:'¡Doblo!',
+ refuse:'Rechaza',accept:'Acepta',over:'Partida terminada',match:'Match a 5 puntos',crawford:'Regla Crawford',nocube:'sin cubo',
+ recap:['El objetivo','El tablero','El inicio','Mover','Golpear','Sacar'],
+ play:'Juega gratis',where:'Navegador · Android · Windows',next:'Próxima lección',nextt:'Las aperturas',sub:'¡Suscríbete!',
+ haha:'¡Ja, ja!',ep:'Episodio 1',vs:'contra'
 }};
 const S=STR[LANG];
 const D=window.DATA, TL=D.tl, ENV=D.env, TOTAL=D.total;
@@ -151,7 +181,7 @@ const SC={
   <div style="font-size:26px;font-weight:800;color:#d9e6dc;margin-top:16px;opacity:${eo(seg(lt,1.8,2.4))}">${S.t_ep}</div></div>`;X.owlFront=1;X.conf=lt;},
  P02(lt,D,X){X.board=null;const n=Math.round(5000*eo(seg(lt,.3,2.2)));const p=eo(seg(lt,1.8,D-.5));
   X.ov=`<div class="a" style="left:70px;top:150px;width:720px">
-  <div class="big" style="font-size:140px;color:#c9a86a">≈ ${n.toLocaleString('fr-FR').replace(/ /g,' ')}</div><div class="big" style="font-size:54px;margin-top:-6px">${S.years}</div>
+  <div class="big" style="font-size:140px;color:#c9a86a">≈ ${(LANG==='en'?n.toLocaleString('en-US'):String(n).replace(/(\d)(\d{3})$/,'$1 $2'))}</div><div class="big" style="font-size:54px;margin-top:-6px">${S.years}</div>
   <div style="position:relative;margin-top:60px;height:70px"><div class="a" style="left:0;right:0;top:20px;height:8px;border-radius:4px;background:rgba(253,251,240,.2)"></div>
   <div class="a" style="left:0;width:${p*100}%;top:20px;height:8px;border-radius:4px;background:#ff7a59"></div>
   <div class="a" style="left:-8px;top:12px;width:24px;height:24px;border-radius:50%;background:#ff7a59"></div>
