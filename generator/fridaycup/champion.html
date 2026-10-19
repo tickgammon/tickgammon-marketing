@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Friday Cup — champion de la semaine</title>
+<style>
+@font-face{font-family:'Bricolage Grotesque';font-weight:600;src:url(fonts/bricolage-grotesque-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'Bricolage Grotesque';font-weight:800;src:url(fonts/bricolage-grotesque-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:500;src:url(fonts/manrope-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:600;src:url(fonts/manrope-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:700;src:url(fonts/manrope-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:800;src:url(fonts/manrope-latin-800-normal.woff2) format('woff2')}
+body{margin:0;background:#0d3326}
+.felt{background-color:#0d3326;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.025) 0 2px,transparent 2px 18px)}
+.bg{font-family:'Bricolage Grotesque',sans-serif;font-weight:800}
+.lab{font-size:15px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:#8a6a3a}
+.val{font-family:'Bricolage Grotesque',sans-serif;font-size:34px;font-weight:800;color:#0d3326;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sub{font-size:17px;font-weight:600;color:#4b5d53}
+</style>
+</head>
+<body>
+<!-- Rendu par champion.js : window.DATA = {lang, edition, winner, finalist} -->
+<div class="felt" style="position:relative;width:1080px;height:1080px;box-sizing:border-box;overflow:hidden;padding:60px 64px 64px;display:flex;flex-direction:column;gap:26px;font-family:Manrope,sans-serif">
+
+<div style="position:absolute;top:-140px;right:-170px;width:720px;height:720px;border-radius:50%;border:3px solid rgba(201,168,106,.18)"></div>
+<div style="position:absolute;top:-40px;right:-70px;width:520px;height:520px;border-radius:50%;border:3px solid rgba(201,168,106,.12)"></div>
+<div style="position:absolute;top:150px;left:520px;width:18px;height:8px;background:#ff7a59;transform:rotate(30deg)"></div>
+<div style="position:absolute;top:96px;left:690px;width:12px;height:12px;border-radius:50%;background:#fdfbf0"></div>
+<div style="position:absolute;top:470px;left:470px;width:20px;height:8px;background:#c9a86a;transform:rotate(-25deg)"></div>
+<div style="position:absolute;top:560px;left:1010px;width:16px;height:8px;background:#ff7a59;transform:rotate(60deg)"></div>
+<div style="position:absolute;top:250px;left:610px;width:14px;height:7px;background:#fdfbf0;transform:rotate(-40deg)"></div>
+<div style="position:absolute;top:60px;left:560px;width:16px;height:7px;background:#c9a86a;transform:rotate(20deg)"></div>
+
+<div style="position:relative;display:flex;align-items:center;justify-content:space-between">
+<div style="padding:12px 22px;border-radius:999px;background:#c9a86a;color:#0d3326;font-size:22px;font-weight:800;letter-spacing:3px;text-transform:uppercase">TickGammon · Friday Cup</div>
+<div style="width:118px;height:118px;border-radius:50%;background:#ff7a59;color:#fdfbf0;transform:rotate(12deg);display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 8px 0 rgba(0,0,0,.25)">
+<div id="tEdition" style="font-size:15px;font-weight:800;letter-spacing:2px;text-transform:uppercase"></div>
+<div class="bg" style="font-size:52px;line-height:1">#<span id="edition"></span></div>
+</div>
+</div>
+
+<div style="position:relative;flex:1 1 auto;min-height:0;display:flex;align-items:center;gap:10px">
+<div style="flex:1 1 0;min-width:0;display:flex;flex-direction:column">
+<div id="tChamp" class="bg" style="font-size:80px;line-height:.88;letter-spacing:-3px;color:#fdfbf0;text-transform:uppercase"></div>
+<div id="tWeek" style="font-size:26px;font-weight:800;color:#b9c9bd;margin-top:10px"></div>
+<div id="winner" class="bg" style="margin-top:22px;font-size:130px;line-height:.95;letter-spacing:-4px;color:#c9a86a;white-space:nowrap"></div>
+<div style="margin-top:28px;display:flex;align-items:center;gap:18px">
+<div class="bg" style="font-size:96px;line-height:1;color:transparent;-webkit-text-stroke:3px #ff7a59">600</div>
+<div style="display:flex;flex-direction:column;gap:4px">
+<div id="tOffered" style="font-size:26px;font-weight:800;color:#fdfbf0"></div>
+<div id="tClan" style="font-size:20px;font-weight:600;color:#b9c9bd"></div>
+</div>
+</div>
+</div>
+<div style="flex:0 0 auto;position:relative;width:360px;height:440px">
+<svg style="position:absolute;left:0;top:0;width:360px;height:405px" viewBox="0 0 240 270" aria-hidden="true">
+<path transform="translate(26 50)" d="M0 -14 Q2 -2 14 0 Q2 2 0 14 Q-2 2 -14 0 Q-2 -2 0 -14 Z" fill="#c9a86a"/>
+<path transform="translate(214 92) scale(.7)" d="M0 -14 Q2 -2 14 0 Q2 2 0 14 Q-2 2 -14 0 Q-2 -2 0 -14 Z" fill="#fdfbf0"/>
+<path transform="translate(196 22) scale(.55)" d="M0 -14 Q2 -2 14 0 Q2 2 0 14 Q-2 2 -14 0 Q-2 -2 0 -14 Z" fill="#ff7a59"/>
+<path d="M96 12 H84 Q82 34 100 40 M144 12 H156 Q158 34 140 40" fill="none" stroke="#c9a86a" stroke-width="5" stroke-linecap="round"/>
+<path d="M96 8 H144 V26 A24 24 0 0 1 96 26 Z" fill="#c9a86a"/>
+<path transform="translate(120 24) scale(.6)" d="M0 -14 l4 9 l10 1 l-7.5 7 l2 10 l-8.5 -5 l-8.5 5 l2 -10 l-7.5 -7 l10 -1 Z" fill="#fdfbf0"/>
+<rect x="114" y="48" width="12" height="12" fill="#b08f55"/>
+<rect x="104" y="60" width="32" height="8" rx="2" fill="#c9a86a"/>
+<path d="M66 118 L58 76 L98 104 Z M174 118 L182 76 L142 104 Z" fill="#6b4226"/>
+<ellipse cx="120" cy="180" rx="74" ry="82" fill="#6b4226"/>
+<path d="M54 176 Q30 120 100 66 Q86 120 84 168 Z" fill="#4a2b16"/>
+<path d="M186 176 Q210 120 140 66 Q154 120 156 168 Z" fill="#4a2b16"/>
+<ellipse cx="120" cy="214" rx="46" ry="44" fill="#e9d8b4"/>
+<path d="M100 200 l7 7 l7 -7 M126 200 l7 7 l7 -7 M106 222 l7 7 l7 -7 M120 222 l7 7 l7 -7 M113 242 l7 7 l7 -7" stroke="#b08a5a" stroke-width="3" fill="none"/>
+<circle cx="92" cy="146" r="30" fill="#f3e6c8"/>
+<circle cx="148" cy="146" r="30" fill="#f3e6c8"/>
+<circle cx="92" cy="147" r="20" fill="#d9a441"/>
+<circle cx="93" cy="148" r="11" fill="#120c08"/>
+<circle cx="98" cy="142" r="4" fill="#fff"/>
+<path d="M130 150 Q148 134 166 150" stroke="#120c08" stroke-width="6" fill="none" stroke-linecap="round"/>
+<ellipse cx="68" cy="174" rx="10" ry="5" fill="#ff7a59" opacity=".5"/>
+<ellipse cx="172" cy="174" rx="10" ry="5" fill="#ff7a59" opacity=".5"/>
+<path d="M110 166 L130 166 L120 184 Z" fill="#c9a86a"/>
+<path d="M100 262 l-6 7 M108 262 v8 M140 262 l6 7 M132 262 v8" stroke="#c9a86a" stroke-width="4" stroke-linecap="round"/>
+</svg>
+<svg style="position:absolute;left:-60px;bottom:-34px;width:190px;height:130px" viewBox="0 0 220 150" aria-hidden="true">
+<path d="M8 40 H48 M0 62 H40 M14 84 H44" stroke="#c9a86a" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+<g transform="rotate(-14 95 60)"><rect x="60" y="25" width="70" height="70" rx="14" fill="#fdfbf0"/><g fill="#0d3326"><circle cx="80" cy="43" r="6"/><circle cx="80" cy="60" r="6"/><circle cx="80" cy="77" r="6"/><circle cx="110" cy="43" r="6"/><circle cx="110" cy="60" r="6"/><circle cx="110" cy="77" r="6"/></g></g>
+<g transform="rotate(18 168 101)"><rect x="135" y="68" width="66" height="66" rx="13" fill="#ff7a59"/><g fill="#fdfbf0"><circle cx="152" cy="85" r="6"/><circle cx="184" cy="85" r="6"/><circle cx="168" cy="101" r="6"/><circle cx="152" cy="117" r="6"/><circle cx="184" cy="117" r="6"/></g></g>
+</svg>
+</div>
+</div>
+
+<div style="position:relative;background:#fdfbf0;border-radius:28px;overflow:hidden;box-shadow:0 14px 0 rgba(0,0,0,.25)">
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding:24px 34px 22px">
+<div style="display:flex;flex-direction:column;gap:4px;min-width:0">
+<div id="lWin" class="lab"></div>
+<div id="winner2" class="val"></div>
+<div class="sub">600 TGC</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:4px;border-left:2px solid #e6dcc3;padding-left:20px;min-width:0">
+<div id="lFin" class="lab"></div>
+<div id="finalist" class="val"></div>
+<div class="sub">400 TGC</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:4px;border-left:2px solid #e6dcc3;padding-left:20px;min-width:0">
+<div id="lNext" class="lab"></div>
+<div id="next" class="val"></div>
+<div id="nextSub" class="sub"></div>
+</div>
+</div>
+<div style="position:relative;height:0;margin:0 30px;border-top:3px dashed #d8c9a5">
+<div style="position:absolute;left:-52px;top:-23px;width:44px;height:44px;border-radius:50%;background:#0d3326"></div>
+<div style="position:absolute;right:-52px;top:-23px;width:44px;height:44px;border-radius:50%;background:#0d3326"></div>
+</div>
+<div style="display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 34px 20px">
+<div style="display:flex;flex-direction:column;gap:2px">
+<div id="cta" style="font-size:26px;font-weight:800;color:#0d3326"></div>
+<div id="module" style="font-size:17px;font-weight:600;color:#4b5d53"></div>
+</div>
+<div style="display:flex;align-items:center;gap:12px;padding:14px 24px;border-radius:999px;background:#0d3326;color:#c9a86a;font-size:24px;font-weight:800">tickgammon.com
+<svg style="width:22px;height:22px" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12 H19 M13 6 L19 12 L13 18" fill="none" stroke="#c9a86a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</div>
+</div>
+</div>
+
+</div>
+<script>
+const T = {
+ fr:{edition:'Édition',champ:'Champion',week:'de la semaine',offered:'TGC offerts au vainqueur',clan:'par le clan TickGammon',lWin:'Vainqueur',lFin:'Finaliste',lNext:'Prochaine',next:'Vendredi',nextSub:'21h, heure de Paris',cta:'Bravo à tous les joueurs !',module:'Module Events'},
+ en:{edition:'Edition',champ:'Champion',week:'of the week',offered:'TGC offered to the winner',clan:'by the TickGammon clan',lWin:'Winner',lFin:'Runner-up',lNext:'Next one',next:'Friday',nextSub:'9 pm, Paris time',cta:'Well played, everyone!',module:'Events module'},
+ es:{edition:'Edición',champ:'Campeón',week:'de la semana',offered:'TGC ofrecidos al ganador',clan:'por el clan TickGammon',lWin:'Ganador',lFin:'Finalista',lNext:'Próxima',next:'Viernes',nextSub:'21h, hora de París',cta:'¡Bravo a todos los jugadores!',module:'Módulo Events'}
+};
+function fill(D){
+ const t = T[D.lang] || T.fr;
+ const set = (id, v) => { document.getElementById(id).textContent = v; };
+ set('tEdition', t.edition); set('edition', D.edition);
+ set('tChamp', t.champ); set('tWeek', t.week); set('tOffered', t.offered); set('tClan', t.clan);
+ set('lWin', t.lWin); set('lFin', t.lFin); set('lNext', t.lNext); set('next', t.next); set('nextSub', t.nextSub);
+ set('cta', t.cta); set('module', t.module);
+ set('winner', D.winner); set('winner2', D.winner); set('finalist', D.finalist);
+ // Pseudo long : on réduit la taille jusqu'à ce qu'il tienne dans sa colonne
+ const w = document.getElementById('winner'); let fs = 130;
+ while (w.scrollWidth > w.parentElement.clientWidth && fs > 40) { fs -= 4; w.style.fontSize = fs + 'px'; w.style.letterSpacing = (-fs / 32) + 'px'; }
+ // Même chose pour les pseudos du ticket (34 px au départ)
+ document.querySelectorAll('.val').forEach(el => { let f = 34; el.style.textOverflow = 'clip';
+  while (el.scrollWidth > el.clientWidth && f > 18) { f -= 2; el.style.fontSize = f + 'px'; } });
+}
+if (window.DATA) fill(window.DATA);
+</script>
+</body>
+</html>
