@@ -1,0 +1,46 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Brico;src:url(brico800.woff2)}
+@font-face{font-family:Man;src:url(manrope700.woff2);font-weight:700}
+@font-face{font-family:Man;src:url(manrope600.woff2);font-weight:600}
+@font-face{font-family:Man;src:url(manrope800.woff2);font-weight:800}
+*{box-sizing:border-box;margin:0}
+body{width:1080px;height:1350px;overflow:hidden;font-family:Man;color:#f4ead7;
+ background:#0d3326;background-image:radial-gradient(circle at 50% 18%,#1d5a3e 0,#0d3326 55%),repeating-linear-gradient(135deg,rgba(255,255,255,.03) 0 2px,transparent 2px 10px);}
+.wrap{position:absolute;inset:0;padding:56px 64px}
+.top{display:flex;align-items:center;gap:30px}
+.owl{width:250px;height:250px;position:relative;flex:0 0 250px}
+.owl img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 10px 18px rgba(0,0,0,.45))}
+.kick{font-family:Man;font-weight:800;font-size:28px;letter-spacing:.14em;text-transform:uppercase;color:#e8c66a}
+h1{font-family:Brico;font-size:76px;line-height:.98;color:#fff6dc;margin-top:8px}
+.badge{display:inline-block;margin-top:18px;padding:12px 26px;border-radius:999px;background:#e8c66a;color:#3d2008;font-weight:800;font-size:34px;box-shadow:0 6px 0 #8a5f20}
+.list{margin-top:48px;display:grid;grid-template-columns:1fr 1fr;gap:16px 18px}
+.it{display:flex;align-items:center;gap:14px;padding:0 18px;height:104px;border-radius:16px;background:rgba(255,255,255,.06);border:2px solid rgba(232,198,106,.22)}
+.it.first{background:rgba(232,198,106,.2);border-color:#e8c66a}
+.n{flex:0 0 46px;height:46px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:22px;background:#e8c66a;color:#3d2008}
+.t{flex:1;font-weight:700;font-size:25px;line-height:1.15;color:#fff6dc}
+.d{font-weight:600;font-size:19px;color:rgba(244,234,215,.7);white-space:nowrap}
+.foot{position:absolute;left:64px;right:64px;bottom:50px;display:flex;justify-content:space-between;align-items:center}
+.sub{font-size:26px;font-weight:600;color:rgba(244,234,215,.85);max-width:640px;line-height:1.3}
+.url{padding:14px 26px;border-radius:999px;background:#fbf6e8;color:#1d4a32;font-weight:800;font-size:30px}
+.dice{position:absolute;right:70px;top:70px;font-size:70px;transform:rotate(14deg);opacity:.9}
+</style></head><body><div class="wrap">
+<div class="dice">🎲</div>
+<div class="top"><div class="owl"><img src="owl_base.png"><img src="owl_wing.png"></div>
+<div><div class="kick" id="kick"></div><h1 id="h1"></h1><div class="badge" id="badge"></div></div></div>
+<div class="list" id="list"></div>
+<div class="foot"><div class="sub" id="sub"></div><div class="url">tickgammon.com</div></div>
+</div><script>
+const L={
+fr:{kick:'Saison 1 · 12 leçons',h1:'Les leçons<br>de la chouette',badge:'Leçon 1 : dimanche 10:30',sub:'Une leçon en vidéo tous les 2 dimanches, sur YouTube et sur le site.',
+ t:['Les règles du backgammon','Les ouvertures','Bien utiliser le videau','La course et la sortie des pions','Les probabilités aux dés','La chouette, le jeu à plusieurs',"Progresser contre l'ordinateur",'Jouer en ligne : classement et ELO','Tournois, clubs et cours','Jacquet, trictrac et backgammon',"L'histoire du backgammon",'Le vocabulaire du joueur'],
+ d:['25 oct.','8 nov.','22 nov.','6 déc.','20 déc.','3 janv.','17 janv.','31 janv.','14 févr.','28 févr.','14 mars','28 mars']},
+en:{kick:'Season 1 · 12 lessons',h1:"The Owl's<br>Lessons",badge:'Lesson 1: Sunday 10:30 am',sub:'A new video lesson every other Sunday, on YouTube and on the website.',
+ t:['Backgammon rules','The openings','Using the doubling cube well','The race and bearing off','Dice probabilities','The chouette, backgammon for a group','Improving against the computer','Playing online: rankings and ELO','Tournaments, clubs and lessons','Jacquet, trictrac and backgammon','The history of backgammon',"The player's vocabulary"],
+ d:['25 Oct','8 Nov','22 Nov','6 Dec','20 Dec','3 Jan','17 Jan','31 Jan','14 Feb','28 Feb','14 Mar','28 Mar']},
+es:{kick:'Temporada 1 · 12 lecciones',h1:'Las lecciones<br>de la lechuza',badge:'Lección 1: domingo 10:30',sub:'Una lección en vídeo cada dos domingos, en YouTube y en la web.',
+ t:['Las reglas del backgammon','Las aperturas','Usar bien el cubo doblador','La carrera y la salida de las fichas','Las probabilidades de los dados','La chouette, el juego en grupo','Progresar contra el ordenador','Jugar en línea: clasificación y ELO','Torneos, clubes y clases','Jacquet, trictrac y backgammon','La historia del backgammon','El vocabulario del jugador'],
+ d:['25 oct.','8 nov.','22 nov.','6 dic.','20 dic.','3 ene.','17 ene.','31 ene.','14 feb.','28 feb.','14 mar.','28 mar.']}};
+const lg=new URLSearchParams(location.search).get('lang')||'fr', T=L[lg];
+for(const k of ['kick','h1','badge','sub']) document.getElementById(k).innerHTML=T[k];
+document.getElementById('list').innerHTML=T.t.map((t,i)=>`<div class="it${i?'':' first'}"><span class="n">${i+1}</span><span class="t">${t}</span><span class="d">${T.d[i]}</span></div>`).join('');
+</script></body></html>
