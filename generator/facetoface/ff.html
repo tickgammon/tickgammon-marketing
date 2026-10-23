@@ -1,0 +1,226 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Bricolage Grotesque';font-weight:800;src:url(../fridaycup/fonts/bricolage-grotesque-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:700;src:url(../fridaycup/fonts/manrope-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:800;src:url(../fridaycup/fonts/manrope-latin-800-normal.woff2) format('woff2')}
+html,body{margin:0;overflow:hidden;background:#0d3326;font-family:Manrope,sans-serif;color:#fdfbf0}
+#s{position:relative;overflow:hidden;background-color:#0d3326;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.025) 0 2px,transparent 2px 14px)}
+.a{position:absolute}
+.scene{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;box-sizing:border-box}
+.txt{display:flex;flex-direction:column;flex:0 0 auto}
+.kick{align-self:var(--al);background:#ff7a59;color:#0d3326;font-weight:800;letter-spacing:3px;text-transform:uppercase;border-radius:999px;padding:.35em .9em;font-size:var(--kf)}
+.ttl{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;text-transform:uppercase;font-size:var(--tf);line-height:.95;letter-spacing:-.03em;margin:.22em 0 .2em}
+.ttl em,.sub em{font-style:normal;color:#c9a86a}
+.sub{font-size:var(--sf);font-weight:700;color:#d9e6dc;line-height:1.3}
+.vbox{flex:0 0 auto;position:relative}
+.vis{position:absolute;left:0;top:0;width:640px;height:560px;transform-origin:0 0}
+.bf{font-family:'Bricolage Grotesque',sans-serif;font-weight:800}
+.card{background:#fdfbf0;color:#0d3326;border-radius:24px;box-shadow:0 12px 0 rgba(0,0,0,.25);box-sizing:border-box}
+.chk{display:flex;align-items:center;gap:16px;font-weight:800;font-size:27px;line-height:1.15;padding:11px 0;border-bottom:3px dashed #e3d9bd}
+.chk:last-child{border-bottom:0}
+.chk i{flex:0 0 40px;height:40px;border-radius:50%;background:#0d3326;display:flex;align-items:center;justify-content:center}
+.tile{position:absolute;width:190px;height:230px;border-radius:26px;background:#123f30;box-shadow:inset 0 0 0 3px rgba(201,168,106,.45),0 10px 0 rgba(0,0,0,.25);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px}
+.tile span{font-weight:800;font-size:25px;color:#fdfbf0;text-align:center}
+.btnff{display:inline-flex;align-items:center;gap:.45em;background:linear-gradient(#e6c47c,#c9a86a);color:#0d3326;border-radius:16px;padding:.42em .9em;box-shadow:0 6px 0 #8a6a3a}
+</style></head><body><div id="s">
+<div id="url" class="a" style="left:0;right:0;text-align:center;font-weight:800;letter-spacing:3px;color:#c9a86a">TICKGAMMON.COM</div>
+<div id="prog" class="a" style="left:0;bottom:0;height:6px;background:#ff7a59;width:0"></div>
+<div id="conf" class="a" style="inset:0"></div>
+<div id="scenes"></div>
+</div>
+<script>
+const LY=window.LY, L=window.LANG, VID=window.VID;
+const $=q=>document.querySelector(q),$$=q=>[...document.querySelectorAll(q)];
+const S=$('#s');S.style.width=LY.W+'px';S.style.height=LY.H+'px';
+const R=document.documentElement.style;
+R.setProperty('--tf',LY.tf+'px');R.setProperty('--sf',LY.sf+'px');R.setProperty('--kf',LY.kf+'px');
+R.setProperty('--al',LY.dir==='row'?'flex-start':'center');
+$('#url').style.top=LY.urlY+'px';$('#url').style.fontSize=LY.url+'px';
+const CAP='../../videos/facetoface/captures/';
+const CAPS={1:'01_lancer_ouverture.png',2:'02_menu_joueur.png',3:'03_proposition_videau.png'};
+// ---------- la chouette officielle (owl_base.png / owl_wing.png du générateur) ----------
+const LOGO=`<div style="position:relative;width:100%;height:100%">
+<svg viewBox="0 0 520 520" width="100%" height="100%" style="position:absolute;inset:0"><defs>
+<linearGradient id="gd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6d77a"/><stop offset=".5" stop-color="#c99a3a"/><stop offset="1" stop-color="#f1cf6e"/></linearGradient>
+<radialGradient id="gr" cx=".5" cy=".42" r=".6"><stop offset="0" stop-color="#1c5a3c"/><stop offset="1" stop-color="#0f3a26"/></radialGradient></defs>
+<circle cx="260" cy="260" r="256" fill="url(#gd)"/><circle cx="260" cy="260" r="243" fill="url(#gr)"/></svg>
+<div style="position:absolute;left:11.9%;top:14.6%;width:76.2%;height:72.3%">
+<img src="../owl_base.png" style="position:absolute;inset:0;width:100%;height:100%">
+<svg class="eyeW" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0"><circle cx="365" cy="148" r="52" fill="#fdeecf"/><path d="M328 158 Q365 122 402 158" stroke="#0b2a17" stroke-width="10" fill="none" stroke-linecap="round"/></svg>
+<img class="wingI" src="../owl_wing.png" style="position:absolute;inset:0;width:100%;height:100%;transform-origin:70.8% 53.5%">
+</div></div>`;
+// petite icône du mode : une tablette et deux joueurs
+const ICO=(c='#0d3326')=>`<svg viewBox="0 0 64 64" width="1.15em" height="1.15em"><circle cx="32" cy="9" r="7" fill="${c}"/><circle cx="32" cy="55" r="7" fill="${c}"/><rect x="10" y="20" width="44" height="24" rx="5" fill="none" stroke="${c}" stroke-width="5"/><rect x="18" y="27" width="10" height="10" rx="2" fill="${c}"/><rect x="36" y="27" width="10" height="10" rx="2" fill="${c}"/></svg>`;
+const CHECK=`<svg viewBox="0 0 24 24" width="24" height="24"><path d="M5 12.5l4.2 4.2L19 7" stroke="#c9a86a" stroke-width="3.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+// ---------- textes ----------
+const T={
+launch:{
+ fr:{s1:['NOUVEAU MODE','Face <em>à face</em>','La chouette a une surprise pour toi !'],
+  s2:['LE PRINCIPE','Une tablette, <em>deux joueurs</em>','un vrai face-à-face !'],
+  s3:['CHACUN DE SON CÔTÉ','Tes dés, tes boutons, <em>ton videau</em>',"L'écran d'en face est tourné vers ton adversaire. Videau avec Crawford, pendule en option."],
+  s4:['100 % AMICAL','Simple <em>comme bonjour</em>'],
+  checks:['Gratuit',"Sans compte pour l'adversaire : juste un prénom",'Partie amicale, sans classement','Marche même avec un Wi-Fi faible','Export .mat de la partie'],
+  s5:['IDÉAL','Au club, au café, <em>en famille</em>','Merci <em>GuyLabesse</em>, du club, pour l\'idée !'],
+  places:['Au club','Au café','En famille'],
+  out:['Dispo dès le <em>1er novembre</em>',"Sur l'accueil",'FACE À FACE','Gratuit, sur le site, Android et Windows']},
+ en:{s1:['NEW MODE','Face <em>to face</em>','The owl has a surprise for you!'],
+  s2:['HOW IT WORKS','One tablet, <em>two players</em>','a real face-to-face game!'],
+  s3:['EACH ON YOUR SIDE','Your dice, your buttons, <em>your cube</em>','The far side of the screen faces your opponent. Doubling cube with Crawford, optional clock.'],
+  s4:['100% FRIENDLY','Easy <em>as pie</em>'],
+  checks:['Free','No account needed for your opponent: just a first name','Friendly game, no ranking','Works even on weak Wi-Fi','.mat export of the game'],
+  s5:['PERFECT','At the club, the café, <em>with family</em>','Thanks <em>GuyLabesse</em>, from our club, for the idea!'],
+  places:['At the club','At the café','With family'],
+  out:['Available from <em>November 1</em>','On the home screen','FACE TO FACE','Free, on the website, Android and Windows']},
+ es:{s1:['NUEVO MODO','Cara <em>a cara</em>','¡La lechuza tiene una sorpresa para ti!'],
+  s2:['CÓMO FUNCIONA','Una tablet, <em>dos jugadores</em>','¡un auténtico cara a cara!'],
+  s3:['CADA UNO EN SU LADO','Tus dados, tus botones, <em>tu cubo</em>','La parte de enfrente de la pantalla mira a tu rival. Cubo doblador con Crawford, reloj opcional.'],
+  s4:['100 % AMISTOSO','<em>Facilísimo</em>'],
+  checks:['Gratis','Sin cuenta para el rival: solo un nombre','Partida amistosa, sin clasificación','Funciona incluso con wifi débil','Exportación .mat de la partida'],
+  s5:['IDEAL','En el club, en el café, <em>en familia</em>','¡Gracias <em>GuyLabesse</em>, de nuestro club, por la idea!'],
+  places:['En el club','En el café','En familia'],
+  out:['Disponible desde el <em>1 de noviembre</em>','En la pantalla de inicio','CARA A CARA','Gratis, en la web, Android y Windows']}},
+teaser:{
+ fr:{s1:['CHUT… SURPRISE','Dimanche, ta tablette <em>devient un plateau…</em>'],s2:['Dimanche <em>1er novembre</em>','Rendez-vous sur tickgammon.com']},
+ en:{s1:['SHH… SURPRISE','On Sunday, your tablet <em>becomes a board…</em>'],s2:['Sunday <em>November 1</em>','See you on tickgammon.com']},
+ es:{s1:['CHIS… SORPRESA','El domingo, tu tablet <em>se convierte en tablero…</em>'],s2:['Domingo <em>1 de noviembre</em>','Nos vemos en tickgammon.com']}},
+howto:{
+ fr:{s0:['TUTO','Lancer une partie <em>Face à face</em>','en 20 secondes !'],
+  s1:['ÉTAPE 1',"Sur l'accueil, appuie sur <em>Face à face</em>",''],
+  s2:['ÉTAPE 2','Écris le prénom <em>de ton adversaire</em>','Pas besoin de compte pour lui !'],
+  s3:['ÉTAPE 3','Pose la tablette <em>à plat entre vous</em>',"Chacun s'assoit de son côté."],
+  s4:['ÉTAPE 4','Chacun lance <em>son dé</em>','Le plus fort commence. Bonne partie !'],
+  lbl:"Prénom de l'adversaire",btn:'FACE À FACE',
+  out:['À toi <em>de jouer !</em>',"Sur l'accueil",'FACE À FACE','Gratuit, sur le site, Android et Windows']},
+ en:{s0:['TUTORIAL','Start a <em>Face to Face</em> game','in 20 seconds!'],
+  s1:['STEP 1','On the home screen, tap <em>Face to Face</em>',''],
+  s2:['STEP 2',"Type your <em>opponent's first name</em>",'No account needed for them!'],
+  s3:['STEP 3','Lay the tablet <em>flat between you</em>','Each player sits on their own side.'],
+  s4:['STEP 4','Each player rolls <em>one die</em>','Highest roll starts. Have fun!'],
+  lbl:"Opponent's first name",btn:'FACE TO FACE',
+  out:['Your turn <em>to play!</em>','On the home screen','FACE TO FACE','Free, on the website, Android and Windows']},
+ es:{s0:['TUTORIAL','Empieza una partida <em>Cara a cara</em>','¡en 20 segundos!'],
+  s1:['PASO 1','En la pantalla de inicio, pulsa <em>Cara a cara</em>',''],
+  s2:['PASO 2','Escribe el nombre <em>de tu rival</em>','¡No necesita cuenta!'],
+  s3:['PASO 3','Pon la tablet <em>plana entre los dos</em>','Cada uno se sienta en su lado.'],
+  s4:['PASO 4','Cada uno tira <em>su dado</em>','Empieza el más alto. ¡Buena partida!'],
+  lbl:'Nombre del rival',btn:'CARA A CARA',
+  out:['¡Te toca <em>jugar!</em>','En la pantalla de inicio','CARA A CARA','Gratis, en la web, Android y Windows']}}
+}[VID]?.[L]||{};
+// ---------- visuels (640 x 560) ----------
+const SCR={x:100,y:156.25,w:440,h:247.5};
+function person(shirt,hair){return `<g>
+ <path d="M228 545 Q205 470 236 428" stroke="${shirt}" stroke-width="40" fill="none" stroke-linecap="round"/>
+ <path d="M412 545 Q435 470 404 428" stroke="${shirt}" stroke-width="40" fill="none" stroke-linecap="round"/>
+ <circle cx="236" cy="424" r="21" fill="#e8b48a"/><circle cx="404" cy="424" r="21" fill="#e8b48a"/>
+ <ellipse cx="320" cy="600" rx="165" ry="78" fill="${shirt}"/>
+ <circle cx="320" cy="540" r="50" fill="${hair}"/><path d="M286 520 Q320 498 354 520" stroke="rgba(255,255,255,.18)" stroke-width="6" fill="none" stroke-linecap="round"/></g>`;}
+function table(o={}){const cap=o.cap||1;
+ const z=o.zoom?`data-zoom="${o.zoom.join(',')}"`:'';
+ return `<div class="a zoomw" ${z} style="left:0;top:0;width:640px;height:560px;transform-origin:0 0"><div class="a" style="left:0;top:0;width:640px;height:560px;transform:perspective(1500px) rotateX(16deg);transform-origin:50% 50%">
+ <div class="a" style="left:0;top:0;width:640px;height:560px;border-radius:30px;background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(0,0,0,.12)),repeating-linear-gradient(90deg,#8a5a33 0 7px,#7c5030 7px 15px,#94633b 15px 26px,#83552f 26px 33px);box-shadow:inset 0 0 0 10px #5e3a1f,inset 0 0 40px rgba(0,0,0,.45)"></div>
+ <svg class="a" viewBox="0 0 640 560" width="640" height="560" style="left:0;top:0"><g transform="translate(560 96)"><circle r="40" fill="#fdfbf0"/><circle r="27" fill="#f3ead2"/><circle r="20" fill="#4a2b16"/><rect x="24" y="-8" width="22" height="16" rx="8" fill="#fdfbf0"/></g>
+  <g transform="translate(78 470) rotate(-14)"><rect x="-24" y="-24" width="48" height="48" rx="10" fill="#fdfbf0"/><circle cx="-11" cy="-11" r="5" fill="#0d3326"/><circle cx="11" cy="11" r="5" fill="#0d3326"/><circle r="5" fill="#0d3326"/></g></svg>
+ <div class="a" style="left:${SCR.x-16}px;top:${SCR.y-16}px;width:${SCR.w+32}px;height:${SCR.h+32}px;border-radius:26px;background:#18191b;box-shadow:0 18px 30px rgba(0,0,0,.45),inset 0 0 0 2px #3a3b3e"></div>
+ <div class="a scr" style="left:${SCR.x}px;top:${SCR.y}px;width:${SCR.w}px;height:${SCR.h}px;border-radius:6px;overflow:hidden;${o.blur?`filter:blur(${o.blur}px);`:''}"><img src="${CAP+CAPS[cap]}" style="width:100%;height:100%;display:block"></div>
+ <svg class="a" viewBox="0 0 640 560" width="640" height="560" style="left:0;top:0;overflow:visible">${person('#ff7a59','#3b2a1e')}<g transform="rotate(180 320 280)">${person('#2f7a57','#7a4a24')}</g></svg>
+ ${o.names!==false?`<div class="a bf" style="left:420px;top:500px;background:#fdfbf0;color:#0d3326;border-radius:999px;padding:4px 14px;font-size:20px">Nadine</div><div class="a bf" style="left:150px;top:30px;background:#fdfbf0;color:#0d3326;border-radius:999px;padding:4px 14px;font-size:20px;transform:rotate(180deg)">Guy</div>`:''}
+ ${o.q?`<div class="a bf qm" style="left:${SCR.x}px;top:${SCR.y}px;width:${SCR.w}px;height:${SCR.h}px;display:flex;align-items:center;justify-content:center;font-size:170px;color:#fdfbf0;text-shadow:0 8px 0 rgba(0,0,0,.35)">?</div>`:''}
+ </div></div>`;}
+function checks(list){return `<div class="a card" style="left:20px;top:70px;width:600px;padding:18px 30px">${list.map((c,i)=>`<div class="chk ci" data-i="${i}"><i>${CHECK}</i><span>${c}</span></div>`).join('')}</div>`;}
+const PIC={
+ club:`<svg viewBox="0 0 100 100" width="96" height="96"><path d="M30 18 H70 V40 Q70 62 50 64 Q30 62 30 40 Z" fill="#c9a86a"/><path d="M30 26 Q14 26 16 38 Q18 48 31 48 M70 26 Q86 26 84 38 Q82 48 69 48" stroke="#c9a86a" stroke-width="5" fill="none"/><rect x="44" y="64" width="12" height="12" fill="#c9a86a"/><rect x="32" y="76" width="36" height="9" rx="3" fill="#fdfbf0"/></svg>`,
+ cafe:`<svg viewBox="0 0 100 100" width="96" height="96"><path d="M40 12 Q34 20 40 28 M52 10 Q46 18 52 26" stroke="#d9e6dc" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M20 36 H70 V58 Q70 78 45 78 Q20 78 20 58 Z" fill="#fdfbf0"/><path d="M70 42 Q86 42 84 54 Q82 64 69 62" stroke="#fdfbf0" stroke-width="6" fill="none"/><ellipse cx="45" cy="84" rx="34" ry="6" fill="#c9a86a"/></svg>`,
+ fam:`<svg viewBox="0 0 100 100" width="96" height="96"><circle cx="30" cy="30" r="12" fill="#fdfbf0"/><path d="M12 80 Q12 50 30 50 Q48 50 48 80 Z" fill="#fdfbf0"/><circle cx="70" cy="30" r="12" fill="#c9a86a"/><path d="M52 80 Q52 50 70 50 Q88 50 88 80 Z" fill="#c9a86a"/><circle cx="50" cy="56" r="9" fill="#ff7a59"/><path d="M37 86 Q37 68 50 68 Q63 68 63 86 Z" fill="#ff7a59"/></svg>`};
+function places(p,thx){return `${['club','cafe','fam'].map((k,i)=>`<div class="tile pl" data-i="${i}" style="left:${12+i*212}px;top:40px">${PIC[k]}<span>${p[i]}</span></div>`).join('')}
+ <div class="a thx" style="left:20px;top:330px;width:600px;display:flex;align-items:center;gap:22px;background:#123f30;border-radius:24px;padding:20px 26px;box-sizing:border-box;box-shadow:inset 0 0 0 3px #c9a86a">
+ <div style="flex:0 0 120px;height:120px">${LOGO}</div><div class="sub" style="font-size:30px;color:#fdfbf0;font-weight:800">${thx}</div></div>`;}
+function home(btn){return `<div class="a card" style="left:70px;top:40px;width:500px;height:480px;padding:28px;display:flex;flex-direction:column;align-items:center;gap:22px;background:#123f30;box-shadow:inset 0 0 0 3px rgba(201,168,106,.45),0 12px 0 rgba(0,0,0,.25)">
+ <div class="bf" style="color:#c9a86a;letter-spacing:4px;font-size:26px">TICKGAMMON</div>
+ <div style="width:100%;height:58px;border-radius:14px;background:rgba(253,251,240,.1)"></div>
+ <div style="width:100%;height:58px;border-radius:14px;background:rgba(253,251,240,.1)"></div>
+ <div class="btnff bf hb" style="font-size:40px;margin-top:10px">${ICO()}<span>${btn}</span></div>
+ <div style="width:100%;height:58px;border-radius:14px;background:rgba(253,251,240,.1)"></div>
+ <div class="a tap" style="width:90px;height:90px;border-radius:50%;border:6px solid #fdfbf0;left:330px;top:300px;opacity:0"></div></div>`;}
+function nameForm(lbl){return `<div class="a card" style="left:40px;top:110px;width:560px;padding:34px 36px">
+ <div style="font-weight:800;letter-spacing:2px;font-size:22px;color:#8a6a3a;text-transform:uppercase">${lbl}</div>
+ <div style="margin-top:16px;border:4px solid #c9a86a;border-radius:16px;padding:16px 20px;font-size:48px;min-height:58px" class="bf"><span class="typed"></span><span class="caret" style="color:#ff7a59">|</span></div>
+ <div class="btnff bf" style="margin-top:26px;font-size:30px">${ICO()}<span>OK</span></div></div>`;}
+// ---------- scènes ----------
+const scenes=[];
+function scene(s,e,txt,vis,kind,opt={}){const d=document.createElement('div');d.className='scene';
+ const sc=opt.sc||Math.min(LY.vbW/640,LY.vbH/560);const w=640*sc,h=(opt.vh||560)*sc;
+ d.innerHTML=(opt.visFirst?'':`<div class="txt">${txt}</div>`)+(vis?`<div class="vbox" style="width:${w}px;height:${h}px;${opt.clip?'overflow:hidden;border-radius:'+(24*sc)+'px;':''}"><div class="vis in" data-d=".1" data-sc="${sc}">${vis}</div></div>`:'')+(opt.visFirst?`<div class="txt">${txt}</div>`:'');
+ $('#scenes').appendChild(d);
+ d.style.flexDirection=LY.dir;d.style.gap=LY.gap+'px';d.style.padding=LY.padT+'px '+LY.pad+'px '+LY.pad+'px';
+ const tx=d.querySelector('.txt');tx.style.textAlign=LY.dir==='row'?'left':'center';tx.style.alignItems=LY.dir==='row'?'flex-start':'center';
+ if(LY.dir==='row')tx.style.width=(LY.W-w-LY.gap-2*LY.pad)+'px';else tx.style.maxWidth=(LY.W-2*LY.pad)+'px';
+ if(opt.tfk)tx.querySelectorAll('.ttl').forEach(t=>t.style.fontSize=`calc(var(--tf)*${opt.tfk})`);
+ scenes.push({el:d,s,e,kind,ins:[...d.querySelectorAll('.in')]});return d;}
+const K=(k,d='.05')=>`<div class="kick in" data-d="${d}">${k}</div>`;
+const TT=(t,d='.2')=>`<div class="ttl in" data-d="${d}">${t}</div>`;
+const SB=(t,d='.45')=>t?`<div class="sub in" data-d="${d}">${t}</div>`:'';
+const LOGOV=`<div class="a" style="left:100px;top:60px;width:440px;height:440px"><div class="logo" style="width:100%;height:100%">${LOGO}</div></div>`;
+function outro(s,e,o,title){const card=`<div class="card in" data-d=".6" style="text-align:center;padding:calc(var(--sf)*.8) calc(var(--sf)*1.1);margin-top:calc(var(--sf)*.4);width:min(100%,calc(var(--sf)*17))">
+ <div style="font-weight:800;letter-spacing:3px;font-size:calc(var(--sf)*.6);color:#8a6a3a;text-transform:uppercase">${o[1]}</div>
+ <div class="btnff bf" style="font-size:calc(var(--sf)*1.15);margin:.35em 0 .1em">${ICO()}<span>${o[2]}</span></div>
+ <div style="border-top:3px dashed #d8ceb0;margin:.7em 0"></div>
+ <div class="cta bf" style="display:inline-block;background:#0d3326;color:#c9a86a;border-radius:999px;padding:.35em 1em;font-size:calc(var(--sf)*1.05)">tickgammon.com →</div></div>`;
+ return scene(s,e,`${TT(title||o[0],'.3')}${card}${SB(o[3],'1.0')}`,LOGOV,'outro',{visFirst:true,vh:LY.dir==='row'?560:(LY.H>1000?500:520),sc:(LY.dir==='column'&&LY.H<1000)?.36:0,tfk:.8});}
+let END;
+if(VID==='launch'){END=24;
+ scene(0,3.6,`${K(T.s1[0],'.4')}${TT(T.s1[1],'.6')}${SB(T.s1[2],'.9')}`,LOGOV,'intro',{visFirst:true,tfk:1.25});
+ scene(3.6,8.4,`${K(T.s2[0])}${TT(T.s2[1])}${SB(T.s2[2])}`,table({cap:1}),'table',{clip:true});
+ scene(8.4,12.6,`${K(T.s3[0])}${TT(T.s3[1])}${SB(T.s3[2])}`,table({cap:3,zoom:[.5,.76,3]}),'zoom',{clip:true,tfk:.85});
+ scene(12.6,16.4,`${K(T.s4[0])}${TT(T.s4[1])}`,checks(T.checks),'checks');
+ scene(16.4,19.6,`${K(T.s5[0])}${TT(T.s5[1])}`,places(T.places,T.s5[2]),'places',{tfk:.85});
+ outro(19.6,END+1,T.out);
+}
+if(VID==='teaser'){END=9.5;
+ scene(0,5,`${K(T.s1[0])}${TT(T.s1[1],'.3')}`,table({cap:1,blur:7,q:true,names:false}),'tease',{clip:true,tfk:.85});
+ scene(5,END+1,`${TT(T.s2[0],'.3')}${SB(T.s2[1],'.7')}`,LOGOV,'outroT',{visFirst:true,vh:LY.dir==='row'?560:(LY.H>1000?500:520),sc:(LY.dir==='column'&&LY.H<1000)?.5:0});
+}
+if(VID==='howto'){END=20.5;
+ scene(0,3.2,`${K(T.s0[0],'.3')}${TT(T.s0[1],'.5')}${SB(T.s0[2],'.8')}`,LOGOV,'intro',{visFirst:true});
+ scene(3.2,7,`${K(T.s1[0])}${TT(T.s1[1])}`,home(T.btn),'home',{tfk:.85});
+ scene(7,10.8,`${K(T.s2[0])}${TT(T.s2[1])}${SB(T.s2[2])}`,nameForm(T.lbl),'name',{tfk:.85});
+ scene(10.8,14.4,`${K(T.s3[0])}${TT(T.s3[1])}${SB(T.s3[2])}`,table({cap:1}),'table',{clip:true,tfk:.85});
+ scene(14.4,17.2,`${K(T.s4[0])}${TT(T.s4[1])}${SB(T.s4[2])}`,table({cap:1,zoom:[.86,.93,2.3]}),'zoom',{clip:true,tfk:.85});
+ outro(17.2,END+1,T.out);
+}
+if(VID==='cover'){END=1;const d=document.createElement('div');d.className='scene';d.style.opacity=1;
+ d.innerHTML=`<div class="a" style="left:110px;top:100px;width:520px;height:520px">${LOGO}</div><div class="a" style="left:640px;top:40px;width:640px;height:560px;transform:scale(1.14);transform-origin:0 0;overflow:hidden;border-radius:30px">${table({cap:1})}</div>`;
+ $('#scenes').appendChild(d);$('#url').style.display='none';$('#prog').style.display='none';scenes.push({el:d,s:0,e:9,kind:'cover',ins:[]});}
+// confettis
+const CONF=[];(function(){let seed=11;const r=()=>{seed=(seed*16807)%2147483647;return seed/2147483647;};const cols=['#ff7a59','#c9a86a','#fdfbf0','#e0c27a'];
+ for(let i=0;i<46;i++){const d=document.createElement('div');d.className='a';const w=9+r()*11;d.style.cssText=`width:${w}px;height:${w*.5}px;background:${cols[i%4]};border-radius:2px`;$('#conf').appendChild(d);CONF.push({d,x:r()*LY.W,v:150+r()*200,r:r()*360,vr:(r()-.5)*500,sw:r()*30,ph:r()*6});}})();
+// ---------- animation ----------
+const cl=x=>Math.max(0,Math.min(1,x)),seg=(t,a,b)=>cl((t-a)/(b-a)),eo=x=>1-Math.pow(1-x,3),eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2,back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+function wink(el,on){el.querySelectorAll('.eyeW').forEach(x=>{x.style.opacity=on?1:0;});}
+function wave(el,lt,a,b){const e=Math.min(seg(lt,a,a+.3),1-seg(lt,b-.3,b));const ang=e*(52+22*Math.sin((lt-a)*Math.PI*2*2.2));el.querySelectorAll('.wingI').forEach(w=>w.style.transform=`rotate(${-ang}deg)`);}
+const OUTK=['outro','outroT'];
+function render(t){
+ $('#prog').style.width=(t/END*100)+'%';
+ const sOut=scenes.find(x=>OUTK.includes(x.kind));
+ $('#url').style.opacity=(t>(scenes[1]?scenes[1].s:0)&&(!sOut||t<sOut.s))?1:0;
+ scenes.forEach(sc=>{const lt=t-sc.s,dur=sc.e-sc.s,on=t>=sc.s&&t<sc.e;
+  if(sc.kind==='cover')return;if(!on){sc.el.style.opacity=0;return;}
+  const out=OUTK.includes(sc.kind)?0:seg(lt,dur-.3,dur);sc.el.style.opacity=Math.min(seg(lt,0,.2),1-out);sc.el.style.transform=`translateX(${-out*60}px)`;
+  sc.ins.forEach(e=>{const p=seg(lt,+e.dataset.d,+e.dataset.d+.5);e.style.opacity=eo(p);e.style.transform=(e.dataset.sc?`scale(${e.dataset.sc}) `:'')+`translateY(${(1-back(p))*40}px) scale(${.85+.15*back(p)})`;});
+  const E=sc.el;
+  if(sc.kind==='intro'){wave(E,lt,.9,2.9);wink(E,lt>1.6&&lt<1.95);}
+  if(OUTK.includes(sc.kind)){wave(E,lt,.6,2.8);wink(E,(lt>1.3&&lt<1.65)||(lt>3.6&&lt<3.9));const c=E.querySelector('.cta');if(c)c.style.transform=`scale(${1+.04*Math.sin(Math.max(0,lt-1.2)*5)})`;}
+  E.querySelectorAll('.zoomw[data-zoom]').forEach(z=>{const [u,v,s]=z.dataset.zoom.split(',').map(Number);const fx=SCR.x+SCR.w*u,fy=SCR.y+SCR.h*v;const k=eio(seg(lt,.9,2.1));
+   z.style.transformOrigin=`${fx}px ${fy}px`;z.style.transform=`translate(${(320-fx)*k}px,${(280-fy)*k}px) scale(${1+(s-1)*k})`;});
+  if(sc.kind==='table'){E.querySelectorAll('.zoomw').forEach(z=>{z.style.transformOrigin='320px 280px';z.style.transform=`scale(${1+.04*seg(lt,0,dur)})`;});}
+  if(sc.kind==='tease'){E.querySelectorAll('.qm').forEach(q=>q.style.transform=`scale(${1+.08*Math.sin(lt*4)})`);E.querySelectorAll('.zoomw').forEach(z=>{z.style.transformOrigin='320px 280px';z.style.transform=`scale(${1.02+.06*seg(lt,0,dur)}) rotate(${-1.5+1.5*seg(lt,0,dur)}deg)`;});}
+  if(sc.kind==='checks'){E.querySelectorAll('.ci').forEach(c=>{const p=seg(lt,.5+(+c.dataset.i)*.35,.85+(+c.dataset.i)*.35);c.style.opacity=.15+.85*eo(p);c.style.transform=`translateX(${(1-eo(p))*30}px)`;});}
+  if(sc.kind==='places'){E.querySelectorAll('.pl').forEach(c=>{const p=seg(lt,.3+(+c.dataset.i)*.25,.75+(+c.dataset.i)*.25);c.style.opacity=eo(p);c.style.transform=`translateY(${(1-back(p))*50}px)`;});
+   const th=E.querySelector('.thx');const p=seg(lt,1.2,1.7);th.style.opacity=eo(p);th.style.transform=`scale(${.85+.15*back(p)})`;wave(E,lt,1.4,3.0);}
+  if(sc.kind==='home'){const tp=E.querySelector('.tap'),b=E.querySelector('.hb');const p=seg(lt,1.4,2.0);tp.style.opacity=p>0&&p<1?1-p:0;tp.style.transform=`scale(${.4+p})`;b.style.transform=`scale(${lt>1.4&&lt<1.7?.93:1+.03*Math.sin(lt*5)})`;}
+  if(sc.kind==='name'){const word='Guy';const n=Math.floor(seg(lt,.9,1.8)*word.length+.001);E.querySelector('.typed').textContent=word.slice(0,n);E.querySelector('.caret').style.opacity=Math.sin(lt*9)>0?1:0;}
+ });
+ const ct=(scenes[0].kind==='intro'&&t<3)?t-.3:(sOut&&t>=sOut.s+.1?t-sOut.s-.1:-1);
+ CONF.forEach(c=>{if(ct<0||ct>5){c.d.style.opacity=0;return;}c.d.style.opacity=1;c.d.style.transform=`translate(${c.x+Math.sin(ct*2+c.ph)*c.sw}px,${-30+c.v*ct*(LY.H/900)}px) rotate(${c.r+c.vr*ct}deg)`;});
+}
+window.render=render;window.END=END;render(0);
+</script></body></html>
