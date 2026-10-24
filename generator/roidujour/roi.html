@@ -1,0 +1,176 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Bricolage Grotesque';font-weight:800;src:url(../fridaycup/fonts/bricolage-grotesque-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:700;src:url(../fridaycup/fonts/manrope-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:800;src:url(../fridaycup/fonts/manrope-latin-800-normal.woff2) format('woff2')}
+html,body{margin:0;overflow:hidden;background:#0d3326;font-family:Manrope,sans-serif;color:#fdfbf0}
+#s{position:relative;overflow:hidden;background-color:#0d3326;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.025) 0 2px,transparent 2px 14px)}
+.a{position:absolute}
+.scene{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;box-sizing:border-box}
+.txt{display:flex;flex-direction:column;flex:0 0 auto}
+.kick{align-self:var(--al);background:#ff7a59;color:#0d3326;font-weight:800;letter-spacing:3px;text-transform:uppercase;border-radius:999px;padding:.35em .9em;font-size:var(--kf)}
+.ttl{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;text-transform:uppercase;font-size:var(--tf);line-height:.95;letter-spacing:-.03em;margin:.22em 0 .2em}
+.ttl em,.sub em{font-style:normal;color:#c9a86a}
+.sub{font-size:var(--sf);font-weight:700;color:#d9e6dc;line-height:1.3}
+.vbox{flex:0 0 auto;position:relative}
+.vis{position:absolute;left:0;top:0;width:640px;height:560px;transform-origin:0 0}
+.bf{font-family:'Bricolage Grotesque',sans-serif;font-weight:800}
+.card{background:#fdfbf0;color:#0d3326;border-radius:24px;box-shadow:0 12px 0 rgba(0,0,0,.25);box-sizing:border-box}
+.chk{display:flex;align-items:center;gap:16px;font-weight:800;font-size:27px;line-height:1.15;padding:11px 0;border-bottom:3px dashed #e3d9bd}
+.chk:last-child{border-bottom:0}
+.chk i{flex:0 0 40px;height:40px;border-radius:50%;background:#0d3326;display:flex;align-items:center;justify-content:center}
+.tile{position:absolute;width:190px;height:230px;border-radius:26px;background:#123f30;box-shadow:inset 0 0 0 3px rgba(201,168,106,.45),0 10px 0 rgba(0,0,0,.25);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px}
+.tile span{font-weight:800;font-size:25px;color:#fdfbf0;text-align:center}
+.btnff{display:inline-flex;align-items:center;gap:.45em;background:linear-gradient(#e6c47c,#c9a86a);color:#0d3326;border-radius:16px;padding:.42em .9em;box-shadow:0 6px 0 #8a6a3a}
+</style></head><body><div id="s">
+<div id="url" class="a" style="left:0;right:0;text-align:center;font-weight:800;letter-spacing:3px;color:#c9a86a">TICKGAMMON.COM</div>
+<div id="prog" class="a" style="left:0;bottom:0;height:6px;background:#ff7a59;width:0"></div>
+<div id="conf" class="a" style="inset:0"></div>
+<div id="scenes"></div>
+</div>
+<script>
+const LY=window.LY, L=window.LANG, VID=window.VID;
+const $=q=>document.querySelector(q),$$=q=>[...document.querySelectorAll(q)];
+const S=$('#s');S.style.width=LY.W+'px';S.style.height=LY.H+'px';
+const R=document.documentElement.style;
+R.setProperty('--tf',LY.tf+'px');R.setProperty('--sf',LY.sf+'px');R.setProperty('--kf',LY.kf+'px');
+R.setProperty('--al',LY.dir==='row'?'flex-start':'center');
+$('#url').style.top=LY.urlY+'px';$('#url').style.fontSize=LY.url+'px';
+// ---------- la chouette officielle (owl_base.png / owl_wing.png du générateur) ----------
+const LOGO=`<div style="position:relative;width:100%;height:100%">
+<svg viewBox="0 0 520 520" width="100%" height="100%" style="position:absolute;inset:0"><defs>
+<linearGradient id="gd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6d77a"/><stop offset=".5" stop-color="#c99a3a"/><stop offset="1" stop-color="#f1cf6e"/></linearGradient>
+<radialGradient id="gr" cx=".5" cy=".42" r=".6"><stop offset="0" stop-color="#1c5a3c"/><stop offset="1" stop-color="#0f3a26"/></radialGradient></defs>
+<circle cx="260" cy="260" r="256" fill="url(#gd)"/><circle cx="260" cy="260" r="243" fill="url(#gr)"/></svg>
+<div style="position:absolute;left:11.9%;top:14.6%;width:76.2%;height:72.3%">
+<img src="../owl_base.png" style="position:absolute;inset:0;width:100%;height:100%">
+<svg class="eyeW" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0"><circle cx="365" cy="148" r="52" fill="#fdeecf"/><path d="M328 158 Q365 122 402 158" stroke="#0b2a17" stroke-width="10" fill="none" stroke-linecap="round"/></svg>
+<img class="wingI" src="../owl_wing.png" style="position:absolute;inset:0;width:100%;height:100%;transform-origin:70.8% 53.5%">
+</div></div>`;
+// petite icône : une couronne
+const ICO=(c='#0d3326')=>`<svg viewBox="0 0 64 64" width="1.15em" height="1.15em"><path d="M8 46 L12 18 L24 32 L32 12 L40 32 L52 18 L56 46 Z" fill="${c}"/><rect x="8" y="49" width="48" height="7" rx="3" fill="${c}"/></svg>`;
+const CHECK=`<svg viewBox="0 0 24 24" width="24" height="24"><path d="M5 12.5l4.2 4.2L19 7" stroke="#c9a86a" stroke-width="3.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+// ---------- textes ----------
+const T={
+launch:{
+ fr:{s1:['NOUVEAU','Le Roi <em>du jour</em>','Une couronne en jeu chaque jour !'],
+  s2:['LE PRINCIPE','Gagne tes parties, <em>grimpe au Fil rouge</em>','Le classement du jour, en direct.'],
+  s3:['LES POINTS','Chaque victoire <em>compte</em>'],
+  checks:['Victoire : 2 points','Contre plus fort que toi : 3 points','Gammon : +1 · Backgammon : +2','Tu joues quand tu veux, toute la journée'],
+  s4:['À MINUIT','Le 1er devient <em>Roi du jour</em>','250 TGC offerts par le clan TickGammon'],
+  race:['Fil rouge du jour','Toi'],
+  out:['Du 2 au <em>15 novembre</em>',"Sur l'accueil",'ROI DU JOUR','Sur le site, Android et Windows']},
+ en:{s1:['NEW','King <em>of the day</em>','A crown up for grabs every day!'],
+  s2:['HOW IT WORKS','Win your games, <em>climb the daily race</em>',"Today's leaderboard, live."],
+  s3:['POINTS','Every win <em>counts</em>'],
+  checks:['Win: 2 points','Against a higher-rated player: 3 points','Gammon: +1 · Backgammon: +2','Play whenever you like, all day long'],
+  s4:['AT MIDNIGHT','The leader becomes <em>King of the day</em>','250 TGC offered by the TickGammon clan'],
+  race:["Today's race",'You'],
+  out:['From November 2 <em>to 15</em>','On the home screen','KING OF THE DAY','On the website, Android and Windows']},
+ es:{s1:['NOVEDAD','El Rey <em>del día</em>','¡Una corona en juego cada día!'],
+  s2:['CÓMO FUNCIONA','Gana tus partidas, <em>sube en el Hilo rojo</em>','La clasificación del día, en directo.'],
+  s3:['LOS PUNTOS','Cada victoria <em>cuenta</em>'],
+  checks:['Victoria: 2 puntos','Contra uno mejor clasificado: 3 puntos','Gammon: +1 · Backgammon: +2','Juega cuando quieras, todo el día'],
+  s4:['A MEDIANOCHE','El primero es el <em>Rey del día</em>','250 TGC ofrecidos por el clan TickGammon'],
+  race:['Hilo rojo del día','Tú'],
+  out:['Del 2 al <em>15 de noviembre</em>','En la pantalla de inicio','REY DEL DÍA','En la web, Android y Windows']}},
+teaser:{
+ fr:{s1:['CHUT… SURPRISE','Bientôt, une couronne <em>en jeu chaque jour…</em>'],s2:['Lundi <em>2 novembre</em>','Rendez-vous sur tickgammon.com'],race:['Fil rouge du jour','Toi']},
+ en:{s1:['SHH… SURPRISE','Soon, a crown <em>up for grabs every day…</em>'],s2:['Monday <em>November 2</em>','See you on tickgammon.com'],race:["Today's race",'You']},
+ es:{s1:['CHIS… SORPRESA','Pronto, una corona <em>en juego cada día…</em>'],s2:['Lunes <em>2 de noviembre</em>','Nos vemos en tickgammon.com'],race:['Hilo rojo del día','Tú']}}
+}[VID]?.[L]||{};
+// ---------- visuels (640 x 560) ----------
+// Classement « Fil rouge » : « Toi » remonte de la 4e à la 1re place
+const RACE=[['nadine',[9,9,11]],['Tick',[8,10,10]],['jess',[6,6,8]],['ME',[2,7,14]]];
+function race(o={}){const me=T.race[1];
+ return `<div class="a card raceC" style="left:60px;top:30px;width:520px;height:500px;padding:0;overflow:hidden;${o.blur?`filter:blur(${o.blur}px);`:''}">
+ <div class="bf" style="background:#123f30;color:#c9a86a;letter-spacing:3px;font-size:26px;text-align:center;padding:20px 10px;text-transform:uppercase">${T.race[0]}</div>
+ ${RACE.map((r,i)=>`<div class="a rrow" data-i="${i}" style="left:22px;width:476px;height:80px;top:${96+i*98}px;border-radius:18px;display:flex;align-items:center;gap:16px;padding:0 20px;box-sizing:border-box;background:${r[0]==='ME'?'#fff3c9':'#f6efdc'};box-shadow:inset 0 0 0 3px ${r[0]==='ME'?'#c9a86a':'#e3d9bd'}">
+   <span class="bf rk" style="width:30px;font-size:34px;color:#8a6a3a">${i+1}</span>
+   <span style="width:52px;height:52px;border-radius:50%;background:${['#2f7a57','#ff7a59','#7a4a24','#0d3326'][i]};flex:0 0 52px;display:flex;align-items:center;justify-content:center;font-size:30px">${r[0]==='ME'?'🦉':''}</span>
+   <span class="bf" style="flex:1;font-size:32px">${r[0]==='ME'?me:r[0]}</span>
+   <span class="crw" style="font-size:34px;opacity:0">👑</span>
+   <span class="bf pts" style="font-size:36px;color:#0d3326;min-width:50px;text-align:right">0</span></div>`).join('')}
+ </div>${o.q?`<div class="a bf qm" style="left:60px;top:30px;width:520px;height:500px;display:flex;align-items:center;justify-content:center;font-size:200px;color:#fdfbf0;text-shadow:0 8px 0 rgba(0,0,0,.35)">?</div>`:''}`;}
+function checks(list){return `<div class="a card" style="left:20px;top:90px;width:600px;padding:18px 30px">${list.map((c,i)=>`<div class="chk ci" data-i="${i}"><i>${CHECK}</i><span>${c}</span></div>`).join('')}</div>`;}
+// À minuit : horloge, la couronne se pose sur la chouette
+function crown(){return `<div class="a" style="left:150px;top:150px;width:340px;height:340px;filter:drop-shadow(0 0 40px rgba(230,196,124,.55))">${LOGO}</div>
+ <div class="a cr" style="left:245px;top:20px;width:150px;text-align:center;font-size:130px;line-height:1">👑</div>
+ <div class="a bf clk" style="left:430px;top:40px;background:#123f30;color:#c9a86a;border-radius:18px;padding:8px 18px;font-size:44px;box-shadow:inset 0 0 0 3px #c9a86a">00:00</div>`;}
+// ---------- scènes ----------
+const scenes=[];
+function scene(s,e,txt,vis,kind,opt={}){const d=document.createElement('div');d.className='scene';
+ const sc=opt.sc||Math.min(LY.vbW/640,LY.vbH/560);const w=640*sc,h=(opt.vh||560)*sc;
+ d.innerHTML=(opt.visFirst?'':`<div class="txt">${txt}</div>`)+(vis?`<div class="vbox" style="width:${w}px;height:${h}px;${opt.clip?'overflow:hidden;border-radius:'+(24*sc)+'px;':''}"><div class="vis in" data-d=".1" data-sc="${sc}">${vis}</div></div>`:'')+(opt.visFirst?`<div class="txt">${txt}</div>`:'');
+ $('#scenes').appendChild(d);
+ d.style.flexDirection=LY.dir;d.style.gap=LY.gap+'px';d.style.padding=LY.padT+'px '+LY.pad+'px '+LY.pad+'px';
+ const tx=d.querySelector('.txt');tx.style.textAlign=LY.dir==='row'?'left':'center';tx.style.alignItems=LY.dir==='row'?'flex-start':'center';
+ if(LY.dir==='row')tx.style.width=(LY.W-w-LY.gap-2*LY.pad)+'px';else tx.style.maxWidth=(LY.W-2*LY.pad)+'px';
+ if(opt.tfk)tx.querySelectorAll('.ttl').forEach(t=>t.style.fontSize=`calc(var(--tf)*${opt.tfk})`);
+ scenes.push({el:d,s,e,kind,ins:[...d.querySelectorAll('.in')]});return d;}
+const K=(k,d='.05')=>`<div class="kick in" data-d="${d}">${k}</div>`;
+const TT=(t,d='.2')=>`<div class="ttl in" data-d="${d}">${t}</div>`;
+const SB=(t,d='.45')=>t?`<div class="sub in" data-d="${d}">${t}</div>`:'';
+function outro(s,e,o,title){const card=`<div class="card in" data-d=".6" style="text-align:center;padding:calc(var(--sf)*.8) calc(var(--sf)*1.1);margin-top:calc(var(--sf)*.4);width:min(100%,calc(var(--sf)*17))">
+ <div style="font-weight:800;letter-spacing:3px;font-size:calc(var(--sf)*.6);color:#8a6a3a;text-transform:uppercase">${o[1]}</div>
+ <div class="btnff bf" style="font-size:calc(var(--sf)*1.15);margin:.35em 0 .1em">${ICO()}<span>${o[2]}</span></div>
+ <div style="border-top:3px dashed #d8ceb0;margin:.7em 0"></div>
+ <div class="cta bf" style="display:inline-block;background:#0d3326;color:#c9a86a;border-radius:999px;padding:.35em 1em;font-size:calc(var(--sf)*1.05)">tickgammon.com →</div></div>`;
+ return scene(s,e,`${TT(title||o[0],'.3')}${card}${SB(o[3],'1.0')}`,LOGOV,'outro',{visFirst:true,vh:LY.dir==='row'?560:(LY.H>1000?500:520),sc:(LY.dir==='column'&&LY.H<1000)?.36:0,tfk:.8});}
+const LOGOV=`<div class="a" style="left:100px;top:60px;width:440px;height:440px"><div class="logo" style="width:100%;height:100%">${LOGO}</div><div class="a" style="left:150px;top:-70px;font-size:140px;line-height:1;transform:rotate(-10deg)">👑</div></div>`;
+let END;
+if(VID==='launch'){END=24;
+ scene(0,3.6,`${K(T.s1[0],'.4')}${TT(T.s1[1],'.6')}${SB(T.s1[2],'.9')}`,LOGOV,'intro',{visFirst:true,tfk:1.2});
+ scene(3.6,8.8,`${K(T.s2[0])}${TT(T.s2[1])}${SB(T.s2[2])}`,race(),'race',{tfk:.85});
+ scene(8.8,13.2,`${K(T.s3[0])}${TT(T.s3[1])}`,checks(T.checks),'checks');
+ scene(13.2,19.8,`${K(T.s4[0])}${TT(T.s4[1])}${SB(T.s4[2])}`,crown(),'crown',{tfk:.85});
+ outro(19.8,END+1,T.out);
+}
+if(VID==='teaser'){END=9.5;
+ scene(0,5,`${K(T.s1[0])}${TT(T.s1[1],'.3')}`,race({blur:7,q:true}),'tease',{tfk:.85});
+ scene(5,END+1,`${TT(T.s2[0],'.3')}${SB(T.s2[1],'.7')}`,LOGOV,'outroT',{visFirst:true,vh:LY.dir==='row'?560:(LY.H>1000?500:520),sc:(LY.dir==='column'&&LY.H<1000)?.5:0});
+}
+// confettis
+const CONF=[];(function(){let seed=11;const r=()=>{seed=(seed*16807)%2147483647;return seed/2147483647;};const cols=['#ff7a59','#c9a86a','#fdfbf0','#e0c27a'];
+ for(let i=0;i<46;i++){const d=document.createElement('div');d.className='a';const w=9+r()*11;d.style.cssText=`width:${w}px;height:${w*.5}px;background:${cols[i%4]};border-radius:2px`;$('#conf').appendChild(d);CONF.push({d,x:r()*LY.W,v:150+r()*200,r:r()*360,vr:(r()-.5)*500,sw:r()*30,ph:r()*6});}})();
+// ---------- animation ----------
+const cl=x=>Math.max(0,Math.min(1,x)),seg=(t,a,b)=>cl((t-a)/(b-a)),eo=x=>1-Math.pow(1-x,3),eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2,back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+function wink(el,on){el.querySelectorAll('.eyeW').forEach(x=>{x.style.opacity=on?1:0;});}
+function wave(el,lt,a,b){const e=Math.min(seg(lt,a,a+.3),1-seg(lt,b-.3,b));const ang=e*(52+22*Math.sin((lt-a)*Math.PI*2*2.2));el.querySelectorAll('.wingI').forEach(w=>w.style.transform=`rotate(${-ang}deg)`);}
+const OUTK=['outro','outroT'];
+function raceAt(E,lt,final){
+ // 3 étapes du classement ; les lignes glissent d'une place à l'autre
+ const k=final?2:Math.min(2,lt<1.2?0:lt<2.6?seg(lt,1.2,2.6):1+seg(lt,3.0,4.2));
+ const st=Math.min(1,Math.floor(k)),fr=eio(Math.min(1,k-st));
+ const posAt=stage=>{const o=RACE.map((r,i)=>({i,v:r[1][stage]})).sort((a,b)=>b.v-a.v||a.i-b.i);return RACE.map((r,i)=>o.findIndex(x=>x.i===i));};
+ const pa=posAt(st),pb=posAt(st+1);
+ E.querySelectorAll('.rrow').forEach(r=>{const i=+r.dataset.i;const pos=pa[i]+(pb[i]-pa[i])*fr;
+  r.style.top=(96+pos*98)+'px';r.style.zIndex=RACE[i][0]==='ME'?2:1;
+  const v=RACE[i][1][st]+(RACE[i][1][st+1]-RACE[i][1][st])*fr;
+  r.querySelector('.pts').textContent=Math.round(v);r.querySelector('.rk').textContent=Math.round(pos)+1;
+  r.querySelector('.crw').style.opacity=(pb[i]===0&&k>1.95)?1:0;
+  if(RACE[i][0]==='ME')r.style.transform=`scale(${1+.04*Math.sin(Math.PI*fr)})`;});
+}
+function render(t){
+ $('#prog').style.width=(t/END*100)+'%';
+ const sOut=scenes.find(x=>OUTK.includes(x.kind));
+ $('#url').style.opacity=(t>(scenes[1]?scenes[1].s:0)&&(!sOut||t<sOut.s))?1:0;
+ scenes.forEach(sc=>{const lt=t-sc.s,dur=sc.e-sc.s,on=t>=sc.s&&t<sc.e;
+  if(!on){sc.el.style.opacity=0;return;}
+  const out=OUTK.includes(sc.kind)?0:seg(lt,dur-.3,dur);sc.el.style.opacity=Math.min(seg(lt,0,.2),1-out);sc.el.style.transform=`translateX(${-out*60}px)`;
+  sc.ins.forEach(e=>{const p=seg(lt,+e.dataset.d,+e.dataset.d+.5);e.style.opacity=eo(p);e.style.transform=(e.dataset.sc?`scale(${e.dataset.sc}) `:'')+`translateY(${(1-back(p))*40}px) scale(${.85+.15*back(p)})`;});
+  const E=sc.el;
+  if(sc.kind==='intro'){wave(E,lt,.9,2.9);wink(E,lt>1.6&&lt<1.95);}
+  if(OUTK.includes(sc.kind)){wave(E,lt,.6,2.8);wink(E,(lt>1.3&&lt<1.65)||(lt>3.6&&lt<3.9));const c=E.querySelector('.cta');if(c)c.style.transform=`scale(${1+.04*Math.sin(Math.max(0,lt-1.2)*5)})`;}
+  if(sc.kind==='race')raceAt(E,lt,false);
+  if(sc.kind==='tease'){raceAt(E,0,true);E.querySelectorAll('.qm').forEach(q=>q.style.transform=`scale(${1+.08*Math.sin(lt*4)})`);}
+  if(sc.kind==='checks'){E.querySelectorAll('.ci').forEach(c=>{const p=seg(lt,.5+(+c.dataset.i)*.4,.85+(+c.dataset.i)*.4);c.style.opacity=.15+.85*eo(p);c.style.transform=`translateX(${(1-eo(p))*30}px)`;});}
+  if(sc.kind==='crown'){const c=E.querySelector('.cr');const p=eo(seg(lt,1.2,2.1));c.style.transform=`translateY(${p*105}px) rotate(${(1-p)*-25-8}deg) scale(${.7+.3*p})`;c.style.opacity=seg(lt,.9,1.2);
+   const k=E.querySelector('.clk');k.style.transform=`scale(${1+.08*Math.max(0,Math.sin(lt*6))*(lt<1.2?1:0)})`;wave(E,lt,2.3,4.6);wink(E,lt>2.4&&lt<2.75);}
+ });
+ const crs=scenes.find(x=>x.kind==='crown');
+ const ct=(scenes[0].kind==='intro'&&t<3)?t-.3:(sOut&&t>=sOut.s+.1?t-sOut.s-.1:(crs&&t>=crs.s+2.1&&t<crs.e?t-crs.s-2.1:-1));
+ CONF.forEach(c=>{if(ct<0||ct>5){c.d.style.opacity=0;return;}c.d.style.opacity=1;c.d.style.transform=`translate(${c.x+Math.sin(ct*2+c.ph)*c.sw}px,${-30+c.v*ct*(LY.H/900)}px) rotate(${c.r+c.vr*ct}deg)`;});
+}
+window.render=render;window.END=END;render(0);
+</script></body></html>
