@@ -1,0 +1,280 @@
+1
+00:00:01,200 --> 00:00:04,773
+¡Hola y bienvenidos a las Lecciones de la lechuza!
+
+2
+00:00:04,473 --> 00:00:09,617
+Soy la lechuza de TickGammon, y hoy voy a enseñaros a jugar al backgammon.
+
+3
+00:00:09,767 --> 00:00:13,970
+El backgammon es uno de los juegos más antiguos del mundo.
+
+4
+00:00:13,670 --> 00:00:17,603
+Ya se jugaba hace casi cinco mil años, en Mesopotamia.
+
+5
+00:00:17,753 --> 00:00:24,636
+Es un juego que mezcla la suerte, gracias a los dados, y la estrategia, gracias a vuestras decisiones.
+
+6
+00:00:24,336 --> 00:00:28,638
+Las reglas se aprenden en pocos minutos. ¿Listos? ¡Vamos allá!
+
+7
+00:00:30,538 --> 00:00:35,456
+El objetivo del juego es sencillo. Cada jugador tiene quince fichas.
+
+8
+00:00:35,606 --> 00:00:42,216
+Tenéis que hacerles dar la vuelta al tablero, llevarlas todas a vuestra casa y luego sacarlas del tablero.
+
+9
+00:00:42,366 --> 00:00:47,999
+El primero que saca sus quince fichas gana la partida. Así que es una carrera…
+
+10
+00:00:47,699 --> 00:00:52,374
+¡pero una carrera en la que uno puede bloquearse y hacerse caer!
+
+11
+00:00:54,274 --> 00:00:59,273
+Miremos el tablero. Tiene veinticuatro triángulos, que llamamos puntos.
+
+12
+00:00:59,423 --> 00:01:04,096
+Cada jugador los numera del uno al veinticuatro, en el sentido de su marcha.
+
+13
+00:01:03,796 --> 00:01:08,815
+Así que vuestro punto número uno es el punto número veinticuatro de vuestro rival.
+
+14
+00:01:08,965 --> 00:01:14,197
+En el centro, la franja central se llama la barra. Pronto veremos para qué sirve.
+
+15
+00:01:14,347 --> 00:01:22,483
+Vuestros puntos del uno al seis forman vuestro cuadrante interior: es vuestra casa, adonde tenéis que llevar todas vuestras fichas.
+
+16
+00:01:22,183 --> 00:01:26,251
+Los puntos del siete al doce forman vuestro cuadrante exterior.
+
+17
+00:01:26,401 --> 00:01:36,804
+También hacen falta dos dados, y un dado especial, el cubo doblador, marcado con dos, cuatro, ocho, dieciséis, treinta y dos y sesenta y cuatro.
+
+18
+00:01:36,504 --> 00:01:38,628
+Hablaremos de él al final.
+
+19
+00:01:40,528 --> 00:01:46,957
+Al principio de la partida, cada jugador coloca sus quince fichas de la misma manera, visto desde su lado.
+
+20
+00:01:47,107 --> 00:01:50,491
+Dos fichas en el punto veinticuatro, el más lejano.
+
+21
+00:01:50,641 --> 00:01:52,885
+Cinco fichas en el punto trece.
+
+22
+00:01:53,035 --> 00:01:55,096
+Tres fichas en el punto ocho.
+
+23
+00:01:55,246 --> 00:02:02,070
+Y cinco fichas en el punto seis. Vuestro rival hace exactamente lo mismo en su lado, como en un espejo.
+
+24
+00:02:02,220 --> 00:02:08,704
+Las blancas avanzan del punto veinticuatro hacia el punto uno. Las negras hacen el camino contrario.
+
+25
+00:02:08,404 --> 00:02:12,414
+Así que los dos ejércitos se cruzan durante toda la partida.
+
+26
+00:02:14,314 --> 00:02:18,317
+Para saber quién empieza, cada jugador tira un solo dado.
+
+27
+00:02:18,017 --> 00:02:23,773
+El que saca más empieza, y juega enseguida con los dos dados que se acaban de tirar.
+
+28
+00:02:23,923 --> 00:02:30,088
+Después, cada uno tira sus dos dados por turnos. Cada dado corresponde a un movimiento.
+
+29
+00:02:30,238 --> 00:02:35,882
+Con un cinco y un dos, movéis una ficha cinco puntos y otra dos puntos…
+
+30
+00:02:35,582 --> 00:02:38,592
+o la misma ficha cinco, y luego dos.
+
+31
+00:02:38,742 --> 00:02:47,120
+Una ficha puede pararse en un punto vacío, en un punto donde ya tenéis fichas, o en un punto donde el rival solo tiene una ficha.
+
+32
+00:02:47,270 --> 00:02:54,260
+En cambio, un punto ocupado por dos o más fichas rivales está bloqueado. ¡Imposible pararse ahí!
+
+33
+00:02:54,410 --> 00:02:59,792
+Si sacáis un doble, dos dados iguales, jugáis ese número cuatro veces.
+
+34
+00:02:59,492 --> 00:03:03,059
+Un doble tres son cuatro movimientos de tres.
+
+35
+00:03:03,209 --> 00:03:06,309
+Tenéis que usar los dos dados si es posible.
+
+36
+00:03:06,009 --> 00:03:10,127
+Si solo se puede jugar uno, jugad el más alto cuando podáis.
+
+37
+00:03:09,827 --> 00:03:13,690
+Y si no hay ningún movimiento posible, perdéis el turno.
+
+38
+00:03:15,590 --> 00:03:20,654
+Una ficha sola en un punto se llama blot. ¡Y un blot es un blanco!
+
+39
+00:03:20,804 --> 00:03:25,736
+Si una ficha rival se para en vuestro blot, vuestra ficha queda golpeada.
+
+40
+00:03:25,436 --> 00:03:28,464
+Se va a la barra, en el centro del tablero.
+
+41
+00:03:28,614 --> 00:03:32,604
+Mientras tengáis una ficha en la barra, no podéis mover nada más.
+
+42
+00:03:32,304 --> 00:03:36,918
+Primero tenéis que hacerla entrar en el cuadrante interior de vuestro rival.
+
+43
+00:03:37,068 --> 00:03:44,727
+Para entrar, hace falta un dado que caiga en un punto libre: con un tres, entráis en el tercer punto de vuestro rival.
+
+44
+00:03:44,427 --> 00:03:48,719
+Si todos los puntos posibles están bloqueados, perdéis el turno.
+
+45
+00:03:48,869 --> 00:03:54,338
+El consejo de la lechuza: dos fichas o más en un mismo punto están a salvo.
+
+46
+00:03:54,038 --> 00:04:01,024
+Y seis puntos bloqueados seguidos forman una prima: un muro que vuestro rival no puede atravesar.
+
+47
+00:04:02,924 --> 00:04:11,010
+En cuanto vuestras quince fichas están en vuestro cuadrante interior, en los puntos del uno al seis, podéis empezar a sacarlas del tablero.
+
+48
+00:04:11,160 --> 00:04:18,558
+Un cuatro permite sacar una ficha del punto cuatro, un seis una ficha del punto seis, y así sucesivamente.
+
+49
+00:04:18,708 --> 00:04:23,559
+Si vuestro dado es más alto que vuestra ficha más lejana, sacáis esa ficha.
+
+50
+00:04:23,259 --> 00:04:30,537
+Por ejemplo, con un seis cuando vuestra ficha más lejana está en el punto cuatro, sacáis la ficha del punto cuatro.
+
+51
+00:04:30,687 --> 00:04:36,361
+También podéis usar un dado para avanzar una ficha dentro de vuestro cuadrante, en lugar de sacarla.
+
+52
+00:04:36,511 --> 00:04:44,980
+Cuidado: si una de vuestras fichas es golpeada durante la salida, tenéis que hacerla entrar y llevarla de vuelta a casa antes de seguir sacando.
+
+53
+00:04:46,880 --> 00:04:50,296
+El primer jugador que saca sus quince fichas gana.
+
+54
+00:04:49,996 --> 00:04:54,658
+Pero la victoria vale más o menos puntos según la situación del rival.
+
+55
+00:04:54,808 --> 00:05:00,477
+Si el perdedor ya ha sacado al menos una ficha, es una victoria simple: un punto.
+
+56
+00:05:00,627 --> 00:05:04,836
+Si no ha sacado ninguna ficha, es un gammon: dos puntos.
+
+57
+00:05:04,986 --> 00:05:13,204
+¡Y si no ha sacado ninguna ficha y todavía le queda una en la barra o en vuestro cuadrante interior, es un backgammon: tres puntos!
+
+58
+00:05:13,354 --> 00:05:19,404
+Estos puntos se multiplican después por el valor del cubo doblador. Precisamente, hablemos de él.
+
+59
+00:05:21,304 --> 00:05:26,144
+El cubo doblador permite doblar el valor de la partida mientras se juega.
+
+60
+00:05:25,844 --> 00:05:30,808
+Al principio vale uno y está en el centro: los dos jugadores pueden usarlo.
+
+61
+00:05:30,958 --> 00:05:35,771
+Al principio de vuestro turno, antes de tirar los dados, podéis proponer doblar.
+
+62
+00:05:35,921 --> 00:05:41,137
+Si vuestro rival rechaza, abandona la partida y pierde el valor actual del cubo.
+
+63
+00:05:41,287 --> 00:05:46,543
+Si acepta, el valor de la partida se dobla, y es él quien se queda el cubo.
+
+64
+00:05:46,243 --> 00:05:52,028
+Solo él podrá proponer el siguiente doble: cuatro, luego ocho, y así sucesivamente.
+
+65
+00:05:52,178 --> 00:06:02,248
+En un match, por ejemplo a cinco puntos, se añade una regla: cuando un jugador llega a un punto de la victoria, la partida siguiente se juega sin cubo.
+
+66
+00:06:01,948 --> 00:06:03,607
+Es la regla Crawford.
+
+67
+00:06:05,507 --> 00:06:12,464
+¡Y ya está, ya conocéis todas las reglas del backgammon! El resto es práctica… y un poco de suerte.
+
+68
+00:06:12,614 --> 00:06:21,610
+Para entrenaros, venid a TickGammon: jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows.
+
+69
+00:06:21,310 --> 00:06:26,509
+La próxima vez, os enseño las mejores aperturas. ¡Suscribíos para no perdérosla!
+
+70
+00:06:26,209 --> 00:06:28,958
+¡Hasta muy pronto alrededor del tablero!
+

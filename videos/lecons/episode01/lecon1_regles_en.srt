@@ -1,0 +1,280 @@
+1
+00:00:01,200 --> 00:00:03,862
+Hello and welcome to the Owl's Lessons!
+
+2
+00:00:03,562 --> 00:00:08,706
+I'm the TickGammon owl, and today I'm going to teach you how to play backgammon.
+
+3
+00:00:08,856 --> 00:00:12,054
+Backgammon is one of the oldest games in the world.
+
+4
+00:00:11,754 --> 00:00:16,485
+People were already playing it nearly five thousand years ago, in Mesopotamia.
+
+5
+00:00:16,635 --> 00:00:22,263
+It's a game that mixes luck, thanks to the dice, and strategy, thanks to your choices.
+
+6
+00:00:21,963 --> 00:00:25,980
+The rules take just a few minutes to learn. Ready? Let's go!
+
+7
+00:00:27,880 --> 00:00:32,110
+The goal of the game is simple. Each player has fifteen checkers.
+
+8
+00:00:32,260 --> 00:00:38,677
+You have to move them all the way around the board, bring them all back into your home, and then take them off the board.
+
+9
+00:00:38,827 --> 00:00:44,036
+The first player to bear off all fifteen checkers wins the game. So it's a race…
+
+10
+00:00:43,736 --> 00:00:48,209
+but a race where you can block each other and knock each other down!
+
+11
+00:00:50,109 --> 00:00:54,801
+Let's look at the board. It has twenty-four triangles, which we call points.
+
+12
+00:00:54,951 --> 00:00:59,410
+Each player numbers them from one to twenty-four, in the direction they move.
+
+13
+00:00:59,110 --> 00:01:03,136
+So your point number one is your opponent's point number twenty-four.
+
+14
+00:01:03,286 --> 00:01:07,808
+In the middle, the central strip is called the bar. We'll soon see what it's for.
+
+15
+00:01:07,958 --> 00:01:14,321
+Your points one to six make up your home board: that's your house, where you must bring all your checkers.
+
+16
+00:01:14,021 --> 00:01:17,067
+Points seven to twelve make up your outer board.
+
+17
+00:01:17,217 --> 00:01:25,570
+You also need two dice, and a special die, the doubling cube, marked two, four, eight, sixteen, thirty-two and sixty-four.
+
+18
+00:01:25,270 --> 00:01:27,748
+We'll come back to it at the end.
+
+19
+00:01:29,648 --> 00:01:35,822
+At the start of the game, each player sets up their fifteen checkers the same way, seen from their own side.
+
+20
+00:01:35,972 --> 00:01:39,241
+Two checkers on the twenty-four point, the farthest one.
+
+21
+00:01:39,391 --> 00:01:41,798
+Five checkers on the thirteen point.
+
+22
+00:01:41,948 --> 00:01:44,094
+Three checkers on the eight point.
+
+23
+00:01:44,244 --> 00:01:50,246
+And five checkers on the six point. Your opponent does exactly the same on their side, like a mirror.
+
+24
+00:01:50,396 --> 00:01:55,903
+White moves from the twenty-four point towards the one point. Black goes the opposite way.
+
+25
+00:01:55,603 --> 00:01:58,738
+So the two armies cross paths for the whole game.
+
+26
+00:02:00,638 --> 00:02:04,082
+To decide who starts, each player rolls a single die.
+
+27
+00:02:03,782 --> 00:02:09,242
+The higher number starts, and plays right away with the two dice that were just rolled.
+
+28
+00:02:09,392 --> 00:02:14,944
+After that, players take turns rolling both dice. Each die is one move.
+
+29
+00:02:15,094 --> 00:02:20,855
+With a five and a two, you move one checker five points and another one two points…
+
+30
+00:02:20,555 --> 00:02:23,158
+or the same checker five, then two.
+
+31
+00:02:23,308 --> 00:02:31,347
+A checker can land on an empty point, on a point where you already have checkers, or on a point where your opponent has only one checker.
+
+32
+00:02:31,497 --> 00:02:36,795
+But a point held by two or more opposing checkers is blocked. You can't land there!
+
+33
+00:02:36,945 --> 00:02:42,321
+If you roll a double, two identical dice, you play that number four times.
+
+34
+00:02:42,021 --> 00:02:45,134
+A double three means four moves of three.
+
+35
+00:02:45,284 --> 00:02:51,322
+You must use both dice if you can. If only one can be played, play the higher one when you can.
+
+36
+00:02:51,022 --> 00:02:54,161
+And if no move is possible, you lose your turn.
+
+37
+00:02:56,061 --> 00:03:01,589
+A single checker alone on a point is called a blot. And a blot is a target!
+
+38
+00:03:01,739 --> 00:03:05,574
+If an opposing checker lands on your blot, your checker is hit.
+
+39
+00:03:05,274 --> 00:03:08,323
+It goes onto the bar, in the middle of the board.
+
+40
+00:03:08,473 --> 00:03:12,501
+As long as you have a checker on the bar, you can't move anything else.
+
+41
+00:03:12,201 --> 00:03:15,914
+You must first bring it back in, into your opponent's home board.
+
+42
+00:03:16,064 --> 00:03:22,938
+To enter, you need a die that lands on an open point: with a three, you enter on your opponent's third point.
+
+43
+00:03:22,638 --> 00:03:26,497
+If all the possible points are blocked, you lose your turn.
+
+44
+00:03:26,647 --> 00:03:31,145
+The owl's tip: two or more checkers on the same point are safe.
+
+45
+00:03:30,845 --> 00:03:36,609
+And six blocked points in a row make a prime: a wall your opponent can't get past.
+
+46
+00:03:38,509 --> 00:03:45,187
+As soon as all fifteen of your checkers are in your home board, on points one to six, you can start bearing them off.
+
+47
+00:03:45,337 --> 00:03:51,538
+A four lets you bear off a checker from the four point, a six a checker from the six point, and so on.
+
+48
+00:03:51,688 --> 00:03:55,818
+If your die is higher than your farthest checker, you bear off that one.
+
+49
+00:03:55,518 --> 00:04:02,094
+For example, with a six when your farthest checker is on the four point, you bear off the checker from the four point.
+
+50
+00:04:02,244 --> 00:04:07,512
+You can also use a die to move a checker inside your home board, instead of bearing it off.
+
+51
+00:04:07,662 --> 00:04:15,698
+Careful: if one of your checkers gets hit while you're bearing off, you must bring it back in and home again before you can carry on bearing off.
+
+52
+00:04:17,598 --> 00:04:21,188
+The first player to bear off all fifteen checkers wins.
+
+53
+00:04:20,888 --> 00:04:25,914
+But the win is worth more or fewer points depending on the opponent's position.
+
+54
+00:04:26,064 --> 00:04:31,508
+If the loser has already borne off at least one checker, it's a single win: one point.
+
+55
+00:04:31,658 --> 00:04:35,913
+If they haven't borne off any checker, it's a gammon: two points.
+
+56
+00:04:36,063 --> 00:04:43,479
+And if they haven't borne off any checker and still have one on the bar or in your home board, it's a backgammon: three points!
+
+57
+00:04:43,629 --> 00:04:47,627
+These points are then multiplied by the value of the doubling cube.
+
+58
+00:04:47,327 --> 00:04:49,779
+Speaking of which, let's talk about it.
+
+59
+00:04:51,679 --> 00:04:55,959
+The doubling cube lets you double the value of the game while you play.
+
+60
+00:04:55,659 --> 00:05:00,275
+At the start, it's worth one and sits in the middle: both players can use it.
+
+61
+00:05:00,425 --> 00:05:04,811
+At the start of your turn, before rolling the dice, you can offer a double.
+
+62
+00:05:04,961 --> 00:05:09,892
+If your opponent refuses, they give up the game and lose the current value of the cube.
+
+63
+00:05:10,042 --> 00:05:14,793
+If they accept, the value of the game doubles, and they keep the cube.
+
+64
+00:05:14,493 --> 00:05:18,927
+Only they can offer the next double: four, then eight, and so on.
+
+65
+00:05:19,077 --> 00:05:28,875
+In a match, for example a five-point match, one more rule applies: when a player gets to one point from victory, the next game is played without the cube.
+
+66
+00:05:28,575 --> 00:05:30,417
+That's the Crawford rule.
+
+67
+00:05:32,317 --> 00:05:38,625
+And there you go, you now know all the rules of backgammon! The rest is practice… and a little luck.
+
+68
+00:05:38,775 --> 00:05:47,555
+To practise, come and play on TickGammon: play for free against other players or against the computer, in your browser, on Android or on Windows.
+
+69
+00:05:47,255 --> 00:05:52,000
+Next time, I'll teach you the best openings. Subscribe so you don't miss it!
+
+70
+00:05:51,700 --> 00:05:53,754
+See you soon around the board!
+

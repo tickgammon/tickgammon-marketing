@@ -1,0 +1,284 @@
+1
+00:00:01,200 --> 00:00:04,447
+Bonjour et bienvenue dans les Leçons de la chouette !
+
+2
+00:00:04,147 --> 00:00:09,784
+Je suis la chouette de TickGammon, et aujourd'hui, je vais vous apprendre à jouer au backgammon.
+
+3
+00:00:09,934 --> 00:00:13,100
+Le backgammon est l'un des plus vieux jeux du monde.
+
+4
+00:00:12,800 --> 00:00:16,572
+On y jouait déjà il y a près de cinq mille ans, en Mésopotamie.
+
+5
+00:00:16,722 --> 00:00:22,032
+C'est un jeu qui mélange la chance, grâce aux dés, et la stratégie, grâce à vos choix.
+
+6
+00:00:21,732 --> 00:00:25,644
+Les règles s'apprennent en quelques minutes. Prêts ? On y va !
+
+7
+00:00:27,544 --> 00:00:31,438
+Le but du jeu est simple. Chaque joueur possède quinze pions.
+
+8
+00:00:31,588 --> 00:00:37,461
+Vous devez leur faire faire le tour du plateau, les ramener tous dans votre camp, puis les sortir du plateau.
+
+9
+00:00:37,611 --> 00:00:42,970
+Le premier qui a sorti ses quinze pions gagne la partie. C'est donc une course…
+
+10
+00:00:42,670 --> 00:00:46,812
+mais une course où l'on peut se bloquer et se faire tomber !
+
+11
+00:00:48,712 --> 00:00:53,455
+Regardons le plateau. Il compte vingt-quatre flèches, qu'on appelle des points.
+
+12
+00:00:53,605 --> 00:00:58,076
+Chaque joueur les numérote de un à vingt-quatre, dans le sens de sa marche.
+
+13
+00:00:57,776 --> 00:01:02,525
+Votre point numéro un est donc le point numéro vingt-quatre de votre adversaire.
+
+14
+00:01:02,675 --> 00:01:07,651
+Au milieu, la bande centrale s'appelle la barre. Nous verrons bientôt à quoi elle sert.
+
+15
+00:01:07,801 --> 00:01:15,225
+Vos points un à six forment votre jan intérieur : c'est votre maison, là où vous devez ramener tous vos pions.
+
+16
+00:01:14,925 --> 00:01:18,593
+Les points sept à douze forment votre jan extérieur.
+
+17
+00:01:18,743 --> 00:01:27,721
+Il vous faut aussi deux dés, et un dé spécial, le videau, marqué deux, quatre, huit, seize, trente-deux et soixante-quatre.
+
+18
+00:01:27,421 --> 00:01:29,485
+On en reparlera à la fin.
+
+19
+00:01:31,385 --> 00:01:36,800
+Au début de la partie, chaque joueur place ses quinze pions de la même façon, vu de son côté.
+
+20
+00:01:36,950 --> 00:01:40,060
+Deux pions sur le point vingt-quatre, le plus éloigné.
+
+21
+00:01:40,210 --> 00:01:42,358
+Cinq pions sur le point treize.
+
+22
+00:01:42,508 --> 00:01:44,520
+Trois pions sur le point huit.
+
+23
+00:01:44,670 --> 00:01:51,219
+Et cinq pions sur le point six. Votre adversaire fait exactement la même chose de son côté, en miroir.
+
+24
+00:01:51,369 --> 00:01:56,610
+Les Blancs avancent du point vingt-quatre vers le point un. Les Noirs font le chemin inverse.
+
+25
+00:01:56,310 --> 00:01:59,638
+Les deux armées se croisent donc pendant toute la partie.
+
+26
+00:02:01,538 --> 00:02:04,840
+Pour savoir qui commence, chaque joueur lance un seul dé.
+
+27
+00:02:04,540 --> 00:02:09,580
+Le plus fort commence, et joue tout de suite avec les deux dés qui viennent d'être lancés.
+
+28
+00:02:09,730 --> 00:02:15,518
+Ensuite, chacun lance ses deux dés à tour de rôle. Chaque dé correspond à un déplacement.
+
+29
+00:02:15,668 --> 00:02:21,349
+Avec un cinq et un deux, vous avancez un pion de cinq points et un autre de deux points…
+
+30
+00:02:21,049 --> 00:02:23,672
+ou le même pion de cinq, puis de deux.
+
+31
+00:02:23,822 --> 00:02:30,884
+Un pion peut s'arrêter sur un point vide, sur un point où vous avez déjà des pions, ou sur un point où l'adversaire n'a qu'un seul pion.
+
+32
+00:02:31,034 --> 00:02:37,188
+En revanche, un point occupé par deux pions adverses ou plus est bloqué. Impossible de s'y arrêter !
+
+33
+00:02:37,338 --> 00:02:42,037
+Si vous faites un double, deux dés identiques, vous jouez le chiffre quatre fois.
+
+34
+00:02:41,737 --> 00:02:44,861
+Un double trois, c'est quatre déplacements de trois.
+
+35
+00:02:45,011 --> 00:02:48,034
+Vous devez utiliser vos deux dés si c'est possible.
+
+36
+00:02:47,734 --> 00:02:51,612
+Si un seul peut être joué, jouez le plus fort quand vous le pouvez.
+
+37
+00:02:51,312 --> 00:02:54,602
+Et si aucun coup n'est possible, vous passez votre tour.
+
+38
+00:02:56,502 --> 00:03:01,221
+Un pion tout seul sur un point s'appelle un blot. Et un blot, c'est une cible !
+
+39
+00:03:01,371 --> 00:03:05,427
+Si un pion adverse s'arrête sur votre blot, votre pion est frappé.
+
+40
+00:03:05,127 --> 00:03:07,874
+Il part sur la barre, au milieu du plateau.
+
+41
+00:03:08,024 --> 00:03:12,050
+Tant que vous avez un pion sur la barre, vous ne pouvez rien jouer d'autre.
+
+42
+00:03:11,750 --> 00:03:15,925
+Vous devez d'abord le faire rentrer dans le jan intérieur de votre adversaire.
+
+43
+00:03:16,075 --> 00:03:23,116
+Pour rentrer, il faut un dé qui tombe sur un point libre : avec un trois, vous entrez sur le troisième point de votre adversaire.
+
+44
+00:03:22,816 --> 00:03:26,565
+Si tous les points possibles sont bloqués, vous passez votre tour.
+
+45
+00:03:26,715 --> 00:03:31,464
+Le conseil de la chouette : deux pions ou plus sur un même point sont à l'abri.
+
+46
+00:03:31,164 --> 00:03:37,208
+Et six points bloqués à la suite forment une prime : un mur que votre adversaire ne peut pas franchir.
+
+47
+00:03:39,108 --> 00:03:45,969
+Dès que vos quinze pions sont dans votre jan intérieur, sur les points un à six, vous pouvez commencer à les sortir du plateau.
+
+48
+00:03:46,119 --> 00:03:52,266
+Un quatre permet de sortir un pion du point quatre, un six un pion du point six, et ainsi de suite.
+
+49
+00:03:52,416 --> 00:03:57,072
+Si votre dé est plus fort que votre pion le plus éloigné, vous sortez ce pion-là.
+
+50
+00:03:56,772 --> 00:04:03,526
+Par exemple, avec un six alors que votre pion le plus loin est sur le point quatre, vous sortez le pion du point quatre.
+
+51
+00:04:03,676 --> 00:04:09,630
+Vous pouvez aussi utiliser un dé pour avancer un pion à l'intérieur de votre jan, au lieu de le sortir.
+
+52
+00:04:09,780 --> 00:04:17,554
+Attention : si l'un de vos pions est frappé pendant la sortie, vous devez le faire rentrer et le ramener chez vous avant de continuer à sortir.
+
+53
+00:04:19,454 --> 00:04:22,656
+Le premier joueur qui a sorti ses quinze pions gagne.
+
+54
+00:04:22,356 --> 00:04:27,092
+Mais la victoire vaut plus ou moins de points selon la situation de l'adversaire.
+
+55
+00:04:27,242 --> 00:04:32,089
+Si le perdant a déjà sorti au moins un pion, c'est une victoire simple : un point.
+
+56
+00:04:32,239 --> 00:04:36,033
+S'il n'a sorti aucun pion, c'est un gammon : deux points.
+
+57
+00:04:36,183 --> 00:04:44,260
+Et s'il n'a sorti aucun pion et qu'il lui reste encore un pion sur la barre ou dans votre jan intérieur, c'est un backgammon : trois points !
+
+58
+00:04:44,410 --> 00:04:49,561
+Ces points sont ensuite multipliés par la valeur du videau. Justement, parlons-en.
+
+59
+00:04:51,461 --> 00:04:54,826
+Le videau permet de doubler l'enjeu en cours de partie.
+
+60
+00:04:54,526 --> 00:04:59,562
+Au départ, il vaut un et il est posé au milieu : les deux joueurs peuvent l'utiliser.
+
+61
+00:04:59,712 --> 00:05:04,281
+Au début de votre tour, avant de lancer les dés, vous pouvez proposer de doubler.
+
+62
+00:05:04,431 --> 00:05:09,518
+Si votre adversaire refuse, il abandonne la partie et perd la valeur actuelle du videau.
+
+63
+00:05:09,668 --> 00:05:13,733
+S'il accepte, l'enjeu double, et c'est lui qui garde le videau.
+
+64
+00:05:13,433 --> 00:05:18,933
+Lui seul pourra proposer le prochain doublement : quatre, puis huit, et ainsi de suite.
+
+65
+00:05:19,083 --> 00:05:27,733
+En match, par exemple en cinq points, une règle s'ajoute : quand un joueur arrive à un point de la victoire, la partie suivante se joue sans videau.
+
+66
+00:05:27,433 --> 00:05:29,256
+C'est la règle de Crawford.
+
+67
+00:05:31,156 --> 00:05:36,591
+Et voilà, vous connaissez toutes les règles du backgammon ! Le reste, c'est de la pratique…
+
+68
+00:05:36,291 --> 00:05:37,719
+et un peu de chance.
+
+69
+00:05:37,869 --> 00:05:47,143
+Pour vous entraîner, rendez-vous sur TickGammon : jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows.
+
+70
+00:05:46,843 --> 00:05:52,517
+La prochaine fois, je vous apprends les meilleures ouvertures. Abonnez-vous pour ne pas la manquer !
+
+71
+00:05:52,217 --> 00:05:54,183
+À très vite autour du plateau !
+

@@ -355,6 +355,7 @@ function render(t){
  $('#top').style.opacity=(cur.p==='P01'||cur.p==='P46')?0:1;
  // sous-titres
  const ch=CHUNKS[i];let txt='';const u=lt/Dd;if(lt>=0&&lt<=Dd+.35){for(const c of ch)if(u>=c.a-.001)txt=c.c;}
+ if(!window.SUBS)txt=''; // 25/10/2026 : SUBS=0 (variable d'environnement de render.js) = vidéo sans sous-titres incrustés ; par défaut ils restent. Sous-titres YouTube séparés : srt.py
  $('#subt').textContent=txt;$('#subt').style.opacity=txt?1:0;
  // carte chapitre (dans les silences entre chapitres)
  const nx=TL[i+1];let ca=0,chn=null;

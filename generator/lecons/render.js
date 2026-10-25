@@ -2,7 +2,7 @@ const { chromium } = require('/opt/npm-tools/node_modules/playwright');const fs=
 // node render.js lang from to outdir [times...]
 const [lang,from,to,out,...tt]=process.argv.slice(2);
 (async()=>{const data=fs.readFileSync(`timeline${lang==='fr'?'':'_'+lang}.json`,'utf8');
- let html=fs.readFileSync('lecon.html','utf8').replace('<script>\nconst $',`<script>window.DATA=${data};window.LANG='${lang}';</script><script>\nconst $`);
+ let html=fs.readFileSync('lecon.html','utf8').replace('<script>\nconst $',`<script>window.DATA=${data};window.LANG='${lang}';window.SUBS=${process.env.SUBS!=='0'};</script><script>\nconst $`);
  const f=`_l_${lang}.html`;fs.writeFileSync(f,html);
  const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
  const p=await b.newPage({viewport:{width:1280,height:720},deviceScaleFactor:1.5});
