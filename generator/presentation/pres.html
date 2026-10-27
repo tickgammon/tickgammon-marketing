@@ -1,0 +1,105 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- 27/10/2026 — Vidéo de présentation TickGammon pour les clubs (FR). Rendu : node render.js <partie> <de> <à> <dossier> -->
+<style>
+@font-face{font-family:'Brico';src:url(brico800.woff2) format('woff2');font-weight:800}
+@font-face{font-family:'Man';src:url(manrope600.woff2) format('woff2');font-weight:600}
+@font-face{font-family:'Man';src:url(manrope700.woff2) format('woff2');font-weight:700}
+@font-face{font-family:'Man';src:url(manrope800.woff2) format('woff2');font-weight:800}
+html,body{margin:0;overflow:hidden;background:#0a2a1f}
+#s{position:relative;width:1280px;height:720px;overflow:hidden;font-family:Man,sans-serif;color:#fdfbf0;background:#0b2e22}
+.a{position:absolute}
+#bg{inset:-40px;background:radial-gradient(circle at 62% 42%,#1c5a40 0,#0f3a2b 45%,#081f17 100%)}
+#bg:before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.025) 0 2px,transparent 2px 14px)}
+#vig{inset:0;background:radial-gradient(ellipse at 50% 50%,transparent 55%,rgba(0,0,0,.55) 100%);pointer-events:none;z-index:8}
+#sweep{inset:0;pointer-events:none;z-index:2}
+#owlw{z-index:5}
+#owl{width:380px;height:361px;transform-origin:50% 100%}
+.bf{font-family:Brico;font-weight:800}
+.gold{background:linear-gradient(180deg,#fbe39a 0%,#e1b553 45%,#b98a2c 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pill{background:#e1b553;color:#0b2e22;font-weight:800;letter-spacing:4px;text-transform:uppercase;border-radius:999px;padding:7px 18px;font-size:15px;display:inline-block}
+#sub{left:60px;right:60px;bottom:24px;height:86px;display:flex;align-items:center;justify-content:center;text-align:center;z-index:9}
+#subt{font-size:27px;font-weight:700;line-height:1.28;background:rgba(6,30,21,.78);padding:10px 22px;border-radius:16px;max-width:1080px;color:#fdfbf0}
+#ov{inset:0;z-index:4}
+#flash{inset:0;background:#fff8e1;z-index:20;pointer-events:none}
+</style></head><body><div id="s">
+<div id="bg" class="a"></div><div id="sweep" class="a"></div>
+<div id="ov" class="a"></div>
+<div id="owlw" class="a"><div id="owl"></div></div>
+<div id="vig" class="a"></div>
+<div id="sub" class="a"><div id="subt"></div></div>
+<div id="flash" class="a" style="opacity:0"></div>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const seg=(t,a,b)=>clamp((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3), eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+const PIPS={1:[[50,50]],2:[[28,28],[72,72]],3:[[28,28],[50,50],[72,72]],4:[[28,28],[72,28],[28,72],[72,72]],5:[[28,28],[72,28],[50,50],[28,72],[72,72]],6:[[28,26],[72,26],[28,50],[72,50],[28,74],[72,74]]};
+function die(v,sz){return `<svg viewBox="0 0 100 100" width="${sz}" height="${sz}"><rect x="4" y="9" width="92" height="88" rx="18" fill="rgba(0,0,0,.3)"/><rect x="4" y="4" width="92" height="88" rx="18" fill="#fdfbf0"/>${PIPS[v].map(p=>`<circle cx="${p[0]}" cy="${p[1]-2}" r="9" fill="#0b2e22"/>`).join('')}</svg>`;}
+// chouette officielle (owl_base + aile animée)
+const EYE=(cx)=>`<circle cx="${cx}" cy="148" r="54" fill="#fdeecf"/><path d="M${cx-38} 158 Q${cx} 120 ${cx+38} 158" stroke="#0b2a17" stroke-width="11" fill="none" stroke-linecap="round"/>`;
+$('#owl').innerHTML=`<div style="position:relative;width:100%;height:100%"><img src="owl_base.png" style="position:absolute;inset:0;width:100%;height:100%">
+<svg id="eyeR" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0">${EYE(365)}</svg>
+<svg id="eyeL" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0">${EYE(222)}</svg>
+<img id="wing" src="owl_wing.png" style="position:absolute;inset:0;width:100%;height:100%;transform-origin:70.8% 53.5%"></div>`;
+const ICON={
+ crown:`<svg viewBox="0 0 48 48" width="40" height="40"><path d="M6 36 L10 14 L19 24 L24 10 L29 24 L38 14 L42 36 Z" fill="#e1b553"/><rect x="6" y="37" width="36" height="5" rx="2" fill="#e1b553"/></svg>`,
+ cal:`<svg viewBox="0 0 48 48" width="40" height="40"><rect x="6" y="10" width="36" height="32" rx="5" fill="none" stroke="#e1b553" stroke-width="4"/><path d="M6 19 H42 M15 5 V14 M33 5 V14" stroke="#e1b553" stroke-width="4" stroke-linecap="round"/><path d="M16 30 l5 5 l10 -10" stroke="#e1b553" stroke-width="4" fill="none" stroke-linecap="round"/></svg>`,
+ dice:`<svg viewBox="0 0 48 48" width="40" height="40"><rect x="7" y="7" width="34" height="34" rx="8" fill="none" stroke="#e1b553" stroke-width="4"/><circle cx="17" cy="17" r="3.5" fill="#e1b553"/><circle cx="31" cy="31" r="3.5" fill="#e1b553"/><circle cx="24" cy="24" r="3.5" fill="#e1b553"/></svg>`};
+const D=window.DATA||{voice:3,dur:28.2,subs:[]};
+// particules dorées
+const PT=[...Array(46)].map((_,i)=>({x:(i*137.5)%1280,y:(i*91.3)%720,r:1+(i%4)*.8,v:6+(i%7)*3,ph:i*1.7}));
+const SOM=['TickGammon en bref','Votre club','Créer un tournoi','Tout est automatique','Récompenser vos joueurs','La guerre des clans','Et aussi…','Rejoignez-nous'];
+function render(t){
+ const V=D.voice;let ov='';
+ // fond : léger zoom + balayage de lumière
+ $('#bg').style.transform=`scale(${1.04+t*.0025})`;
+ const sx=-400+((t*90)%1900);
+ $('#sweep').style.background=`linear-gradient(105deg,transparent ${sx/12.8}%,rgba(255,236,170,.06) ${(sx+160)/12.8}%,transparent ${(sx+320)/12.8}%)`;
+ ov+=PT.map(p=>{const y=(p.y-t*p.v+720)%720,x=p.x+Math.sin(t*.6+p.ph)*14;return `<div class="a" style="left:${x}px;top:${y}px;width:${p.r*2}px;height:${p.r*2}px;border-radius:50%;background:#f3d58a;opacity:${.25+.25*Math.sin(t+p.ph)}"></div>`}).join('');
+ // dés au ralenti (0 → 3,5 s), puis au repos en bas à droite
+ [[5,0,980,150],[3,.25,1110,230]].forEach(([v,d0,x,sz],k)=>{if(t>V+13.4)return;const p=eo(seg(t,d0,d0+2.6));const y=-160+p*(560+k*20);const r=(1-p)*(220+k*90)+(k?-8:12);const ex=eio(seg(t,V+12.4+k*.12,V+13.2+k*.12));const al=1-ex;
+  ov+=`<div class="a" style="left:${x+(1-p)*120+ex*260}px;top:${y+ex*-40}px;transform:rotate(${r+ex*200}deg) scale(${1+(1-p)*.5});opacity:${al};filter:drop-shadow(0 18px 16px rgba(0,0,0,.45))">${die(v,sz*0+ (k?96:120))}</div>`;});
+ // titre (à partir de 4,2 s)
+ const ti=seg(t,4.2,5.0),ts=seg(t,4.9,5.7),tk=seg(t,3.9,4.4);
+ const som=seg(t,V+19.6,V+20.2); // sommaire
+ const hideT=1-som;
+ ov+=`<div class="a" style="left:510px;top:${150-eo(ti)*20}px;width:720px;opacity:${hideT}">
+  <div style="opacity:${tk};transform:translateX(${(1-eo(tk))*-30}px)"><span class="pill">Présentation · Clubs</span></div>
+  <div class="bf gold" style="font-size:112px;letter-spacing:-3px;line-height:1;margin-top:14px;opacity:${ti};transform:scale(${.9+.1*back(ti)});transform-origin:0 50%">TickGammon</div>
+  <div style="font-size:32px;font-weight:800;line-height:1.2;margin-top:12px;opacity:${ts};transform:translateY(${(1-eo(ts))*16}px)">La plateforme de backgammon<br><span style="color:#e1b553">pensée pour les clubs</span></div></div>`;
+ // ligne dorée sous le titre
+ const ln=eo(seg(t,5.4,6.4));ov+=`<div class="a" style="left:514px;top:398px;height:4px;width:${ln*430}px;background:linear-gradient(90deg,#e1b553,transparent);opacity:${hideT}"></div>`;
+ // 3 cartes : présidents, organisateurs, joueurs (« TickGammon a été pensé pour… »)
+ [['crown','Présidents',V+13.3],['cal','Organisateurs',V+14.5],['dice','Joueurs',V+15.7]].forEach(([ic,lb,t0],k)=>{const a=seg(t,t0,t0+.45);if(a<=0)return;
+  ov+=`<div class="a" style="left:${514+k*236}px;top:${428+(1-eo(a))*40}px;width:224px;height:84px;opacity:${a*hideT};transform:scale(${.85+.15*back(a)});border-radius:18px;background:rgba(253,251,240,.08);border:2px solid rgba(225,181,83,.55);display:flex;align-items:center;gap:12px;padding:0 14px;box-sizing:border-box"><span style="flex:0 0 40px;display:flex">${ICON[ic]}</span><span style="font-size:22px;font-weight:800;white-space:nowrap">${lb}</span></div>`;});
+ // sommaire « Au programme » (fin de partie 1)
+ if(som>0){ov+=`<div class="a" style="inset:0;background:rgba(6,26,19,${.55*som})"></div>
+  <div class="a bf" style="left:520px;top:${92+(1-eo(som))*20}px;font-size:46px;opacity:${som}"><span class="gold">Au programme</span></div>`;
+  SOM.forEach((s,k)=>{const a=seg(t,V+20.0+k*.32,V+20.4+k*.32);if(a<=0)return;const col=k%2,row=k>>1;
+   ov+=`<div class="a" style="left:${520+col*360}px;top:${180+row*92+(1-eo(a))*18}px;width:340px;height:74px;opacity:${a};display:flex;align-items:center;gap:14px;border-radius:16px;background:rgba(253,251,240,${k===2||k===3||k===5?.14:.07});border:2px solid rgba(225,181,83,${k===2||k===3||k===5?.9:.35});padding:0 16px;box-sizing:border-box">
+    <span class="bf" style="width:42px;height:42px;border-radius:50%;background:#e1b553;color:#0b2e22;display:grid;place-items:center;font-size:22px">${k+2}</span><span style="font-size:22px;font-weight:800">${s}</span></div>`;});}
+ $('#ov').innerHTML=ov;
+ // chouette : vol d'entrée (2,0 → 4,0 s) puis posée à gauche
+ const fl=seg(t,2.0,4.0),fe=eio(fl);
+ let ox=1330-(1330-90)*fe, oy=40+(1-fe)*-60+Math.sin(fl*Math.PI)*-70+fe*150, os=.72+.38*fe;
+ if(t<2.0){ox=1400;}
+ const flap=t<4.1?Math.abs(Math.sin(t*11))*70:0;
+ const env=(D.env||[])[Math.floor(t*30)]||0;
+ const bob=t>4.1?Math.sin(t*2.2)*4:0, sy=1+env*.035;
+ $('#owlw').style.left=ox+'px';$('#owlw').style.top=(oy+bob)+'px';
+ $('#owl').style.transform=`scale(${os},${os*sy}) rotate(${t<4.1?-8+Math.sin(t*5)*3:0}deg)`;
+ let wave=0;if(t>V+.2&&t<V+2.2){const e=Math.min(seg(t,V+.2,V+.5),1-seg(t,V+1.9,V+2.2));wave=e*(52+22*Math.sin((t-V)*Math.PI*4));}
+ $('#wing').style.transform=`rotate(${-(flap||wave)}deg)`;
+ const blink=(t%4.3)>4.15, wink=t>V+3.1&&t<V+3.6;
+ $('#eyeR').style.opacity=(blink||wink)?1:0;$('#eyeL').style.opacity=blink?1:0;
+ // sous-titres
+ let st='';for(const s of D.subs)if(t>=s[0]&&t<=s[1]+.25)st=s[2];
+ $('#subt').textContent=st;$('#subt').style.opacity=st?1:0;
+ // fondu d'entrée / éclair de sortie
+ const fin=1-seg(t,0,.8);$('#flash').style.background=fin>0?'#000':'#fff8e1';
+ $('#flash').style.opacity=fin>0?fin:seg(t,D.dur-.35,D.dur)*.9;
+}
+window.render=render;render(0);
+</script></body></html>
