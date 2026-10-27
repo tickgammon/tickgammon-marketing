@@ -59,7 +59,7 @@ function render(t){
  $('#sweep').style.background=`linear-gradient(105deg,transparent ${sx/12.8}%,rgba(255,236,170,.06) ${(sx+160)/12.8}%,transparent ${(sx+320)/12.8}%)`;
  ov+=PT.map(p=>{const y=(p.y-t*p.v+720)%720,x=p.x+Math.sin(t*.6+p.ph)*14;return `<div class="a" style="left:${x}px;top:${y}px;width:${p.r*2}px;height:${p.r*2}px;border-radius:50%;background:#f3d58a;opacity:${.25+.25*Math.sin(t+p.ph)}"></div>`}).join('');
  // dés au ralenti (0 → 3,5 s), puis au repos en bas à droite
- [[5,0,980,150],[3,.25,1110,230]].forEach(([v,d0,x,sz],k)=>{if(t>V+13.4)return;const p=eo(seg(t,d0,d0+2.6));const y=-160+p*(560+k*20);const r=(1-p)*(220+k*90)+(k?-8:12);const ex=eio(seg(t,V+12.4+k*.12,V+13.2+k*.12));const al=1-ex;
+ [[6,0,980,150],[4,.25,1110,230]].forEach(([v,d0,x,sz],k)=>{if(t>V+13.4)return;const p=eo(seg(t,d0,d0+2.6));const y=-160+p*(560+k*20);const r=(1-p)*(220+k*90)+(k?-8:12);const ex=eio(seg(t,V+12.4+k*.12,V+13.2+k*.12));const al=1-ex;
   ov+=`<div class="a" style="left:${x+(1-p)*120+ex*260}px;top:${y+ex*-40}px;transform:rotate(${r+ex*200}deg) scale(${1+(1-p)*.5});opacity:${al};filter:drop-shadow(0 18px 16px rgba(0,0,0,.45))">${die(v,sz*0+ (k?96:120))}</div>`;});
  // titre (à partir de 4,2 s)
  const ti=seg(t,4.2,5.0),ts=seg(t,4.9,5.7),tk=seg(t,3.9,4.4);
