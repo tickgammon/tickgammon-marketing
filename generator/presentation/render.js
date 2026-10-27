@@ -2,7 +2,7 @@
 const { chromium } = require('/opt/npm-tools/node_modules/playwright');const fs=require('fs');
 const [part,from,to,out,...tt]=process.argv.slice(2);
 (async()=>{const data=fs.readFileSync(`data_${part}.json`,'utf8');
- const html=fs.readFileSync('pres.html','utf8').replace('<script>\nconst $',`<script>window.DATA=${data};</script><script>\nconst $`);
+ const src=fs.existsSync(`pres_${part}.html`)?`pres_${part}.html`:'pres.html';const html=fs.readFileSync(src,'utf8').replace('<script>\nconst $',`<script>window.DATA=${data};</script><script>\nconst $`);
  const f=`_${part}.html`;fs.writeFileSync(f,html);
  const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
  const p=await b.newPage({viewport:{width:1280,height:720},deviceScaleFactor:1.5});
