@@ -1,0 +1,208 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- 27/10/2026 — Vidéo de présentation TickGammon pour les clubs (FR), partie 4 « Créer un tournoi en 2 minutes ». Rendu : node render.js p4 <de> <à> <dossier> -->
+<style>
+@font-face{font-family:'Brico';src:url(brico800.woff2) format('woff2');font-weight:800}
+@font-face{font-family:'Man';src:url(manrope600.woff2) format('woff2');font-weight:600}
+@font-face{font-family:'Man';src:url(manrope700.woff2) format('woff2');font-weight:700}
+@font-face{font-family:'Man';src:url(manrope800.woff2) format('woff2');font-weight:800}
+html,body{margin:0;overflow:hidden;background:#0a2a1f}
+#s{position:relative;width:1280px;height:720px;overflow:hidden;font-family:Man,sans-serif;color:#fdfbf0;background:#0b2e22}
+.a{position:absolute}
+#bg{inset:-40px;background:radial-gradient(circle at 62% 42%,#1c5a40 0,#0f3a2b 45%,#081f17 100%)}
+#bg:before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.025) 0 2px,transparent 2px 14px)}
+#vig{inset:0;background:radial-gradient(ellipse at 50% 50%,transparent 55%,rgba(0,0,0,.55) 100%);pointer-events:none;z-index:8}
+#sweep{inset:0;pointer-events:none;z-index:2}
+#owlw{z-index:5}
+#owl{width:380px;height:361px;transform-origin:50% 100%}
+.bf{font-family:Brico;font-weight:800}
+.gold{background:linear-gradient(180deg,#fbe39a 0%,#e1b553 45%,#b98a2c 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pill{background:#e1b553;color:#0b2e22;font-weight:800;letter-spacing:4px;text-transform:uppercase;border-radius:999px;padding:7px 18px;font-size:15px;display:inline-block}
+#sub{left:60px;right:60px;bottom:24px;height:86px;display:flex;align-items:center;justify-content:center;text-align:center;z-index:9}
+#subt{font-size:27px;font-weight:700;line-height:1.28;background:rgba(6,30,21,.78);padding:10px 22px;border-radius:16px;max-width:1080px;color:#fdfbf0}
+#ov{inset:0;z-index:4}
+#flash{inset:0;background:#fff8e1;z-index:20;pointer-events:none}
+</style></head><body><div id="s">
+<div id="bg" class="a"></div><div id="sweep" class="a"></div>
+<div id="ov" class="a"></div>
+<div id="owlw" class="a"><div id="owl"></div></div>
+<div id="vig" class="a"></div>
+<div id="sub" class="a"><div id="subt"></div></div>
+<div id="flash" class="a" style="opacity:0"></div>
+</div>
+<script>window.DATA={"voice": 1.0, "dur": 62.4, "subs": [[1.0, 4.2, "Voici le cœur de TickGammon : créer un tournoi."], [4.59, 6.99, "Et je vous le promets, il faut moins de deux minutes."], [7.51, 10.98, "On choisit d'abord qui organise : vous-même, ou votre club."], [11.42, 16.57, "On donne un nom, une petite description — elle est traduite automatiquement en anglais et en espagnol —"], [16.84, 20.18, "et on choisit le type : en ligne, ou sur place, au club."], [20.69, 21.85, "Ensuite, le format."], [22.25, 26.88, "Élimination directe, toutes rondes où chacun affronte tout le monde, ou système suisse."], [27.32, 30.28, "On règle la longueur des matchs, de un à vingt-cinq points,"], [30.58, 33.9, "et pour les clubs officiels, des demi-finales et une finale plus longues."], [34.37, 38.48, "On choisit la cadence : Zen, Classique, Blitz ou Bullet."], [38.91, 42.96, "Puis les joueurs : un minimum, un maximum, jusqu'à cent vingt-huit."], [43.36, 48.34, "Les clubs officiels peuvent réserver le tournoi à un niveau, avec un ELO minimum et maximum,"], [48.6, 50.8, "ou ajouter à la main des joueurs qui n'ont pas de compte."], [51.24, 57.01, "Enfin, la visibilité : ouvert à tous, réservé à votre club, ou privé, sur invitation."], [57.46, 60.17, "Un clic sur « Créer »… et votre tournoi est en ligne."]], "env": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.19, 0.652, 0.614, 0.785, 1, 1, 0.777, 0.259, 0.219, 0.351, 0.694, 1, 0.692, 0.933, 0.984, 0.728, 0.115, 0.011, 0.004, 0.308, 0.926, 1, 0.918, 0.76, 0.653, 0.727, 0.828, 1, 0.748, 0.182, 0.015, 0.113, 0.443, 0.696, 0.771, 0.423, 0.418, 0.289, 0.713, 0.805, 0.78, 0.471, 0.373, 0.373, 0.399, 0.329, 0.283, 0.25, 0.231, 0.196, 0.104, 0.075, 0.006, 0.002, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.004, 0.113, 0.515, 0.534, 0.46, 0.723, 1, 1, 1, 0.995, 0.935, 0.696, 0.433, 0.037, 0.043, 0.251, 0.681, 0.693, 0.397, 0.136, 0.012, 0.193, 0.286, 0.73, 0.867, 0.388, 0.521, 0.648, 0.607, 0.469, 0.523, 0.315, 0.388, 0.033, 0.011, 0.005, 0.001, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.13, 0.945, 1, 0.721, 0.712, 0.599, 0.711, 0.991, 0.948, 0.695, 0.115, 0.099, 0.176, 0.326, 0.344, 1, 1, 0.902, 0.957, 0.928, 0.92, 0.874, 0.828, 0.728, 0.546, 0.135, 0.016, 0.006, 0.055, 0.928, 0.971, 0.497, 0.428, 0.195, 0.127, 0.108, 0.357, 0.988, 0.542, 0.67, 0.711, 0.655, 0.622, 0.655, 0.895, 0.711, 0.723, 0.821, 0.514, 0.775, 0.596, 0.387, 0.382, 0.351, 0.34, 0.273, 0.848, 0.992, 0.786, 0.691, 0.801, 0.71, 0.587, 0.411, 0.377, 0.372, 0.243, 0.049, 0.007, 0.043, 0.107, 0.139, 0.055, 0.006, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.883, 0.882, 0.554, 0.447, 0.269, 1, 1, 0.641, 0.36, 1, 1, 0.37, 0.926, 1, 0.979, 0.59, 0.56, 1, 1, 0.964, 0.95, 0.685, 0.254, 0.188, 0.142, 0.017, 0.001, 0.118, 0.236, 0.321, 1, 1, 1, 0.764, 0.47, 0.732, 0.484, 0.841, 0.783, 0.555, 0.47, 0.435, 0.488, 0.449, 0.368, 0.217, 0.084, 0.113, 0.125, 0.024, 0.005, 0.001, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.428, 0.499, 0.425, 0.578, 0.864, 0.818, 0.929, 0.699, 0.648, 0.69, 0.91, 0.937, 0.641, 0.69, 0.498, 0.268, 0.079, 0.004, 0.001, 0.001, 0.0, 0.0, 0.12, 0.888, 0.779, 0.633, 0.963, 1, 0.391, 0.263, 0.11, 0.097, 0.73, 0.337, 0.086, 0.141, 0.065, 0.663, 0.627, 0.666, 0.282, 0.231, 0.144, 0.114, 0.075, 0.004, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.325, 0.894, 0.914, 0.942, 0.569, 1, 0.91, 0.606, 0.609, 0.717, 0.711, 0.664, 0.631, 0.684, 0.708, 0.694, 0.725, 0.841, 0.917, 0.928, 0.513, 0.366, 0.061, 0.007, 0.002, 0.001, 0.0, 0.0, 0.0, 0.005, 0.592, 0.976, 0.938, 0.649, 0.145, 0.107, 0.658, 0.836, 0.157, 0.26, 0.723, 0.871, 0.759, 0.651, 0.881, 0.87, 0.383, 0.205, 0.13, 0.136, 0.135, 0.715, 0.461, 0.087, 0.226, 0.214, 0.259, 0.305, 0.712, 0.662, 0.665, 0.637, 0.295, 0.027, 0.006, 0.002, 0.0, 0.0, 0.0, 0.0, 0.003, 0.644, 0.765, 0.636, 0.884, 0.811, 0.101, 0.164, 0.272, 0.161, 0.741, 0.715, 0.383, 0.467, 0.774, 0.613, 0.073, 0.294, 0.037, 0.002, 0.901, 1, 0.555, 0.162, 0.785, 0.823, 0.793, 0.924, 0.916, 0.682, 0.19, 0.199, 0.29, 0.62, 0.258, 0.151, 0.055, 0.923, 0.893, 0.676, 0.574, 0.267, 0.017, 0.2, 0.923, 0.893, 0.923, 0.728, 0.947, 0.938, 0.796, 0.861, 0.732, 0.779, 0.814, 0.812, 0.651, 0.38, 0.03, 0.003, 0.371, 0.856, 1, 0.986, 0.831, 0.785, 0.897, 0.871, 0.64, 0.193, 0.155, 0.005, 0.075, 0.849, 0.537, 0.538, 0.58, 0.553, 0.537, 0.51, 0.603, 0.809, 0.798, 0.796, 0.498, 0.06, 0.017, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.722, 1, 1, 0.833, 0.844, 0.641, 0.445, 0.242, 0.825, 1, 0.85, 0.61, 0.806, 1, 0.859, 0.918, 0.95, 0.747, 0.157, 0.027, 0.18, 0.332, 0.342, 0.436, 0.025, 0.006, 0.049, 0.133, 0.079, 0.034, 0.007, 0.001, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.08, 1, 0.835, 0.703, 0.665, 0.757, 0.743, 0.791, 0.962, 0.992, 0.696, 0.773, 0.851, 0.733, 0.28, 0.055, 0.004, 0.001, 0.001, 0.0, 0.0, 0.0, 0.2, 0.947, 0.816, 0.256, 0.171, 0.295, 0.934, 0.509, 0.092, 0.02, 0.003, 0.472, 0.913, 0.999, 0.681, 0.762, 0.612, 0.246, 0.27, 0.24, 0.261, 0.199, 0.099, 0.006, 0.002, 1, 0.764, 0.173, 0.173, 0.201, 0.079, 0.78, 0.57, 0.637, 0.236, 0.237, 0.198, 0.22, 0.084, 0.007, 0.002, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.453, 0.939, 0.773, 0.47, 0.278, 0.239, 0.267, 0.579, 0.926, 1, 0.285, 0.049, 0.039, 0.173, 0.215, 0.016, 0.002, 0.001, 0.001, 0.495, 0.992, 0.999, 0.953, 0.533, 0.215, 0.169, 0.83, 1, 0.583, 0.441, 0.622, 0.641, 0.569, 0.656, 0.083, 0.087, 0.013, 0.002, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.949, 0.962, 0.796, 1, 1, 0.967, 1, 1, 1, 0.907, 0.831, 0.757, 0.464, 0.28, 0.337, 0.307, 0.312, 0.51, 0.647, 0.497, 0.274, 0.655, 0.854, 0.477, 0.531, 0.988, 0.999, 0.858, 0.871, 0.117, 0.147, 0.043, 0.002, 0.153, 0.196, 0.045, 0.007, 0.001, 0.001, 0.0, 0.0, 0.0, 0.0, 0.25, 0.43, 0.972, 0.533, 0.079, 0.234, 0.174, 0.172, 0.112, 0.745, 0.974, 0.926, 0.943, 0.871, 0.94, 0.772, 0.511, 0.114, 0.349, 0.557, 0.435, 0.414, 0.626, 0.589, 0.493, 0.819, 0.848, 0.58, 0.079, 0.203, 0.64, 0.869, 0.704, 0.626, 0.572, 0.594, 0.236, 0.11, 0.09, 0.041, 0.174, 0.476, 0.405, 0.42, 0.141, 0.007, 0.158, 0.157, 0.781, 0.789, 0.886, 0.917, 0.729, 0.577, 0.481, 0.496, 0.71, 0.792, 0.777, 0.52, 0.174, 0.028, 0.005, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.74, 0.759, 0.538, 0.341, 0.266, 0.242, 0.885, 0.424, 0.137, 0.017, 0.092, 0.888, 0.575, 0.737, 0.614, 0.13, 0.174, 0.148, 0.12, 0.321, 0.286, 0.18, 0.192, 0.143, 0.127, 0.115, 0.129, 0.044, 0.002, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.459, 0.976, 0.922, 0.721, 0.615, 0.932, 1, 1, 0.689, 0.699, 1, 1, 1, 0.716, 1, 0.96, 0.824, 0.846, 0.755, 0.936, 1, 1, 0.98, 0.813, 1, 0.914, 0.606, 0.817, 0.489, 0.869, 0.798, 0.62, 0.626, 0.624, 0.66, 0.593, 0.716, 0.576, 0.067, 0.301, 0.469, 0.533, 0.385, 0.101, 0.099, 0.007, 0.283, 0.486, 0.245, 0.824, 1, 0.431, 0.043, 0.011, 0.002, 0.471, 1, 0.828, 0.843, 0.682, 0.257, 0.014, 0.004, 0.357, 0.565, 0.584, 0.391, 0.195, 0.307, 0.932, 0.88, 0.895, 0.709, 0.14, 0.159, 0.426, 0.82, 0.614, 0.526, 0.312, 0.018, 0.063, 0.075, 0.056, 0.684, 0.662, 0.556, 0.523, 0.621, 0.112, 0.016, 0.003, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.611, 0.919, 0.386, 0.096, 0.168, 0.735, 0.936, 0.845, 0.988, 0.851, 0.273, 0.186, 0.164, 1, 1, 0.697, 0.702, 0.982, 0.796, 0.212, 0.205, 0.258, 0.534, 0.319, 0.177, 0.147, 0.202, 0.189, 1, 0.884, 0.863, 0.929, 0.69, 0.704, 0.6, 0.05, 0.094, 0.235, 0.38, 0.538, 0.88, 0.579, 0.411, 0.31, 0.712, 1, 0.998, 0.947, 0.942, 1, 0.683, 0.339, 0.248, 0.315, 0.362, 0.903, 0.935, 0.801, 0.692, 0.796, 0.805, 0.86, 0.771, 0.863, 0.602, 0.132, 0.016, 0.817, 0.78, 0.736, 0.667, 0.661, 0.487, 0.259, 0.216, 0.35, 0.371, 0.661, 0.809, 0.772, 0.8, 0.901, 0.743, 0.803, 0.473, 0.052, 0.066, 0.1, 0.082, 0.504, 0.82, 0.569, 0.595, 0.474, 0.401, 0.405, 0.329, 0.287, 0.097, 0.143, 0.018, 0.005, 0.002, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.005, 0.84, 0.845, 0.432, 0.387, 0.163, 1, 1, 0.644, 0.421, 0.881, 0.93, 0.787, 1, 0.832, 0.305, 0.05, 0.575, 1, 1, 0.44, 0.428, 0.716, 0.397, 0.359, 0.154, 0.151, 0.195, 0.191, 0.186, 0.165, 0.128, 0.04, 0.003, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.239, 0.445, 0.395, 0.305, 0.228, 0.898, 0.854, 0.629, 0.613, 0.665, 0.841, 0.769, 0.548, 0.505, 0.147, 0.023, 0.005, 0.001, 0.0, 0.0, 0.0, 0.11, 0.147, 0.708, 0.953, 0.765, 0.403, 0.14, 0.136, 0.213, 0.304, 0.2, 0.6, 0.692, 0.395, 0.029, 0.009, 0.136, 0.165, 0.038, 0.002, 0.001, 0.0, 0.0, 0.0, 0.075, 0.516, 0.34, 0.333, 0.768, 0.617, 0.716, 0.848, 0.476, 0.05, 0.033, 0.105, 0.129, 0.137, 0.154, 0.067, 0.004, 0.001, 0.0, 0.0, 0.001, 0.783, 0.78, 0.599, 0.582, 0.587, 0.795, 0.691, 0.532, 0.739, 0.503, 0.277, 0.013, 0.002, 0.004, 0.175, 0.151, 0.045, 0.006, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.082, 0.275, 0.383, 1, 0.961, 0.912, 0.95, 0.988, 0.998, 0.614, 0.469, 0.633, 0.572, 0.993, 0.779, 0.655, 0.466, 0.228, 0.102, 0.1, 0.067, 0.05, 0.017, 0.004, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.397, 0.787, 0.703, 0.688, 0.731, 0.666, 0.741, 0.736, 0.724, 0.701, 0.709, 0.696, 0.716, 0.785, 0.88, 1, 0.821, 0.804, 0.617, 0.525, 0.443, 0.232, 0.009, 0.003, 0.001, 0.0, 0.0, 0.712, 1, 0.976, 0.953, 0.97, 0.874, 0.549, 0.113, 0.228, 0.252, 0.283, 0.258, 0.55, 0.722, 0.675, 0.623, 0.6, 0.651, 0.686, 0.798, 0.808, 0.735, 0.443, 0.053, 0.005, 0.002, 0.042, 0.501, 0.498, 0.553, 0.663, 0.468, 0.256, 0.175, 0.03, 0.472, 0.788, 0.601, 0.253, 0.226, 0.197, 0.189, 0.187, 0.561, 0.932, 0.803, 0.527, 0.659, 0.775, 0.539, 0.375, 0.047, 0.221, 0.218, 0.187, 0.298, 0.152, 0.007, 0.001, 0.028, 0.122, 0.081, 0.021, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.373, 0.796, 1, 0.621, 0.067, 0.303, 0.482, 1, 0.957, 0.564, 0.677, 0.996, 0.845, 0.267, 0.219, 0.406, 0.755, 0.575, 0.241, 0.175, 0.275, 0.443, 0.979, 0.948, 0.757, 0.82, 0.278, 0.033, 0.505, 0.998, 0.849, 0.275, 0.655, 0.496, 0.632, 1, 0.872, 0.491, 0.786, 0.976, 0.777, 0.782, 0.622, 0.662, 0.95, 0.779, 0.868, 0.864, 0.747, 0.178, 0.013, 0.185, 0.393, 0.568, 0.634, 0.789, 0.864, 0.921, 0.824, 0.908, 0.934, 0.692, 0.224, 0.015, 0.653, 0.787, 0.499, 0.041, 0.008, 0.002, 0.381, 1, 1, 1, 0.854, 0.883, 0.964, 1, 0.977, 0.478, 0.293, 0.394, 0.605, 0.523, 0.29, 0.049, 0.004, 0.001, 0.0, 0.011, 0.732, 0.767, 0.431, 0.618, 0.952, 0.419, 0.027, 0.264, 0.62, 0.59, 0.647, 0.672, 0.64, 0.675, 0.538, 0.503, 0.724, 0.47, 0.385, 0.56, 0.791, 0.993, 0.993, 0.97, 1, 1, 0.978, 0.884, 0.922, 0.775, 0.77, 0.632, 0.456, 0.467, 0.284, 0.145, 0.006, 0.016, 0.76, 1, 0.81, 0.91, 0.944, 0.727, 0.174, 0.156, 0.278, 0.26, 0.258, 0.127, 0.624, 0.662, 0.607, 0.495, 0.526, 0.612, 0.64, 0.827, 0.751, 0.735, 0.09, 0.009, 0.0, 0.0, 0.0, 0.0, 0.0, 0.266, 0.92, 0.915, 1, 1, 0.882, 0.65, 0.488, 0.803, 0.89, 0.396, 0.082, 0.169, 1, 0.852, 0.895, 0.879, 0.694, 0.853, 0.826, 0.764, 0.611, 0.679, 0.691, 0.745, 0.814, 0.885, 0.988, 0.615, 0.919, 0.774, 0.491, 0.404, 0.366, 0.388, 0.83, 0.764, 0.753, 0.471, 0.172, 0.105, 0.077, 0.267, 0.482, 0.635, 0.476, 0.397, 0.412, 0.299, 0.01, 0.694, 0.93, 0.668, 0.339, 0.617, 0.486, 0.117, 0.01, 0.067, 0.242, 0.234, 0.208, 0.137, 0.009, 0.092, 0.126, 0.059, 0.017, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.013, 1, 0.89, 0.604, 0.223, 0.148, 0.135, 0.094, 1, 0.971, 0.949, 0.824, 0.673, 0.083, 0.022, 0.004, 0.001, 0.282, 0.811, 0.873, 0.79, 0.802, 0.468, 0.422, 0.673, 0.924, 0.792, 0.527, 0.702, 0.903, 0.81, 0.573, 0.935, 0.924, 0.479, 0.709, 0.669, 0.344, 0.036, 0.029, 0.136, 0.689, 0.404, 0.197, 0.016, 0.003, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.772, 0.817, 0.59, 0.588, 1, 0.919, 0.568, 0.506, 0.791, 0.752, 0.327, 0.012, 0.116, 0.14, 0.481, 0.689, 0.741, 0.829, 0.163, 0.153, 0.139, 0.127, 0.145, 0.132, 0.035, 0.001, 0.0, 0.0, 0.0, 0.0, 0.31, 0.408, 0.372, 1, 1, 0.721, 0.43, 0.969, 0.994, 0.779, 0.676, 0.561, 0.475, 0.95, 0.902, 0.906, 0.781, 0.326, 0.612, 0.693, 0.194, 0.165, 0.073, 0.089, 0.62, 0.286, 0.051, 0.13, 0.048, 0.606, 0.893, 0.858, 0.863, 0.586, 0.682, 0.448, 0.147, 0.015, 0.002, 0.0, 0.0, 0.0, 0.0, 0.0, 0.003, 0.976, 0.585, 0.085, 0.11, 0.296, 0.262, 0.454, 1, 0.893, 0.56, 0.314, 0.888, 0.611, 0.334, 0.126, 0.005, 0.001, 0.001, 0.0, 0.001, 0.079, 0.155, 0.192, 0.281, 0.8, 0.773, 0.442, 0.797, 0.803, 0.675, 0.558, 0.634, 0.162, 0.077, 0.826, 0.666, 0.361, 0.162, 0.257, 0.259, 0.156, 0.346, 0.271, 0.124, 0.014, 0.002, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.357, 1, 1, 0.968, 0.466, 0.17, 0.267, 0.166, 1, 0.952, 0.435, 0.161, 0.359, 0.404, 0.335, 0.641, 0.677, 0.31, 0.186, 0.05, 0.083, 0.175, 0.454, 0.458, 0.646, 1, 1, 0.905, 0.846, 0.85, 0.922, 0.64, 0.551, 0.198, 0.018, 0.003, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.011, 1, 1, 0.874, 0.957, 1, 0.873, 0.248, 0.232, 0.487, 1, 0.483, 0.099, 0.257, 0.904, 0.781, 0.703, 0.697, 0.808, 0.886, 0.92, 0.961, 0.852, 0.262, 0.167, 0.903, 0.843, 0.787, 0.69, 0.628, 0.547, 0.478, 0.51, 0.503, 0.448, 0.336, 0.193, 0.03, 0.009, 0.003, 0.001, 0.0, 0.0, 0.002, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]};</script><script>
+const $=s=>document.querySelector(s);
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const seg=(t,a,b)=>clamp((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3), eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+const PIPS={1:[[50,50]],2:[[28,28],[72,72]],3:[[28,28],[50,50],[72,72]],4:[[28,28],[72,28],[28,72],[72,72]],5:[[28,28],[72,28],[50,50],[28,72],[72,72]],6:[[28,26],[72,26],[28,50],[72,50],[28,74],[72,74]]};
+function die(v,sz){return `<svg viewBox="0 0 100 100" width="${sz}" height="${sz}"><rect x="4" y="9" width="92" height="88" rx="18" fill="rgba(0,0,0,.3)"/><rect x="4" y="4" width="92" height="88" rx="18" fill="#fdfbf0"/>${PIPS[v].map(p=>`<circle cx="${p[0]}" cy="${p[1]-2}" r="9" fill="#0b2e22"/>`).join('')}</svg>`;}
+// chouette officielle (owl_base + aile animée)
+const EYE=(cx)=>`<circle cx="${cx}" cy="148" r="54" fill="#fdeecf"/><path d="M${cx-38} 158 Q${cx} 120 ${cx+38} 158" stroke="#0b2a17" stroke-width="11" fill="none" stroke-linecap="round"/>`;
+$('#owl').innerHTML=`<div style="position:relative;width:100%;height:100%"><img src="owl_base.png" style="position:absolute;inset:0;width:100%;height:100%">
+<svg id="eyeR" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0">${EYE(365)}</svg>
+<svg id="eyeL" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0">${EYE(222)}</svg>
+<img id="wing" src="owl_wing.png" style="position:absolute;inset:0;width:100%;height:100%;transform-origin:70.8% 53.5%"></div>`;
+const G='#e1b553';
+const SV=(p,s=30)=>`<svg viewBox="0 0 48 48" width="${s}" height="${s}" fill="none" stroke="${G}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">${p}</svg>`;
+const IC={
+ dice:SV('<rect x="7" y="7" width="34" height="34" rx="8"/><circle cx="17" cy="17" r="2.5" fill="#e1b553"/><circle cx="31" cy="31" r="2.5" fill="#e1b553"/><circle cx="24" cy="24" r="2.5" fill="#e1b553"/>'),
+ trophy:SV('<path d="M14 8h20v10a10 10 0 0 1-20 0z"/><path d="M14 12H7a7 7 0 0 0 7 9M34 12h7a7 7 0 0 1-7 9M24 28v8M16 41h16"/>'),
+ clock:SV('<circle cx="24" cy="27" r="15"/><path d="M24 27V18M19 5h10M24 5v7"/>'),
+ pawn:SV('<circle cx="24" cy="12" r="6"/><path d="M18 22h12l3 14H15zM11 41h26"/>'),
+ duo:SV('<circle cx="17" cy="24" r="10"/><circle cx="31" cy="24" r="10"/>'),
+ cap:SV('<path d="M4 18 24 9l20 9-20 9z"/><path d="M12 22v10c6 5 18 5 24 0V22M44 18v12"/>'),
+ bag:SV('<path d="M9 16h30l-3 26H12z"/><path d="M17 20v-6a7 7 0 0 1 14 0v6"/>'),
+ chart:SV('<path d="M6 40h36"/><path d="M9 33l9-10 8 6 13-15"/><path d="M32 14h7v7"/>'),
+ medal:SV('<path d="M16 5l8 14 8-14"/><circle cx="24" cy="30" r="11"/><path d="M24 25v10"/>'),
+ people:SV('<circle cx="17" cy="16" r="6"/><circle cx="33" cy="18" r="5"/><path d="M5 40c1-9 7-13 12-13s11 4 12 13M30 28c6 0 11 3 13 11"/>'),
+ shield:SV('<path d="M24 5l16 6v12c0 10-7 17-16 20C15 40 8 33 8 23V11z"/><path d="M17 24l5 5 9-10"/>'),
+ star:SV('<path d="M24 5l5.8 12.2 13.2 1.6-9.8 9.1 2.6 13.1L24 34.5 12.2 41l2.6-13.1-9.8-9.1 13.2-1.6z"/>'),
+ palette:SV('<path d="M24 6a18 18 0 1 0 0 36c3 0 4-2 3-4s0-5 3-5h5a8 8 0 0 0 8-8C43 14 34 6 24 6z"/><circle cx="15" cy="21" r="2.5" fill="#e1b553"/><circle cx="22" cy="14" r="2.5" fill="#e1b553"/><circle cx="31" cy="15" r="2.5" fill="#e1b553"/>'),
+ globe:SV('<circle cx="24" cy="24" r="17"/><path d="M7 24h34M24 7c-6 6-6 28 0 34M24 7c6 6 6 28 0 34"/>',26),
+ mobile:SV('<rect x="13" y="5" width="22" height="38" rx="4"/><path d="M21 37h6"/>',26),
+ pc:SV('<rect x="5" y="8" width="38" height="24" rx="3"/><path d="M18 40h12M24 32v8"/>',26)};
+const FLAG={fr:'<rect width="30" height="60" fill="#1e40af"/><rect x="30" width="30" height="60" fill="#fff"/><rect x="60" width="30" height="60" fill="#dc2626"/>',
+ en:'<rect width="90" height="60" fill="#1e3a8a"/><path d="M0 0 90 60M90 0 0 60" stroke="#fff" stroke-width="12"/><path d="M0 0 90 60M90 0 0 60" stroke="#dc2626" stroke-width="5"/><path d="M45 0v60M0 30h90" stroke="#fff" stroke-width="18"/><path d="M45 0v60M0 30h90" stroke="#dc2626" stroke-width="10"/>',
+ es:'<rect width="90" height="60" fill="#dc2626"/><rect y="15" width="90" height="30" fill="#facc15"/>'};
+const flag=(k,s)=>`<svg viewBox="15 0 60 60" width="${s}" height="${s}" style="border-radius:50%;border:3px solid ${G};box-shadow:0 8px 18px rgba(0,0,0,.4)">${FLAG[k]}</svg>`;
+// capture à l'échelle, avec cadres dorés en coordonnées natives
+function shot(src,nw,nh,w,hl=[],extra=''){const k=w/nw;
+ return `<div style="position:relative;width:${w}px;height:${nh*k}px;overflow:hidden"><div style="position:absolute;left:0;top:0;width:${nw}px;height:${nh}px;transform:scale(${k});transform-origin:0 0">
+ <img src="${src}" style="position:absolute;inset:0;width:${nw}px;height:${nh}px">${extra}
+ ${hl.map(([x,y,w2,h2,a])=>a>0?`<div style="position:absolute;left:${x-6}px;top:${y-6}px;width:${w2+12}px;height:${h2+12}px;box-sizing:border-box;border:${5/k*.6}px solid #f6cf62;border-radius:14px;opacity:${a};box-shadow:0 0 ${30/k*.5}px rgba(246,207,98,.9),inset 0 0 ${20/k*.4}px rgba(246,207,98,.35);transform:scale(${1.08-.08*eo(a)})"></div>`:'').join('')}</div></div>`;}
+const phone=(x,y,w,inner,st='')=>`<div class="a" style="left:${x-10}px;top:${y-10}px;padding:10px;border-radius:${w*.14}px;background:#0d0d0d;border:2px solid #3a3a3a;box-shadow:0 30px 60px rgba(0,0,0,.55);${st}"><div style="border-radius:${w*.09}px;overflow:hidden">${inner}</div></div>`;
+const laptop=(x,y,w,h,inner,st='')=>`<div class="a" style="left:${x-14}px;top:${y-14}px;${st}"><div style="padding:14px;border-radius:16px 16px 4px 4px;background:#141414;border:2px solid #3a3a3a;box-shadow:0 30px 60px rgba(0,0,0,.5)"><div style="width:${w}px;height:${h}px;overflow:hidden;background:#000">${inner}</div></div>
+ <div style="margin:0 -${w*.07}px;height:${Math.max(10,w*.025)}px;background:linear-gradient(#cfcfcf,#8d8d8d);border-radius:0 0 ${w*.03}px ${w*.03}px"></div></div>`;
+const monitor=(x,y,w,h,inner,st='')=>`<div class="a" style="left:${x-12}px;top:${y-12}px;${st}"><div style="padding:12px;border-radius:10px;background:#1b1b1b;border:2px solid #3a3a3a;box-shadow:0 30px 60px rgba(0,0,0,.5)"><div style="width:${w}px;height:${h}px;overflow:hidden;background:#000">${inner}</div></div>
+ <div style="width:${w*.1}px;height:46px;margin:0 auto;background:linear-gradient(90deg,#555,#888,#555)"></div><div style="width:${w*.42}px;height:10px;margin:0 auto;border-radius:6px;background:#777"></div></div>`;
+const chip=(x,y,w,ic,lb,a,on)=>a>0?`<div class="a" style="left:${x+(1-eo(a))*60}px;top:${y}px;width:${w}px;height:54px;opacity:${a};display:flex;align-items:center;gap:14px;padding:0 16px;box-sizing:border-box;border-radius:16px;background:rgba(253,251,240,${.07+.1*on});border:2px solid rgba(225,181,83,${.35+.6*on});transform:scale(${1+.05*on});transform-origin:0 50%;box-shadow:${on?'0 0 26px rgba(246,207,98,.45)':'none'}"><span style="flex:0 0 30px;display:flex">${IC[ic]}</span><span style="font-size:24px;font-weight:800;white-space:nowrap">${lb}</span></div>`:'';
+const tag=(x,y,txt,a)=>a>0?`<div class="a" style="left:${x}px;top:${y+(1-eo(a))*-14}px;opacity:${a}"><span class="pill">${txt}</span></div>`:'';
+Object.assign(IC,{
+ door:SV('<path d="M12 42V6h20v36M8 42h32"/><circle cx="27" cy="25" r="2" fill="#e1b553"/>'),
+ mail:SV('<rect x="5" y="10" width="38" height="28" rx="4"/><path d="M6 12l18 14 18-14"/>'),
+ crown:SV('<path d="M6 36 L10 14 L19 24 L24 10 L29 24 L38 14 L42 36 Z"/>'),
+ mega:SV('<path d="M6 20v8h8l16 10V10L14 20z"/><path d="M36 18c3 2 3 10 0 12"/>'),
+ poll:SV('<path d="M10 40V24M20 40V12M30 40V28M40 40V18"/>'),
+ cal:SV('<rect x="6" y="10" width="36" height="32" rx="5"/><path d="M6 19H42M15 5V14M33 5V14"/>'),
+ doc:SV('<path d="M12 5h16l10 10v28H12z"/><path d="M28 5v10h10M18 26h14M18 33h14"/>'),
+ photo:SV('<rect x="5" y="11" width="38" height="28" rx="4"/><circle cx="24" cy="25" r="7"/><path d="M16 11l3-5h10l3 5"/>'),
+ chat:SV('<path d="M6 10h36v22H20l-9 8v-8H6z"/>'),
+ ladder:SV('<path d="M14 5v38M34 5v38M14 13h20M14 22h20M14 31h20M14 40h20"/>'),
+ chest:SV('<rect x="6" y="18" width="36" height="22" rx="3"/><path d="M6 18c0-8 8-12 18-12s18 4 18 12M6 26h36"/><rect x="21" y="23" width="6" height="7" rx="1" fill="#e1b553"/>'),
+ swords:SV('<path d="M8 6l24 24M40 6L16 30M10 34l6-6M38 34l-6-6M6 42l6-6M42 42l-6-6"/>'),
+ check:SV('<path d="M10 25l9 9 19-20"/>')});
+const D=window.DATA;
+const PT=[...Array(46)].map((_,i)=>({x:(i*137.5)%1280,y:(i*91.3)%720,r:1+(i%4)*.8,v:6+(i%7)*3,ph:i*1.7}));
+const on=(T,t0,t1)=>Math.min(seg(T,t0,t0+.25),1-seg(T,t1,t1+.25));
+const H=a=>a.map(([x,y,w,h,al])=>[x*2,y*2,w*2,h*2,al]);   // coordonnées natives → images ×2
+const IM={avant:['img/ev_liste_avant.png',1256,794],liste:['img/ev_liste.png',1256,794],vide:['img/ev_event_vide.png',1588,558],event:['img/ev_event.png',1588,558],
+ config:['img/ev_config.png',1242,804],params:['img/ev_params.png',1378,724],joueurs:['img/ev_joueurs.png',1152,866],options:['img/ev_options.png',950,1050]};
+IC.user=SV('<circle cx="24" cy="16" r="8"/><path d="M8 42c1-10 8-15 16-15s15 5 16 15"/>');
+IC.club=SV('<path d="M6 18L24 7l18 11M9 18v20M19 18v20M29 18v20M39 18v20M5 42h38"/>');
+IC.lock=SV('<rect x="10" y="22" width="28" height="20" rx="4"/><path d="M16 22v-6a8 8 0 0 1 16 0v6"/>');
+IC.guest=SV('<circle cx="20" cy="16" r="7"/><path d="M6 40c1-9 7-13 14-13s9 2 11 5M36 26v14M29 33h14"/>');
+function frame(k,x,y,w,a,hl=[],st='',crop=null){if(a<=0)return'';const [src,nw,nh]=IM[k];
+ let inner;if(crop){const [cx,cy,cw,ch]=crop.map(v=>v*2),s=w/cw;inner=`<div style="position:relative;width:${w}px;height:${ch*s}px;overflow:hidden"><div style="position:absolute;left:${-cx*s}px;top:${-cy*s}px">${shot(src,nw,nh,w*nw/cw,H(hl))}</div></div>`;}
+ else inner=shot(src,nw,nh,w,H(hl));
+ return `<div class="a" style="left:${x}px;top:${y}px;opacity:${a};border-radius:16px;overflow:hidden;border:3px solid rgba(225,181,83,.65);box-shadow:0 30px 60px rgba(0,0,0,.55),0 0 40px rgba(225,181,83,.15);${st}">${inner}</div>`;}
+const ripple=(x,y,p)=>p>0&&p<1?`<div class="a" style="left:${x-20-p*60}px;top:${y-20-p*60}px;width:${40+p*120}px;height:${40+p*120}px;border-radius:50%;border:5px solid #f6cf62;opacity:${1-p}"></div>`:'';
+const VIE=[[17.9,'mega','Annonces'],[18.6,'poll','Sondages'],[19.4,'cal','Agenda'],[21.7,'doc','Documents partagés'],[22.9,'photo','Galerie photo'],[23.9,'chat','Messagerie'],[26.2,'ladder','Classement interne'],[27.4,'trophy','Palmarès du club']];
+const BUR=[[11.15,'Président'],[11.85,'Vice-présidente'],[12.75,'Secrétaire'],[13.45,'Trésorier']];
+const sc=k=>1;
+function render(t){
+ const V=D.voice,T=t-V;let ov='';
+ $('#bg').style.transform=`scale(${1.04+t*.0025})`;
+ const sx=-400+((t*90)%1900);
+ $('#sweep').style.background=`linear-gradient(105deg,transparent ${sx/12.8}%,rgba(255,236,170,.06) ${(sx+160)/12.8}%,transparent ${(sx+320)/12.8}%)`;
+ ov+=PT.map(p=>{const y=(p.y-t*p.v+720)%720,x=p.x+Math.sin(t*.6+p.ph)*14;return `<div class="a" style="left:${x}px;top:${y}px;width:${p.r*2}px;height:${p.r*2}px;border-radius:50%;background:#f3d58a;opacity:${.25+.25*Math.sin(t+p.ph)}"></div>`}).join('');
+ const TAGS=[[0,6.3,'Créer un tournoi'],[6.3,10.2,"L'organisateur"],[10.2,19.4,"L'événement"],[19.4,26.1,'Le format'],[26.1,37.7,'Les matchs'],[37.7,50.0,'Les joueurs'],[50.0,56.3,'La visibilité'],[56.3,99,'Et voilà !']];
+ TAGS.forEach(([a,b,l])=>{ov+=tag(60,34,l,Math.min(seg(T,a,a+.4),1-seg(T,b,b+.3)));});
+ // ── 1. titre + liste des events + bouton Créer
+ {const a=Math.min(seg(t,.1,.7),1-seg(T,6.2,6.6));
+  if(a>0){const ti=seg(t,.2,1.0);
+   ov+=`<div class="a bf" style="left:330px;top:${96-(1-eo(ti))*20}px;width:880px;text-align:center;font-size:54px;opacity:${ti*a}"><span class="gold">Créer un tournoi</span></div>`;
+   const w=580,e=eo(seg(T,0.6,1.4));
+   ov+=frame('avant',330+(880-w)/2,180+(1-e)*60,w,seg(T,.6,1.2)*a,[[535,139,57,22,on(T,4.2,6.2)]]);
+   ov+=ripple(330+(880-w)/2+3+563*w/628,180+3+150*w/628,seg(T,5.4,6.0));}}
+ // ── 2. qui organise
+ {const a=Math.min(seg(T,6.4,6.8),1-seg(T,10.1,10.5));
+  if(a>0){ov+=`<div class="a bf" style="left:330px;top:150px;width:880px;text-align:center;font-size:40px;opacity:${a}"><span class="gold">Qui organise ?</span></div>`;
+   [[8.5,'user','Vous-même'],[9.3,'club','Votre club']].forEach(([t0,ic,lb],i)=>{const b=seg(T,6.7+i*.2,7.2+i*.2)*a,l=on(T,t0,10.2);
+    ov+=`<div class="a" style="left:${450+i*340}px;top:${240+(1-eo(b))*50}px;width:300px;height:250px;opacity:${b};transform:scale(${1+.06*l});border-radius:24px;background:rgba(253,251,240,${.08+.08*l});border:3px solid rgba(225,181,83,${.45+.5*l});box-shadow:0 26px 50px rgba(0,0,0,.45)${l?',0 0 50px rgba(246,207,98,.5)':''};display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px"><div style="transform:scale(3.2);height:100px;display:flex;align-items:center">${IC[ic]}</div><div class="bf" style="font-size:34px"><span class="gold">${lb}</span></div></div>`;});}}
+ // ── 3. l'événement : nom + description tapés, traduction
+ {const a=Math.min(seg(T,10.2,10.7),1-seg(T,15.6,16.0));
+  if(a>0){const cx=20,cy=78,cw=755,ch=180,w=900,k=w/cw,x=330,y=150;
+   const inner=src=>`<div style="position:relative;width:${w}px;height:${ch*k}px;overflow:hidden"><div style="position:absolute;left:${-cx*k}px;top:${-cy*k}px">${shot(src,1588,558,794*k)}</div></div>`;
+   ov+=`<div class="a" style="left:${x}px;top:${y}px;opacity:${a};border-radius:16px;overflow:hidden;border:3px solid rgba(225,181,83,.65);box-shadow:0 30px 60px rgba(0,0,0,.55)">${inner('img/ev_event_vide.png')}</div>`;
+   const pn=seg(T,10.6,11.4),pd=seg(T,11.6,13.4),X=v=>(v-cx)*k,Y=v=>(v-cy)*k;
+   const r1=`M${X(35)} ${Y(100)}H${X(45+pn*215)}V${Y(140)}H${X(35)}Z`, r2=`M${X(35)} ${Y(178)}H${X(45+pd*420)}V${Y(245)}H${X(35)}Z`;
+   ov+=`<div class="a" style="left:${x+3}px;top:${y+3}px;opacity:${a};clip-path:path('${r1} ${r2}')">${inner('img/ev_event.png')}</div>`;
+   const cur=T<11.4?[45+pn*170,121]:T<13.5?[45+Math.min(pd*1.6,1)*250,pd<.6?199:213]:null;
+   if(cur&&Math.floor(t*3)%2==0)ov+=`<div class="a" style="left:${x+3+X(cur[0])}px;top:${y+3+Y(cur[1]-7)}px;width:2px;height:${14*k}px;background:#2d261e"></div>`;
+   const tr=seg(T,12.8,13.3);
+   if(tr>0){ov+=`<div class="a" style="left:${400}px;top:${470+(1-eo(tr))*30}px;width:740px;display:flex;justify-content:center;gap:22px;align-items:center;opacity:${tr*a}">${flag('fr',58)}<svg width="60" height="30" viewBox="0 0 60 30"><path d="M4 15h46M40 5l12 10-12 10" stroke="#e1b553" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>${flag('en',58)}${flag('es',58)}<span class="pill" style="margin-left:10px">Traduction automatique</span></div>`;}}}
+ // ── 4. configuration : type puis format
+ {const a=Math.min(seg(T,15.9,16.4),1-seg(T,26.0,26.4));
+  if(a>0){const z=seg(T,19.4,20.2),w=600+40*eio(z);
+   ov+=frame('config',330,60+(1-eo(seg(T,15.9,16.6)))*400,w,a,[[35,79,276,57,on(T,17.2,17.9)],[318,79,275,57,on(T,17.9,19.4)],[35,165,135,82,on(T,21.25,22.6)],[176.5,165,134,82,on(T,22.6,24.9)],[318,165,134,82,on(T,24.9,26.0)]]);
+   [[17.2,'pc','En ligne'],[17.9,'door','Sur place, au club']].forEach(([t0,ic,lb],i)=>{ov+=chip(960,250+i*70,290,ic,lb,seg(T,t0-.15,t0+.25)*(1-seg(T,19.3,19.6))*a,on(T,t0,19.3));});
+   [[21.25,'trophy','Élimination directe'],[22.6,'people','Toutes rondes'],[24.9,'check','Système suisse']].forEach(([t0,ic,lb],i)=>{ov+=chip(960,230+i*70,290,ic,lb,seg(T,t0-.15,t0+.25)*a,on(T,t0,i<2?[22.6,24.9][i]:26));});}}
+ // ── 5. paramètres des matchs + demi/finale + cadence
+ {const a=Math.min(seg(T,26.1,26.5),1-seg(T,37.6,38.0));
+  if(a>0){const s1=Math.min(1,1-seg(T,29.5,29.9))+seg(T,33.0,33.4);
+   ov+=frame('params',330,120+(1-eo(seg(T,26.1,26.8)))*400,620,a*Math.min(1,s1),[[38,86,616,68,on(T,26.4,29.4)],[38,182,151,65,on(T,34.76,35.46)],[193,182,151,65,on(T,35.46,36.26)],[348,182,151,65,on(T,36.26,36.94)],[503,182,151,65,on(T,36.94,37.6)]]);
+   const lp=seg(T,26.6,29.2);if(lp>0&&T<29.6){const n=[1,3,5,7,9,11,13,15,17,19,21,25][Math.min(11,Math.floor(lp*12))];
+    ov+=`<div class="a" style="left:980px;top:230px;width:250px;text-align:center;opacity:${seg(T,26.6,26.9)*(1-seg(T,29.4,29.7))}"><div class="bf" style="font-size:110px;line-height:1"><span class="gold">${n}</span></div><div style="font-size:26px;font-weight:800">point${n>1?'s':''}</div></div>`;}
+   const s2=Math.min(seg(T,29.5,29.9),1-seg(T,33.0,33.4));
+   ov+=frame('options',330,200,620,s2*a,[[31,75,206,25,on(T,30.6,32.9)],[248,75,207,25,on(T,31.4,32.9)]],'',[15,38,445,66]);
+   ov+=chip(960,260,290,'shield','Clubs officiels',seg(T,29.7,30.1)*(1-seg(T,32.9,33.3))*a,on(T,30.0,32.9));
+   [[34.76,'pawn','Zen'],[35.46,'clock','Classique'],[36.26,'star','Blitz'],[36.94,'trophy','Bullet']].forEach(([t0,ic,lb],i)=>{ov+=chip(980,180+i*66,250,ic,lb,seg(T,t0-.15,t0+.25)*a,on(T,t0,i<3?[35.46,36.26,36.94][i]:37.6));});}}
+ // ── 6. joueurs, puis ELO et invités
+ {const a=Math.min(seg(T,37.7,38.1),1-seg(T,49.9,50.3));
+  if(a>0){const s1=1-seg(T,42.1,42.5);
+   ov+=frame('joueurs',330,60+(1-eo(seg(T,37.7,38.4)))*400,600,a*s1,[[158.5,74,126,31,on(T,39.0,42.2)],[25,74,126,31,on(T,39.9,42.2)]]);
+   const big=seg(T,40.6,41.0);if(big>0&&s1>0)ov+=`<div class="a" style="left:960px;top:200px;width:280px;text-align:center;opacity:${big*s1}"><div style="font-size:24px;font-weight:800;color:#e1b553">jusqu'à</div><div class="bf" style="font-size:120px;line-height:1;transform:scale(${1.4-.4*eo(big)})"><span class="gold">128</span></div><div style="font-size:26px;font-weight:800">joueurs</div></div>`;
+   const s2=seg(T,42.2,42.6);
+   ov+=frame('options',330,150,620,s2*a,[[31,118,206,42,on(T,44.7,47.4)],[248,118,207,42,on(T,45.4,47.4)],[24,168,300,30,on(T,47.6,49.9)]],'',[15,114,445,86]);
+   ov+=chip(960,200,290,'shield','Clubs officiels',seg(T,42.4,42.8)*a,on(T,42.6,44.6));
+   ov+=chip(960,270,290,'chart','ELO min. et max.',seg(T,44.5,44.9)*a,on(T,44.7,47.4));
+   ov+=chip(960,340,290,'guest','Joueurs invités',seg(T,47.5,47.9)*a,on(T,47.6,49.9));}}
+ // ── 7. visibilité
+ {const a=Math.min(seg(T,50.0,50.4),1-seg(T,56.2,56.6));
+  if(a>0){ov+=frame('config',330,140+(1-eo(seg(T,50.0,50.7)))*400,620,a,[[35,311.5,181.5,57,on(T,52.08,53.0)],[223.5,311.5,181.5,57,on(T,53.08,54.5)],[412,311.5,181,57,on(T,54.57,56.2)]],'',[15,285,595,100]);
+   [[52.08,'globe','Ouvert à tous'],[53.08,'club','Réservé au club'],[54.57,'lock','Privé, sur invitation']].forEach(([t0,ic,lb],i)=>{ov+=chip(960,220+i*70,300,ic,lb,seg(T,t0-.15,t0+.25)*a,on(T,t0,i<2?[53.08,54.57][i]:56.2));});}}
+ // ── 8. Créer → le tournoi apparaît
+ {const a=seg(T,56.3,56.7);
+  if(a>0){const pr=seg(T,57.2,57.45),gone=seg(T,57.6,58.0);
+   if(gone<1)ov+=`<div class="a" style="left:520px;top:${260}px;width:500px;display:flex;justify-content:center;opacity:${a*(1-gone)};transform:scale(${(.7+.3*back(a))*(1-.06*Math.sin(pr*Math.PI))})"><div class="bf" style="font-size:44px;color:#2a1a05;background:linear-gradient(180deg,#fbe39a,#e1b553 55%,#b98a2c);padding:20px 60px;border-radius:999px;border:4px solid #fdfbf0;box-shadow:0 20px 50px rgba(0,0,0,.55),0 0 50px rgba(246,207,98,.5)">✚ Créer</div></div>`;
+   ov+=ripple(770,300,seg(T,57.25,57.85));
+   const s=seg(T,57.7,58.3);
+   ov+=frame('liste',360,100+(1-eo(s))*80,740,s,[[318,262,272,96,on(T,58.3,99)]]);
+   if(T>58.3)for(let i=0;i<26;i++){const p=seg(T,58.3+(i%5)*.05,59.9+(i%5)*.05);if(p>0&&p<1){const ang=i*2.4,d=eo(p)*(150+(i%4)*60);
+    ov+=`<div class="a" style="left:${360+3+454*740/628+Math.cos(ang)*d}px;top:${100+3+310*740/628+Math.sin(ang)*d+p*p*80}px;width:8px;height:14px;background:${['#e1b553','#fdfbf0','#22c55e','#f6cf62'][i%4]};transform:rotate(${i*40+p*400}deg);opacity:${1-p}"></div>`;}}}}
+ // ── chronomètre
+ {const a=seg(T,3.6,4.1);if(a>0){const run=clamp(T-6.5,0,57.6-6.5),m=Math.floor(run/60),s=Math.floor(run%60),done=T>57.6;
+  const pr=seg(T,3.6,4.3);
+  ov+=`<div class="a" style="right:40px;top:26px;opacity:${a};transform:scale(${.6+.4*back(pr)});transform-origin:100% 0"><div style="display:flex;align-items:center;gap:12px;padding:10px 20px;border-radius:18px;background:${done?'linear-gradient(180deg,#22c55e,#15803d)':'rgba(6,30,21,.88)'};border:3px solid ${done?'#fdfbf0':'#e1b553'};box-shadow:0 14px 34px rgba(0,0,0,.5)">
+   <svg width="34" height="34" viewBox="0 0 48 48" fill="none" stroke="${done?'#fff':'#e1b553'}" stroke-width="4" stroke-linecap="round"><circle cx="24" cy="27" r="16"/><path d="M24 27l${Math.sin(run*Math.PI/30)*9} ${-Math.cos(run*Math.PI/30)*9}M19 5h10M24 5v6"/></svg>
+   <span class="bf" style="font-size:40px;color:${done?'#fff':'#fdfbf0'};font-variant-numeric:tabular-nums">${done?'✓ ':''}${m}:${String(s).padStart(2,'0')}</span>
+   <span style="font-size:17px;font-weight:800;color:${done?'#eafff0':'#e1b553'};line-height:1.1">${done?'moins de<br>2 minutes !':'objectif<br>&lt; 2:00'}</span></div></div>`;}}
+ $('#ov').innerHTML=ov;
+ const fe=eio(seg(t,0,.8)), ox=-420+440*fe, oy=250;
+ const env=(D.env||[])[Math.floor(t*30)]||0, bob=Math.sin(t*2.2)*4;
+ $('#owlw').style.left=ox+'px';$('#owlw').style.top=(oy+bob)+'px';
+ $('#owl').style.transform=`scale(.8,${.8*(1+env*.035)})`;
+ let wing=t<.8?Math.abs(Math.sin(t*11))*60:0;
+ const point=[[4.0,6.2],[8.3,10.1],[10.5,13.5],[17.1,19.3],[21.1,25.9],[26.4,29.3],[34.6,37.5],[38.9,41.9],[44.6,49.8],[52.0,56.1]];
+ for(const [a,b] of point)if(T>a&&T<b){const e=Math.min(seg(T,a,a+.3),1-seg(T,b-.3,b));wing=Math.max(wing,e*(38+10*Math.sin(T*6)));}
+ if(T>58.2&&T<60){const e=Math.min(seg(T,58.2,58.5),1-seg(T,59.7,60));wing=e*(52+22*Math.sin((T-58.2)*Math.PI*4));}
+ $('#wing').style.transform=`rotate(${-wing}deg)`;
+ const blink=(t%4.3)>4.15;$('#eyeR').style.opacity=blink?1:0;$('#eyeL').style.opacity=blink?1:0;
+ let s='';for(const x of D.subs)if(t>=x[0]&&t<=x[1]+.25)s=x[2];
+ $('#subt').textContent=s;$('#subt').style.opacity=s?1:0;
+ const fin=1-seg(t,0,.6);$('#flash').style.background='#fff8e1';
+ $('#flash').style.opacity=fin>0?fin*.9:seg(t,D.dur-.35,D.dur)*.9;
+}
+window.render=render;render(0);
+</script></body></html>
