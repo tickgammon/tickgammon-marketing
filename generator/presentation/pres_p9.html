@@ -158,7 +158,7 @@ function render(t){
  // ── D : contacts
  {const a=Math.min(seg(T,17.8,18.2),1-endA);
   if(a>0){ov+=`<div class="a bf" style="left:340px;top:60px;width:900px;text-align:center;font-size:44px;opacity:${a}"><span class="gold">Contactez-nous</span></div>`;
-   const C=[[18.1,'','E-mail','support@tickgammon.com',null],[18.5,DISC,'Discord des présidents','discord.gg/etqRa4xsS','img/qr_discord.png'],[18.9,WA,'Groupe WhatsApp','Scannez pour rejoindre','img/qr_whatsapp.png']];
+   const C=[[18.1,'','E-mail','support@tickgammon.com',null],[18.5,DISC,'Discord des présidents','discord.gg/z6A6bccYR3','img/qr_discord.png'],[18.9,WA,'Groupe WhatsApp','Scannez pour rejoindre','img/qr_whatsapp.png']];
    C.forEach(([t0,ic,l1,l2,qr],i)=>{const b=seg(T,t0,t0+.45);if(b<=0)return;
     ov+=`<div class="a pn" style="left:${360+i*290}px;top:${150+(1-eo(b))*60}px;width:270px;opacity:${b*a};transform:scale(${.9+.1*back(b)})"><div class="pb" style="height:360px;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:18px">
      <div style="font-size:30px;height:36px;display:flex;align-items:center">${ic}</div><div style="font-family:Cin;font-weight:700;font-size:18px;color:#2d261e;text-align:center">${l1}</div>
