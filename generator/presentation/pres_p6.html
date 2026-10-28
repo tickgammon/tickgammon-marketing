@@ -1,0 +1,213 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- 27/10/2026 — Vidéo de présentation TickGammon pour les clubs (FR), partie 6 « Récompenser vos joueurs » (écrans du site recréés en HTML). Rendu : node render.js p6 <de> <à> <dossier> -->
+<style>
+@font-face{font-family:'Brico';src:url(brico800.woff2) format('woff2');font-weight:800}
+@font-face{font-family:'Man';src:url(manrope600.woff2) format('woff2');font-weight:600}
+@font-face{font-family:'Man';src:url(manrope700.woff2) format('woff2');font-weight:700}
+@font-face{font-family:'Man';src:url(manrope800.woff2) format('woff2');font-weight:800}
+html,body{margin:0;overflow:hidden;background:#0a2a1f}
+#s{position:relative;width:1280px;height:720px;overflow:hidden;font-family:Man,sans-serif;color:#fdfbf0;background:#0b2e22}
+.a{position:absolute}
+#bg{inset:-40px;background:radial-gradient(circle at 62% 42%,#1c5a40 0,#0f3a2b 45%,#081f17 100%)}
+#bg:before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.025) 0 2px,transparent 2px 14px)}
+#vig{inset:0;background:radial-gradient(ellipse at 50% 50%,transparent 55%,rgba(0,0,0,.55) 100%);pointer-events:none;z-index:8}
+#sweep{inset:0;pointer-events:none;z-index:2}
+#owlw{z-index:5}
+#owl{width:380px;height:361px;transform-origin:50% 100%}
+.bf{font-family:Brico;font-weight:800}
+.gold{background:linear-gradient(180deg,#fbe39a 0%,#e1b553 45%,#b98a2c 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pill{background:#e1b553;color:#0b2e22;font-weight:800;letter-spacing:4px;text-transform:uppercase;border-radius:999px;padding:7px 18px;font-size:15px;display:inline-block}
+#sub{left:60px;right:60px;bottom:24px;height:86px;display:flex;align-items:center;justify-content:center;text-align:center;z-index:9}
+#subt{font-size:27px;font-weight:700;line-height:1.28;background:rgba(6,30,21,.78);padding:10px 22px;border-radius:16px;max-width:1080px;color:#fdfbf0}
+#ov{inset:0;z-index:4}
+#flash{inset:0;background:#fff8e1;z-index:20;pointer-events:none}
+@font-face{font-family:'Cin';src:url(cinzel700.ttf);font-weight:700}
+@font-face{font-family:'Lat';src:url(lato400.ttf);font-weight:400}
+@font-face{font-family:'Lat';src:url(lato700.ttf);font-weight:700}
+@font-face{font-family:'Lat';src:url(lato900.ttf);font-weight:900}
+.pn{position:absolute;border-radius:18px;border:3px solid #5b3a16;background:#fbf5e6;box-shadow:0 30px 60px rgba(0,0,0,.55);overflow:hidden;font-family:Lat,sans-serif;color:#2d261e}
+.pn .ph{background:#1d4b34 repeating-linear-gradient(45deg,rgba(255,255,255,.035) 0 3px,transparent 3px 12px);border-bottom:3px solid #8a6326;padding:12px 18px;text-align:center;font-family:Cin;font-weight:700;color:#ecc66d;letter-spacing:2px;font-size:20px;text-transform:uppercase}
+.pn .pb{padding:16px 18px;background:#fbf5e6 radial-gradient(rgba(150,120,70,.13) 1px,transparent 1.4px) 0 0/14px 14px}
+.cd{background:#fff;border:1.5px solid #ead9b4;border-radius:12px;box-shadow:0 2px 0 #eadcc0}
+.bdg{display:inline-block;padding:3px 10px;border-radius:999px;font-weight:900;font-size:13px}
+.gbtn{background:linear-gradient(180deg,#f0d27e,#d9ab4a 60%,#b8862e);color:#3a2408;font-weight:900;border-radius:999px;text-align:center}
+.av{border-radius:50%;border:3px solid #c99a3e;background:#1d4b34;display:grid;place-items:center;font-family:Cin;color:#ecc66d;overflow:hidden}
+.av img{width:100%;height:100%}
+</style></head><body><div id="s">
+<div id="bg" class="a"></div><div id="sweep" class="a"></div>
+<div id="ov" class="a"></div>
+<div id="owlw" class="a"><div id="owl"></div></div>
+<div id="vig" class="a"></div>
+<div id="sub" class="a"><div id="subt"></div></div>
+<div id="flash" class="a" style="opacity:0"></div>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const seg=(t,a,b)=>clamp((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3), eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+const PIPS={1:[[50,50]],2:[[28,28],[72,72]],3:[[28,28],[50,50],[72,72]],4:[[28,28],[72,28],[28,72],[72,72]],5:[[28,28],[72,28],[50,50],[28,72],[72,72]],6:[[28,26],[72,26],[28,50],[72,50],[28,74],[72,74]]};
+function die(v,sz){return `<svg viewBox="0 0 100 100" width="${sz}" height="${sz}"><rect x="4" y="9" width="92" height="88" rx="18" fill="rgba(0,0,0,.3)"/><rect x="4" y="4" width="92" height="88" rx="18" fill="#fdfbf0"/>${PIPS[v].map(p=>`<circle cx="${p[0]}" cy="${p[1]-2}" r="9" fill="#0b2e22"/>`).join('')}</svg>`;}
+// chouette officielle (owl_base + aile animée)
+const EYE=(cx)=>`<circle cx="${cx}" cy="148" r="54" fill="#fdeecf"/><path d="M${cx-38} 158 Q${cx} 120 ${cx+38} 158" stroke="#0b2a17" stroke-width="11" fill="none" stroke-linecap="round"/>`;
+$('#owl').innerHTML=`<div style="position:relative;width:100%;height:100%"><img src="owl_base.png" style="position:absolute;inset:0;width:100%;height:100%">
+<svg id="eyeR" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0">${EYE(365)}</svg>
+<svg id="eyeL" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0">${EYE(222)}</svg>
+<img id="wing" src="owl_wing.png" style="position:absolute;inset:0;width:100%;height:100%;transform-origin:70.8% 53.5%"></div>`;
+const G='#e1b553';
+const SV=(p,s=30)=>`<svg viewBox="0 0 48 48" width="${s}" height="${s}" fill="none" stroke="${G}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">${p}</svg>`;
+const IC={
+ dice:SV('<rect x="7" y="7" width="34" height="34" rx="8"/><circle cx="17" cy="17" r="2.5" fill="#e1b553"/><circle cx="31" cy="31" r="2.5" fill="#e1b553"/><circle cx="24" cy="24" r="2.5" fill="#e1b553"/>'),
+ trophy:SV('<path d="M14 8h20v10a10 10 0 0 1-20 0z"/><path d="M14 12H7a7 7 0 0 0 7 9M34 12h7a7 7 0 0 1-7 9M24 28v8M16 41h16"/>'),
+ clock:SV('<circle cx="24" cy="27" r="15"/><path d="M24 27V18M19 5h10M24 5v7"/>'),
+ pawn:SV('<circle cx="24" cy="12" r="6"/><path d="M18 22h12l3 14H15zM11 41h26"/>'),
+ duo:SV('<circle cx="17" cy="24" r="10"/><circle cx="31" cy="24" r="10"/>'),
+ cap:SV('<path d="M4 18 24 9l20 9-20 9z"/><path d="M12 22v10c6 5 18 5 24 0V22M44 18v12"/>'),
+ bag:SV('<path d="M9 16h30l-3 26H12z"/><path d="M17 20v-6a7 7 0 0 1 14 0v6"/>'),
+ chart:SV('<path d="M6 40h36"/><path d="M9 33l9-10 8 6 13-15"/><path d="M32 14h7v7"/>'),
+ medal:SV('<path d="M16 5l8 14 8-14"/><circle cx="24" cy="30" r="11"/><path d="M24 25v10"/>'),
+ people:SV('<circle cx="17" cy="16" r="6"/><circle cx="33" cy="18" r="5"/><path d="M5 40c1-9 7-13 12-13s11 4 12 13M30 28c6 0 11 3 13 11"/>'),
+ shield:SV('<path d="M24 5l16 6v12c0 10-7 17-16 20C15 40 8 33 8 23V11z"/><path d="M17 24l5 5 9-10"/>'),
+ star:SV('<path d="M24 5l5.8 12.2 13.2 1.6-9.8 9.1 2.6 13.1L24 34.5 12.2 41l2.6-13.1-9.8-9.1 13.2-1.6z"/>'),
+ palette:SV('<path d="M24 6a18 18 0 1 0 0 36c3 0 4-2 3-4s0-5 3-5h5a8 8 0 0 0 8-8C43 14 34 6 24 6z"/><circle cx="15" cy="21" r="2.5" fill="#e1b553"/><circle cx="22" cy="14" r="2.5" fill="#e1b553"/><circle cx="31" cy="15" r="2.5" fill="#e1b553"/>'),
+ globe:SV('<circle cx="24" cy="24" r="17"/><path d="M7 24h34M24 7c-6 6-6 28 0 34M24 7c6 6 6 28 0 34"/>',26),
+ mobile:SV('<rect x="13" y="5" width="22" height="38" rx="4"/><path d="M21 37h6"/>',26),
+ pc:SV('<rect x="5" y="8" width="38" height="24" rx="3"/><path d="M18 40h12M24 32v8"/>',26)};
+const FLAG={fr:'<rect width="30" height="60" fill="#1e40af"/><rect x="30" width="30" height="60" fill="#fff"/><rect x="60" width="30" height="60" fill="#dc2626"/>',
+ en:'<rect width="90" height="60" fill="#1e3a8a"/><path d="M0 0 90 60M90 0 0 60" stroke="#fff" stroke-width="12"/><path d="M0 0 90 60M90 0 0 60" stroke="#dc2626" stroke-width="5"/><path d="M45 0v60M0 30h90" stroke="#fff" stroke-width="18"/><path d="M45 0v60M0 30h90" stroke="#dc2626" stroke-width="10"/>',
+ es:'<rect width="90" height="60" fill="#dc2626"/><rect y="15" width="90" height="30" fill="#facc15"/>'};
+const flag=(k,s)=>`<svg viewBox="15 0 60 60" width="${s}" height="${s}" style="border-radius:50%;border:3px solid ${G};box-shadow:0 8px 18px rgba(0,0,0,.4)">${FLAG[k]}</svg>`;
+// capture à l'échelle, avec cadres dorés en coordonnées natives
+function shot(src,nw,nh,w,hl=[],extra=''){const k=w/nw;
+ return `<div style="position:relative;width:${w}px;height:${nh*k}px;overflow:hidden"><div style="position:absolute;left:0;top:0;width:${nw}px;height:${nh}px;transform:scale(${k});transform-origin:0 0">
+ <img src="${src}" style="position:absolute;inset:0;width:${nw}px;height:${nh}px">${extra}
+ ${hl.map(([x,y,w2,h2,a])=>a>0?`<div style="position:absolute;left:${x-6}px;top:${y-6}px;width:${w2+12}px;height:${h2+12}px;box-sizing:border-box;border:${5/k*.6}px solid #f6cf62;border-radius:14px;opacity:${a};box-shadow:0 0 ${30/k*.5}px rgba(246,207,98,.9),inset 0 0 ${20/k*.4}px rgba(246,207,98,.35);transform:scale(${1.08-.08*eo(a)})"></div>`:'').join('')}</div></div>`;}
+const phone=(x,y,w,inner,st='')=>`<div class="a" style="left:${x-10}px;top:${y-10}px;padding:10px;border-radius:${w*.14}px;background:#0d0d0d;border:2px solid #3a3a3a;box-shadow:0 30px 60px rgba(0,0,0,.55);${st}"><div style="border-radius:${w*.09}px;overflow:hidden">${inner}</div></div>`;
+const laptop=(x,y,w,h,inner,st='')=>`<div class="a" style="left:${x-14}px;top:${y-14}px;${st}"><div style="padding:14px;border-radius:16px 16px 4px 4px;background:#141414;border:2px solid #3a3a3a;box-shadow:0 30px 60px rgba(0,0,0,.5)"><div style="width:${w}px;height:${h}px;overflow:hidden;background:#000">${inner}</div></div>
+ <div style="margin:0 -${w*.07}px;height:${Math.max(10,w*.025)}px;background:linear-gradient(#cfcfcf,#8d8d8d);border-radius:0 0 ${w*.03}px ${w*.03}px"></div></div>`;
+const monitor=(x,y,w,h,inner,st='')=>`<div class="a" style="left:${x-12}px;top:${y-12}px;${st}"><div style="padding:12px;border-radius:10px;background:#1b1b1b;border:2px solid #3a3a3a;box-shadow:0 30px 60px rgba(0,0,0,.5)"><div style="width:${w}px;height:${h}px;overflow:hidden;background:#000">${inner}</div></div>
+ <div style="width:${w*.1}px;height:46px;margin:0 auto;background:linear-gradient(90deg,#555,#888,#555)"></div><div style="width:${w*.42}px;height:10px;margin:0 auto;border-radius:6px;background:#777"></div></div>`;
+const chip=(x,y,w,ic,lb,a,on)=>a>0?`<div class="a" style="left:${x+(1-eo(a))*60}px;top:${y}px;width:${w}px;height:54px;opacity:${a};display:flex;align-items:center;gap:14px;padding:0 16px;box-sizing:border-box;border-radius:16px;background:rgba(253,251,240,${.07+.1*on});border:2px solid rgba(225,181,83,${.35+.6*on});transform:scale(${1+.05*on});transform-origin:0 50%;box-shadow:${on?'0 0 26px rgba(246,207,98,.45)':'none'}"><span style="flex:0 0 30px;display:flex">${IC[ic]}</span><span style="font-size:24px;font-weight:800;white-space:nowrap">${lb}</span></div>`:'';
+const tag=(x,y,txt,a)=>a>0?`<div class="a" style="left:${x}px;top:${y+(1-eo(a))*-14}px;opacity:${a}"><span class="pill">${txt}</span></div>`:'';
+Object.assign(IC,{
+ door:SV('<path d="M12 42V6h20v36M8 42h32"/><circle cx="27" cy="25" r="2" fill="#e1b553"/>'),
+ mail:SV('<rect x="5" y="10" width="38" height="28" rx="4"/><path d="M6 12l18 14 18-14"/>'),
+ crown:SV('<path d="M6 36 L10 14 L19 24 L24 10 L29 24 L38 14 L42 36 Z"/>'),
+ mega:SV('<path d="M6 20v8h8l16 10V10L14 20z"/><path d="M36 18c3 2 3 10 0 12"/>'),
+ poll:SV('<path d="M10 40V24M20 40V12M30 40V28M40 40V18"/>'),
+ cal:SV('<rect x="6" y="10" width="36" height="32" rx="5"/><path d="M6 19H42M15 5V14M33 5V14"/>'),
+ doc:SV('<path d="M12 5h16l10 10v28H12z"/><path d="M28 5v10h10M18 26h14M18 33h14"/>'),
+ photo:SV('<rect x="5" y="11" width="38" height="28" rx="4"/><circle cx="24" cy="25" r="7"/><path d="M16 11l3-5h10l3 5"/>'),
+ chat:SV('<path d="M6 10h36v22H20l-9 8v-8H6z"/>'),
+ ladder:SV('<path d="M14 5v38M34 5v38M14 13h20M14 22h20M14 31h20M14 40h20"/>'),
+ chest:SV('<rect x="6" y="18" width="36" height="22" rx="3"/><path d="M6 18c0-8 8-12 18-12s18 4 18 12M6 26h36"/><rect x="21" y="23" width="6" height="7" rx="1" fill="#e1b553"/>'),
+ swords:SV('<path d="M8 6l24 24M40 6L16 30M10 34l6-6M38 34l-6-6M6 42l6-6M42 42l-6-6"/>'),
+ check:SV('<path d="M10 25l9 9 19-20"/>')});
+const D=window.DATA;
+const PT=[...Array(46)].map((_,i)=>({x:(i*137.5)%1280,y:(i*91.3)%720,r:1+(i%4)*.8,v:6+(i%7)*3,ph:i*1.7}));
+const on=(T,t0,t1)=>Math.min(seg(T,t0,t0+.25),1-seg(T,t1,t1+.25));
+const H=a=>a.map(([x,y,w,h,al])=>[x*2,y*2,w*2,h*2,al]);   // coordonnées natives → images ×2
+const IM={coffre:['img/club_coffre.png',916,1090],avant:['img/ev_liste_avant.png',1256,794],liste:['img/ev_liste.png',1256,794],vide:['img/ev_event_vide.png',1588,558],event:['img/ev_event.png',1588,558],
+ config:['img/ev_config.png',1242,804],params:['img/ev_params.png',1378,724],joueurs:['img/ev_joueurs.png',1152,866],options:['img/ev_options.png',950,1050]};
+IC.user=SV('<circle cx="24" cy="16" r="8"/><path d="M8 42c1-10 8-15 16-15s15 5 16 15"/>');
+IC.club=SV('<path d="M6 18L24 7l18 11M9 18v20M19 18v20M29 18v20M39 18v20M5 42h38"/>');
+IC.lock=SV('<rect x="10" y="22" width="28" height="20" rx="4"/><path d="M16 22v-6a8 8 0 0 1 16 0v6"/>');
+IC.guest=SV('<circle cx="20" cy="16" r="7"/><path d="M6 40c1-9 7-13 14-13s9 2 11 5M36 26v14M29 33h14"/>');
+function frame(k,x,y,w,a,hl=[],st='',crop=null){if(a<=0)return'';const [src,nw,nh]=IM[k];
+ let inner;if(crop){const [cx,cy,cw,ch]=crop.map(v=>v*2),s=w/cw;inner=`<div style="position:relative;width:${w}px;height:${ch*s}px;overflow:hidden"><div style="position:absolute;left:${-cx*s}px;top:${-cy*s}px">${shot(src,nw,nh,w*nw/cw,H(hl))}</div></div>`;}
+ else inner=shot(src,nw,nh,w,H(hl));
+ return `<div class="a" style="left:${x}px;top:${y}px;opacity:${a};border-radius:16px;overflow:hidden;border:3px solid rgba(225,181,83,.65);box-shadow:0 30px 60px rgba(0,0,0,.55),0 0 40px rgba(225,181,83,.15);${st}">${inner}</div>`;}
+const ripple=(x,y,p)=>p>0&&p<1?`<div class="a" style="left:${x-20-p*60}px;top:${y-20-p*60}px;width:${40+p*120}px;height:${40+p*120}px;border-radius:50%;border:5px solid #f6cf62;opacity:${1-p}"></div>`:'';
+const VIE=[[17.9,'mega','Annonces'],[18.6,'poll','Sondages'],[19.4,'cal','Agenda'],[21.7,'doc','Documents partagés'],[22.9,'photo','Galerie photo'],[23.9,'chat','Messagerie'],[26.2,'ladder','Classement interne'],[27.4,'trophy','Palmarès du club']];
+const BUR=[[11.15,'Président'],[11.85,'Vice-présidente'],[12.75,'Secrétaire'],[13.45,'Trésorier']];
+const PL=['Marco_64','Sophie_BG','LaDameDePique','Pierrot64','Lucie_Dés','Bernat_BG','Amaia_64','JonG','Txomin','Maddi_BG','Élodie','Kepa','Nora_D','Iñaki','Paulo_BG','Céline_64'];
+const AVI={Marco_64:'img/av1.png',LaDameDePique:'img/av2.png',Sophie_BG:'img/av3.png'};
+const av=(n,s)=>`<div class="av" style="width:${s}px;height:${s}px;font-size:${s*.45}px;flex:0 0 ${s}px">${AVI[n]?`<img src="${AVI[n]}">`:n[0]}</div>`;
+const pnl=(x,y,w,title,body,a,st='')=>a>0?`<div class="pn" style="left:${x}px;top:${y}px;width:${w}px;opacity:${a};${st}"><div class="ph">${title}</div><div class="pb">${body}</div></div>`:'';
+const coin=(x,y,s=22,o=1)=>`<div class="a" style="left:${x}px;top:${y}px;width:${s}px;height:${s}px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#fff3c0,#e1b553 55%,#a77a22);border:2px solid #7a5a18;opacity:${o}"></div>`;
+const big=(ic,s=3)=>`<div style="transform:scale(${s});height:${32*s}px;display:flex;align-items:center">${IC[ic]}</div>`;
+function render(t){
+ const V=D.voice,T=t-V;let ov='';
+ $('#bg').style.transform=`scale(${1.04+t*.0025})`;
+ const sx=-400+((t*90)%1900);
+ $('#sweep').style.background=`linear-gradient(105deg,transparent ${sx/12.8}%,rgba(255,236,170,.06) ${(sx+160)/12.8}%,transparent ${(sx+320)/12.8}%)`;
+ ov+=PT.map(p=>{const y=(p.y-t*p.v+720)%720,x=p.x+Math.sin(t*.6+p.ph)*14;return `<div class="a" style="left:${x}px;top:${y}px;width:${p.r*2}px;height:${p.r*2}px;border-radius:50%;background:#f3d58a;opacity:${.25+.25*Math.sin(t+p.ph)}"></div>`}).join('');
+ const TAGS=[[0,2.7,'Récompenser vos joueurs'],[2.7,21.9,'Le coffre du club'],[21.9,32.7,'Les récompenses'],[32.7,39.4,'Tout est garanti'],[39.4,99,'Le journal du coffre']];
+ TAGS.forEach(([a,b,l])=>{ov+=tag(60,34,l,Math.min(seg(T,a,a+.4),1-seg(T,b,b+.3)));});
+ // ── A : le podium
+ {const a=Math.min(seg(t,.1,.6),1-seg(T,2.6,3.0));
+  if(a>0){ov+=`<div class="a bf" style="left:330px;top:120px;width:900px;text-align:center;font-size:52px;opacity:${a}"><span class="gold">Un beau podium</span></div>`;
+   [[2,'Sophie_BG',110,'#eef1f5,#a9b2bf'],[1,'Marco_64',160,'#fbe39a,#c99a3e'],[3,'LaDameDePique',80,'#f2c9a0,#b9783e']].forEach(([rk,n,h,g],i)=>{const r=seg(T,-.6+[0.3,0,0.6][i],0.1+[0.3,0,0.6][i]);const x=470+i*200,base=520;
+    ov+=`<div class="a" style="left:${x}px;top:${base-h*eo(r)}px;width:180px;height:${h*eo(r)}px;opacity:${a};background:linear-gradient(180deg,${g});border:3px solid #fdfbf0;border-radius:14px 14px 0 0;display:flex;justify-content:center;padding-top:8px;box-sizing:border-box"><span class="bf" style="font-size:40px;color:#2a1a05">${rk}</span></div><div class="a" style="left:${x}px;top:${base-h-110}px;width:180px;opacity:${r*a};display:flex;flex-direction:column;align-items:center;gap:4px">${av(n,64)}<b>${n}</b></div>`;});}}
+ // ── coffre (icône + solde) à droite pendant les apports
+ const cA=Math.min(seg(T,5.2,5.6),1-seg(T,21.6,22.0));
+ let bal=4850;if(T>7.4)bal+=500;if(T>11.6)bal+=2500;if(T>17.0)bal+=250;
+ if(cA>0){const pulse=[7.4,11.6,17.0].some(x=>T>x&&T<x+.4)?1.12:1;
+  ov+=`<div class="a" style="left:1030px;top:150px;width:220px;opacity:${cA};display:flex;flex-direction:column;align-items:center;gap:10px;transform:scale(${pulse})">${big('chest',3.4)}<div class="bf" style="font-size:36px;color:#fdfbf0;font-variant-numeric:tabular-nums">${bal.toLocaleString('fr-FR')} TGC</div><div style="font-weight:800;color:#e9d9a8">Coffre du club</div></div>`;}
+ // ── B : la capture du coffre
+ {const a=Math.min(seg(T,2.8,3.2),1-seg(T,5.2,5.6));
+  ov+=frame('coffre',380,120+(1-eo(seg(T,2.8,3.5)))*300,600,a,[[146,113,135,40,on(T,3.4,5.2)]],'',[138,88,300,120]);}
+ // ── C : don en TGC, puis achat « pour le club »
+ {const a=Math.min(seg(T,5.4,5.8),1-seg(T,9.7,10.1));
+  if(a>0){const body=`<div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">${av('LaDameDePique',44)}<div><b style="font-size:17px">LaDameDePique</b><div style="font-size:13px;color:#8a8070">Membre de La Chouette Taverne</div></div></div>
+    <div style="font-size:14px;font-weight:700;color:#5e554a;margin-bottom:6px">Montant du don</div>
+    <div style="display:flex;gap:10px;align-items:center"><div class="cd" style="flex:1;padding:10px 14px;font-size:20px;font-weight:900">500</div><b>TGC</b></div>
+    <div class="gbtn" style="margin-top:14px;padding:12px;font-size:18px;transform:scale(${1-.05*Math.sin(Math.PI*seg(T,7.1,7.4))})">🎁 Donner au coffre</div>`;
+   ov+=pnl(380,130,520,'🎁 Faire un don au club',body,a,`transform:translateY(${(1-eo(seg(T,5.4,6.0)))*300}px)`);
+   ov+=ripple(640,445,seg(T,7.1,7.7));
+   ov+=`<div class="a" style="left:380px;top:540px;width:520px;text-align:center;opacity:${seg(T,8.4,8.8)*a}"><span class="pill">TGC = la monnaie de TickGammon</span></div>`;}
+  const b=Math.min(seg(T,9.9,10.3),1-seg(T,13.0,13.4));
+  if(b>0){const body=`<div style="display:flex;gap:16px;align-items:center"><div style="width:150px;height:96px;border-radius:12px;background:linear-gradient(135deg,#0d1b2a,#1d3557);border:3px solid #e1b553;display:grid;place-items:center;flex:0 0 150px"><div style="width:110px;height:64px;border:2px solid #e1b553;border-radius:6px;background:repeating-linear-gradient(90deg,#e1b553 0 8px,transparent 8px 18px)"></div></div>
+    <div><b style="font-size:19px">Plateau « Nuit d'or »</b><div style="font-size:14px;color:#8a8070;margin-top:4px">Plateau complet exclusif</div><div class="bf" style="font-size:22px;color:#8a6326;margin-top:6px">2 500 TGC</div></div></div>
+    <div style="display:flex;gap:10px;margin-top:14px"><div class="cd" style="flex:1;padding:10px;text-align:center;font-weight:900;color:#6b6257">Acheter pour moi</div><div class="gbtn" style="flex:1.3;padding:10px;font-size:16px;box-shadow:0 0 ${20*on(T,10.8,12.9)}px rgba(246,207,98,.9)">🏛 Acheter pour le club</div></div>`;
+   ov+=pnl(380,150,560,'🛍 Boutique',body,b,`transform:translateY(${(1-eo(seg(T,9.9,10.5)))*300}px)`);
+   ov+=ripple(810,383,seg(T,11.2,11.8));}
+  // pièces qui volent vers le coffre
+  [[7.4,640,445],[11.6,810,383],[17.0,700,340]].forEach(([t0,x0,y0])=>{for(let i=0;i<10;i++){const p=seg(T,t0-.7+i*.05,t0+i*.05);if(p>0&&p<1)ov+=coin(x0+(1140-x0)*eo(p),y0+(210-y0)*eo(p)-Math.sin(p*Math.PI)*110,22,1-p*.2);}});}
+ // ── D : la guerre des clans
+ {const a=Math.min(seg(T,13.1,13.5),1-seg(T,21.6,22.0));
+  if(a>0){const v=seg(T,13.4,14.0),w=seg(T,15.4,15.9),sh=T>15.4&&T<15.8?Math.sin(t*90)*8*(1-seg(T,15.4,15.8)):0;
+   const crest=(lg,n,c)=>`<div style="display:flex;flex-direction:column;align-items:center;gap:8px"><div style="width:110px;height:110px;border-radius:50%;border:4px solid ${c};overflow:hidden;background:#1d4b34;display:grid;place-items:center;box-shadow:0 0 30px ${c}">${lg}</div><b style="font-size:18px;color:#fdfbf0">${n}</b></div>`;
+   ov+=`<div class="a" style="left:${380+sh}px;top:120px;width:600px;opacity:${a};display:flex;justify-content:space-around;align-items:center">${crest('<img src="img/club_logo.png" style="width:100%">','La Chouette Taverne','#e1b553')}<div class="bf" style="font-size:60px;transform:scale(${.5+.5*back(v)})"><span class="gold">VS</span></div>${crest('<span class="bf" style="font-size:54px;color:#ecc66d">D</span>','Les Dés du Port','#9aa3ad')}</div>`;
+   const row=seg(T,16.6,17.0);
+   if(row>0)ov+=`<div class="a pn" style="left:400px;top:${330+(1-eo(row))*30}px;width:560px;opacity:${row*a}"><div class="pb" style="padding:12px"><div class="cd" style="padding:12px 14px;display:flex;align-items:center;gap:10px;border-color:${on(T,17.0,21.5)?'#f6cf62':'#ead9b4'};box-shadow:0 0 ${18*on(T,17.0,21.5)}px rgba(246,207,98,.7)"><span style="font-size:22px">⚔️</span><div style="flex:1"><b style="font-size:16px">Guerre des clans · victoire de Marco_64</b><div style="font-size:12.5px;color:#8a8070">contre Les Dés du Port · offert par TickGammon</div></div><b style="color:#1f7a3d;font-size:18px">+250</b></div></div></div>`;
+   ov+=`<div class="a" style="left:380px;top:${470}px;width:600px;text-align:center;opacity:${seg(T,18.3,18.7)*a}"><span class="pill">🎁 Offert par TickGammon</span></div>`;
+   const nx=seg(T,20.75,21.1);if(nx>0)ov+=`<div class="a" style="left:380px;top:520px;width:600px;text-align:center;opacity:${nx*a}"><span style="font-weight:800;color:#e9d9a8;font-size:20px">Nous allons y venir →</span></div>`;}}
+ // ── E : président et vice-président
+ {const a=Math.min(seg(T,21.9,22.3),1-seg(T,24.9,25.3));
+  if(a>0){[['Marco_64','Président',22.3],['LaDameDePique','Vice-présidente',23.0]].forEach(([n,r,t0],i)=>{const b=seg(T,t0,t0+.4)*a;
+    ov+=`<div class="a" style="left:${420+i*290}px;top:${170+(1-eo(b))*40}px;width:250px;opacity:${b};display:flex;flex-direction:column;align-items:center;gap:10px">${av(n,120)}<b style="font-size:22px">${n}</b><span class="pill">${r}</span></div>`;});
+   const k=seg(T,23.6,24.1);ov+=`<div class="a" style="left:660px;top:${430}px;width:60px;opacity:${k*a};transform:scale(${.5+.5*back(k)})">${big('chest',2.2)}</div><div class="a" style="left:430px;top:510px;width:520px;text-align:center;opacity:${k*a};font-weight:800;color:#e9d9a8;font-size:20px">gèrent le coffre du club</div>`;}}
+ // ── F : choisir les récompenses
+ {const a=Math.min(seg(T,25.0,25.4),1-seg(T,32.6,33.0));
+  if(a>0){ov+=frame('options',330,120+(1-eo(seg(T,25.0,25.7)))*300,600,a,[[38,298,410,22,on(T,26.6,28.8)],[38,335,410,22,on(T,27.3,28.8)],[38,372,410,22,on(T,28.0,28.8)],[60,298,70,22,on(T,29.13,29.8)],[165,298,100,22,on(T,29.8,32.6)]],'',[15,198,445,200]);
+   [[29.13,'chest','TGC'],[29.8,'duo','Pions'],[30.6,'dice','Plateaux'],[31.5,'user','Avatars']].forEach(([t0,ic,lb],i)=>{ov+=chip(970,170+i*68,250,ic,lb,seg(T,t0-.15,t0+.25)*a,on(T,t0,i<3?[29.8,30.6,31.5][i]:32.6));});}}
+ // ── G : réservées → rendues → versées
+ {const a=Math.min(seg(T,32.7,33.1),1-seg(T,39.3,39.7));
+  if(a>0){const C=[[32.89,'lock','Réservées','dès la création','#e1b553'],[34.93,'chest','Rendues au coffre','si le tournoi est annulé','#9aa3ad'],[37.41,'trophy','Versées aux gagnants','automatiquement','#22c55e']];
+   C.forEach(([t0,ic,l1,l2,c],i)=>{const b=seg(T,t0-.1,t0+.35);if(b<=0)return;const lit=on(T,t0,i<2?C[i+1][0]:39.3);
+    ov+=`<div class="a" style="left:${370+i*290}px;top:${170+(1-eo(b))*60}px;width:260px;height:290px;opacity:${b*a};transform:scale(${.9+.1*back(b)+.04*lit});border-radius:24px;background:rgba(253,251,240,${.07+.06*lit});border:3px solid ${lit?c:'rgba(225,181,83,.5)'};box-shadow:0 26px 50px rgba(0,0,0,.45)${lit?`,0 0 40px ${c}88`:''};display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px">${big(ic,3)}<div class="bf" style="font-size:28px;text-align:center;line-height:1.1"><span class="gold">${l1}</span><br><span style="color:#fdfbf0;font-size:19px">${l2}</span></div></div>`;
+    if(i<2&&T>C[i+1][0]-.2)ov+=`<div class="a bf" style="left:${370+i*290+262}px;top:300px;font-size:34px;color:#e1b553;opacity:${a}">→</div>`;});}}
+ // ── H : le journal du coffre
+ {const a=seg(T,39.4,39.8);
+  if(a>0){ov+=frame('coffre',380,90+(1-eo(seg(T,39.4,40.1)))*300,560,a,[[146,232,262,22,on(T,40.4,43.6)],[146,260,262,22,on(T,40.9,43.6)],[146,287,262,22,on(T,41.4,43.6)],[146,315,262,22,on(T,41.9,43.6)]],'',[138,206,300,175]);
+   const st=seg(T,42.43,42.8);if(st>0)ov+=`<div class="a" style="left:470px;top:250px;width:380px;display:flex;justify-content:center;opacity:${Math.min(1,st*1.5)};transform:rotate(-8deg) scale(${2.2-1.2*eo(st)})"><div class="bf" style="font-size:46px;color:#fff;background:linear-gradient(180deg,#22c55e,#15803d);padding:10px 30px;border-radius:18px;border:4px solid #fdfbf0;box-shadow:0 20px 50px rgba(0,0,0,.6)">✓ TRANSPARENT</div></div>`;}}
+ $('#ov').innerHTML=ov;
+ const fe=eio(seg(t,0,.8)), ox=-420+440*fe, oy=250;
+ const env=(D.env||[])[Math.floor(t*30)]||0, bob=Math.sin(t*2.2)*4;
+ $('#owlw').style.left=ox+'px';$('#owlw').style.top=(oy+bob)+'px';
+ $('#owl').style.transform=`scale(.8,${.8*(1+env*.035)})`;
+ let wing=t<.8?Math.abs(Math.sin(t*11))*60:0;
+ const point=[[3.3,5.0],[6.0,8.2],[10.4,12.8],[15.4,20.3],[22.3,24.7],[26.5,32.5],[33.0,39.2],[40.3,42.0]];
+ for(const [a,b] of point)if(T>a&&T<b){const e=Math.min(seg(T,a,a+.3),1-seg(T,b-.3,b));wing=Math.max(wing,e*(38+10*Math.sin(T*6)));}
+ if(T>42.4&&T<44){const e=Math.min(seg(T,42.4,42.7),1-seg(T,43.7,44));wing=e*(52+22*Math.sin((T-42.4)*Math.PI*4));}
+ $('#wing').style.transform=`rotate(${-wing}deg)`;
+ const blink=(t%4.3)>4.15;$('#eyeR').style.opacity=blink?1:0;$('#eyeL').style.opacity=blink?1:0;
+ let s='';for(const x of D.subs)if(t>=x[0]&&t<=x[1]+.25)s=x[2];
+ $('#subt').textContent=s;$('#subt').style.opacity=s?1:0;
+ const fin=1-seg(t,0,.6);$('#flash').style.background='#fff8e1';
+ $('#flash').style.opacity=fin>0?fin*.9:seg(t,D.dur-.35,D.dur)*.9;
+}
+window.render=render;render(0);
+</script></body></html>
