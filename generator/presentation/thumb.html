@@ -1,0 +1,61 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- 28/10/2026 — Miniature YouTube de la vidéo de présentation clubs (1280×720). -->
+<style>
+@font-face{font-family:'Brico';src:url(brico800.woff2) format('woff2');font-weight:800}
+@font-face{font-family:'Man';src:url(manrope600.woff2) format('woff2');font-weight:600}
+@font-face{font-family:'Man';src:url(manrope700.woff2) format('woff2');font-weight:700}
+@font-face{font-family:'Man';src:url(manrope800.woff2) format('woff2');font-weight:800}
+html,body{margin:0;overflow:hidden;background:#0a2a1f}
+#s{position:relative;width:1280px;height:720px;overflow:hidden;font-family:Man,sans-serif;color:#fdfbf0;background:#0b2e22}
+.a{position:absolute}
+#bg{inset:-40px;background:radial-gradient(circle at 62% 42%,#1c5a40 0,#0f3a2b 45%,#081f17 100%)}
+#bg:before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.025) 0 2px,transparent 2px 14px)}
+#vig{inset:0;background:radial-gradient(ellipse at 50% 50%,transparent 55%,rgba(0,0,0,.55) 100%);pointer-events:none;z-index:8}
+#sweep{inset:0;pointer-events:none;z-index:2}
+#owlw{z-index:5}
+#owl{width:380px;height:361px;transform-origin:50% 100%}
+.bf{font-family:Brico;font-weight:800}
+.gold{background:linear-gradient(180deg,#fbe39a 0%,#e1b553 45%,#b98a2c 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pill{background:#e1b553;color:#0b2e22;font-weight:800;letter-spacing:4px;text-transform:uppercase;border-radius:999px;padding:7px 18px;font-size:15px;display:inline-block}
+#sub{left:60px;right:60px;bottom:24px;height:86px;display:flex;align-items:center;justify-content:center;text-align:center;z-index:9}
+#subt{font-size:27px;font-weight:700;line-height:1.28;background:rgba(6,30,21,.78);padding:10px 22px;border-radius:16px;max-width:1080px;color:#fdfbf0}
+#ov{inset:0;z-index:4}
+#flash{inset:0;background:#fff8e1;z-index:20;pointer-events:none}
+@font-face{font-family:'Cin';src:url(cinzel700.ttf);font-weight:700}
+@font-face{font-family:'Lat';src:url(lato400.ttf);font-weight:400}
+@font-face{font-family:'Lat';src:url(lato700.ttf);font-weight:700}
+@font-face{font-family:'Lat';src:url(lato900.ttf);font-weight:900}
+.pn{position:absolute;border-radius:18px;border:3px solid #5b3a16;background:#fbf5e6;box-shadow:0 30px 60px rgba(0,0,0,.55);overflow:hidden;font-family:Lat,sans-serif;color:#2d261e}
+.pn .ph{background:#1d4b34 repeating-linear-gradient(45deg,rgba(255,255,255,.035) 0 3px,transparent 3px 12px);border-bottom:3px solid #8a6326;padding:12px 18px;text-align:center;font-family:Cin;font-weight:700;color:#ecc66d;letter-spacing:2px;font-size:20px;text-transform:uppercase}
+.pn .pb{padding:16px 18px;background:#fbf5e6 radial-gradient(rgba(150,120,70,.13) 1px,transparent 1.4px) 0 0/14px 14px}
+.cd{background:#fff;border:1.5px solid #ead9b4;border-radius:12px;box-shadow:0 2px 0 #eadcc0}
+.bdg{display:inline-block;padding:3px 10px;border-radius:999px;font-weight:900;font-size:13px}
+.gbtn{background:linear-gradient(180deg,#f0d27e,#d9ab4a 60%,#b8862e);color:#3a2408;font-weight:900;border-radius:999px;text-align:center}
+.av{border-radius:50%;border:3px solid #c99a3e;background:#1d4b34;display:grid;place-items:center;font-family:Cin;color:#ecc66d;overflow:hidden}
+.av img{width:100%;height:100%}
+</style></head><body><div id="s">
+<div id="bg" class="a"></div><div id="sweep" class="a"></div>
+<div id="ov" class="a"></div>
+<div id="owlw" class="a"><div id="owl"></div></div>
+<div id="vig" class="a"></div>
+<div id="sub" class="a"><div id="subt"></div></div>
+<div id="flash" class="a" style="opacity:0"></div>
+</div>
+<script>
+const PIPS={4:[[28,28],[72,28],[28,72],[72,72]],6:[[28,26],[72,26],[28,50],[72,50],[28,74],[72,74]]};
+function die(v,sz){return `<svg viewBox="0 0 100 100" width="${sz}" height="${sz}"><rect x="4" y="9" width="92" height="88" rx="18" fill="rgba(0,0,0,.3)"/><rect x="4" y="4" width="92" height="88" rx="18" fill="#fdfbf0"/>${PIPS[v].map(p=>`<circle cx="${p[0]}" cy="${p[1]-2}" r="9" fill="#0b2e22"/>`).join('')}</svg>`;}
+document.querySelector('#owl').innerHTML='<img src="owl_base.png" style="position:absolute;inset:0;width:100%;height:100%"><img src="owl_wing.png" style="position:absolute;inset:0;width:100%;height:100%;transform-origin:70.8% 53.5%;transform:rotate(-50deg)">';
+document.querySelector('#owl').style.position='relative';
+const ow=document.querySelector('#owlw');ow.style.left='-10px';ow.style.top='250px';document.querySelector('#owl').style.transform='scale(1.15)';
+document.querySelector('#sub').style.display='none';document.querySelector('#flash').style.display='none';
+document.querySelector('#ov').innerHTML=`
+<div class="a" style="left:470px;top:70px"><span class="pill" style="font-size:20px;padding:9px 22px">Présentation · Clubs</span></div>
+<div class="a bf gold" style="left:465px;top:122px;font-size:118px;letter-spacing:-3px;line-height:1">TickGammon</div>
+<div class="a" style="left:470px;top:262px;width:780px;font-family:Man;font-weight:800;font-size:54px;line-height:1.12;color:#fdfbf0">Créez le tournoi<br>de votre club en<br><span style="color:#e1b553">moins de 2 minutes</span></div>
+<div class="a" style="left:470px;top:520px;display:flex;gap:14px">
+ <span style="background:rgba(6,30,21,.85);border:3px solid #e1b553;border-radius:999px;padding:10px 22px;font-weight:800;font-size:26px;color:#fdfbf0">🏆 Tournois auto</span>
+ <span style="background:rgba(6,30,21,.85);border:3px solid #e1b553;border-radius:999px;padding:10px 22px;font-weight:800;font-size:26px;color:#fdfbf0">⚔️ Guerre des clans</span></div>
+<div class="a" style="left:1065px;top:265px;transform:rotate(14deg);filter:drop-shadow(0 18px 16px rgba(0,0,0,.5))">${die(6,130)}</div>
+<div class="a" style="left:1150px;top:395px;transform:rotate(-12deg);filter:drop-shadow(0 18px 16px rgba(0,0,0,.5))">${die(4,100)}</div>
+<div class="a" style="left:1072px;top:518px;display:flex;align-items:center;gap:10px;padding:10px 20px;border-radius:16px;background:linear-gradient(180deg,#22c55e,#15803d);border:3px solid #fdfbf0;box-shadow:0 14px 30px rgba(0,0,0,.5)"><span class="bf" style="font-size:40px;color:#fff">✓ 0:51</span></div>`;
+</script></body></html>
