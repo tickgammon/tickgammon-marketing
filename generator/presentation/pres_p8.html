@@ -1,0 +1,188 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- 27/10/2026 — Vidéo de présentation TickGammon pour les clubs (FR), partie 8 « Et aussi… » (écrans du site recréés en HTML). Rendu : node render.js p8 <de> <à> <dossier> -->
+<style>
+@font-face{font-family:'Brico';src:url(brico800.woff2) format('woff2');font-weight:800}
+@font-face{font-family:'Man';src:url(manrope600.woff2) format('woff2');font-weight:600}
+@font-face{font-family:'Man';src:url(manrope700.woff2) format('woff2');font-weight:700}
+@font-face{font-family:'Man';src:url(manrope800.woff2) format('woff2');font-weight:800}
+html,body{margin:0;overflow:hidden;background:#0a2a1f}
+#s{position:relative;width:1280px;height:720px;overflow:hidden;font-family:Man,sans-serif;color:#fdfbf0;background:#0b2e22}
+.a{position:absolute}
+#bg{inset:-40px;background:radial-gradient(circle at 62% 42%,#1c5a40 0,#0f3a2b 45%,#081f17 100%)}
+#bg:before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.025) 0 2px,transparent 2px 14px)}
+#vig{inset:0;background:radial-gradient(ellipse at 50% 50%,transparent 55%,rgba(0,0,0,.55) 100%);pointer-events:none;z-index:8}
+#sweep{inset:0;pointer-events:none;z-index:2}
+#owlw{z-index:5}
+#owl{width:380px;height:361px;transform-origin:50% 100%}
+.bf{font-family:Brico;font-weight:800}
+.gold{background:linear-gradient(180deg,#fbe39a 0%,#e1b553 45%,#b98a2c 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pill{background:#e1b553;color:#0b2e22;font-weight:800;letter-spacing:4px;text-transform:uppercase;border-radius:999px;padding:7px 18px;font-size:15px;display:inline-block}
+#sub{left:60px;right:60px;bottom:24px;height:86px;display:flex;align-items:center;justify-content:center;text-align:center;z-index:9}
+#subt{font-size:27px;font-weight:700;line-height:1.28;background:rgba(6,30,21,.78);padding:10px 22px;border-radius:16px;max-width:1080px;color:#fdfbf0}
+#ov{inset:0;z-index:4}
+#flash{inset:0;background:#fff8e1;z-index:20;pointer-events:none}
+@font-face{font-family:'Cin';src:url(cinzel700.ttf);font-weight:700}
+@font-face{font-family:'Lat';src:url(lato400.ttf);font-weight:400}
+@font-face{font-family:'Lat';src:url(lato700.ttf);font-weight:700}
+@font-face{font-family:'Lat';src:url(lato900.ttf);font-weight:900}
+.pn{position:absolute;border-radius:18px;border:3px solid #5b3a16;background:#fbf5e6;box-shadow:0 30px 60px rgba(0,0,0,.55);overflow:hidden;font-family:Lat,sans-serif;color:#2d261e}
+.pn .ph{background:#1d4b34 repeating-linear-gradient(45deg,rgba(255,255,255,.035) 0 3px,transparent 3px 12px);border-bottom:3px solid #8a6326;padding:12px 18px;text-align:center;font-family:Cin;font-weight:700;color:#ecc66d;letter-spacing:2px;font-size:20px;text-transform:uppercase}
+.pn .pb{padding:16px 18px;background:#fbf5e6 radial-gradient(rgba(150,120,70,.13) 1px,transparent 1.4px) 0 0/14px 14px}
+.cd{background:#fff;border:1.5px solid #ead9b4;border-radius:12px;box-shadow:0 2px 0 #eadcc0}
+.bdg{display:inline-block;padding:3px 10px;border-radius:999px;font-weight:900;font-size:13px}
+.gbtn{background:linear-gradient(180deg,#f0d27e,#d9ab4a 60%,#b8862e);color:#3a2408;font-weight:900;border-radius:999px;text-align:center}
+.av{border-radius:50%;border:3px solid #c99a3e;background:#1d4b34;display:grid;place-items:center;font-family:Cin;color:#ecc66d;overflow:hidden}
+.av img{width:100%;height:100%}
+</style></head><body><div id="s">
+<div id="bg" class="a"></div><div id="sweep" class="a"></div>
+<div id="ov" class="a"></div>
+<div id="owlw" class="a"><div id="owl"></div></div>
+<div id="vig" class="a"></div>
+<div id="sub" class="a"><div id="subt"></div></div>
+<div id="flash" class="a" style="opacity:0"></div>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const seg=(t,a,b)=>clamp((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3), eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+const PIPS={1:[[50,50]],2:[[28,28],[72,72]],3:[[28,28],[50,50],[72,72]],4:[[28,28],[72,28],[28,72],[72,72]],5:[[28,28],[72,28],[50,50],[28,72],[72,72]],6:[[28,26],[72,26],[28,50],[72,50],[28,74],[72,74]]};
+function die(v,sz){return `<svg viewBox="0 0 100 100" width="${sz}" height="${sz}"><rect x="4" y="9" width="92" height="88" rx="18" fill="rgba(0,0,0,.3)"/><rect x="4" y="4" width="92" height="88" rx="18" fill="#fdfbf0"/>${PIPS[v].map(p=>`<circle cx="${p[0]}" cy="${p[1]-2}" r="9" fill="#0b2e22"/>`).join('')}</svg>`;}
+// chouette officielle (owl_base + aile animée)
+const EYE=(cx)=>`<circle cx="${cx}" cy="148" r="54" fill="#fdeecf"/><path d="M${cx-38} 158 Q${cx} 120 ${cx+38} 158" stroke="#0b2a17" stroke-width="11" fill="none" stroke-linecap="round"/>`;
+$('#owl').innerHTML=`<div style="position:relative;width:100%;height:100%"><img src="owl_base.png" style="position:absolute;inset:0;width:100%;height:100%">
+<svg id="eyeR" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0">${EYE(365)}</svg>
+<svg id="eyeL" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0">${EYE(222)}</svg>
+<img id="wing" src="owl_wing.png" style="position:absolute;inset:0;width:100%;height:100%;transform-origin:70.8% 53.5%"></div>`;
+const G='#e1b553';
+const SV=(p,s=30)=>`<svg viewBox="0 0 48 48" width="${s}" height="${s}" fill="none" stroke="${G}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">${p}</svg>`;
+const IC={
+ dice:SV('<rect x="7" y="7" width="34" height="34" rx="8"/><circle cx="17" cy="17" r="2.5" fill="#e1b553"/><circle cx="31" cy="31" r="2.5" fill="#e1b553"/><circle cx="24" cy="24" r="2.5" fill="#e1b553"/>'),
+ trophy:SV('<path d="M14 8h20v10a10 10 0 0 1-20 0z"/><path d="M14 12H7a7 7 0 0 0 7 9M34 12h7a7 7 0 0 1-7 9M24 28v8M16 41h16"/>'),
+ clock:SV('<circle cx="24" cy="27" r="15"/><path d="M24 27V18M19 5h10M24 5v7"/>'),
+ pawn:SV('<circle cx="24" cy="12" r="6"/><path d="M18 22h12l3 14H15zM11 41h26"/>'),
+ duo:SV('<circle cx="17" cy="24" r="10"/><circle cx="31" cy="24" r="10"/>'),
+ cap:SV('<path d="M4 18 24 9l20 9-20 9z"/><path d="M12 22v10c6 5 18 5 24 0V22M44 18v12"/>'),
+ bag:SV('<path d="M9 16h30l-3 26H12z"/><path d="M17 20v-6a7 7 0 0 1 14 0v6"/>'),
+ chart:SV('<path d="M6 40h36"/><path d="M9 33l9-10 8 6 13-15"/><path d="M32 14h7v7"/>'),
+ medal:SV('<path d="M16 5l8 14 8-14"/><circle cx="24" cy="30" r="11"/><path d="M24 25v10"/>'),
+ people:SV('<circle cx="17" cy="16" r="6"/><circle cx="33" cy="18" r="5"/><path d="M5 40c1-9 7-13 12-13s11 4 12 13M30 28c6 0 11 3 13 11"/>'),
+ shield:SV('<path d="M24 5l16 6v12c0 10-7 17-16 20C15 40 8 33 8 23V11z"/><path d="M17 24l5 5 9-10"/>'),
+ star:SV('<path d="M24 5l5.8 12.2 13.2 1.6-9.8 9.1 2.6 13.1L24 34.5 12.2 41l2.6-13.1-9.8-9.1 13.2-1.6z"/>'),
+ palette:SV('<path d="M24 6a18 18 0 1 0 0 36c3 0 4-2 3-4s0-5 3-5h5a8 8 0 0 0 8-8C43 14 34 6 24 6z"/><circle cx="15" cy="21" r="2.5" fill="#e1b553"/><circle cx="22" cy="14" r="2.5" fill="#e1b553"/><circle cx="31" cy="15" r="2.5" fill="#e1b553"/>'),
+ globe:SV('<circle cx="24" cy="24" r="17"/><path d="M7 24h34M24 7c-6 6-6 28 0 34M24 7c6 6 6 28 0 34"/>',26),
+ mobile:SV('<rect x="13" y="5" width="22" height="38" rx="4"/><path d="M21 37h6"/>',26),
+ pc:SV('<rect x="5" y="8" width="38" height="24" rx="3"/><path d="M18 40h12M24 32v8"/>',26)};
+const FLAG={fr:'<rect width="30" height="60" fill="#1e40af"/><rect x="30" width="30" height="60" fill="#fff"/><rect x="60" width="30" height="60" fill="#dc2626"/>',
+ en:'<rect width="90" height="60" fill="#1e3a8a"/><path d="M0 0 90 60M90 0 0 60" stroke="#fff" stroke-width="12"/><path d="M0 0 90 60M90 0 0 60" stroke="#dc2626" stroke-width="5"/><path d="M45 0v60M0 30h90" stroke="#fff" stroke-width="18"/><path d="M45 0v60M0 30h90" stroke="#dc2626" stroke-width="10"/>',
+ es:'<rect width="90" height="60" fill="#dc2626"/><rect y="15" width="90" height="30" fill="#facc15"/>'};
+const flag=(k,s)=>`<svg viewBox="15 0 60 60" width="${s}" height="${s}" style="border-radius:50%;border:3px solid ${G};box-shadow:0 8px 18px rgba(0,0,0,.4)">${FLAG[k]}</svg>`;
+// capture à l'échelle, avec cadres dorés en coordonnées natives
+function shot(src,nw,nh,w,hl=[],extra=''){const k=w/nw;
+ return `<div style="position:relative;width:${w}px;height:${nh*k}px;overflow:hidden"><div style="position:absolute;left:0;top:0;width:${nw}px;height:${nh}px;transform:scale(${k});transform-origin:0 0">
+ <img src="${src}" style="position:absolute;inset:0;width:${nw}px;height:${nh}px">${extra}
+ ${hl.map(([x,y,w2,h2,a])=>a>0?`<div style="position:absolute;left:${x-6}px;top:${y-6}px;width:${w2+12}px;height:${h2+12}px;box-sizing:border-box;border:${5/k*.6}px solid #f6cf62;border-radius:14px;opacity:${a};box-shadow:0 0 ${30/k*.5}px rgba(246,207,98,.9),inset 0 0 ${20/k*.4}px rgba(246,207,98,.35);transform:scale(${1.08-.08*eo(a)})"></div>`:'').join('')}</div></div>`;}
+const phone=(x,y,w,inner,st='')=>`<div class="a" style="left:${x-10}px;top:${y-10}px;padding:10px;border-radius:${w*.14}px;background:#0d0d0d;border:2px solid #3a3a3a;box-shadow:0 30px 60px rgba(0,0,0,.55);${st}"><div style="border-radius:${w*.09}px;overflow:hidden">${inner}</div></div>`;
+const laptop=(x,y,w,h,inner,st='')=>`<div class="a" style="left:${x-14}px;top:${y-14}px;${st}"><div style="padding:14px;border-radius:16px 16px 4px 4px;background:#141414;border:2px solid #3a3a3a;box-shadow:0 30px 60px rgba(0,0,0,.5)"><div style="width:${w}px;height:${h}px;overflow:hidden;background:#000">${inner}</div></div>
+ <div style="margin:0 -${w*.07}px;height:${Math.max(10,w*.025)}px;background:linear-gradient(#cfcfcf,#8d8d8d);border-radius:0 0 ${w*.03}px ${w*.03}px"></div></div>`;
+const monitor=(x,y,w,h,inner,st='')=>`<div class="a" style="left:${x-12}px;top:${y-12}px;${st}"><div style="padding:12px;border-radius:10px;background:#1b1b1b;border:2px solid #3a3a3a;box-shadow:0 30px 60px rgba(0,0,0,.5)"><div style="width:${w}px;height:${h}px;overflow:hidden;background:#000">${inner}</div></div>
+ <div style="width:${w*.1}px;height:46px;margin:0 auto;background:linear-gradient(90deg,#555,#888,#555)"></div><div style="width:${w*.42}px;height:10px;margin:0 auto;border-radius:6px;background:#777"></div></div>`;
+const chip=(x,y,w,ic,lb,a,on)=>a>0?`<div class="a" style="left:${x+(1-eo(a))*60}px;top:${y}px;width:${w}px;height:54px;opacity:${a};display:flex;align-items:center;gap:14px;padding:0 16px;box-sizing:border-box;border-radius:16px;background:rgba(253,251,240,${.07+.1*on});border:2px solid rgba(225,181,83,${.35+.6*on});transform:scale(${1+.05*on});transform-origin:0 50%;box-shadow:${on?'0 0 26px rgba(246,207,98,.45)':'none'}"><span style="flex:0 0 30px;display:flex">${IC[ic]}</span><span style="font-size:24px;font-weight:800;white-space:nowrap">${lb}</span></div>`:'';
+const tag=(x,y,txt,a)=>a>0?`<div class="a" style="left:${x}px;top:${y+(1-eo(a))*-14}px;opacity:${a}"><span class="pill">${txt}</span></div>`:'';
+Object.assign(IC,{
+ door:SV('<path d="M12 42V6h20v36M8 42h32"/><circle cx="27" cy="25" r="2" fill="#e1b553"/>'),
+ mail:SV('<rect x="5" y="10" width="38" height="28" rx="4"/><path d="M6 12l18 14 18-14"/>'),
+ crown:SV('<path d="M6 36 L10 14 L19 24 L24 10 L29 24 L38 14 L42 36 Z"/>'),
+ mega:SV('<path d="M6 20v8h8l16 10V10L14 20z"/><path d="M36 18c3 2 3 10 0 12"/>'),
+ poll:SV('<path d="M10 40V24M20 40V12M30 40V28M40 40V18"/>'),
+ cal:SV('<rect x="6" y="10" width="36" height="32" rx="5"/><path d="M6 19H42M15 5V14M33 5V14"/>'),
+ doc:SV('<path d="M12 5h16l10 10v28H12z"/><path d="M28 5v10h10M18 26h14M18 33h14"/>'),
+ photo:SV('<rect x="5" y="11" width="38" height="28" rx="4"/><circle cx="24" cy="25" r="7"/><path d="M16 11l3-5h10l3 5"/>'),
+ chat:SV('<path d="M6 10h36v22H20l-9 8v-8H6z"/>'),
+ ladder:SV('<path d="M14 5v38M34 5v38M14 13h20M14 22h20M14 31h20M14 40h20"/>'),
+ chest:SV('<rect x="6" y="18" width="36" height="22" rx="3"/><path d="M6 18c0-8 8-12 18-12s18 4 18 12M6 26h36"/><rect x="21" y="23" width="6" height="7" rx="1" fill="#e1b553"/>'),
+ swords:SV('<path d="M8 6l24 24M40 6L16 30M10 34l6-6M38 34l-6-6M6 42l6-6M42 42l-6-6"/>'),
+ check:SV('<path d="M10 25l9 9 19-20"/>')});
+const D=window.DATA;
+const PT=[...Array(46)].map((_,i)=>({x:(i*137.5)%1280,y:(i*91.3)%720,r:1+(i%4)*.8,v:6+(i%7)*3,ph:i*1.7}));
+const on=(T,t0,t1)=>Math.min(seg(T,t0,t0+.25),1-seg(T,t1,t1+.25));
+const H=a=>a.map(([x,y,w,h,al])=>[x*2,y*2,w*2,h*2,al]);   // coordonnées natives → images ×2
+const IM={coffre:['img/club_coffre.png',916,1090],avant:['img/ev_liste_avant.png',1256,794],liste:['img/ev_liste.png',1256,794],vide:['img/ev_event_vide.png',1588,558],event:['img/ev_event.png',1588,558],
+ config:['img/ev_config.png',1242,804],params:['img/ev_params.png',1378,724],joueurs:['img/ev_joueurs.png',1152,866],options:['img/ev_options.png',950,1050]};
+IC.user=SV('<circle cx="24" cy="16" r="8"/><path d="M8 42c1-10 8-15 16-15s15 5 16 15"/>');
+IC.club=SV('<path d="M6 18L24 7l18 11M9 18v20M19 18v20M29 18v20M39 18v20M5 42h38"/>');
+IC.lock=SV('<rect x="10" y="22" width="28" height="20" rx="4"/><path d="M16 22v-6a8 8 0 0 1 16 0v6"/>');
+IC.guest=SV('<circle cx="20" cy="16" r="7"/><path d="M6 40c1-9 7-13 14-13s9 2 11 5M36 26v14M29 33h14"/>');
+function frame(k,x,y,w,a,hl=[],st='',crop=null){if(a<=0)return'';const [src,nw,nh]=IM[k];
+ let inner;if(crop){const [cx,cy,cw,ch]=crop.map(v=>v*2),s=w/cw;inner=`<div style="position:relative;width:${w}px;height:${ch*s}px;overflow:hidden"><div style="position:absolute;left:${-cx*s}px;top:${-cy*s}px">${shot(src,nw,nh,w*nw/cw,H(hl))}</div></div>`;}
+ else inner=shot(src,nw,nh,w,H(hl));
+ return `<div class="a" style="left:${x}px;top:${y}px;opacity:${a};border-radius:16px;overflow:hidden;border:3px solid rgba(225,181,83,.65);box-shadow:0 30px 60px rgba(0,0,0,.55),0 0 40px rgba(225,181,83,.15);${st}">${inner}</div>`;}
+const ripple=(x,y,p)=>p>0&&p<1?`<div class="a" style="left:${x-20-p*60}px;top:${y-20-p*60}px;width:${40+p*120}px;height:${40+p*120}px;border-radius:50%;border:5px solid #f6cf62;opacity:${1-p}"></div>`:'';
+const VIE=[[17.9,'mega','Annonces'],[18.6,'poll','Sondages'],[19.4,'cal','Agenda'],[21.7,'doc','Documents partagés'],[22.9,'photo','Galerie photo'],[23.9,'chat','Messagerie'],[26.2,'ladder','Classement interne'],[27.4,'trophy','Palmarès du club']];
+const BUR=[[11.15,'Président'],[11.85,'Vice-présidente'],[12.75,'Secrétaire'],[13.45,'Trésorier']];
+const PL=['Marco_64','Sophie_BG','LaDameDePique','Pierrot64','Lucie_Dés','Bernat_BG','Amaia_64','JonG','Txomin','Maddi_BG','Élodie','Kepa','Nora_D','Iñaki','Paulo_BG','Céline_64'];
+const AVI={Marco_64:'img/av1.png',LaDameDePique:'img/av2.png',Sophie_BG:'img/av3.png'};
+const av=(n,s)=>`<div class="av" style="width:${s}px;height:${s}px;font-size:${s*.45}px;flex:0 0 ${s}px">${AVI[n]?`<img src="${AVI[n]}">`:n[0]}</div>`;
+const pnl=(x,y,w,title,body,a,st='')=>a>0?`<div class="pn" style="left:${x}px;top:${y}px;width:${w}px;opacity:${a};${st}"><div class="ph">${title}</div><div class="pb">${body}</div></div>`:'';
+const big=(ic,s=3)=>`<div style="transform:scale(${s});height:${32*s}px;display:flex;align-items:center">${IC[ic]}</div>`;
+const BOARD=(w,h,rot=0)=>`<div style="width:${w}px;height:${h}px;overflow:hidden;border-radius:10px;border:3px solid #5b3a16;transform:rotate(${rot}deg)"><img src="img/plateau.jpg" style="width:${w*1918/1290}px;margin-left:${-w*30/1290}px;margin-top:${-h*45/900}px"></div>`;
+function vis(k,T,t0){const p=T-t0;
+ if(k==0)return `<div style="position:relative;width:300px;height:210px;display:grid;place-items:center"><div style="padding:10px;background:#111;border-radius:22px;border:2px solid #444;transform:perspective(600px) rotateX(${38}deg)">${BOARD(260,160)}</div>
+  <div style="position:absolute;top:-6px;left:118px">${av('Marco_64',46)}</div><div style="position:absolute;bottom:-14px;left:118px">${av('Sophie_BG',46)}</div></div>`;
+ if(k==1){let bars='';[.8,.4,.95,.3,.6,.15,.7].forEach((v,i)=>{const hh=v*90*clamp(p/1.2+.1-i*.08);bars+=`<div style="width:22px;height:${hh}px;background:${v>.5?'#22c55e':'#ef4444'};border-radius:4px 4px 0 0"></div>`;});
+  return `<div class="pn" style="position:relative;width:300px"><div class="ph" style="font-size:15px;padding:8px">🎯 Analyse de la partie</div><div class="pb" style="padding:12px"><div style="display:flex;justify-content:space-between;align-items:center"><div><div style="font-size:12px;color:#8a8070;font-weight:700">Performance</div><div class="bf" style="font-size:30px;color:#1f7a3d">PR 4,2</div></div><span class="bdg" style="background:#dcf5e3;color:#1f7a3d">Expert</span></div><div style="display:flex;align-items:flex-end;gap:8px;height:96px;margin-top:8px;border-bottom:2px solid #ead9b4">${bars}</div><div style="font-size:12px;color:#5e554a;margin-top:6px">💡 Coup 14 : 13/9 6/5 était meilleur</div></div></div>`;}
+ if(k==2)return `<div class="pn" style="position:relative;width:300px"><div class="ph" style="font-size:15px;padding:8px">🎓 Cours en direct</div><div class="pb" style="padding:10px"><div style="position:relative">${BOARD(276,140)}<div style="position:absolute;right:6px;top:6px;border-radius:10px;border:3px solid #e1b553;overflow:hidden;width:76px;height:76px">${av('LaDameDePique',70).replace('border-radius:50%','border-radius:0')}</div><span class="bdg" style="position:absolute;left:8px;top:8px;background:#c0261b;color:#fff;opacity:${Math.floor(p*2)%2?1:.6}">● LIVE</span></div><div style="font-size:13px;margin-top:8px"><b>Les ouvertures</b> · avec LaDameDePique <span style="color:#8a8070">· 🥇 Confirmé</span></div></div></div>`;
+ const it=[['#d9ab4a','#7a5410'],['#fdfbf0','#3a2a18'],['#1d4b34','#e1b553'],['#9b1c1c','#f2c9a0'],['#1e3a8a','#bcd2ff'],['#2b2b2b','#d4d4d4']];
+ return `<div class="pn" style="position:relative;width:300px"><div class="ph" style="font-size:15px;padding:8px">🛍 Boutique</div><div class="pb" style="padding:12px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px">${it.map(([a,b],i)=>`<div class="cd" style="padding:8px;display:flex;flex-direction:column;align-items:center;gap:4px;transform:scale(${1+.08*Math.max(0,Math.sin((p-i*.2)*3))})"><div style="width:44px;height:44px;border-radius:50%;background:radial-gradient(circle at 35% 30%,${b},${a} 60%);border:3px solid ${b};box-shadow:0 3px 0 rgba(0,0,0,.25)"></div><span style="font-size:11px;font-weight:900;color:#8a6326">${[250,400,600,800,1200,1500][i]} TGC</span></div>`).join('')}</div></div>`;}
+function render(t){
+ const V=D.voice,T=t-V;let ov='';
+ $('#bg').style.transform=`scale(${1.04+t*.0025})`;
+ const sx=-400+((t*90)%1900);
+ $('#sweep').style.background=`linear-gradient(105deg,transparent ${sx/12.8}%,rgba(255,236,170,.06) ${(sx+160)/12.8}%,transparent ${(sx+320)/12.8}%)`;
+ ov+=PT.map(p=>{const y=(p.y-t*p.v+720)%720,x=p.x+Math.sin(t*.6+p.ph)*14;return `<div class="a" style="left:${x}px;top:${y}px;width:${p.r*2}px;height:${p.r*2}px;border-radius:50%;background:#f3d58a;opacity:${.25+.25*Math.sin(t+p.ph)}"></div>`}).join('');
+ ov+=tag(60,34,'Et aussi…',Math.min(seg(t,.2,.7),1-seg(T,17.9,18.2)));ov+=tag(60,34,'Bientôt',seg(T,18.2,18.6));
+ // ── titre
+ {const a=Math.min(seg(t,.2,.9),1-seg(T,3.3,3.7));if(a>0)ov+=`<div class="a" style="left:340px;top:230px;width:880px;text-align:center;opacity:${a}"><div class="bf" style="font-size:60px;transform:scale(${.9+.1*back(seg(t,.2,1))})"><span class="gold">Tout ce qui fait vivre<br>un club au quotidien</span></div></div>`;}
+ // ── 4 modules : la carte active en grand, les autres en vignettes
+ const M=[[3.63,'duo','Face à face','Une tablette, deux joueurs'],[9.35,'pawn','Entraînement',"Contre l'ordinateur + analyse"],[13.4,'cap','Cours','En ligne, avec des professeurs'],[15.58,'bag','Boutique','Personnalisez votre plateau']];
+ {const a=Math.min(seg(T,3.4,3.8),1-seg(T,17.9,18.3));
+  if(a>0){let cur=-1;M.forEach((m,i)=>{if(T>=m[0]-.2)cur=i;});
+   M.forEach(([t0,ic,l1,l2],i)=>{const app=seg(T,t0-.3,t0+.15);if(app<=0)return;const isCur=i==cur;const mv=eio(seg(T,(M[i+1]||[99])[0]-.3,(M[i+1]||[99])[0]+.2));
+    // grande carte
+    const bx=360,by=110,sx_=1040,sy_=110+i*140;
+    const X=isCur?bx:sx_+0, Y=isCur?by:sy_;
+    const x=bx+(sx_-bx)*mv, y=by+(sy_-by)*mv, sc=1-.7*mv;
+    ov+=`<div class="a" style="left:${x}px;top:${y+(1-eo(app))*60}px;width:560px;height:440px;opacity:${app*a};transform:scale(${sc});transform-origin:0 0;border-radius:26px;background:rgba(253,251,240,.08);border:3px solid rgba(225,181,83,${.5+.5*(isCur?1:0)});box-shadow:0 30px 60px rgba(0,0,0,.45)${isCur?',0 0 50px rgba(246,207,98,.35)':''};display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px">
+     <div style="display:flex;align-items:center;gap:14px">${big(ic,1.6)}<span class="bf" style="font-size:42px"><span class="gold">${l1}</span></span></div>
+     ${vis(i,T,t0)}
+     <div style="font-size:22px;font-weight:800;color:#e9d9a8">${l2}</div></div>`;});}}
+ // ── Bientôt
+ {const a=seg(T,18.2,18.6);
+  if(a>0){ov+=`<div class="a" style="left:340px;top:110px;width:880px;text-align:center;opacity:${a}"><div style="font-size:24px;font-weight:800;color:#e9d9a8;opacity:${1-seg(T,19.4,19.8)}">Et ce n'est qu'un début…</div></div>`;
+   const bt=seg(T,19.55,19.9);if(bt>0)ov+=`<div class="a" style="left:340px;top:100px;width:880px;text-align:center;opacity:${bt}"><div class="bf" style="font-size:54px;transform:scale(${1.5-.5*eo(bt)})"><span class="gold">BIENTÔT</span></div></div>`;
+   [[20.44,'photo',"L'œil de la chouette",'Photographiez un vrai plateau,<br>la chouette analyse'],[25.34,'people','La chouette en ligne','Jouer à plusieurs,<br>comme au club']].forEach(([t0,ic,l1,l2],i)=>{const r=seg(T,t0-.3,t0+.4);if(r<=0)return;const veil=1-seg(T,t0+.3,t0+1.6);const lit=on(T,t0,i?99:25.2);
+    const sh=((t*0.5+i*.4)%1.6)/1.6;
+    ov+=`<div class="a" style="left:${380+i*420}px;top:${200+(1-eo(r))*60}px;width:380px;height:320px;opacity:${r};transform:scale(${.9+.1*back(r)+.03*lit});border-radius:26px;overflow:hidden;background:linear-gradient(160deg,rgba(40,30,70,.9),rgba(10,30,22,.9));border:3px solid ${lit?'#f6cf62':'rgba(225,181,83,.5)'};box-shadow:0 30px 60px rgba(0,0,0,.5)${lit?',0 0 50px rgba(246,207,98,.45)':''}">
+     <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;filter:blur(${veil*10}px)">${big(ic,2.6)}<div class="bf" style="font-size:32px;text-align:center"><span class="gold">${l1}</span></div><div style="font-size:19px;font-weight:700;text-align:center;color:#e9d9a8;line-height:1.3">${l2}</div></div>
+     <div style="position:absolute;inset:0;background:linear-gradient(105deg,transparent ${sh*140-40}%,rgba(255,240,190,.35) ${sh*140-25}%,transparent ${sh*140-10}%)"></div>
+     <div style="position:absolute;top:14px;right:14px"><span class="pill" style="font-size:12px;padding:5px 12px">Bientôt</span></div>
+     ${[0,1,2,3,4,5].map(k=>{const q=((t*.7+k*.37+i*.2)%1);return `<div style="position:absolute;left:${20+((k*61)%340)}px;top:${300-q*290}px;color:#fbe39a;font-size:${10+k%3*5}px;opacity:${Math.sin(q*Math.PI)}">✦</div>`;}).join('')}</div>`;});}}
+ $('#ov').innerHTML=ov;
+ const fe=eio(seg(t,0,.8)), ox=-420+440*fe, oy=250;
+ const env=(D.env||[])[Math.floor(t*30)]||0, bob=Math.sin(t*2.2)*4;
+ $('#owlw').style.left=ox+'px';$('#owlw').style.top=(oy+bob)+'px';
+ $('#owl').style.transform=`scale(.8,${.8*(1+env*.035)})`;
+ let wing=t<.8?Math.abs(Math.sin(t*11))*60:0;
+ const point=[[3.7,8.9],[9.4,13.0],[13.4,15.2],[15.6,17.8],[20.5,24.9],[25.4,28.2]];
+ for(const [a,b] of point)if(T>a&&T<b){const e=Math.min(seg(T,a,a+.3),1-seg(T,b-.3,b));wing=Math.max(wing,e*(38+10*Math.sin(T*6)));}
+ if(T>19.5&&T<20.4){const e=Math.min(seg(T,19.5,19.7),1-seg(T,20.2,20.4));wing=e*(52+22*Math.sin((T-19.5)*Math.PI*4));}
+ $('#wing').style.transform=`rotate(${-wing}deg)`;
+ const blink=(t%4.3)>4.15;$('#eyeR').style.opacity=blink?1:0;$('#eyeL').style.opacity=blink?1:0;
+ let s='';for(const x of D.subs)if(t>=x[0]&&t<=x[1]+.25)s=x[2];
+ $('#subt').textContent=s;$('#subt').style.opacity=s?1:0;
+ const fin=1-seg(t,0,.6);$('#flash').style.background='#fff8e1';
+ $('#flash').style.opacity=fin>0?fin*.9:seg(t,D.dur-.35,D.dur)*.9;
+}
+window.render=render;render(0);
+</script></body></html>
