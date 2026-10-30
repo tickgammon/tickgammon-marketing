@@ -1,0 +1,98 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 2 — TEXTES À COLLER DANS ELEVENLABS (ESPAÑOL)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que pour le français.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1_es.mp3, bloc2_es.mp3, bloc3_es.mp3.
+
+########## BLOC 1 (P01 à P15, 1858 caractères) → bloc1_es.mp3 ##########
+============================================================
+¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez vimos todas las reglas del backgammon. Hoy pasamos a la práctica: voy a enseñaros las mejores aperturas.
+
+La apertura es la primerísima jugada de la partida. Y tengo una buena noticia: solo hay quince que conocer. Al final de esta lección, sabréis jugar cada una de ellas.
+
+Recordad: para empezar, cada jugador tira un solo dado, y el más alto juega con los dos dados.
+
+Si los dos dados son iguales, se vuelve a tirar. Así que la primera jugada nunca puede ser un doble.
+
+Con dos dados distintos, hay exactamente quince combinaciones, del seis-cinco al dos-uno.
+
+Gracias a los programas de análisis, que han jugado millones de partidas, hoy se conoce la mejor jugada para cada una. Aprenderlas os da ventaja desde el primer turno.
+
+Antes de empezar, un pequeño recordatorio. Una jugada siempre se describe desde vuestro punto de vista, con los números de los puntos.
+
+Cuando digo «de ocho a cinco», una ficha sale de vuestro punto ocho y llega a vuestro punto cinco.
+
+Y cuando digo «dos fichas de trece a once», el mismo movimiento se juega dos veces.
+
+Las quince aperturas se agrupan en tres grandes familias: hacer un punto, correr y preparar. Empecemos por la mejor.
+
+El tres-uno es la apertura más bonita del juego. Jugad una ficha de ocho a cinco, y otra de seis a cinco.
+
+Vuestras dos fichas quedan juntas en el punto cinco. Ese punto queda bloqueado para el adversario, y es el más valioso de todo el tablero.
+
+Con cuatro-dos, la misma idea: de ocho a cuatro y de seis a cuatro. Hacéis el punto cuatro.
+
+Con cinco-tres, de ocho a tres y de seis a tres: hacéis el punto tres. Es un poco menos útil, pero sigue siendo un punto sólido más.
+
+El consejo de la lechuza: cuando una tirada os permite hacer un punto en vuestro cuadrante interior desde el principio, ¡no la desaprovechéis nunca!
+============================================================
+
+########## BLOC 2 (P16 à P31, 2141 caractères) → bloc2_es.mp3 ##########
+============================================================
+El seis-uno también hace un punto, pero uno especial: el punto siete, que llamamos el bar point.
+
+Jugad una ficha de trece a siete, y otra de ocho a siete.
+
+El punto siete está justo al lado de la barra. Junto con vuestros puntos seis y ocho, ya forma un muro de tres puntos delante de las fichas traseras del adversario.
+
+Es el comienzo de un prime, ese famoso muro de seis puntos que el adversario no puede cruzar. ¡Y pronto se dará cuenta de que está atrapado! [laughs]
+
+Segunda familia: correr. Vuestras dos fichas del punto veinticuatro están lejos de casa, y corren el riesgo de quedar encerradas.
+
+Con seis-cinco es fácil: una sola ficha sale del veinticuatro y llega hasta el trece. Esta jugada se llama el salto del enamorado. Vuestra ficha ya está a salvo, con sus amigas.
+
+Con seis-cuatro, seis-tres y seis-dos, se suele jugar el seis de veinticuatro a dieciocho, para sacar una ficha trasera.
+
+Y el dado pequeño se juega desde el punto trece: de trece a nueve con el cuatro, de trece a diez con el tres, de trece a once con el dos.
+
+Con seis-cuatro y seis-tres, también se puede hacer correr una sola ficha, de veinticuatro a catorce, o de veinticuatro a quince. Las dos formas de jugar se valen.
+
+Tercera familia: preparar. Las demás tiradas no permiten ni hacer un punto ni correr lejos. Entonces se colocan constructores.
+
+Un constructor es una ficha colocada al alcance de los puntos que queréis hacer en el turno siguiente.
+
+Con cinco-dos, jugad de trece a ocho y de trece a once. Con cinco-uno, de trece a ocho y de veinticuatro a veintitrés.
+
+Con cuatro-tres, dos fichas bajan del trece, una al nueve y otra al diez. Con tres-dos, una al diez y otra al once.
+
+Con cuatro-uno, de trece a nueve y de veinticuatro a veintitrés. Con cinco-cuatro, de trece a ocho y de trece a nueve, o bien de veinticuatro a veinte y de trece a ocho.
+
+Y con dos-uno, la tirada más pequeña: de trece a once, y luego de veinticuatro a veintitrés, o de seis a cinco.
+
+Sí, estas jugadas a veces dejan una ficha sola, un blot. Es un pequeño riesgo, pero vale la pena: en el turno siguiente, tendréis muchas más posibilidades de hacer un buen punto.
+============================================================
+
+########## BLOC 3 (P32 à P42, 1603 caractères) → bloc3_es.mp3 ##########
+============================================================
+Un doble nunca sale en la primera jugada. Pero puede salir en la segunda, para responder a la apertura del adversario. Estas son las respuestas clásicas.
+
+Con doble seis, dos fichas de veinticuatro a dieciocho, y dos de trece a siete. Os quedáis con dos puntos muy buenos de una vez.
+
+Con doble cinco, dos fichas de trece a tres. Con doble cuatro, dos fichas de veinticuatro a veinte, y dos de trece a nueve.
+
+Con doble tres, dos fichas de ocho a cinco y dos de seis a tres. Con doble dos, dos fichas de trece a once y dos de seis a cuatro.
+
+Y con doble uno, dos fichas de ocho a siete y dos de seis a cinco: ¡hacéis a la vez el punto siete y el punto cinco!
+
+Atención: en la segunda jugada, todo depende también de lo que haya jugado el adversario.
+
+Si ha dejado un blot al alcance de vuestros dados, golpearlo suele ser mejor que la jugada clásica. Su ficha vuelve a la barra, y pierde todo el camino recorrido.
+
+Tampoco intentéis aprenderlo todo de memoria de una vez. Recordad primero las tres ideas: hacer un punto, correr con un seis y colocar constructores.
+
+Lo demás vendrá con la práctica. En TickGammon, el análisis de vuestras partidas os muestra cuándo os apartáis de la mejor jugada, aperturas incluidas.
+
+¡Y listo, ya conocéis las quince aperturas del backgammon! Las encontraréis todas en la tabla de la página Aperturas, en TickGammon.
+
+Para practicar, jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows. La próxima vez, os enseño a usar bien el cubo doblador. ¡Suscribíos para no perdérosla! ¡Hasta muy pronto alrededor del tablero!
+============================================================

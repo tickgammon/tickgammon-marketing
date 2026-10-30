@@ -1,0 +1,98 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 2 — TEXTES À COLLER DANS ELEVENLABS (FR)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que ton test.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1.mp3, bloc2.mp3, bloc3.mp3.
+
+########## BLOC 1 (P01 à P15, 1944 caractères) → bloc1.mp3 ##########
+============================================================
+Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, nous avons vu toutes les règles du backgammon. Aujourd'hui, on passe à la pratique : je vais vous apprendre les meilleures ouvertures.
+
+L'ouverture, c'est le tout premier coup de la partie. Et bonne nouvelle : il n'y en a que quinze à connaître. À la fin de cette leçon, vous saurez jouer chacune d'elles.
+
+Vous vous souvenez : pour commencer, chaque joueur lance un seul dé, et le plus fort joue avec les deux dés.
+
+Si les deux dés sont identiques, on relance. Le premier coup ne peut donc jamais être un double.
+
+Avec deux dés différents, il existe exactement quinze combinaisons, du six-cinq jusqu'au deux-un.
+
+Grâce aux programmes d'analyse, qui ont joué des millions de parties, on connaît aujourd'hui le meilleur coup pour chacune. Les apprendre, c'est prendre de l'avance dès le premier tour.
+
+Avant de commencer, un petit rappel. On décrit toujours un coup de votre point de vue, avec les numéros des points.
+
+Quand je dis « de huit à cinq », un pion part de votre point huit et arrive sur votre point cinq.
+
+Et quand je dis « deux pions de treize à onze », le même mouvement est joué deux fois.
+
+Les quinze ouvertures se rangent en trois grandes familles : faire un point, courir, et préparer. Commençons par la meilleure.
+
+Le trois-un est la plus belle ouverture du jeu. Jouez un pion de huit à cinq, et un pion de six à cinq.
+
+Vos deux pions se retrouvent ensemble sur le point cinq. Ce point est bloqué pour l'adversaire, et c'est le plus précieux de tout le plateau.
+
+Avec quatre-deux, même idée : de huit à quatre et de six à quatre. Vous faites le point quatre.
+
+Avec cinq-trois, de huit à trois et de six à trois : vous faites le point trois. Il est un peu moins utile, mais c'est toujours un point solide de plus.
+
+Le conseil de la chouette : quand un lancer vous permet de faire un point dans votre jan intérieur dès le départ, ne vous en privez jamais !
+============================================================
+
+########## BLOC 2 (P16 à P31, 2189 caractères) → bloc2.mp3 ##########
+============================================================
+Le six-un fait lui aussi un point, mais un point particulier : le point sept, qu'on appelle le bar point.
+
+Jouez un pion de treize à sept, et un pion de huit à sept.
+
+Le point sept est juste à côté de la barre. Avec vos points six et huit, il forme déjà un mur de trois points devant les pions arrière de votre adversaire.
+
+C'est le début d'une prime, ce fameux mur de six points que l'adversaire ne peut pas franchir. Et il va vite comprendre qu'il est coincé ! [laughs]
+
+Deuxième famille : courir. Vos deux pions du point vingt-quatre sont loin de chez eux, et ils risquent d'être enfermés.
+
+Avec six-cinq, c'est facile : un seul pion part du vingt-quatre et file jusqu'au treize. On appelle ce coup le saut de l'amoureux. Votre pion est déjà à l'abri, avec ses amis.
+
+Avec six-quatre, six-trois et six-deux, on joue souvent le six de vingt-quatre à dix-huit, pour faire sortir un pion arrière.
+
+Et on joue le petit dé depuis le point treize : de treize à neuf avec le quatre, de treize à dix avec le trois, de treize à onze avec le deux.
+
+Avec six-quatre et six-trois, on peut aussi faire courir un seul pion, de vingt-quatre à quatorze, ou de vingt-quatre à quinze. Les deux façons de jouer se valent.
+
+Troisième famille : préparer. Les autres lancers ne permettent ni de faire un point, ni de courir loin. On place alors des constructeurs.
+
+Un constructeur, c'est un pion posé à portée des points que vous voulez faire au tour suivant.
+
+Avec cinq-deux, jouez de treize à huit et de treize à onze. Avec cinq-un, de treize à huit et de vingt-quatre à vingt-trois.
+
+Avec quatre-trois, deux pions descendent du treize, l'un sur le neuf et l'autre sur le dix. Avec trois-deux, l'un sur le dix et l'autre sur le onze.
+
+Avec quatre-un, de treize à neuf et de vingt-quatre à vingt-trois. Avec cinq-quatre, de treize à huit et de treize à neuf, ou bien de vingt-quatre à vingt et de treize à huit.
+
+Et avec deux-un, le plus petit lancer : de treize à onze, puis de vingt-quatre à vingt-trois, ou de six à cinq.
+
+Oui, ces coups laissent parfois un pion tout seul, un blot. C'est un petit risque, mais il en vaut la peine : au tour suivant, vous aurez bien plus de chances de faire un bon point.
+============================================================
+
+########## BLOC 3 (P32 à P42, 1687 caractères) → bloc3.mp3 ##########
+============================================================
+Un double ne tombe jamais au premier coup. Mais il peut arriver au deuxième, pour répondre à l'ouverture de votre adversaire. Voici les réponses classiques.
+
+Avec double six, deux pions de vingt-quatre à dix-huit, et deux pions de treize à sept. Vous prenez deux très bons points d'un seul coup.
+
+Avec double cinq, deux pions de treize à trois. Avec double quatre, deux pions de vingt-quatre à vingt, et deux de treize à neuf.
+
+Avec double trois, deux pions de huit à cinq et deux de six à trois. Avec double deux, deux pions de treize à onze et deux de six à quatre.
+
+Et avec double un, deux pions de huit à sept et deux de six à cinq : vous faites à la fois le point sept et le point cinq !
+
+Attention : au deuxième coup, tout dépend aussi de ce qu'a joué votre adversaire.
+
+S'il a laissé un blot à portée de vos dés, le frapper est souvent meilleur que le coup classique. Son pion repart sur la barre, et il perd tout le chemin parcouru.
+
+Ne cherchez pas non plus à tout apprendre par cœur d'un coup. Retenez d'abord les trois idées : faire un point, courir avec un six, et placer des constructeurs.
+
+Le reste viendra avec la pratique. Sur TickGammon, l'analyse de vos parties vous montre quand vous vous écartez du meilleur coup, ouvertures comprises.
+
+Et voilà, vous connaissez maintenant les quinze ouvertures du backgammon ! Vous les retrouverez toutes dans le tableau de la page Ouvertures, sur TickGammon.
+
+Pour vous entraîner, jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows. La prochaine fois, je vous apprends à bien utiliser le videau. Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
+============================================================

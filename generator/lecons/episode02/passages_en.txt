@@ -1,0 +1,42 @@
+P01|0|Hello and welcome to the Owl's Lessons! Last time, we went through all the rules of backgammon. Today, we move on to practice: I'm going to teach you the best opening moves.
+P02|0|The opening is the very first move of the game. And here's the good news: there are only fifteen to know. By the end of this lesson, you'll know how to play every one of them.
+P03|1|Remember: to start, each player rolls a single die, and the higher roll plays with both dice.
+P04|1|If the two dice are the same, you roll again. So the first move can never be a double.
+P05|1|With two different dice, there are exactly fifteen combinations, from six-five down to two-one.
+P06|1|Thanks to analysis programs, which have played millions of games, we now know the best move for each one. Learning them gives you a head start from the very first turn.
+P07|2|Before we begin, a quick reminder. A move is always described from your point of view, using the point numbers.
+P08|2|When I say "from eight to five", a checker leaves your eight-point and lands on your five-point.
+P09|2|And when I say "two checkers from thirteen to eleven", the same move is played twice.
+P10|2|The fifteen openings fall into three main families: making a point, running, and building. Let's start with the best one.
+P11|3|Three-one is the finest opening in the game. Play one checker from eight to five, and one from six to five.
+P12|3|Your two checkers end up together on the five-point. That point is now blocked for your opponent, and it's the most valuable point on the whole board.
+P13|3|With four-two, same idea: from eight to four and from six to four. You make the four-point.
+P14|3|With five-three, from eight to three and from six to three: you make the three-point. It's a little less useful, but it's still one more solid point.
+P15|3|The owl's tip: whenever a roll lets you make a point in your home board right from the start, never pass it up!
+P16|4|Six-one also makes a point, but a special one: the seven-point, which we call the bar point.
+P17|4|Play one checker from thirteen to seven, and one from eight to seven.
+P18|4|The seven-point sits right next to the bar. Together with your six- and eight-points, it already forms a three-point wall in front of your opponent's back checkers.
+P19|4|It's the beginning of a prime, that famous six-point wall your opponent can't get past. And they'll soon realise they're stuck! [laughs]
+P20|5|Second family: running. Your two checkers on the twenty-four-point are far from home, and they risk being trapped.
+P21|5|With six-five, it's easy: a single checker leaves the twenty-four and runs all the way to the thirteen. This move is called the lover's leap. Your checker is already safe, with its friends.
+P22|5|With six-four, six-three and six-two, you usually play the six from twenty-four to eighteen, to bring a back checker out.
+P23|5|And you play the small die from the thirteen-point: thirteen to nine with the four, thirteen to ten with the three, thirteen to eleven with the two.
+P24|5|With six-four and six-three, you can also run a single checker, from twenty-four to fourteen, or from twenty-four to fifteen. Both ways of playing are about equal.
+P25|6|Third family: building. The other rolls don't let you make a point or run very far. So you place builders instead.
+P26|6|A builder is a checker placed within reach of the points you want to make on your next turn.
+P27|6|With five-two, play thirteen to eight and thirteen to eleven. With five-one, thirteen to eight and twenty-four to twenty-three.
+P28|6|With four-three, two checkers come down from the thirteen, one to the nine and the other to the ten. With three-two, one to the ten and the other to the eleven.
+P29|6|With four-one, thirteen to nine and twenty-four to twenty-three. With five-four, thirteen to eight and thirteen to nine, or twenty-four to twenty and thirteen to eight.
+P30|6|And with two-one, the smallest roll: thirteen to eleven, then twenty-four to twenty-three, or six to five.
+P31|6|Yes, these moves sometimes leave a checker on its own, a blot. It's a small risk, but it's worth it: on your next turn, you'll have a much better chance of making a good point.
+P32|7|A double never comes on the first move. But it can come on the second, in reply to your opponent's opening. Here are the classic replies.
+P33|7|With double six, two checkers from twenty-four to eighteen, and two from thirteen to seven. You grab two very good points in one go.
+P34|7|With double five, two checkers from thirteen to three. With double four, two checkers from twenty-four to twenty, and two from thirteen to nine.
+P35|7|With double three, two checkers from eight to five and two from six to three. With double two, two checkers from thirteen to eleven and two from six to four.
+P36|7|And with double one, two checkers from eight to seven and two from six to five: you make both the seven-point and the five-point!
+P37|8|Careful: on the second move, everything also depends on what your opponent played.
+P38|8|If they left a blot within reach of your dice, hitting it is often better than the classic move. Their checker goes back to the bar, and they lose all the ground they had covered.
+P39|8|And don't try to learn everything by heart in one go. First remember the three ideas: make a point, run with a six, and place builders.
+P40|8|The rest will come with practice. On TickGammon, the analysis of your games shows you when you stray from the best move, openings included.
+P41|9|And there you go, you now know all fifteen backgammon openings! You'll find them all in the table on the Openings page, on TickGammon.
+P42|9|To practise, play for free against other players or against the computer, in your browser, on Android or on Windows. Next time, I'll teach you how to use the doubling cube well. Subscribe so you don't miss it! See you soon around the board!
