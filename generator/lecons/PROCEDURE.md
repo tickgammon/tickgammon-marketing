@@ -81,7 +81,8 @@ Travailler dans le scratchpad (`…/scratchpad/epN/`), y copier : les 9 MP3, `pa
 2. **Détails** : titre FR, description FR, **miniature FR**, playlist **« Les leçons de la chouette — apprendre le backgammon »**,
    « Non, elle n'est pas conçue pour les enfants ».
 3. **Afficher plus** : Promotion rémunérée **Non** ; Utilisation de l'IA **Oui** ; Chapitres automatiques décochés ; Tags ;
-   **Langue de la vidéo : Français** (vérifier, YouTube met parfois Anglais) ; Catégorie **Éducation** ;
+   **Langue de la vidéo : Français** ET **Langue du titre et de la description : Français** (sinon YouTube range
+   les sous-titres FR dans « Anglais » ; une piste créée dans la mauvaise langue doit être supprimée puis réimportée) ; Catégorie **Éducation** ;
    Sous-titres → Importer un fichier → **« Avec les données de synchronisation »** → `…_fr.srt`.
 4. **Éléments de la vidéo → Écran de fin** : modèle « 1 vidéo, 1 élément S'abonner » ; vidéo = « Contenu adapté au
    spectateur » (le choix Playlist n'est pas dans cet élément) ; les 2 éléments sur les **20 dernières secondes** ;
