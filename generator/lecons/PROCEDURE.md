@@ -46,6 +46,10 @@ Travailler dans le scratchpad (`…/scratchpad/epN/`), y copier : les 9 MP3, `pa
    - **dernière scène (20 dernières secondes) : laisser VIDES le coin bas-gauche (élément vidéo YouTube) et le coin
      bas-droit (bouton S'abonner)** — les éléments de l'écran de fin YouTube ne se réduisent pas ;
    - écran titre et fin : `tickgammon.com`, « Web · Android · Windows », carte de la leçon suivante.
+   - **dès la leçon 5 (décidé par Joyce le 30/10/2026)** : la carte de transition vers la conclusion (chapitre 9) n'est plus
+     le logo seul mais une carte **« Leçon N terminée ! · Lesson N complete! · ¡Lección N completada! »** avec un trophée doré
+     et des confettis ; et pendant le premier passage de la conclusion (« vous savez maintenant… »), **3 ou 4 cartes récap**
+     des idées clés de la leçon apparaissent l'une après l'autre avec un ✓ (textes courts, chiffres/symboles ou FR+EN+ES).
 4. **Contrôle visuel AVANT le rendu complet** : `node render2.js fr 0 0 test <temps à 75 % de chaque passage>` puis
    planches de 6 images ; corriger jusqu'à ce que tout soit juste.
 5. **Rendu** : N = total × 30 ; lancer 6 morceaux `node render2.js fr a b frames` en parallèle (≈ 35 min).
