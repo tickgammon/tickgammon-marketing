@@ -1,0 +1,39 @@
+P01|0|Hello and welcome to the Owl's Lessons! Last time, you learned how to use the doubling cube. Today, we're tackling the end of the game: the race and bearing off.
+P02|0|This is where a lot of games are decided. And yet, with a few simple rules, you can avoid almost every mistake. Let's go!
+P03|1|At the start of the game, both players' checkers cross paths. You can block each other, hit each other, trap each other.
+P04|1|But at some point, each player's last checker moves past the opponent's last checker. Nobody can hit anybody anymore.
+P05|1|From that moment on, it's a race. There's nothing left to block: the first player to bear off all fifteen checkers wins.
+P06|2|To know who's leading the race, you count pips. The pip count is the total distance your checkers still have to travel to bear off.
+P07|2|The calculation is simple: for each point, multiply the number of checkers by the point number, then add everything up.
+P08|2|For example, three checkers on your eight-point make twenty-four pips. Two checkers on your six-point make twelve.
+P09|2|At the start of the game, each player has one hundred and sixty-seven pips. Whoever has the lower count is ahead.
+P10|3|Why does it matter so much? Because the pip count tells you which plan to follow.
+P11|3|If you're leading the race, try to free your checkers and come home without taking risks. Contact is no use to you anymore.
+P12|3|If you're behind, on the other hand, keep contact for as long as possible. Your only chance is to hit one of your opponent's checkers.
+P13|3|A useful benchmark: one roll of the dice is worth a little over eight pips on average. So a ten-pip lead is roughly one roll ahead.
+P14|4|Once you're in a race, you need to bring your checkers home, into your home board, as quickly as possible.
+P15|4|The owl's tip: think in crossovers. Every time a checker moves from one quarter of the board into the next, that's a crossover.
+P16|4|What matters is getting every checker into your home board. So move your farthest checkers first, and don't waste time pushing the ones that have already arrived.
+P17|4|With six-five, for example, bring two checkers in from the outer board, rather than pushing a single one all the way to the back.
+P18|5|Second rule of the race: don't waste your pips.
+P19|5|Many beginners pile all their checkers on the six-point. They get home quickly, but then it takes a lot of rolls to bear them all off.
+P20|5|It's better to spread your checkers over the six, five and four points. They're all home already, and bearing off will be much faster.
+P21|5|On the other hand, don't fill up the one, two and three points too early. A checker that lands there has used pips for nothing: it would have come off anyway with a small number.
+P22|5|And don't panic if you play one move a little badly. In a race, a single mistake rarely costs the game… but ten little mistakes do! [laughs]
+P23|6|All fifteen checkers are home: bearing off begins. If there's no contact left at all, the rule is very simple.
+P24|6|Bear off a checker every time you can. A checker off the board is one less checker to bring home.
+P25|6|If your die doesn't let you bear off, use it to fill an empty point. The more spread out your checkers are, the more each roll will let you bear off.
+P26|6|And with a double, you play the same number four times: often that's four checkers off in one go. The perfect moment to catch up!
+P27|7|Everything changes if your opponent still has a checker in your home board, or on the bar. Then there's still contact.
+P28|7|Your priority is no longer speed, it's safety. A single blot hit during the bear-off can cost you the game.
+P29|7|Clear your points starting with the farthest one, and keep an even number of checkers on your highest points.
+P30|7|That way, when you bear off, your checkers leave in pairs, and you avoid leaving a checker on its own.
+P31|7|Sometimes the safest move doesn't bear off any checker at all. That's fine: better to bear off a little more slowly than to get hit.
+P32|8|To finish, two ideas to keep in mind during the race.
+P33|8|The first is the doubling cube. In a race, you usually double with about an eight percent lead in the pip count, and you take with up to about twelve percent behind.
+P34|8|Example: with one hundred pips against one hundred and eight, you're eight percent ahead. That's the right moment to offer a double.
+P35|8|The second is the gammon. If your opponent is already bearing off and you're far behind, your priority changes.
+P36|8|Forget about wastage: bring all your checkers home as fast as you can, and bear off at least one checker. A single loss is better than a gammon!
+P37|8|And on TickGammon, the analysis of your games shows you the pip count at every move, and points out when you could have played the race better.
+P38|9|And there you go, you now know how to count pips, race without wasting, and bear off your checkers safely!
+P39|9|To practise, play for free against other players or against the computer, in your browser, on Android or on Windows. Next time, I'll teach you about dice probabilities. Subscribe so you don't miss it! See you soon around the board!

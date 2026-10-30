@@ -1,0 +1,92 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 4 — TEXTES À COLLER DANS ELEVENLABS (ESPAÑOL)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que pour le français.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1_es.mp3, bloc2_es.mp3, bloc3_es.mp3.
+
+########## BLOC 1 (P01 à P13, 1767 caractères) → bloc1_es.mp3 ##########
+============================================================
+¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez aprendisteis a usar el cubo doblador. Hoy nos ocupamos del final de la partida: la carrera y la salida de las fichas.
+
+Es el momento en que se deciden muchas partidas. Y sin embargo, con unas pocas reglas sencillas, podéis evitar casi todos los errores. ¡Vamos allá!
+
+Al principio de la partida, las fichas de los dos jugadores se cruzan. Uno puede bloquear, golpear o encerrar al otro.
+
+Pero llega un momento en que la última ficha de cada jugador adelanta a la última ficha del adversario. Ya nadie puede golpear a nadie.
+
+A partir de ese momento, es una carrera. Ya no hay nada que bloquear: el primero que saca sus quince fichas se lleva la partida.
+
+Para saber quién va por delante en la carrera, se cuentan los pips. El recuento de pips es la distancia total que vuestras fichas aún tienen que recorrer para salir.
+
+El cálculo es sencillo: para cada punto, se multiplica el número de fichas por el número del punto, y luego se suma todo.
+
+Por ejemplo, tres fichas en vuestro punto ocho son veinticuatro pips. Dos fichas en vuestro punto seis son doce.
+
+Al principio de la partida, cada jugador tiene ciento sesenta y siete pips. Quien tiene el recuento más bajo va por delante.
+
+¿Por qué es tan importante? Porque el recuento de pips os dice qué plan seguir.
+
+Si vais por delante en la carrera, intentad liberar vuestras fichas y volver a casa sin correr riesgos. El contacto ya no os sirve de nada.
+
+Si vais por detrás, al contrario, mantened el contacto el mayor tiempo posible. Vuestra única oportunidad es golpear una ficha del adversario.
+
+Una referencia útil: una tirada de dados vale de media un poco más de ocho pips. Así que una ventaja de diez pips es más o menos una tirada de ventaja.
+============================================================
+
+########## BLOC 2 (P14 à P26, 1710 caractères) → bloc2_es.mp3 ##########
+============================================================
+Una vez en la carrera, hay que llevar las fichas a casa, a vuestro cuadrante interior, lo más rápido posible.
+
+El consejo de la lechuza: pensad en cruces. Cada vez que una ficha pasa de un cuarto del tablero al siguiente, hace un cruce.
+
+Lo que cuenta es meter cada ficha en vuestro cuadrante interior. Así que jugad primero las fichas más alejadas, y no perdáis tiempo avanzando las que ya han llegado.
+
+Con un seis-cinco, por ejemplo, meted dos fichas del cuadrante exterior, en lugar de empujar una sola hasta el fondo.
+
+Segunda regla de la carrera: no desperdiciéis vuestros pips.
+
+Muchos principiantes amontonan todas sus fichas en el punto seis. Llegan rápido a casa, pero luego hacen falta muchas tiradas para sacarlas todas.
+
+Es mejor repartir las fichas entre los puntos seis, cinco y cuatro. Todas están ya en casa, y la salida será mucho más rápida.
+
+En cambio, no llenéis demasiado pronto los puntos uno, dos y tres. Una ficha que llega ahí ha gastado pips para nada: habría salido de todos modos con un dado pequeño.
+
+Y que no cunda el pánico si jugáis un movimiento un poco mal. En una carrera, un solo error rara vez cuesta la partida… ¡pero diez pequeños errores, sí! [laughs]
+
+Vuestras quince fichas están en casa: empieza la salida. Si ya no hay ningún contacto, la regla es muy sencilla.
+
+Sacad una ficha cada vez que sea posible. Una ficha fuera es una ficha menos que llevar a casa.
+
+Si vuestro dado no permite sacar una ficha, usadlo para llenar un punto vacío. Cuanto más repartidas estén vuestras fichas, más os permitirá sacar cada tirada.
+
+Y con un doble, jugáis cuatro veces el mismo número: a menudo son cuatro fichas que salen de golpe. ¡El momento perfecto para recuperar terreno!
+============================================================
+
+########## BLOC 3 (P27 à P39, 1767 caractères) → bloc3_es.mp3 ##########
+============================================================
+Todo cambia si vuestro adversario aún tiene una ficha en vuestro cuadrante interior, o en la barra. Entonces todavía hay contacto.
+
+Vuestra prioridad ya no es la velocidad, es la seguridad. Un solo blot golpeado durante la salida puede haceros perder la partida.
+
+Vaciad vuestros puntos empezando por el más alejado, y mantened un número par de fichas en vuestros puntos más altos.
+
+Así, cuando sacáis, vuestras fichas salen de dos en dos, y evitáis dejar una ficha sola.
+
+A veces, la jugada más segura no saca ninguna ficha. No pasa nada: más vale sacar un poco más despacio que ser golpeado.
+
+Para terminar, dos ideas que tener en cuenta durante la carrera.
+
+La primera es el cubo doblador. En una carrera, se suele doblar con unos ocho por ciento de ventaja en el recuento de pips, y se acepta hasta unos doce por ciento de retraso.
+
+Ejemplo: con cien pips contra ciento ocho, vais un ocho por ciento por delante. Es el momento adecuado para proponer doblar.
+
+La segunda es el gammon. Si vuestro adversario ya está sacando fichas y vosotros vais muy por detrás, vuestra prioridad cambia.
+
+Olvidaos del desperdicio: llevad todas vuestras fichas a casa lo más rápido posible, y sacad al menos una ficha. ¡Una derrota simple es mejor que un gammon!
+
+Y en TickGammon, el análisis de vuestras partidas os indica el recuento de pips en cada jugada, y os muestra cuándo podríais haber jugado mejor la carrera.
+
+¡Y listo, ya sabéis contar los pips, correr sin desperdiciar y sacar vuestras fichas con total seguridad!
+
+Para practicar, jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows. La próxima vez, os enseño las probabilidades de los dados. ¡Suscribíos para no perdérosla! ¡Hasta muy pronto alrededor del tablero!
+============================================================

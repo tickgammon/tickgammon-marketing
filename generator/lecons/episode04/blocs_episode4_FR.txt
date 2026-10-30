@@ -1,0 +1,92 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 4 — TEXTES À COLLER DANS ELEVENLABS (FR)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que ton test.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1.mp3, bloc2.mp3, bloc3.mp3.
+
+########## BLOC 1 (P01 à P13, 1726 caractères) → bloc1.mp3 ##########
+============================================================
+Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez appris à utiliser le videau. Aujourd'hui, on s'attaque à la fin de la partie : la course et la sortie des pions.
+
+C'est le moment où beaucoup de parties se jouent. Et pourtant, avec quelques règles simples, vous pouvez éviter presque toutes les erreurs. On y va !
+
+Au début de la partie, les pions des deux joueurs se croisent. On peut se bloquer, se frapper, s'enfermer.
+
+Mais un jour, le dernier pion de chaque joueur dépasse le dernier pion de l'adversaire. Plus personne ne peut frapper personne.
+
+À partir de ce moment, c'est une course. Il n'y a plus rien à bloquer : le premier qui sort ses quinze pions l'emporte.
+
+Pour savoir qui mène la course, on compte les pips. Le compte de pips, c'est la distance totale que vos pions doivent encore parcourir pour sortir.
+
+Le calcul est simple : pour chaque point, on multiplie le nombre de pions par le numéro du point, puis on additionne tout.
+
+Par exemple, trois pions sur votre point huit, cela fait vingt-quatre pips. Deux pions sur votre point six, cela fait douze.
+
+Au début de la partie, chaque joueur est à cent soixante-sept pips. Celui qui a le plus petit compte est en avance.
+
+Pourquoi est-ce si important ? Parce que le compte de pips vous dit quel plan suivre.
+
+Si vous menez la course, cherchez à dégager vos pions et à rentrer chez vous sans prendre de risque. Le contact ne vous sert plus à rien.
+
+Si vous êtes en retard, au contraire, gardez le contact le plus longtemps possible. Votre seule chance, c'est de frapper un pion adverse.
+
+Un repère utile : un lancer de dés vaut en moyenne un peu plus de huit pips. Une avance de dix pips, c'est donc à peu près un tour d'avance.
+============================================================
+
+########## BLOC 2 (P14 à P26, 1784 caractères) → bloc2.mp3 ##########
+============================================================
+Une fois dans la course, il faut ramener vos pions à la maison, dans votre jan intérieur, le plus vite possible.
+
+Le conseil de la chouette : pensez en franchissements. Chaque fois qu'un pion passe d'un quart du plateau au suivant, il fait un franchissement.
+
+Ce qui compte, c'est de faire entrer chaque pion dans votre jan intérieur. Alors, jouez d'abord les pions les plus éloignés, et ne perdez pas de temps à avancer ceux qui sont déjà arrivés.
+
+Avec un six-cinq, par exemple, faites entrer deux pions du jan extérieur, plutôt que d'en pousser un seul tout au fond.
+
+Deuxième règle de la course : ne gaspillez pas vos pips.
+
+Beaucoup de débutants empilent tous leurs pions sur le point six. Ils arrivent vite à la maison, mais ensuite, il faut beaucoup de lancers pour tous les sortir.
+
+Il vaut mieux répartir vos pions sur les points six, cinq et quatre. Ils sont tous déjà à la maison, et la sortie sera bien plus rapide.
+
+À l'inverse, ne remplissez pas trop vite les points un, deux et trois. Un pion qui arrive là a utilisé des pips pour rien : il serait sorti de toute façon avec un petit dé.
+
+Et pas de panique si vous jouez un peu mal un coup. En course, une seule erreur coûte rarement la partie… mais dix petites erreurs, si ! [laughs]
+
+Vos quinze pions sont à la maison : la sortie commence. S'il n'y a plus aucun contact, la règle est très simple.
+
+Sortez un pion à chaque fois que c'est possible. Un pion sorti, c'est un pion de moins à ramener.
+
+Si votre dé ne permet pas de sortir un pion, utilisez-le pour remplir un point vide. Plus vos pions sont répartis, plus chaque lancer vous permettra de sortir.
+
+Et avec un double, vous jouez quatre fois le même chiffre : c'est souvent quatre pions qui sortent d'un coup. C'est le moment rêvé pour rattraper votre retard !
+============================================================
+
+########## BLOC 3 (P27 à P39, 1798 caractères) → bloc3.mp3 ##########
+============================================================
+Tout change si votre adversaire a encore un pion dans votre jan intérieur, ou sur la barre. Là, il y a encore du contact.
+
+Votre priorité, ce n'est plus la vitesse, c'est la sécurité. Un seul blot frappé pendant la sortie peut vous faire perdre la partie.
+
+Videz vos points en commençant par le plus éloigné, et gardez un nombre pair de pions sur vos points les plus hauts.
+
+Ainsi, quand vous sortez, vos pions partent par deux, et vous évitez de laisser un pion tout seul.
+
+Parfois, le coup le plus sûr ne sort aucun pion. Ce n'est pas grave : mieux vaut sortir un peu plus lentement que d'être frappé.
+
+Pour finir, deux idées à garder en tête pendant la course.
+
+La première, c'est le videau. Dans une course, on double généralement avec environ huit pour cent d'avance au compte de pips, et on accepte jusqu'à environ douze pour cent de retard.
+
+Exemple : avec cent pips contre cent huit, vous menez de huit pour cent. C'est le bon moment pour proposer de doubler.
+
+La deuxième, c'est le gammon. Si votre adversaire est déjà en train de sortir et que vous êtes très loin derrière, votre priorité change.
+
+Oubliez le gaspillage : ramenez tous vos pions à la maison le plus vite possible, et sortez au moins un pion. Une défaite simple vaut mieux qu'un gammon !
+
+Et sur TickGammon, l'analyse de vos parties vous indique le compte de pips à chaque coup, et vous montre quand vous auriez pu mieux jouer la course.
+
+Et voilà, vous savez maintenant compter les pips, courir sans gaspiller, et sortir vos pions en toute sécurité !
+
+Pour vous entraîner, jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows. La prochaine fois, je vous apprends les probabilités aux dés. Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
+============================================================

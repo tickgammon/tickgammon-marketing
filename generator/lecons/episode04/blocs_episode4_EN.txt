@@ -1,0 +1,92 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 4 — TEXTES À COLLER DANS ELEVENLABS (ENGLISH)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que pour le français.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1_en.mp3, bloc2_en.mp3, bloc3_en.mp3.
+
+########## BLOC 1 (P01 à P13, 1609 caractères) → bloc1_en.mp3 ##########
+============================================================
+Hello and welcome to the Owl's Lessons! Last time, you learned how to use the doubling cube. Today, we're tackling the end of the game: the race and bearing off.
+
+This is where a lot of games are decided. And yet, with a few simple rules, you can avoid almost every mistake. Let's go!
+
+At the start of the game, both players' checkers cross paths. You can block each other, hit each other, trap each other.
+
+But at some point, each player's last checker moves past the opponent's last checker. Nobody can hit anybody anymore.
+
+From that moment on, it's a race. There's nothing left to block: the first player to bear off all fifteen checkers wins.
+
+To know who's leading the race, you count pips. The pip count is the total distance your checkers still have to travel to bear off.
+
+The calculation is simple: for each point, multiply the number of checkers by the point number, then add everything up.
+
+For example, three checkers on your eight-point make twenty-four pips. Two checkers on your six-point make twelve.
+
+At the start of the game, each player has one hundred and sixty-seven pips. Whoever has the lower count is ahead.
+
+Why does it matter so much? Because the pip count tells you which plan to follow.
+
+If you're leading the race, try to free your checkers and come home without taking risks. Contact is no use to you anymore.
+
+If you're behind, on the other hand, keep contact for as long as possible. Your only chance is to hit one of your opponent's checkers.
+
+A useful benchmark: one roll of the dice is worth a little over eight pips on average. So a ten-pip lead is roughly one roll ahead.
+============================================================
+
+########## BLOC 2 (P14 à P26, 1666 caractères) → bloc2_en.mp3 ##########
+============================================================
+Once you're in a race, you need to bring your checkers home, into your home board, as quickly as possible.
+
+The owl's tip: think in crossovers. Every time a checker moves from one quarter of the board into the next, that's a crossover.
+
+What matters is getting every checker into your home board. So move your farthest checkers first, and don't waste time pushing the ones that have already arrived.
+
+With six-five, for example, bring two checkers in from the outer board, rather than pushing a single one all the way to the back.
+
+Second rule of the race: don't waste your pips.
+
+Many beginners pile all their checkers on the six-point. They get home quickly, but then it takes a lot of rolls to bear them all off.
+
+It's better to spread your checkers over the six, five and four points. They're all home already, and bearing off will be much faster.
+
+On the other hand, don't fill up the one, two and three points too early. A checker that lands there has used pips for nothing: it would have come off anyway with a small number.
+
+And don't panic if you play one move a little badly. In a race, a single mistake rarely costs the game… but ten little mistakes do! [laughs]
+
+All fifteen checkers are home: bearing off begins. If there's no contact left at all, the rule is very simple.
+
+Bear off a checker every time you can. A checker off the board is one less checker to bring home.
+
+If your die doesn't let you bear off, use it to fill an empty point. The more spread out your checkers are, the more each roll will let you bear off.
+
+And with a double, you play the same number four times: often that's four checkers off in one go. The perfect moment to catch up!
+============================================================
+
+########## BLOC 3 (P27 à P39, 1677 caractères) → bloc3_en.mp3 ##########
+============================================================
+Everything changes if your opponent still has a checker in your home board, or on the bar. Then there's still contact.
+
+Your priority is no longer speed, it's safety. A single blot hit during the bear-off can cost you the game.
+
+Clear your points starting with the farthest one, and keep an even number of checkers on your highest points.
+
+That way, when you bear off, your checkers leave in pairs, and you avoid leaving a checker on its own.
+
+Sometimes the safest move doesn't bear off any checker at all. That's fine: better to bear off a little more slowly than to get hit.
+
+To finish, two ideas to keep in mind during the race.
+
+The first is the doubling cube. In a race, you usually double with about an eight percent lead in the pip count, and you take with up to about twelve percent behind.
+
+Example: with one hundred pips against one hundred and eight, you're eight percent ahead. That's the right moment to offer a double.
+
+The second is the gammon. If your opponent is already bearing off and you're far behind, your priority changes.
+
+Forget about wastage: bring all your checkers home as fast as you can, and bear off at least one checker. A single loss is better than a gammon!
+
+And on TickGammon, the analysis of your games shows you the pip count at every move, and points out when you could have played the race better.
+
+And there you go, you now know how to count pips, race without wasting, and bear off your checkers safely!
+
+To practise, play for free against other players or against the computer, in your browser, on Android or on Windows. Next time, I'll teach you about dice probabilities. Subscribe so you don't miss it! See you soon around the board!
+============================================================

@@ -1,0 +1,39 @@
+P01|0|¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez aprendisteis a usar el cubo doblador. Hoy nos ocupamos del final de la partida: la carrera y la salida de las fichas.
+P02|0|Es el momento en que se deciden muchas partidas. Y sin embargo, con unas pocas reglas sencillas, podéis evitar casi todos los errores. ¡Vamos allá!
+P03|1|Al principio de la partida, las fichas de los dos jugadores se cruzan. Uno puede bloquear, golpear o encerrar al otro.
+P04|1|Pero llega un momento en que la última ficha de cada jugador adelanta a la última ficha del adversario. Ya nadie puede golpear a nadie.
+P05|1|A partir de ese momento, es una carrera. Ya no hay nada que bloquear: el primero que saca sus quince fichas se lleva la partida.
+P06|2|Para saber quién va por delante en la carrera, se cuentan los pips. El recuento de pips es la distancia total que vuestras fichas aún tienen que recorrer para salir.
+P07|2|El cálculo es sencillo: para cada punto, se multiplica el número de fichas por el número del punto, y luego se suma todo.
+P08|2|Por ejemplo, tres fichas en vuestro punto ocho son veinticuatro pips. Dos fichas en vuestro punto seis son doce.
+P09|2|Al principio de la partida, cada jugador tiene ciento sesenta y siete pips. Quien tiene el recuento más bajo va por delante.
+P10|3|¿Por qué es tan importante? Porque el recuento de pips os dice qué plan seguir.
+P11|3|Si vais por delante en la carrera, intentad liberar vuestras fichas y volver a casa sin correr riesgos. El contacto ya no os sirve de nada.
+P12|3|Si vais por detrás, al contrario, mantened el contacto el mayor tiempo posible. Vuestra única oportunidad es golpear una ficha del adversario.
+P13|3|Una referencia útil: una tirada de dados vale de media un poco más de ocho pips. Así que una ventaja de diez pips es más o menos una tirada de ventaja.
+P14|4|Una vez en la carrera, hay que llevar las fichas a casa, a vuestro cuadrante interior, lo más rápido posible.
+P15|4|El consejo de la lechuza: pensad en cruces. Cada vez que una ficha pasa de un cuarto del tablero al siguiente, hace un cruce.
+P16|4|Lo que cuenta es meter cada ficha en vuestro cuadrante interior. Así que jugad primero las fichas más alejadas, y no perdáis tiempo avanzando las que ya han llegado.
+P17|4|Con un seis-cinco, por ejemplo, meted dos fichas del cuadrante exterior, en lugar de empujar una sola hasta el fondo.
+P18|5|Segunda regla de la carrera: no desperdiciéis vuestros pips.
+P19|5|Muchos principiantes amontonan todas sus fichas en el punto seis. Llegan rápido a casa, pero luego hacen falta muchas tiradas para sacarlas todas.
+P20|5|Es mejor repartir las fichas entre los puntos seis, cinco y cuatro. Todas están ya en casa, y la salida será mucho más rápida.
+P21|5|En cambio, no llenéis demasiado pronto los puntos uno, dos y tres. Una ficha que llega ahí ha gastado pips para nada: habría salido de todos modos con un dado pequeño.
+P22|5|Y que no cunda el pánico si jugáis un movimiento un poco mal. En una carrera, un solo error rara vez cuesta la partida… ¡pero diez pequeños errores, sí! [laughs]
+P23|6|Vuestras quince fichas están en casa: empieza la salida. Si ya no hay ningún contacto, la regla es muy sencilla.
+P24|6|Sacad una ficha cada vez que sea posible. Una ficha fuera es una ficha menos que llevar a casa.
+P25|6|Si vuestro dado no permite sacar una ficha, usadlo para llenar un punto vacío. Cuanto más repartidas estén vuestras fichas, más os permitirá sacar cada tirada.
+P26|6|Y con un doble, jugáis cuatro veces el mismo número: a menudo son cuatro fichas que salen de golpe. ¡El momento perfecto para recuperar terreno!
+P27|7|Todo cambia si vuestro adversario aún tiene una ficha en vuestro cuadrante interior, o en la barra. Entonces todavía hay contacto.
+P28|7|Vuestra prioridad ya no es la velocidad, es la seguridad. Un solo blot golpeado durante la salida puede haceros perder la partida.
+P29|7|Vaciad vuestros puntos empezando por el más alejado, y mantened un número par de fichas en vuestros puntos más altos.
+P30|7|Así, cuando sacáis, vuestras fichas salen de dos en dos, y evitáis dejar una ficha sola.
+P31|7|A veces, la jugada más segura no saca ninguna ficha. No pasa nada: más vale sacar un poco más despacio que ser golpeado.
+P32|8|Para terminar, dos ideas que tener en cuenta durante la carrera.
+P33|8|La primera es el cubo doblador. En una carrera, se suele doblar con unos ocho por ciento de ventaja en el recuento de pips, y se acepta hasta unos doce por ciento de retraso.
+P34|8|Ejemplo: con cien pips contra ciento ocho, vais un ocho por ciento por delante. Es el momento adecuado para proponer doblar.
+P35|8|La segunda es el gammon. Si vuestro adversario ya está sacando fichas y vosotros vais muy por detrás, vuestra prioridad cambia.
+P36|8|Olvidaos del desperdicio: llevad todas vuestras fichas a casa lo más rápido posible, y sacad al menos una ficha. ¡Una derrota simple es mejor que un gammon!
+P37|8|Y en TickGammon, el análisis de vuestras partidas os indica el recuento de pips en cada jugada, y os muestra cuándo podríais haber jugado mejor la carrera.
+P38|9|¡Y listo, ya sabéis contar los pips, correr sin desperdiciar y sacar vuestras fichas con total seguridad!
+P39|9|Para practicar, jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows. La próxima vez, os enseño las probabilidades de los dados. ¡Suscribíos para no perdérosla! ¡Hasta muy pronto alrededor del tablero!
