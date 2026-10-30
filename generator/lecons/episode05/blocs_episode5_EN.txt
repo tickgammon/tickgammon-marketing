@@ -4,9 +4,9 @@ Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres
 Ne change rien au texte : les lignes vides servent de pauses entre les passages.
 Télécharge chaque résultat en MP3 et renomme-le : bloc1_en.mp3, bloc2_en.mp3, bloc3_en.mp3.
 
-########## BLOC 1 (P01 à P13, 1558 caractères) → bloc1_en.mp3 ##########
+########## BLOC 1 (P01 à P13, 1564 caractères) → bloc1_en.mp3 ##########
 ============================================================
-Hello and welcome to the Owl's Lessons! Last time, you learned how to win the race. Today, we're talking about what scares every beginner: luck.
+Hello and welcome to the Owl's Lessons! Last time, you learned how to play the race well. Today, we're talking about what scares every beginner: luck.
 
 In backgammon, luck is no mystery. With two dice, everything can be calculated. And a few numbers are enough to play better. Let's go!
 

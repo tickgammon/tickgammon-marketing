@@ -1,4 +1,4 @@
-P01|0|Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez appris à gagner la course. Aujourd'hui, on parle de ce qui fait peur à tous les débutants : la chance.
+P01|0|Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez appris à bien jouer la course. Aujourd'hui, on parle de ce qui fait peur à tous les débutants : la chance.
 P02|0|Au backgammon, la chance n'est pas un mystère. Avec deux dés, tout se calcule. Et quelques chiffres suffisent pour mieux jouer. On y va !
 P03|1|Tout commence par un chiffre : trente-six. Deux dés de six faces donnent trente-six combinaisons possibles.
 P04|1|Attention au piège : six-un et un-six, ce sont deux combinaisons différentes. Le premier dé peut faire six et le second un, ou l'inverse.

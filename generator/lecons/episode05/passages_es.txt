@@ -1,4 +1,4 @@
-P01|0|¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez aprendisteis a ganar la carrera. Hoy hablamos de lo que asusta a todos los principiantes: la suerte.
+P01|0|¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez aprendisteis a jugar bien la carrera. Hoy hablamos de lo que asusta a todos los principiantes: la suerte.
 P02|0|En el backgammon, la suerte no es ningún misterio. Con dos dados, todo se puede calcular. Y bastan unas pocas cifras para jugar mejor. ¡Vamos allá!
 P03|1|Todo empieza con un número: treinta y seis. Dos dados de seis caras dan treinta y seis combinaciones posibles.
 P04|1|Cuidado con la trampa: seis-uno y uno-seis son dos combinaciones distintas. El primer dado puede sacar seis y el segundo uno, o al revés.

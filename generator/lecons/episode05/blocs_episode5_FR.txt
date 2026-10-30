@@ -4,9 +4,9 @@ Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres
 Ne change rien au texte : les lignes vides servent de pauses entre les passages.
 Télécharge chaque résultat en MP3 et renomme-le : bloc1.mp3, bloc2.mp3, bloc3.mp3.
 
-########## BLOC 1 (P01 à P13, 1701 caractères) → bloc1.mp3 ##########
+########## BLOC 1 (P01 à P13, 1705 caractères) → bloc1.mp3 ##########
 ============================================================
-Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez appris à gagner la course. Aujourd'hui, on parle de ce qui fait peur à tous les débutants : la chance.
+Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez appris à bien jouer la course. Aujourd'hui, on parle de ce qui fait peur à tous les débutants : la chance.
 
 Au backgammon, la chance n'est pas un mystère. Avec deux dés, tout se calcule. Et quelques chiffres suffisent pour mieux jouer. On y va !
 

@@ -1,4 +1,4 @@
-P01|0|Hello and welcome to the Owl's Lessons! Last time, you learned how to win the race. Today, we're talking about what scares every beginner: luck.
+P01|0|Hello and welcome to the Owl's Lessons! Last time, you learned how to play the race well. Today, we're talking about what scares every beginner: luck.
 P02|0|In backgammon, luck is no mystery. With two dice, everything can be calculated. And a few numbers are enough to play better. Let's go!
 P03|1|It all starts with one number: thirty-six. Two six-sided dice give thirty-six possible combinations.
 P04|1|Watch out for the trap: six-one and one-six are two different combinations. The first die can show six and the second one, or the other way round.

@@ -4,9 +4,9 @@ Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres
 Ne change rien au texte : les lignes vides servent de pauses entre les passages.
 Télécharge chaque résultat en MP3 et renomme-le : bloc1_es.mp3, bloc2_es.mp3, bloc3_es.mp3.
 
-########## BLOC 1 (P01 à P13, 1732 caractères) → bloc1_es.mp3 ##########
+########## BLOC 1 (P01 à P13, 1737 caractères) → bloc1_es.mp3 ##########
 ============================================================
-¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez aprendisteis a ganar la carrera. Hoy hablamos de lo que asusta a todos los principiantes: la suerte.
+¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez aprendisteis a jugar bien la carrera. Hoy hablamos de lo que asusta a todos los principiantes: la suerte.
 
 En el backgammon, la suerte no es ningún misterio. Con dos dados, todo se puede calcular. Y bastan unas pocas cifras para jugar mejor. ¡Vamos allá!
 
