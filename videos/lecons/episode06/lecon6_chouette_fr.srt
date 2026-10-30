@@ -1,0 +1,260 @@
+1
+00:00:01,200 --> 00:00:04,706
+Bonjour et bienvenue dans les Leçons de la chouette !
+
+2
+00:00:04,406 --> 00:00:08,758
+La dernière fois, vous avez appris à apprivoiser la chance aux dés.
+
+3
+00:00:08,458 --> 00:00:13,234
+Aujourd'hui, une leçon qui me tient particulièrement à cœur : la chouette.
+
+4
+00:00:12,934 --> 00:00:15,109
+Oui, un jeu qui porte mon nom !
+
+5
+00:00:20,108 --> 00:00:22,978
+Le backgammon se joue normalement à deux.
+
+6
+00:00:22,678 --> 00:00:29,435
+La chouette permet d'y jouer à trois, quatre, cinq joueurs ou plus, autour d'un seul plateau. On y va !
+
+7
+00:00:33,359 --> 00:00:37,776
+Le principe est simple : un joueur affronte seul toute une équipe.
+
+8
+00:00:37,476 --> 00:00:41,643
+C'est la formule préférée des clubs et des soirées entre amis.
+
+9
+00:00:42,437 --> 00:00:46,162
+Pourquoi ? Parce que personne n'attend son tour sans rien faire.
+
+10
+00:00:45,862 --> 00:00:48,731
+Tout le monde est dans la partie, à chaque coup.
+
+11
+00:00:49,542 --> 00:00:54,825
+Et sur le plateau, rien ne change : on joue avec les règles habituelles du backgammon.
+
+12
+00:00:54,525 --> 00:00:57,433
+Ce qui change, c'est qui joue, et contre qui.
+
+13
+00:00:59,610 --> 00:01:06,049
+Dans une chouette, il y a trois rôles. Le premier, c'est le box. Il joue seul contre tous les autres.
+
+14
+00:01:06,905 --> 00:01:13,508
+Le box gagne ou perd contre chaque membre de l'équipe. C'est le rôle le plus risqué… et le plus excitant.
+
+15
+00:01:14,255 --> 00:01:19,517
+Le deuxième rôle, c'est le capitaine. Il lance les dés et déplace les pions pour l'équipe.
+
+16
+00:01:19,217 --> 00:01:23,045
+En cas de désaccord sur un coup, c'est lui qui a le dernier mot.
+
+17
+00:01:23,992 --> 00:01:25,685
+Enfin, il y a l'équipe.
+
+18
+00:01:25,385 --> 00:01:31,196
+Les autres joueurs conseillent le capitaine, et chacun joue sa propre partie contre le box.
+
+19
+00:01:33,707 --> 00:01:37,881
+Comment commence une chouette ? On tire d'abord au sort l'ordre des joueurs.
+
+20
+00:01:38,784 --> 00:01:42,601
+Le premier prend le box. Le deuxième devient capitaine.
+
+21
+00:01:42,301 --> 00:01:45,926
+Les autres forment l'équipe, dans l'ordre du tirage.
+
+22
+00:01:46,076 --> 00:01:51,234
+Prenons un exemple avec quatre joueurs : Anne, Bruno, Clara et David.
+
+23
+00:01:50,934 --> 00:01:56,373
+Anne prend le box, Bruno est capitaine, Clara et David conseillent Bruno.
+
+24
+00:01:57,283 --> 00:02:03,027
+La partie se joue alors comme un backgammon normal, entre Anne d'un côté et Bruno de l'autre.
+
+25
+00:02:02,727 --> 00:02:05,895
+Sauf que Bruno n'est jamais seul pour réfléchir !
+
+26
+00:02:07,795 --> 00:02:12,003
+À la fin de la partie, les places tournent. Tout dépend de qui a gagné.
+
+27
+00:02:13,304 --> 00:02:15,734
+Si le box gagne, il reste dans le box.
+
+28
+00:02:15,434 --> 00:02:20,892
+Le capitaine passe en dernière position de l'équipe, et le joueur suivant devient capitaine.
+
+29
+00:02:21,160 --> 00:02:24,619
+Dans notre exemple, si Anne gagne, elle garde le box.
+
+30
+00:02:24,319 --> 00:02:28,552
+Bruno passe en fin d'équipe, et c'est Clara qui devient capitaine.
+
+31
+00:02:29,323 --> 00:02:36,025
+Si le capitaine gagne, il prend le box pour la partie suivante, et l'ancien box rejoint la fin de l'équipe.
+
+32
+00:02:35,725 --> 00:02:40,094
+Si Bruno bat Anne, Bruno prend le box, et Anne passe derrière David.
+
+33
+00:02:42,572 --> 00:02:43,640
+Et les points ?
+
+34
+00:02:43,340 --> 00:02:48,456
+Chaque joueur de l'équipe compte ses points contre le box, et le box les compte contre chacun.
+
+35
+00:02:49,882 --> 00:02:57,431
+Avec quatre joueurs, si le box gagne une partie simple, il marque un point contre chacun des trois autres : trois points d'un coup !
+
+36
+00:02:58,764 --> 00:03:03,616
+Mais s'il perd un gammon, il perd deux points contre chacun : six points en tout.
+
+37
+00:03:03,316 --> 00:03:08,561
+Voilà pourquoi le box est un rôle si risqué. À la fin de la séance, on fait les comptes.
+
+38
+00:03:12,197 --> 00:03:15,585
+Passons à ce qui rend la chouette si riche : le videau.
+
+39
+00:03:15,285 --> 00:03:20,076
+Dans la version la plus répandue, chaque membre de l'équipe a son propre videau.
+
+40
+00:03:21,121 --> 00:03:26,510
+Quand le box double, chaque joueur de l'équipe décide seul s'il accepte ou s'il abandonne.
+
+41
+00:03:26,210 --> 00:03:28,998
+Certains peuvent passer, d'autres continuer.
+
+42
+00:03:29,628 --> 00:03:35,314
+Par exemple, Anne double. Bruno et Clara acceptent : leur partie vaut maintenant deux points.
+
+43
+00:03:35,014 --> 00:03:40,178
+David abandonne : il perd un point tout de suite, et regarde la suite en spectateur.
+
+44
+00:03:41,169 --> 00:03:46,546
+Dans l'autre sens, chaque joueur de l'équipe peut doubler le box avec son propre videau.
+
+45
+00:03:46,246 --> 00:03:48,681
+Et le box répond à chacun séparément.
+
+46
+00:03:49,290 --> 00:03:54,569
+Le box peut donc jouer une seule partie, avec une valeur différente contre chaque adversaire.
+
+47
+00:03:54,269 --> 00:03:58,263
+C'est là que la règle des vingt-cinq pour cent devient passionnante !
+
+48
+00:04:01,405 --> 00:04:05,310
+Pourquoi tout le monde aime la chouette ? D'abord, on apprend vite.
+
+49
+00:04:05,010 --> 00:04:10,798
+En équipe, on discute des coups, et les joueurs moins forts profitent des explications des plus forts.
+
+50
+00:04:12,832 --> 00:04:18,225
+Ensuite, c'est convivial : personne ne s'ennuie, tout le monde est dans la partie à chaque coup.
+
+51
+00:04:19,014 --> 00:04:26,212
+Et c'est stratégique : avec plusieurs videaux sur la table, chaque décision de doubler ou d'accepter devient un vrai casse-tête.
+
+52
+00:04:29,140 --> 00:04:31,480
+Quelques conseils pour bien débuter.
+
+53
+00:04:31,180 --> 00:04:37,145
+Dans le box, soyez prudent : vous jouez contre tout le monde, alors une erreur coûte plusieurs fois.
+
+54
+00:04:38,299 --> 00:04:42,663
+Dans l'équipe, donnez votre avis, mais respectez la décision du capitaine.
+
+55
+00:04:42,363 --> 00:04:45,025
+C'est lui qui joue, et il a le dernier mot.
+
+56
+00:04:45,972 --> 00:04:51,675
+Tenez les scores par écrit, partie après partie. Cela évite bien des discussions à la fin de la soirée !
+
+57
+00:04:53,173 --> 00:05:00,307
+Mettez-vous aussi d'accord sur les règles avant de commencer : consultation autorisée ou non, partenaire du box quand l'équipe est nombreuse…
+
+58
+00:05:00,007 --> 00:05:01,955
+Elles varient d'un club à l'autre.
+
+59
+00:05:02,462 --> 00:05:06,534
+Enfin, révisez le videau. C'est là que tout se joue en chouette.
+
+60
+00:05:06,234 --> 00:05:10,130
+Et si vous avez un doute, la leçon trois est faite pour vous.
+
+61
+00:05:13,598 --> 00:05:22,566
+Et voilà, vous savez maintenant jouer la chouette : le box contre l'équipe, le capitaine qui déplace les pions, les places qui tournent, et un videau pour chacun !
+
+62
+00:05:23,091 --> 00:05:29,167
+TickGammon est né de la chouette, et une chouette en ligne se prépare pour jouer à plusieurs, à distance.
+
+63
+00:05:28,867 --> 00:05:36,373
+En attendant, jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows.
+
+64
+00:05:36,073 --> 00:05:40,389
+La prochaine fois, je vous montre comment progresser contre l'ordinateur.
+
+65
+00:05:40,089 --> 00:05:44,185
+Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
+
