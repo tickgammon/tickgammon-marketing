@@ -1,0 +1,84 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 6 — TEXTES À COLLER DANS ELEVENLABS (ESPAÑOL)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que pour le français.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1_es.mp3, bloc2_es.mp3, bloc3_es.mp3.
+
+########## BLOC 1 (P01 à P13, 1702 caractères) → bloc1_es.mp3 ##########
+============================================================
+¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez aprendisteis a domar la suerte de los dados. Hoy, una lección que me hace especial ilusión: la chouette. En francés, chouette quiere decir lechuza. ¡Sí, un juego que lleva mi nombre! [laughs]
+
+El backgammon se juega normalmente entre dos. La chouette permite jugar entre tres, cuatro, cinco jugadores o más, alrededor de un solo tablero. ¡Vamos allá!
+
+La idea es sencilla: un jugador se enfrenta solo a todo un equipo. Es la fórmula preferida de los clubes y de las veladas entre amigos.
+
+¿Por qué? Porque nadie se queda esperando su turno sin hacer nada. Todos están en la partida, en cada jugada.
+
+Y en el tablero, nada cambia: se juega con las reglas habituales del backgammon. Lo que cambia es quién juega, y contra quién.
+
+En una chouette hay tres papeles. El primero es el box. Juega solo contra todos los demás.
+
+El box gana o pierde contra cada miembro del equipo. Es el papel más arriesgado… y el más emocionante.
+
+El segundo papel es el capitán. Tira los dados y mueve las fichas por el equipo. Si hay desacuerdo sobre una jugada, él tiene la última palabra.
+
+Por último, está el equipo. Los demás jugadores aconsejan al capitán, y cada uno juega su propia partida contra el box.
+
+¿Cómo empieza una chouette? Primero se sortea el orden de los jugadores.
+
+El primero ocupa el box. El segundo es capitán. Los demás forman el equipo, en el orden del sorteo.
+
+Pongamos un ejemplo con cuatro jugadores: Anne, Bruno, Clara y David. Anne ocupa el box, Bruno es capitán, y Clara y David aconsejan a Bruno.
+
+La partida se juega entonces como un backgammon normal, con Anne de un lado y Bruno del otro. ¡Solo que Bruno nunca piensa solo!
+============================================================
+
+########## BLOC 2 (P14 à P25, 1607 caractères) → bloc2_es.mp3 ##########
+============================================================
+Al final de la partida, los puestos giran. Todo depende de quién haya ganado.
+
+Si gana el box, sigue en el box. El capitán pasa al último lugar del equipo, y el siguiente jugador es capitán.
+
+En nuestro ejemplo, si gana Anne, se queda con el box. Bruno pasa al final del equipo, y Clara es la nueva capitana.
+
+Si gana el capitán, ocupa el box en la siguiente partida, y el antiguo box pasa al final del equipo. Si Bruno gana a Anne, Bruno ocupa el box, y Anne se pone detrás de David.
+
+¿Y los puntos? Cada jugador del equipo cuenta sus puntos contra el box, y el box los cuenta contra cada uno.
+
+Con cuatro jugadores, si el box gana una partida simple, se anota un punto contra cada uno de los otros tres: ¡tres puntos de golpe!
+
+Pero si pierde un gammon, pierde dos puntos contra cada uno: seis puntos en total. Por eso el box es un papel tan arriesgado. Al final de la sesión, se hacen las cuentas.
+
+Pasemos a lo que hace tan rica la chouette: el cubo doblador. En la versión más extendida, cada miembro del equipo tiene su propio cubo.
+
+Cuando el box dobla, cada jugador del equipo decide por sí solo si acepta o abandona. Unos pueden pasar y otros seguir.
+
+Por ejemplo, Anne dobla. Bruno y Clara aceptan: su partida vale ahora dos puntos. David abandona: pierde un punto enseguida, y mira el resto como espectador.
+
+En el otro sentido, cada jugador del equipo puede doblar al box con su propio cubo. Y el box responde a cada uno por separado.
+
+Así, el box puede jugar una sola partida con un valor distinto contra cada adversario. ¡Ahí es donde la regla del veinticinco por ciento se vuelve apasionante!
+============================================================
+
+########## BLOC 3 (P26 à P35, 1585 caractères) → bloc3_es.mp3 ##########
+============================================================
+¿Por qué a todos les gusta la chouette? Primero, se aprende rápido. En equipo se comentan las jugadas, y los jugadores menos fuertes aprovechan las explicaciones de los más fuertes.
+
+Además, es muy social: nadie se aburre, y todos están en la partida en cada jugada.
+
+Y es estratégica: con varios cubos en la mesa, cada decisión de doblar o de aceptar se convierte en un auténtico rompecabezas.
+
+Unos consejos para empezar bien. En el box, sed prudentes: jugáis contra todos a la vez, así que un error os cuesta varias veces.
+
+En el equipo, dad vuestra opinión, pero respetad la decisión del capitán. Es él quien juega, y tiene la última palabra.
+
+Anotad los resultados por escrito, partida tras partida. ¡Así os ahorráis muchas discusiones al final de la velada!
+
+Poneos también de acuerdo sobre las reglas antes de empezar: si se permite consultar, compañero del box cuando el equipo es numeroso… Varían de un club a otro.
+
+Por último, repasad el cubo doblador. Es ahí donde todo se decide en la chouette. Y si tenéis dudas, la lección tres está hecha para vosotros.
+
+¡Y listo, ya sabéis jugar a la chouette: el box contra el equipo, el capitán que mueve las fichas, los puestos que giran, y un cubo para cada uno!
+
+TickGammon nació de la chouette, y estamos preparando una chouette en línea para jugar entre varios, a distancia. Mientras tanto, jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows. La próxima vez, os enseño a progresar contra el ordenador. ¡Suscribíos para no perdérosla! ¡Hasta muy pronto alrededor del tablero!
+============================================================

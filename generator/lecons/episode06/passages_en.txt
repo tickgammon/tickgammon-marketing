@@ -1,0 +1,35 @@
+P01|0|Hello and welcome to the Owl's Lessons! Last time, you learned how to tame luck at the dice. Today's lesson is very close to my heart: the chouette. That's French for owl, so yes, it's a game named after me! [laughs]
+P02|0|Backgammon is normally a two-player game. The chouette lets three, four, five or more players play around a single board. Let's go!
+P03|1|The idea is simple: one player takes on a whole team alone. It's the favourite format of clubs and evenings with friends.
+P04|1|Why? Because nobody sits around waiting for their turn. Everyone is in the game, on every move.
+P05|1|And on the board, nothing changes: you play with the usual backgammon rules. What changes is who plays, and against whom.
+P06|2|In a chouette, there are three roles. The first is the box. The box plays alone against everyone else.
+P07|2|The box wins or loses against each member of the team. It's the riskiest role… and the most exciting.
+P08|2|The second role is the captain. The captain rolls the dice and moves the checkers for the team. If the team disagrees on a move, the captain has the final say.
+P09|2|Finally, there's the team. The other players advise the captain, and each of them plays their own game against the box.
+P10|3|How does a chouette start? First, the order of players is drawn at random.
+P11|3|The first player takes the box. The second becomes captain. The others form the team, in the order of the draw.
+P12|3|Let's take an example with four players: Anne, Bruno, Clara and David. Anne takes the box, Bruno is captain, and Clara and David advise Bruno.
+P13|3|The game is then played like normal backgammon, with Anne on one side and Bruno on the other. Except that Bruno never has to think alone!
+P14|4|At the end of the game, the places rotate. It all depends on who won.
+P15|4|If the box wins, they stay in the box. The captain moves to the end of the team, and the next player becomes captain.
+P16|4|In our example, if Anne wins, she keeps the box. Bruno goes to the end of the team, and Clara becomes captain.
+P17|4|If the captain wins, they take the box for the next game, and the former box joins the end of the team. If Bruno beats Anne, Bruno takes the box, and Anne moves behind David.
+P18|5|And the points? Each team player counts their points against the box, and the box counts them against each player.
+P19|5|With four players, if the box wins a single game, they score one point against each of the other three: three points at once!
+P20|5|But if the box loses a gammon, they lose two points against each player: six points in total. That's why the box is such a risky role. At the end of the session, the scores are settled.
+P21|6|Now for what makes the chouette so rich: the doubling cube. In the most common version, each team member has their own cube.
+P22|6|When the box doubles, each team player decides alone whether to take or to pass. Some may pass while others play on.
+P23|6|For example, Anne doubles. Bruno and Clara take: their game is now worth two points. David passes: he loses one point right away, and watches the rest as a spectator.
+P24|6|The other way round, each team player can double the box with their own cube. And the box answers each one separately.
+P25|6|So the box can play a single game with a different value against each opponent. That's where the twenty-five percent rule gets really exciting!
+P26|7|Why does everyone love the chouette? First, you learn fast. In a team, moves are discussed, and weaker players benefit from the stronger players' explanations.
+P27|7|Next, it's social: nobody gets bored, and everyone is in the game on every move.
+P28|7|And it's strategic: with several cubes on the table, every decision to double or to take becomes a real puzzle.
+P29|8|A few tips for getting started. In the box, be careful: you're playing everyone at once, so a mistake costs you several times over.
+P30|8|In the team, give your opinion, but respect the captain's decision. The captain is the one playing, and has the final say.
+P31|8|Keep the scores in writing, game after game. It saves a lot of arguments at the end of the evening!
+P32|8|Also agree on the rules before you start: whether consulting is allowed, a partner for the box when the team is large… They vary from club to club.
+P33|8|Finally, brush up on the doubling cube. That's where everything happens in a chouette. And if you have any doubts, lesson three is made for you.
+P34|9|And there you go, you now know how to play the chouette: the box against the team, the captain moving the checkers, the places rotating, and a cube for everyone!
+P35|9|TickGammon was born from the chouette, and an online chouette is on its way, so you can play with several people remotely. In the meantime, play for free against other players or against the computer, in your browser, on Android or on Windows. Next time, I'll show you how to improve against the computer. Subscribe so you don't miss it! See you soon around the board!

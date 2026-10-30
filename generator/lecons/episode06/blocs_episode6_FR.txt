@@ -1,0 +1,84 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 6 — TEXTES À COLLER DANS ELEVENLABS (FR)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que ton test.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1.mp3, bloc2.mp3, bloc3.mp3.
+
+########## BLOC 1 (P01 à P13, 1726 caractères) → bloc1.mp3 ##########
+============================================================
+Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez appris à apprivoiser la chance aux dés. Aujourd'hui, une leçon qui me tient particulièrement à cœur : la chouette. Oui, un jeu qui porte mon nom ! [laughs]
+
+Le backgammon se joue normalement à deux. La chouette permet d'y jouer à trois, quatre, cinq joueurs ou plus, autour d'un seul plateau. On y va !
+
+Le principe est simple : un joueur affronte seul toute une équipe. C'est la formule préférée des clubs et des soirées entre amis.
+
+Pourquoi ? Parce que personne n'attend son tour sans rien faire. Tout le monde est dans la partie, à chaque coup.
+
+Et sur le plateau, rien ne change : on joue avec les règles habituelles du backgammon. Ce qui change, c'est qui joue, et contre qui.
+
+Dans une chouette, il y a trois rôles. Le premier, c'est le box. Il joue seul contre tous les autres.
+
+Le box gagne ou perd contre chaque membre de l'équipe. C'est le rôle le plus risqué… et le plus excitant.
+
+Le deuxième rôle, c'est le capitaine. Il lance les dés et déplace les pions pour l'équipe. En cas de désaccord sur un coup, c'est lui qui a le dernier mot.
+
+Enfin, il y a l'équipe. Les autres joueurs conseillent le capitaine, et chacun joue sa propre partie contre le box.
+
+Comment commence une chouette ? On tire d'abord au sort l'ordre des joueurs.
+
+Le premier prend le box. Le deuxième devient capitaine. Les autres forment l'équipe, dans l'ordre du tirage.
+
+Prenons un exemple avec quatre joueurs : Anne, Bruno, Clara et David. Anne prend le box, Bruno est capitaine, Clara et David conseillent Bruno.
+
+La partie se joue alors comme un backgammon normal, entre Anne d'un côté et Bruno de l'autre. Sauf que Bruno n'est jamais seul pour réfléchir !
+============================================================
+
+########## BLOC 2 (P14 à P25, 1670 caractères) → bloc2.mp3 ##########
+============================================================
+À la fin de la partie, les places tournent. Tout dépend de qui a gagné.
+
+Si le box gagne, il reste dans le box. Le capitaine passe en dernière position de l'équipe, et le joueur suivant devient capitaine.
+
+Dans notre exemple, si Anne gagne, elle garde le box. Bruno passe en fin d'équipe, et c'est Clara qui devient capitaine.
+
+Si le capitaine gagne, il prend le box pour la partie suivante, et l'ancien box rejoint la fin de l'équipe. Si Bruno bat Anne, Bruno prend le box, et Anne passe derrière David.
+
+Et les points ? Chaque joueur de l'équipe compte ses points contre le box, et le box les compte contre chacun.
+
+Avec quatre joueurs, si le box gagne une partie simple, il marque un point contre chacun des trois autres : trois points d'un coup !
+
+Mais s'il perd un gammon, il perd deux points contre chacun : six points en tout. Voilà pourquoi le box est un rôle si risqué. À la fin de la séance, on fait les comptes.
+
+Passons à ce qui rend la chouette si riche : le videau. Dans la version la plus répandue, chaque membre de l'équipe a son propre videau.
+
+Quand le box double, chaque joueur de l'équipe décide seul s'il accepte ou s'il abandonne. Certains peuvent passer, d'autres continuer.
+
+Par exemple, Anne double. Bruno et Clara acceptent : leur partie vaut maintenant deux points. David abandonne : il perd un point tout de suite, et regarde la suite en spectateur.
+
+Dans l'autre sens, chaque joueur de l'équipe peut doubler le box avec son propre videau. Et le box répond à chacun séparément.
+
+Le box peut donc jouer une seule partie, avec une valeur différente contre chaque adversaire. C'est là que la règle des vingt-cinq pour cent devient passionnante !
+============================================================
+
+########## BLOC 3 (P26 à P35, 1617 caractères) → bloc3.mp3 ##########
+============================================================
+Pourquoi tout le monde aime la chouette ? D'abord, on apprend vite. En équipe, on discute des coups, et les joueurs moins forts profitent des explications des plus forts.
+
+Ensuite, c'est convivial : personne ne s'ennuie, tout le monde est dans la partie à chaque coup.
+
+Et c'est stratégique : avec plusieurs videaux sur la table, chaque décision de doubler ou d'accepter devient un vrai casse-tête.
+
+Quelques conseils pour bien débuter. Dans le box, soyez prudent : vous jouez contre tout le monde, alors une erreur coûte plusieurs fois.
+
+Dans l'équipe, donnez votre avis, mais respectez la décision du capitaine. C'est lui qui joue, et il a le dernier mot.
+
+Tenez les scores par écrit, partie après partie. Cela évite bien des discussions à la fin de la soirée !
+
+Mettez-vous aussi d'accord sur les règles avant de commencer : consultation autorisée ou non, partenaire du box quand l'équipe est nombreuse… Elles varient d'un club à l'autre.
+
+Enfin, révisez le videau. C'est là que tout se joue en chouette. Et si vous avez un doute, la leçon trois est faite pour vous.
+
+Et voilà, vous savez maintenant jouer la chouette : le box contre l'équipe, le capitaine qui déplace les pions, les places qui tournent, et un videau pour chacun !
+
+TickGammon est né de la chouette, et une chouette en ligne se prépare pour jouer à plusieurs, à distance. En attendant, jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows. La prochaine fois, je vous montre comment progresser contre l'ordinateur. Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
+============================================================
