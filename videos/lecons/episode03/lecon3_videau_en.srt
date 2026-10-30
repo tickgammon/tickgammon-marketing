@@ -1,0 +1,284 @@
+1
+00:00:01,200 --> 00:00:07,435
+Hello and welcome to the Owl's Lessons! Last time, you learned the fifteen best opening moves.
+
+2
+00:00:07,135 --> 00:00:12,359
+Today, we're tackling the most powerful piece on the board: the doubling cube.
+
+3
+00:00:12,956 --> 00:00:17,940
+Knowing when to double and when to take matters just as much as moving your checkers well.
+
+4
+00:00:17,640 --> 00:00:22,052
+By the end of this lesson, you'll make these decisions like a real club player.
+
+5
+00:00:26,761 --> 00:00:33,471
+The doubling cube is that big die marked two, four, eight, sixteen, thirty-two and sixty-four.
+
+6
+00:00:33,171 --> 00:00:35,926
+Players often just call it the cube.
+
+7
+00:00:38,230 --> 00:00:43,972
+It was invented in the clubs of New York, in the nineteen-twenties. And it completely changed the game.
+
+8
+00:00:46,398 --> 00:00:50,907
+Before the cube, a game that was going badly was played to the very end.
+
+9
+00:00:50,607 --> 00:00:53,654
+With it, every turn can become a real decision.
+
+10
+00:00:56,718 --> 00:01:01,313
+At the start of the game, the game is worth one, and the cube sits in the middle.
+
+11
+00:01:01,013 --> 00:01:02,585
+Both players can use it.
+
+12
+00:01:04,123 --> 00:01:07,960
+On your turn, before rolling the dice, you can offer to double.
+
+13
+00:01:07,660 --> 00:01:11,497
+Careful: once the dice are rolled, it's too late for that turn.
+
+14
+00:01:13,150 --> 00:01:19,173
+Your opponent then has two choices. If they pass, they give up the game and lose its current value.
+
+15
+00:01:20,377 --> 00:01:24,844
+If they take, the game's value doubles, and the cube goes to their side.
+
+16
+00:01:24,544 --> 00:01:29,011
+From then on, only they can redouble later, if the game turns their way.
+
+17
+00:01:30,946 --> 00:01:35,697
+And if they redouble, the game is worth four, and the cube comes back to you.
+
+18
+00:01:35,397 --> 00:01:39,166
+So it travels back and forth, every time luck changes sides.
+
+19
+00:01:41,591 --> 00:01:47,392
+The cube doesn't only multiply a single win. It also multiplies gammons and backgammons.
+
+20
+00:01:47,916 --> 00:01:52,496
+A gammon is worth two points. With the cube on four, it's worth eight!
+
+21
+00:01:52,712 --> 00:01:57,587
+And a backgammon, worth three points, is worth twelve with the cube on four.
+
+22
+00:01:57,287 --> 00:02:00,597
+That's why a single game can decide a whole match.
+
+23
+00:02:02,977 --> 00:02:08,448
+Now for the most important calculation in backgammon: the twenty-five percent rule.
+
+24
+00:02:08,148 --> 00:02:10,629
+It tells you when to take a double.
+
+25
+00:02:11,412 --> 00:02:15,367
+Let's say the game is worth one, and your opponent offers you a double.
+
+26
+00:02:16,384 --> 00:02:19,651
+If you pass, you lose one point, for sure.
+
+27
+00:02:19,351 --> 00:02:25,233
+If you take, the game is worth two: you'll either lose two points or score two.
+
+28
+00:02:25,601 --> 00:02:30,905
+Picture four identical games, where you come out on top once in four.
+
+29
+00:02:30,605 --> 00:02:37,650
+By taking, you lose two points three times, that's six, and you score two. Total: minus four.
+
+30
+00:02:38,560 --> 00:02:44,725
+By passing all four times, you lose one point four times. Total: minus four as well.
+
+31
+00:02:44,425 --> 00:02:49,542
+So at twenty-five percent, taking or passing comes to the same thing.
+
+32
+00:02:50,242 --> 00:02:55,241
+The owl's tip: if you win at least one game in four from this position, take!
+
+33
+00:02:54,941 --> 00:03:01,344
+And since you then own the cube, you can turn it again if luck changes. That's a little extra bonus.
+
+34
+00:03:04,735 --> 00:03:07,948
+Now let's switch sides: when should you double?
+
+35
+00:03:08,098 --> 00:03:12,354
+If you double too early, you hand the cube to your opponent for nothing.
+
+36
+00:03:12,054 --> 00:03:14,222
+They can use it against you later.
+
+37
+00:03:15,617 --> 00:03:22,880
+If you double too late, your position has become so strong that your opponent passes, and you only score a single point.
+
+38
+00:03:23,144 --> 00:03:29,558
+The right moment is when your position is clearly better, and it might become too good by your next turn.
+
+39
+00:03:29,258 --> 00:03:31,946
+Players say you mustn't lose your market.
+
+40
+00:03:35,857 --> 00:03:39,137
+Let's look at the situations where people double most often.
+
+41
+00:03:39,287 --> 00:03:40,507
+First, the race.
+
+42
+00:03:40,207 --> 00:03:48,958
+When all that's left is bringing your checkers home and bearing off, you count pips: the total number of points your checkers still have to travel.
+
+43
+00:03:49,450 --> 00:03:56,435
+At the end of the game, you usually double with about an eight percent lead, and you take with up to about twelve percent behind.
+
+44
+00:03:56,135 --> 00:03:59,389
+We'll look at the pip count in detail in the next lesson.
+
+45
+00:04:00,551 --> 00:04:01,826
+Next, the attack.
+
+46
+00:04:01,526 --> 00:04:10,089
+If several of your opponent's checkers are within hitting range and your home board is strong, double before the dice give you the decisive hit.
+
+47
+00:04:10,856 --> 00:04:12,822
+And finally, the blockade.
+
+48
+00:04:12,522 --> 00:04:19,229
+A solid prime, that six-point wall, behind one of your opponent's checkers often justifies a double.
+
+49
+00:04:19,443 --> 00:04:25,106
+But watch out for the trap: if you have big chances of winning a gammon, don't double!
+
+50
+00:04:24,806 --> 00:04:30,593
+Keep playing to score two points instead of one. That's called being too good to double.
+
+51
+00:04:34,429 --> 00:04:37,016
+There are also a few special rules.
+
+52
+00:04:37,578 --> 00:04:42,068
+In a match, for example to seven points, the Crawford rule applies.
+
+53
+00:04:41,768 --> 00:04:47,759
+When one player gets within one point of victory, the next game is played without the cube.
+
+54
+00:04:47,459 --> 00:04:49,760
+After that, the cube comes back.
+
+55
+00:04:50,372 --> 00:04:55,177
+This rule stops the trailing player from doubling straight away, with nothing to lose.
+
+56
+00:04:55,631 --> 00:05:00,014
+In free play, outside a match, two optional rules are common.
+
+57
+00:04:59,714 --> 00:05:05,368
+The Jacoby rule: a gammon or a backgammon only counts if the cube has been used.
+
+58
+00:05:06,146 --> 00:05:12,745
+And the beaver: a player who receives a double can redouble immediately, while keeping the cube on their side.
+
+59
+00:05:14,645 --> 00:05:18,964
+To finish, here are the most common beginner mistakes.
+
+60
+00:05:19,314 --> 00:05:24,466
+The first: passing doubles you should have taken. Beginners give up far too often!
+
+61
+00:05:24,166 --> 00:05:26,773
+Remember: one chance in four is enough.
+
+62
+00:05:29,638 --> 00:05:31,596
+The second: never doubling.
+
+63
+00:05:31,296 --> 00:05:37,429
+You end up scoring one point where your opponent would have given up much earlier… or lost two.
+
+64
+00:05:38,524 --> 00:05:44,904
+The third: forgetting about gammons. A position where you risk being gammoned is easier to pass.
+
+65
+00:05:46,151 --> 00:05:50,175
+To judge your chances well, it helps to know the dice probabilities.
+
+66
+00:05:49,875 --> 00:05:55,048
+And on TickGammon, the analysis of your games shows you every questionable cube decision.
+
+67
+00:05:59,027 --> 00:06:02,554
+And there you go, you now know how to use the doubling cube!
+
+68
+00:06:02,254 --> 00:06:07,986
+You'll find the twenty-five percent rule and all these tips on the Doubling cube page, on TickGammon.
+
+69
+00:06:09,065 --> 00:06:15,951
+To practise, play for free against other players or against the computer, in your browser, on Android or on Windows.
+
+70
+00:06:15,651 --> 00:06:21,005
+Next time, I'll teach you about the race and bearing off. Subscribe so you don't miss it!
+
+71
+00:06:20,705 --> 00:06:22,708
+See you soon around the board!
+

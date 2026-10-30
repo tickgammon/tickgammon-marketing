@@ -1,0 +1,296 @@
+1
+00:00:01,200 --> 00:00:04,570
+¡Hola y bienvenidos a las Lecciones de la lechuza!
+
+2
+00:00:04,270 --> 00:00:08,008
+La última vez aprendisteis las quince mejores aperturas.
+
+3
+00:00:07,708 --> 00:00:12,490
+Hoy nos enfrentamos a la pieza más temible del tablero: el cubo doblador.
+
+4
+00:00:12,956 --> 00:00:18,738
+Saber cuándo doblar y cuándo aceptar cuenta tanto como mover bien las fichas.
+
+5
+00:00:18,438 --> 00:00:24,861
+Al final de esta lección, tomaréis estas decisiones como verdaderos jugadores de club.
+
+6
+00:00:26,761 --> 00:00:34,802
+El cubo doblador es ese dado grande marcado con dos, cuatro, ocho, dieciséis, treinta y dos y sesenta y cuatro.
+
+7
+00:00:34,502 --> 00:00:38,080
+Muchos jugadores lo llaman simplemente el cubo.
+
+8
+00:00:38,230 --> 00:00:43,946
+Se inventó en los clubes de Nueva York, en los años veinte. Y transformó por completo el juego.
+
+9
+00:00:46,398 --> 00:00:50,470
+Antes, una partida mal encaminada se jugaba hasta el final.
+
+10
+00:00:50,170 --> 00:00:54,818
+Con el cubo, cada turno puede convertirse en una verdadera decisión.
+
+11
+00:00:56,718 --> 00:01:01,734
+Al principio de la partida, la partida vale uno, y el cubo está en el centro.
+
+12
+00:01:01,434 --> 00:01:03,694
+Los dos jugadores pueden usarlo.
+
+13
+00:01:04,123 --> 00:01:08,810
+En vuestro turno, antes de tirar los dados, podéis proponer doblar.
+
+14
+00:01:08,510 --> 00:01:13,000
+Atención: una vez tirados los dados, ya es tarde para ese turno.
+
+15
+00:01:13,150 --> 00:01:20,227
+Vuestro adversario tiene entonces dos opciones. Si rechaza, abandona la partida y pierde su valor actual.
+
+16
+00:01:20,377 --> 00:01:25,645
+Si acepta, el valor de la partida se dobla, y él se queda con el cubo de su lado.
+
+17
+00:01:25,345 --> 00:01:30,796
+A partir de ahí, solo él podrá redoblar más adelante, si la partida gira a su favor.
+
+18
+00:01:30,946 --> 00:01:36,090
+Y si redobla, la partida pasa a valer cuatro, y el cubo vuelve a vosotros.
+
+19
+00:01:35,790 --> 00:01:39,691
+Así va y viene, cada vez que la suerte cambia de bando.
+
+20
+00:01:41,591 --> 00:01:47,259
+El cubo no multiplica solo la victoria simple. También multiplica el gammon y el backgammon.
+
+21
+00:01:47,916 --> 00:01:52,185
+Un gammon vale dos puntos. Con el cubo en cuatro, ¡vale ocho!
+
+22
+00:01:52,712 --> 00:01:57,497
+Y un backgammon, que vale tres puntos, vale doce con el cubo en cuatro.
+
+23
+00:01:57,197 --> 00:02:00,972
+Por eso una sola partida puede decidir un match entero.
+
+24
+00:02:02,977 --> 00:02:09,115
+Y ahora, el cálculo más importante del backgammon: la regla del veinticinco por ciento.
+
+25
+00:02:08,815 --> 00:02:11,262
+Os dice cuándo aceptar un doble.
+
+26
+00:02:11,412 --> 00:02:16,234
+Imaginemos que la partida vale uno, y que vuestro adversario os propone doblar.
+
+27
+00:02:16,384 --> 00:02:19,707
+Si rechazáis, perdéis un punto, seguro.
+
+28
+00:02:19,407 --> 00:02:25,210
+Si aceptáis, la partida vale dos: perderéis dos puntos, o sumaréis dos.
+
+29
+00:02:25,601 --> 00:02:32,085
+Pensad en cuatro partidas idénticas, en las que salís vencedores una vez de cada cuatro.
+
+30
+00:02:31,785 --> 00:02:38,410
+Aceptando, perdéis tres veces dos puntos, o sea seis, y sumáis dos. Balance: menos cuatro.
+
+31
+00:02:38,560 --> 00:02:44,842
+Rechazando las cuatro veces, perdéis cuatro veces un punto. Balance: menos cuatro también.
+
+32
+00:02:44,542 --> 00:02:50,092
+Con un veinticinco por ciento de posibilidades, aceptar o rechazar da lo mismo.
+
+33
+00:02:50,242 --> 00:02:56,552
+El consejo de la lechuza: si ganáis al menos una partida de cada cuatro en esa posición, ¡aceptad!
+
+34
+00:02:56,252 --> 00:03:02,561
+Y como después tendréis el cubo, podréis volver a doblar si la suerte cambia. Es un pequeño extra.
+
+35
+00:03:04,735 --> 00:03:07,901
+Pasemos al otro lado: ¿cuándo hay que doblar?
+
+36
+00:03:08,098 --> 00:03:13,092
+Si dobláis demasiado pronto, le dais el cubo a vuestro adversario a cambio de nada.
+
+37
+00:03:12,792 --> 00:03:15,467
+Podrá usarlo contra vosotros más adelante.
+
+38
+00:03:15,617 --> 00:03:22,994
+Si dobláis demasiado tarde, vuestra posición se ha vuelto tan buena que el adversario rechaza, y solo sumáis un punto.
+
+39
+00:03:23,144 --> 00:03:30,945
+El buen momento es cuando vuestra posición es claramente mejor, y corre el riesgo de volverse demasiado buena en el turno siguiente.
+
+40
+00:03:30,645 --> 00:03:33,957
+Los jugadores dicen que no hay que perder el mercado.
+
+41
+00:03:35,857 --> 00:03:38,709
+Veamos las situaciones en las que más se dobla.
+
+42
+00:03:39,287 --> 00:03:40,840
+Primero, la carrera.
+
+43
+00:03:40,540 --> 00:03:49,300
+Cuando solo queda meter y sacar las fichas, se cuentan los pips: el número total de puntos que vuestras fichas aún tienen que recorrer.
+
+44
+00:03:49,450 --> 00:03:56,945
+Al final de la partida, se suele doblar con unos ocho por ciento de ventaja, y se acepta hasta unos doce por ciento de retraso.
+
+45
+00:03:56,645 --> 00:04:00,401
+Veremos el recuento de pips en detalle en la próxima lección.
+
+46
+00:04:00,551 --> 00:04:02,000
+Después, el ataque.
+
+47
+00:04:01,700 --> 00:04:10,706
+Si varias fichas del adversario están al alcance y vuestro cuadrante interior es sólido, doblad antes de que los dados os den el golpe decisivo.
+
+48
+00:04:10,856 --> 00:04:12,745
+Y por último, el bloqueo.
+
+49
+00:04:12,445 --> 00:04:19,293
+Un prime sólido, ese muro de seis puntos, detrás de una ficha del adversario suele justificar un doble.
+
+50
+00:04:19,443 --> 00:04:25,484
+Pero cuidado con la trampa: si tenéis muchas posibilidades de hacer gammon, ¡no dobléis!
+
+51
+00:04:25,184 --> 00:04:28,941
+Seguid jugando para sumar dos puntos en lugar de uno.
+
+52
+00:04:28,641 --> 00:04:32,529
+Se dice entonces que estáis demasiado bien para doblar.
+
+53
+00:04:34,429 --> 00:04:37,428
+También existen algunas reglas especiales.
+
+54
+00:04:37,578 --> 00:04:42,457
+En un match, por ejemplo a siete puntos, se aplica la regla Crawford.
+
+55
+00:04:42,157 --> 00:04:48,629
+Cuando un jugador se queda a un punto de la victoria, la partida siguiente se juega sin cubo.
+
+56
+00:04:48,329 --> 00:04:50,222
+Después, el cubo vuelve.
+
+57
+00:04:50,372 --> 00:04:55,481
+Esta regla impide que el jugador que va por detrás doble enseguida, sin arriesgar nada.
+
+58
+00:04:55,631 --> 00:05:00,831
+En partida libre, fuera de un match, hay dos reglas opcionales habituales.
+
+59
+00:05:00,531 --> 00:05:05,996
+La regla Jacoby: un gammon o un backgammon solo cuenta si se ha usado el cubo.
+
+60
+00:05:06,146 --> 00:05:11,814
+Y el beaver: quien recibe un doble puede redoblar enseguida, quedándose con el cubo de su lado.
+
+61
+00:05:14,645 --> 00:05:19,164
+Para terminar, estos son los errores más frecuentes de los principiantes.
+
+62
+00:05:19,314 --> 00:05:26,309
+El primero: rechazar dobles que había que aceptar. ¡Los principiantes abandonan demasiado a menudo!
+
+63
+00:05:26,009 --> 00:05:29,488
+Recordad: una posibilidad de cada cuatro basta.
+
+64
+00:05:29,638 --> 00:05:36,957
+El segundo: no doblar nunca. Acabáis sumando un punto donde el adversario habría abandonado mucho antes…
+
+65
+00:05:36,657 --> 00:05:38,374
+o habría perdido dos.
+
+66
+00:05:38,524 --> 00:05:40,787
+El tercero: olvidar los gammons.
+
+67
+00:05:40,487 --> 00:05:46,001
+Una posición en la que os arriesgáis a sufrir un gammon se rechaza con más facilidad.
+
+68
+00:05:46,151 --> 00:05:51,732
+Para calcular bien vuestras posibilidades, conviene conocer las probabilidades de los dados.
+
+69
+00:05:51,432 --> 00:05:57,127
+Y en TickGammon, el análisis de vuestras partidas os muestra cada decisión de cubo discutible.
+
+70
+00:05:59,027 --> 00:06:01,844
+¡Y listo, ya sabéis usar el cubo doblador!
+
+71
+00:06:01,544 --> 00:06:08,915
+Encontraréis la regla del veinticinco por ciento y todos estos consejos en la página del cubo doblador, en TickGammon.
+
+72
+00:06:09,065 --> 00:06:16,500
+Para practicar, jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows.
+
+73
+00:06:16,200 --> 00:06:22,101
+La próxima vez, os enseño la carrera y la salida de las fichas. ¡Suscribíos para no perdérosla!
+
+74
+00:06:21,801 --> 00:06:24,460
+¡Hasta muy pronto alrededor del tablero!
+
