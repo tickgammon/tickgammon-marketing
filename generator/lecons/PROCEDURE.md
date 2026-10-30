@@ -25,7 +25,10 @@ Sortie : **dimanche 10:30** (heure de Paris), une leçon tous les 2 dimanches. D
 ElevenLabs, voix **MIMI**, modèle **Eleven v4**, mêmes réglages. 9 fichiers :
 `bloc1.mp3 bloc2.mp3 bloc3.mp3 bloc1_en.mp3 bloc2_en.mp3 bloc3_en.mp3 bloc1_es.mp3 bloc2_es.mp3 bloc3_es.mp3`.
 
-## ÉTAPE 3 — La fabrication (Claude)
+## ÉTAPE 3 — La fabrication (Claude, TOUJOURS en arrière-plan)
+
+**Règle de Joyce (30/10/2026) : la fabrication se lance toujours en tâche de fond, pour qu'elle puisse continuer à travailler ;
+la prévenir quand tout est prêt.**
 
 Travailler dans le scratchpad (`…/scratchpad/epN/`), y copier : les 9 MP3, `passages_*.txt`, `align.py`, et depuis
 `episode02/` : `cut_multi.py`, `render2.js`, `ev2.js`, `srt2.py`, `short_bg2.js`, `shorts2.py`, `thumb2.js`, plus
