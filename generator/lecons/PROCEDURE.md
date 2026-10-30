@@ -50,6 +50,8 @@ Travailler dans le scratchpad (`…/scratchpad/epN/`), y copier : les 9 MP3, `pa
      le logo seul mais une carte **« Leçon N terminée ! · Lesson N complete! · ¡Lección N completada! »** avec un trophée doré
      et des confettis ; et pendant le premier passage de la conclusion (« vous savez maintenant… »), **3 ou 4 cartes récap**
      des idées clés de la leçon apparaissent l'une après l'autre avec un ✓ (textes courts, chiffres/symboles ou FR+EN+ES).
+     **Modèle prêt à copier : `episode05/lecon5.html`** (constantes `LESSON_N`, `TROPHY`, `CHECK`, carte « terminée » dans le
+     rendu du chapitre 9, cartes récap dans `SC.P34`) — partir de ce fichier pour la leçon 6 et changer `LESSON_N`.
 4. **Contrôle visuel AVANT le rendu complet** : `node render2.js fr 0 0 test <temps à 75 % de chaque passage>` puis
    planches de 6 images ; corriger jusqu'à ce que tout soit juste.
 5. **Rendu** : N = total × 30 ; lancer 6 morceaux `node render2.js fr a b frames` en parallèle (≈ 35 min).
@@ -68,6 +70,7 @@ Travailler dans le scratchpad (`…/scratchpad/epN/`), y copier : les 9 MP3, `pa
 11. **Shorts** : adapter `short_bg2.js` (épisode + 8 titres de chapitre FR/EN/ES) → `node short_bg2.js` ;
     `python3 shorts2.py fr|en|es` (vidéo + mix de la langue) → 24 Shorts 1080×1920.
 12. **Miniatures** : adapter les textes de `thumb2.js` (« Leçon N », titre, accroche, scène choisie) → `node thumb2.js fr|en|es`.
+    Variante sans plateau (grille/schéma plein écran) : `episode05/thumb5.js` (scène P12, la page fait 1280×720 nativement).
 13. **GitHub** (`tickgammon-marketing`) : générateur dans `generator/lecons/episodeNN/`, Shorts + .srt + pistes MP3 dans
     `videos/lecons/episodeNN/`, miniatures dans `visuels/lecons/`. **La vidéo complète (≈ 400 Mo) ne va pas sur GitHub.**
 

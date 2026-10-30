@@ -1,0 +1,236 @@
+1
+00:00:01,200 --> 00:00:08,419
+¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez aprendisteis a jugar bien la carrera.
+
+2
+00:00:08,119 --> 00:00:12,964
+Hoy hablamos de lo que asusta a todos los principiantes: la suerte.
+
+3
+00:00:13,114 --> 00:00:19,347
+En el backgammon, la suerte no es ningún misterio. Con dos dados, todo se puede calcular.
+
+4
+00:00:19,047 --> 00:00:23,147
+Y bastan unas pocas cifras para jugar mejor. ¡Vamos allá!
+
+5
+00:00:25,047 --> 00:00:28,193
+Todo empieza con un número: treinta y seis.
+
+6
+00:00:27,893 --> 00:00:32,562
+Dos dados de seis caras dan treinta y seis combinaciones posibles.
+
+7
+00:00:32,712 --> 00:00:38,257
+Cuidado con la trampa: seis-uno y uno-seis son dos combinaciones distintas.
+
+8
+00:00:37,957 --> 00:00:42,523
+El primer dado puede sacar seis y el segundo uno, o al revés.
+
+9
+00:00:42,673 --> 00:00:49,873
+En cambio, un doble como tres-tres solo puede salir de una manera: los dos dados tienen que sacar tres.
+
+10
+00:00:50,023 --> 00:00:58,070
+Recordad entonces esto: cada tirada que no es doble tiene dos posibilidades de treinta y seis, y cada doble, solo una.
+
+11
+00:00:59,970 --> 00:01:01,779
+Veamos lo que significa.
+
+12
+00:01:01,479 --> 00:01:09,447
+Para sacar una tirada concreta, como seis-uno, tenéis dos posibilidades de treinta y seis, más o menos un seis por ciento.
+
+13
+00:01:09,597 --> 00:01:16,757
+Para un doble concreto, como seis-seis, una sola posibilidad de treinta y seis: apenas un tres por ciento.
+
+14
+00:01:16,907 --> 00:01:21,569
+Y para sacar cualquier doble, hay seis posibilidades de treinta y seis.
+
+15
+00:01:21,269 --> 00:01:25,563
+Es una tirada de cada seis, más o menos un diecisiete por ciento.
+
+16
+00:01:27,463 --> 00:01:33,477
+Ahora, una pregunta muy útil: ¿qué posibilidades tengo de sacar al menos un seis?
+
+17
+00:01:33,627 --> 00:01:39,849
+El primer dado puede sacar seis: seis combinaciones. El segundo dado también: seis más.
+
+18
+00:01:39,549 --> 00:01:42,776
+Pero el doble seis se ha contado dos veces.
+
+19
+00:01:42,926 --> 00:01:48,896
+Resultado: once posibilidades de treinta y seis, más o menos un treinta y uno por ciento.
+
+20
+00:01:48,596 --> 00:01:55,011
+Vale para cualquier número: al menos un tres, al menos un cinco, siempre once de treinta y seis.
+
+21
+00:01:55,161 --> 00:02:00,966
+Y de media, una tirada vale un poco más de ocho pips, porque los dobles se juegan cuatro veces.
+
+22
+00:02:00,666 --> 00:02:03,516
+Es la referencia que usamos para la carrera.
+
+23
+00:02:05,416 --> 00:02:11,677
+Pasemos a la pregunta más importante durante la partida: si dejo un blot, ¿qué riesgo corro?
+
+24
+00:02:12,293 --> 00:02:19,079
+Cuando vuestro blot está a seis casillas o menos de una ficha del adversario, se habla de tiro directo.
+
+25
+00:02:18,779 --> 00:02:23,801
+El riesgo es alto: entre un treinta y uno y un cuarenta y siete por ciento.
+
+26
+00:02:23,951 --> 00:02:26,398
+Lo peor es la distancia seis.
+
+27
+00:02:26,098 --> 00:02:34,763
+Vuestro adversario puede golpear con cualquier seis, pero también con cinco-uno, cuatro-dos, tres-tres o dos-dos.
+
+28
+00:02:34,913 --> 00:02:42,513
+En total, diecisiete posibilidades de treinta y seis. ¡Casi una posibilidad de cada dos de ser golpeado!
+
+29
+00:02:44,413 --> 00:02:47,944
+Más allá de seis casillas, es un tiro indirecto.
+
+30
+00:02:47,644 --> 00:02:53,867
+Para golpearos, el adversario tiene que combinar sus dos dados, y eso es mucho más raro.
+
+31
+00:02:54,017 --> 00:03:01,421
+A siete u ocho casillas, solo tiene seis posibilidades de treinta y seis, más o menos un diecisiete por ciento.
+
+32
+00:03:01,121 --> 00:03:06,733
+A once casillas, solo un seis-cinco os golpea: dos posibilidades de treinta y seis.
+
+33
+00:03:06,883 --> 00:03:13,250
+El consejo de la lechuza: si tenéis que dejar un blot, dejadlo mejor a siete casillas o más.
+
+34
+00:03:12,950 --> 00:03:16,482
+El riesgo se divide por dos, o incluso mucho más.
+
+35
+00:03:18,382 --> 00:03:20,821
+¿Y cuando sois vosotros los golpeados?
+
+36
+00:03:20,521 --> 00:03:26,337
+Vuestra ficha va a la barra, y tiene que volver a entrar por el cuadrante interior del adversario.
+
+37
+00:03:26,487 --> 00:03:31,123
+Vuestras posibilidades dependen del número de puntos que siguen abiertos.
+
+38
+00:03:30,823 --> 00:03:36,349
+Con cinco puntos abiertos, entráis casi seguro: treinta y cinco veces de treinta y seis.
+
+39
+00:03:36,499 --> 00:03:43,172
+Con cuatro puntos abiertos, unas nueve veces de cada diez. Con tres, tres veces de cada cuatro.
+
+40
+00:03:42,872 --> 00:03:45,922
+Con dos, algo más de una vez de cada dos.
+
+41
+00:03:46,072 --> 00:03:51,089
+Y con un solo punto abierto, solo entráis más o menos una vez de cada tres.
+
+42
+00:03:50,789 --> 00:03:54,548
+Si los seis puntos están cerrados, ya no podéis entrar.
+
+43
+00:03:54,698 --> 00:04:03,967
+Por eso construir vuestro cuadrante interior antes de golpear es tan fuerte: cada punto cerrado de más hace caer las posibilidades de vuestro adversario.
+
+44
+00:04:05,867 --> 00:04:11,637
+¿Cómo usar todas estas cifras en una partida? No hace falta calcular en cada jugada.
+
+45
+00:04:11,337 --> 00:04:14,307
+Basta con recordar unos cuantos reflejos.
+
+46
+00:04:14,457 --> 00:04:20,896
+Primer reflejo: cuando dos jugadas se valen, elegid la que deja menos tiros a vuestro adversario.
+
+47
+00:04:21,046 --> 00:04:29,162
+Segundo reflejo: si un blot es inevitable, alejadlo a más de seis casillas, o escondedlo detrás de vuestros puntos.
+
+48
+00:04:29,312 --> 00:04:34,787
+Tercer reflejo: antes de golpear, mirad cuántos puntos tenéis cerrados en casa.
+
+49
+00:04:34,487 --> 00:04:39,306
+Cuanto más sólido sea vuestro cuadrante, más daño hace vuestro golpe.
+
+50
+00:04:41,206 --> 00:04:47,250
+Estas cifras también os ayudan con el cubo doblador. ¿Os acordáis de la regla del veinticinco por ciento?
+
+51
+00:04:47,400 --> 00:04:51,601
+Para aceptar un doble, basta con ganar una partida de cada cuatro.
+
+52
+00:04:51,301 --> 00:04:57,512
+Y contando los tiros y las posibilidades de entrar, sabéis mejor si estáis por encima de ese límite.
+
+53
+00:04:57,662 --> 00:05:03,064
+Por último, tened en cuenta que una jugada con mala suerte no es una mala jugada.
+
+54
+00:05:02,764 --> 00:05:09,047
+Si dejasteis el menor número de tiros posible, jugasteis bien, ¡aunque el adversario os golpee!
+
+55
+00:05:09,197 --> 00:05:16,119
+En TickGammon, el análisis de vuestras partidas os muestra, jugada a jugada, si habéis corrido el riesgo adecuado.
+
+56
+00:05:18,019 --> 00:05:29,382
+¡Y listo, ya conocéis las cifras clave de los dados: treinta y seis combinaciones, once posibilidades de treinta y seis para un número, y los riesgos del tiro directo e indirecto!
+
+57
+00:05:29,532 --> 00:05:36,939
+Para practicar, jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows.
+
+58
+00:05:36,639 --> 00:05:41,462
+La próxima vez, os presento la chouette, el backgammon para varios jugadores.
+
+59
+00:05:41,162 --> 00:05:45,691
+¡Suscribíos para no perdérosla! ¡Hasta muy pronto alrededor del tablero!
+

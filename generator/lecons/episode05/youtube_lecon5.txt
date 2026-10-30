@@ -1,0 +1,76 @@
+TITRE FR
+Les probabilités au backgammon : 36 combinaisons, 11 chances sur 36 🦉 Leçon 5
+
+DESCRIPTION FR
+La chance aux dés expliquée simplement par la chouette de TickGammon : les 36 combinaisons, les chances d'un lancer précis, les 11 chances sur 36 d'avoir au moins un chiffre, le risque d'un tir direct ou indirect, rentrer depuis la barre… et trois réflexes pour jouer mieux.
+
+🎲 Jouez gratuitement : https://www.tickgammon.com (navigateur, Android, Windows)
+📊 Le tableau des probabilités : https://www.tickgammon.com/probabilites-des-backgammon.php
+
+0:00 Introduction
+0:23 Les 36 combinaisons
+0:58 Les lancers précis
+1:25 Au moins un chiffre
+2:03 Le tir direct
+2:42 Le tir indirect
+3:16 Rentrer depuis la barre
+4:04 Trois réflexes
+4:39 Les dés et le videau
+5:16 Conclusion
+
+🤖 Voix et animations créées avec l'aide de l'IA.
+
+TAGS
+backgammon, probabilités backgammon, probabilités dés, 36 combinaisons, tir direct, tir indirect, blot, stratégie backgammon, apprendre le backgammon, backgammon débutant, TickGammon, leçon de backgammon
+
+=====
+TITLE EN
+Backgammon dice odds: 36 combinations, 11 chances in 36 🦉 Lesson 5
+
+DESCRIPTION EN
+Dice luck explained simply by the TickGammon owl: the 36 combinations, the odds of a specific roll, the 11 chances in 36 of rolling at least one number, the risk of a direct or indirect shot, coming in from the bar… and three reflexes to play better.
+
+🎲 Play for free: https://www.tickgammon.com (browser, Android, Windows)
+📊 The probability tables: https://www.tickgammon.com/probabilites-des-backgammon.php?lang=en
+
+0:00 Introduction
+0:23 The 36 combinations
+0:58 Specific rolls
+1:25 At least one number
+2:03 The direct shot
+2:42 The indirect shot
+3:16 Coming in from the bar
+4:04 Three reflexes
+4:39 Dice and the cube
+5:16 Conclusion
+
+🤖 Voice and animations created with the help of AI.
+
+TAGS EN
+backgammon, backgammon odds, dice probabilities, 36 combinations, direct shot, indirect shot, blot, backgammon strategy, learn backgammon, backgammon for beginners, TickGammon, backgammon lesson
+
+=====
+TÍTULO ES
+Las probabilidades en backgammon: 36 combinaciones, 11 posibilidades de 36 🦉 Lección 5
+
+DESCRIPCIÓN ES
+La suerte de los dados explicada de forma sencilla por la lechuza de TickGammon: las 36 combinaciones, las posibilidades de una tirada concreta, las 11 posibilidades de 36 de sacar al menos un número, el riesgo de un tiro directo o indirecto, entrar desde la barra… y tres reflejos para jugar mejor.
+
+🎲 Juega gratis: https://www.tickgammon.com (navegador, Android, Windows)
+📊 Las tablas de probabilidades: https://www.tickgammon.com/probabilites-des-backgammon.php?lang=es
+
+0:00 Introducción
+0:23 Las 36 combinaciones
+0:58 Las tiradas concretas
+1:25 Al menos un número
+2:03 El tiro directo
+2:42 El tiro indirecto
+3:16 Entrar desde la barra
+4:04 Tres reflejos
+4:39 Los dados y el cubo
+5:16 Conclusión
+
+🤖 Voz y animaciones creadas con ayuda de la IA.
+
+ETIQUETAS ES
+backgammon, probabilidades backgammon, probabilidades dados, 36 combinaciones, tiro directo, tiro indirecto, blot, estrategia backgammon, aprender backgammon, backgammon principiantes, TickGammon, lección de backgammon

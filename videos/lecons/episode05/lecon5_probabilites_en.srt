@@ -1,0 +1,232 @@
+1
+00:00:01,200 --> 00:00:07,511
+Hello and welcome to the Owl's Lessons! Last time, you learned how to play the race well.
+
+2
+00:00:07,211 --> 00:00:11,564
+Today, we're talking about what scares every beginner: luck.
+
+3
+00:00:13,114 --> 00:00:18,727
+In backgammon, luck is no mystery. With two dice, everything can be calculated.
+
+4
+00:00:18,427 --> 00:00:22,358
+And a few numbers are enough to play better. Let's go!
+
+5
+00:00:25,047 --> 00:00:32,426
+It all starts with one number: thirty-six. Two six-sided dice give thirty-six possible combinations.
+
+6
+00:00:32,712 --> 00:00:37,685
+Watch out for the trap: six-one and one-six are two different combinations.
+
+7
+00:00:37,385 --> 00:00:42,047
+The first die can show six and the second one, or the other way round.
+
+8
+00:00:42,673 --> 00:00:49,438
+On the other hand, a double like three-three can only happen one way: both dice have to show three.
+
+9
+00:00:50,023 --> 00:00:57,088
+So remember this: every non-double roll has two chances in thirty-six, and every double, only one.
+
+10
+00:00:59,970 --> 00:01:02,015
+Let's see what that means.
+
+11
+00:01:01,715 --> 00:01:08,324
+To get one specific roll, like six-one, you have two chances in thirty-six, about six percent.
+
+12
+00:01:09,597 --> 00:01:16,141
+For one specific double, like six-six, just one chance in thirty-six: barely three percent.
+
+13
+00:01:16,907 --> 00:01:21,452
+And to get any double at all, there are six chances in thirty-six.
+
+14
+00:01:21,152 --> 00:01:24,540
+That's one roll in six, about seventeen percent.
+
+15
+00:01:27,463 --> 00:01:33,043
+Now, a very useful question: what are my chances of rolling at least one six?
+
+16
+00:01:33,627 --> 00:01:39,231
+The first die can show six: six combinations. The second die too: six more.
+
+17
+00:01:38,931 --> 00:01:41,918
+But double six has been counted twice.
+
+18
+00:01:42,926 --> 00:01:47,673
+Result: eleven chances in thirty-six, about thirty-one percent.
+
+19
+00:01:47,373 --> 00:01:54,166
+It works for any number: at least one three, at least one five, always eleven in thirty-six.
+
+20
+00:01:55,161 --> 00:02:00,891
+And on average, one roll is worth a little over eight pips, since doubles are played four times.
+
+21
+00:02:00,591 --> 00:02:03,266
+That's the benchmark we used for the race.
+
+22
+00:02:05,416 --> 00:02:12,143
+Now for the most important question during a game: if I leave a blot, how big a risk am I taking?
+
+23
+00:02:12,293 --> 00:02:18,539
+When your blot is six points or fewer from an opponent's checker, it's called a direct shot.
+
+24
+00:02:18,239 --> 00:02:22,482
+The risk is high: between thirty-one and forty-seven percent.
+
+25
+00:02:23,951 --> 00:02:26,087
+The worst is distance six.
+
+26
+00:02:25,787 --> 00:02:32,655
+Your opponent can hit with any six, but also with five-one, four-two, three-three or two-two.
+
+27
+00:02:34,913 --> 00:02:41,455
+That's seventeen chances in thirty-six altogether. Almost one chance in two of getting hit!
+
+28
+00:02:44,413 --> 00:02:47,310
+Beyond six points, it's an indirect shot.
+
+29
+00:02:47,010 --> 00:02:51,998
+To hit you, your opponent has to combine both dice, and that's much rarer.
+
+30
+00:02:54,017 --> 00:03:00,878
+At seven or eight points away, they only have six chances in thirty-six, about seventeen percent.
+
+31
+00:03:00,578 --> 00:03:05,477
+At eleven points, only six-five hits you: two chances in thirty-six.
+
+32
+00:03:06,883 --> 00:03:12,275
+The owl's tip: if you have to leave a blot, leave it seven points away or more.
+
+33
+00:03:11,975 --> 00:03:15,046
+The risk is cut in half, or even much more.
+
+34
+00:03:18,382 --> 00:03:20,290
+And what about when you get hit?
+
+35
+00:03:19,990 --> 00:03:24,914
+Your checker goes to the bar, and it has to come back in through your opponent's home board.
+
+36
+00:03:26,487 --> 00:03:30,116
+Your chances depend on how many points are still open.
+
+37
+00:03:29,816 --> 00:03:35,294
+With five open points, you come in almost for sure: thirty-five times in thirty-six.
+
+38
+00:03:36,499 --> 00:03:42,337
+With four open points, about nine times in ten. With three, three times in four.
+
+39
+00:03:42,037 --> 00:03:45,452
+With two, a little more than one time in two.
+
+40
+00:03:46,072 --> 00:03:50,660
+And with only one open point, you only come in about one time in three.
+
+41
+00:03:50,360 --> 00:03:53,981
+If all six points are closed, you can't come in at all.
+
+42
+00:03:54,698 --> 00:04:02,147
+That's why building your home board before hitting is so strong: every extra closed point makes your opponent's chances drop.
+
+43
+00:04:05,867 --> 00:04:10,942
+How do you use all these numbers in a game? No need to calculate every move.
+
+44
+00:04:10,642 --> 00:04:12,764
+Just remember a few reflexes.
+
+45
+00:04:14,457 --> 00:04:20,703
+First reflex: when two moves are about equal, choose the one that leaves your opponent the fewest shots.
+
+46
+00:04:21,046 --> 00:04:28,351
+Second reflex: if a blot can't be avoided, move it more than six points away, or hide it behind your points.
+
+47
+00:04:29,312 --> 00:04:34,689
+Third reflex: before hitting, look at how many points are closed in your home board.
+
+48
+00:04:34,389 --> 00:04:37,651
+The stronger your board, the more your hit hurts.
+
+49
+00:04:41,206 --> 00:04:46,310
+These numbers also help you with the doubling cube. Do you remember the twenty-five percent rule?
+
+50
+00:04:47,400 --> 00:04:50,681
+To take a double, you only need to win one game in four.
+
+51
+00:04:50,381 --> 00:04:56,004
+And by counting shots and your chances of coming in, you know better whether you're above that line.
+
+52
+00:04:57,662 --> 00:05:01,733
+Finally, keep in mind that an unlucky move isn't a bad move.
+
+53
+00:05:01,433 --> 00:05:06,886
+If you left as few shots as possible, you played well, even if your opponent hits!
+
+54
+00:05:09,197 --> 00:05:14,963
+On TickGammon, the analysis of your games shows you, move by move, whether you took the right risk.
+
+55
+00:05:18,019 --> 00:05:28,953
+And there you go, you now know the key dice numbers: thirty-six combinations, eleven chances in thirty-six for a given number, and the risks of direct and indirect shots!
+
+56
+00:05:29,532 --> 00:05:36,458
+To practise, play for free against other players or against the computer, in your browser, on Android or on Windows.
+
+57
+00:05:36,158 --> 00:05:42,341
+Next time, I'll introduce the chouette, backgammon for several players. Subscribe so you don't miss it!
+
+58
+00:05:42,041 --> 00:05:44,054
+See you soon around the board!
+

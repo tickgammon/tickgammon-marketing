@@ -1,0 +1,240 @@
+1
+00:00:01,200 --> 00:00:04,544
+Bonjour et bienvenue dans les Leçons de la chouette !
+
+2
+00:00:04,244 --> 00:00:07,875
+La dernière fois, vous avez appris à bien jouer la course.
+
+3
+00:00:07,575 --> 00:00:12,182
+Aujourd'hui, on parle de ce qui fait peur à tous les débutants : la chance.
+
+4
+00:00:13,114 --> 00:00:18,046
+Au backgammon, la chance n'est pas un mystère. Avec deux dés, tout se calcule.
+
+5
+00:00:17,746 --> 00:00:21,491
+Et quelques chiffres suffisent pour mieux jouer. On y va !
+
+6
+00:00:25,047 --> 00:00:27,787
+Tout commence par un chiffre : trente-six.
+
+7
+00:00:27,487 --> 00:00:31,506
+Deux dés de six faces donnent trente-six combinaisons possibles.
+
+8
+00:00:32,712 --> 00:00:38,295
+Attention au piège : six-un et un-six, ce sont deux combinaisons différentes.
+
+9
+00:00:37,995 --> 00:00:42,343
+Le premier dé peut faire six et le second un, ou l'inverse.
+
+10
+00:00:42,673 --> 00:00:49,183
+En revanche, un double comme trois-trois n'arrive que d'une seule façon : les deux dés doivent faire trois.
+
+11
+00:00:50,023 --> 00:00:56,846
+Retenez donc ceci : chaque lancer non double a deux chances sur trente-six, et chaque double, une seule.
+
+12
+00:00:59,970 --> 00:01:01,781
+Voyons ce que cela donne.
+
+13
+00:01:01,481 --> 00:01:08,488
+Pour obtenir un lancer précis, comme six-un, vous avez deux chances sur trente-six, soit environ six pour cent.
+
+14
+00:01:09,597 --> 00:01:15,696
+Pour un double précis, comme six-six, une seule chance sur trente-six : à peine trois pour cent.
+
+15
+00:01:16,907 --> 00:01:21,552
+Et pour obtenir n'importe quel double, il y a six chances sur trente-six.
+
+16
+00:01:21,252 --> 00:01:24,647
+C'est un lancer sur six, environ dix-sept pour cent.
+
+17
+00:01:27,463 --> 00:01:32,730
+Maintenant, une question très utile : quelles sont mes chances d'avoir au moins un six ?
+
+18
+00:01:33,627 --> 00:01:39,147
+Le premier dé peut faire six : six combinaisons. Le second dé aussi : six autres.
+
+19
+00:01:38,847 --> 00:01:41,853
+Mais le double six a été compté deux fois.
+
+20
+00:01:42,926 --> 00:01:47,938
+Résultat : onze chances sur trente-six, soit environ trente et un pour cent.
+
+21
+00:01:47,638 --> 00:01:54,572
+C'est vrai pour n'importe quel chiffre : au moins un trois, au moins un cinq, toujours onze sur trente-six.
+
+22
+00:01:55,161 --> 00:02:00,537
+Et en moyenne, un lancer vaut un peu plus de huit pips, puisque les doubles se jouent quatre fois.
+
+23
+00:02:00,237 --> 00:02:02,972
+C'est le repère qu'on a utilisé pour la course.
+
+24
+00:02:05,416 --> 00:02:11,328
+Passons à la question la plus importante en partie : si je laisse un blot, quel risque est-ce que je prends ?
+
+25
+00:02:12,293 --> 00:02:17,509
+Quand votre blot est à six cases ou moins d'un pion adverse, on parle de tir direct.
+
+26
+00:02:17,209 --> 00:02:21,489
+Le risque est élevé : entre trente et un et quarante-sept pour cent.
+
+27
+00:02:23,951 --> 00:02:26,179
+Le pire, c'est la distance six.
+
+28
+00:02:25,879 --> 00:02:33,519
+Votre adversaire peut toucher avec n'importe quel six, mais aussi avec cinq-un, quatre-deux, trois-trois ou deux-deux.
+
+29
+00:02:34,913 --> 00:02:40,946
+Au total, dix-sept chances sur trente-six. Presque une chance sur deux de se faire frapper !
+
+30
+00:02:44,413 --> 00:02:47,180
+Au-delà de six cases, c'est un tir indirect.
+
+31
+00:02:46,880 --> 00:02:52,114
+Pour vous toucher, l'adversaire doit combiner ses deux dés, et c'est beaucoup plus rare.
+
+32
+00:02:54,017 --> 00:02:59,384
+À sept ou huit cases, il n'a que six chances sur trente-six, soit dix-sept pour cent.
+
+33
+00:02:59,084 --> 00:03:03,736
+À onze cases, seul un six-cinq vous touche : deux chances sur trente-six.
+
+34
+00:03:06,883 --> 00:03:12,864
+Le conseil de la chouette : si vous devez laisser un blot, laissez-le plutôt à sept cases ou plus.
+
+35
+00:03:12,564 --> 00:03:15,589
+Le risque est divisé par deux, voire bien plus.
+
+36
+00:03:18,382 --> 00:03:20,600
+Et quand c'est vous qui êtes frappé ?
+
+37
+00:03:20,300 --> 00:03:24,590
+Votre pion va sur la barre, et il doit rentrer dans le jan intérieur adverse.
+
+38
+00:03:26,487 --> 00:03:29,740
+Vos chances dépendent du nombre de points encore ouverts.
+
+39
+00:03:29,440 --> 00:03:34,506
+Avec cinq points ouverts, vous rentrez presque à coup sûr : trente-cinq fois sur trente-six.
+
+40
+00:03:36,499 --> 00:03:42,101
+Avec quatre points ouverts, environ neuf fois sur dix. Avec trois, trois fois sur quatre.
+
+41
+00:03:41,801 --> 00:03:44,663
+Avec deux, un peu plus d'une fois sur deux.
+
+42
+00:03:46,072 --> 00:03:50,304
+Et avec un seul point ouvert, vous ne rentrez qu'environ une fois sur trois.
+
+43
+00:03:50,004 --> 00:03:53,823
+Si les six points sont bloqués, vous ne pouvez plus rentrer du tout.
+
+44
+00:03:54,698 --> 00:04:02,709
+C'est pour cela que construire son jan intérieur avant de frapper est si fort : chaque point bloqué de plus fait chuter les chances de votre adversaire.
+
+45
+00:04:05,867 --> 00:04:10,835
+Comment utiliser tous ces chiffres en partie ? Pas besoin de calculer à chaque coup.
+
+46
+00:04:10,535 --> 00:04:12,613
+Retenez juste quelques réflexes.
+
+47
+00:04:14,457 --> 00:04:20,550
+Premier réflexe : quand deux coups se valent, choisissez celui qui laisse le moins de tirs à votre adversaire.
+
+48
+00:04:21,046 --> 00:04:28,068
+Deuxième réflexe : si un blot est inévitable, éloignez-le à plus de six cases, ou cachez-le derrière vos points.
+
+49
+00:04:29,312 --> 00:04:34,501
+Troisième réflexe : avant de frapper, regardez combien de points sont fermés chez vous.
+
+50
+00:04:34,201 --> 00:04:37,535
+Plus votre jan est solide, plus votre frappe fait mal.
+
+51
+00:04:41,206 --> 00:04:45,994
+Ces chiffres vous aident aussi avec le videau. Vous vous souvenez de la règle des vingt-cinq pour cent ?
+
+52
+00:04:47,400 --> 00:04:50,956
+Pour accepter un double, il suffit de gagner une partie sur quatre.
+
+53
+00:04:50,656 --> 00:04:55,961
+Et en comptant les tirs et les chances de rentrer, vous savez mieux si vous êtes au-dessus de ce seuil.
+
+54
+00:04:57,662 --> 00:05:02,147
+Enfin, gardez en tête qu'un coup malchanceux ne veut pas dire un mauvais coup.
+
+55
+00:05:01,847 --> 00:05:07,351
+Si vous avez laissé le moins de tirs possible, vous avez bien joué, même si l'adversaire touche !
+
+56
+00:05:09,197 --> 00:05:14,717
+Sur TickGammon, l'analyse de vos parties vous montre, coup par coup, si vous avez pris le bon risque.
+
+57
+00:05:18,019 --> 00:05:27,864
+Et voilà, vous connaissez maintenant les chiffres clés des dés : trente-six combinaisons, onze chances sur trente-six pour un chiffre, et les risques du tir direct et indirect !
+
+58
+00:05:29,532 --> 00:05:37,199
+Pour vous entraîner, jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows.
+
+59
+00:05:36,899 --> 00:05:41,630
+La prochaine fois, je vous présente la chouette, le backgammon à plusieurs joueurs.
+
+60
+00:05:41,330 --> 00:05:45,314
+Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
+
