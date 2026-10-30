@@ -1,0 +1,284 @@
+1
+00:00:01,200 --> 00:00:07,486
+Hello and welcome to the Owl's Lessons! Last time, we went through all the rules of backgammon.
+
+2
+00:00:07,186 --> 00:00:12,337
+Today, we move on to practice: I'm going to teach you the best opening moves.
+
+3
+00:00:13,031 --> 00:00:15,916
+The opening is the very first move of the game.
+
+4
+00:00:15,616 --> 00:00:19,052
+And here's the good news: there are only fifteen to know.
+
+5
+00:00:18,752 --> 00:00:22,847
+By the end of this lesson, you'll know how to play every one of them.
+
+6
+00:00:26,415 --> 00:00:32,603
+Remember: to start, each player rolls a single die, and the higher roll plays with both dice.
+
+7
+00:00:33,448 --> 00:00:38,578
+If the two dice are the same, you roll again. So the first move can never be a double.
+
+8
+00:00:40,002 --> 00:00:46,099
+With two different dice, there are exactly fifteen combinations, from six-five down to two-one.
+
+9
+00:00:46,609 --> 00:00:52,636
+Thanks to analysis programs, which have played millions of games, we now know the best move for each one.
+
+10
+00:00:52,336 --> 00:00:56,017
+Learning them gives you a head start from the very first turn.
+
+11
+00:00:58,689 --> 00:01:01,048
+Before we begin, a quick reminder.
+
+12
+00:01:00,748 --> 00:01:05,651
+A move is always described from your point of view, using the point numbers.
+
+13
+00:01:07,124 --> 00:01:12,793
+When I say "from eight to five", a checker leaves your eight-point and lands on your five-point.
+
+14
+00:01:13,667 --> 00:01:18,826
+And when I say "two checkers from thirteen to eleven", the same move is played twice.
+
+15
+00:01:19,686 --> 00:01:25,599
+The fifteen openings fall into three main families: making a point, running, and building.
+
+16
+00:01:25,299 --> 00:01:27,470
+Let's start with the best one.
+
+17
+00:01:29,631 --> 00:01:32,751
+Three-one is the finest opening in the game.
+
+18
+00:01:32,451 --> 00:01:36,724
+Play one checker from eight to five, and one from six to five.
+
+19
+00:01:37,353 --> 00:01:40,375
+Your two checkers end up together on the five-point.
+
+20
+00:01:40,075 --> 00:01:45,454
+That point is now blocked for your opponent, and it's the most valuable point on the whole board.
+
+21
+00:01:46,125 --> 00:01:51,953
+With four-two, same idea: from eight to four and from six to four. You make the four-point.
+
+22
+00:01:52,551 --> 00:01:57,509
+With five-three, from eight to three and from six to three: you make the three-point.
+
+23
+00:01:57,209 --> 00:02:00,962
+It's a little less useful, but it's still one more solid point.
+
+24
+00:02:01,677 --> 00:02:08,516
+The owl's tip: whenever a roll lets you make a point in your home board right from the start, never pass it up!
+
+25
+00:02:12,488 --> 00:02:19,060
+Six-one also makes a point, but a special one: the seven-point, which we call the bar point.
+
+26
+00:02:19,460 --> 00:02:23,862
+Play one checker from thirteen to seven, and one from eight to seven.
+
+27
+00:02:24,012 --> 00:02:26,588
+The seven-point sits right next to the bar.
+
+28
+00:02:26,288 --> 00:02:32,940
+Together with your six- and eight-points, it already forms a three-point wall in front of your opponent's back checkers.
+
+29
+00:02:33,987 --> 00:02:39,781
+It's the beginning of a prime, that famous six-point wall your opponent can't get past.
+
+30
+00:02:39,481 --> 00:02:42,244
+And they'll soon realise they're stuck!
+
+31
+00:02:45,241 --> 00:02:46,928
+Second family: running.
+
+32
+00:02:46,628 --> 00:02:52,356
+Your two checkers on the twenty-four-point are far from home, and they risk being trapped.
+
+33
+00:02:53,925 --> 00:03:00,358
+With six-five, it's easy: a single checker leaves the twenty-four and runs all the way to the thirteen.
+
+34
+00:03:00,058 --> 00:03:05,419
+This move is called the lover's leap. Your checker is already safe, with its friends.
+
+35
+00:03:05,636 --> 00:03:13,024
+With six-four, six-three and six-two, you usually play the six from twenty-four to eighteen, to bring a back checker out.
+
+36
+00:03:13,580 --> 00:03:22,183
+And you play the small die from the thirteen-point: thirteen to nine with the four, thirteen to ten with the three, thirteen to eleven with the two.
+
+37
+00:03:22,792 --> 00:03:30,390
+With six-four and six-three, you can also run a single checker, from twenty-four to fourteen, or from twenty-four to fifteen.
+
+38
+00:03:30,090 --> 00:03:32,550
+Both ways of playing are about equal.
+
+39
+00:03:34,450 --> 00:03:40,090
+Third family: building. The other rolls don't let you make a point or run very far.
+
+40
+00:03:39,790 --> 00:03:42,020
+So you place builders instead.
+
+41
+00:03:43,662 --> 00:03:48,527
+A builder is a checker placed within reach of the points you want to make on your next turn.
+
+42
+00:03:49,343 --> 00:03:53,451
+With five-two, play thirteen to eight and thirteen to eleven.
+
+43
+00:03:53,151 --> 00:03:57,509
+With five-one, thirteen to eight and twenty-four to twenty-three.
+
+44
+00:03:57,923 --> 00:04:04,139
+With four-three, two checkers come down from the thirteen, one to the nine and the other to the ten.
+
+45
+00:04:03,839 --> 00:04:07,630
+With three-two, one to the ten and the other to the eleven.
+
+46
+00:04:07,780 --> 00:04:12,220
+With four-one, thirteen to nine and twenty-four to twenty-three.
+
+47
+00:04:11,920 --> 00:04:18,884
+With five-four, thirteen to eight and thirteen to nine, or twenty-four to twenty and thirteen to eight.
+
+48
+00:04:19,034 --> 00:04:26,303
+And with two-one, the smallest roll: thirteen to eleven, then twenty-four to twenty-three, or six to five.
+
+49
+00:04:26,974 --> 00:04:30,871
+Yes, these moves sometimes leave a checker on its own, a blot.
+
+50
+00:04:30,571 --> 00:04:37,428
+It's a small risk, but it's worth it: on your next turn, you'll have a much better chance of making a good point.
+
+51
+00:04:39,829 --> 00:04:42,456
+A double never comes on the first move.
+
+52
+00:04:42,156 --> 00:04:48,243
+But it can come on the second, in reply to your opponent's opening. Here are the classic replies.
+
+53
+00:04:49,401 --> 00:04:55,583
+With double six, two checkers from twenty-four to eighteen, and two from thirteen to seven.
+
+54
+00:04:55,283 --> 00:04:58,169
+You grab two very good points in one go.
+
+55
+00:04:58,319 --> 00:05:02,127
+With double five, two checkers from thirteen to three.
+
+56
+00:05:01,827 --> 00:05:07,909
+With double four, two checkers from twenty-four to twenty, and two from thirteen to nine.
+
+57
+00:05:08,059 --> 00:05:13,428
+With double three, two checkers from eight to five and two from six to three.
+
+58
+00:05:13,128 --> 00:05:18,629
+With double two, two checkers from thirteen to eleven and two from six to four.
+
+59
+00:05:18,779 --> 00:05:27,038
+And with double one, two checkers from eight to seven and two from six to five: you make both the seven-point and the five-point!
+
+60
+00:05:28,938 --> 00:05:33,907
+Careful: on the second move, everything also depends on what your opponent played.
+
+61
+00:05:34,541 --> 00:05:39,711
+If they left a blot within reach of your dice, hitting it is often better than the classic move.
+
+62
+00:05:39,411 --> 00:05:43,870
+Their checker goes back to the bar, and they lose all the ground they had covered.
+
+63
+00:05:44,470 --> 00:05:48,192
+And don't try to learn everything by heart in one go.
+
+64
+00:05:47,892 --> 00:05:53,421
+First remember the three ideas: make a point, run with a six, and place builders.
+
+65
+00:05:54,337 --> 00:05:56,476
+The rest will come with practice.
+
+66
+00:05:56,176 --> 00:06:02,329
+On TickGammon, the analysis of your games shows you when you stray from the best move, openings included.
+
+67
+00:06:05,147 --> 00:06:09,042
+And there you go, you now know all fifteen backgammon openings!
+
+68
+00:06:08,742 --> 00:06:13,037
+You'll find them all in the table on the Openings page, on TickGammon.
+
+69
+00:06:13,399 --> 00:06:20,410
+To practise, play for free against other players or against the computer, in your browser, on Android or on Windows.
+
+70
+00:06:20,110 --> 00:06:25,733
+Next time, I'll teach you how to use the doubling cube well. Subscribe so you don't miss it!
+
+71
+00:06:25,433 --> 00:06:27,469
+See you soon around the board!
+

@@ -1,0 +1,284 @@
+1
+00:00:01,200 --> 00:00:08,443
+¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez vimos todas las reglas del backgammon.
+
+2
+00:00:08,143 --> 00:00:12,824
+Hoy pasamos a la práctica: voy a enseñaros las mejores aperturas.
+
+3
+00:00:13,031 --> 00:00:16,809
+La apertura es la primerísima jugada de la partida.
+
+4
+00:00:16,509 --> 00:00:20,560
+Y tengo una buena noticia: solo hay quince que conocer.
+
+5
+00:00:20,260 --> 00:00:24,515
+Al final de esta lección, sabréis jugar cada una de ellas.
+
+6
+00:00:26,415 --> 00:00:33,298
+Recordad: para empezar, cada jugador tira un solo dado, y el más alto juega con los dos dados.
+
+7
+00:00:33,448 --> 00:00:39,852
+Si los dos dados son iguales, se vuelve a tirar. Así que la primera jugada nunca puede ser un doble.
+
+8
+00:00:40,002 --> 00:00:46,459
+Con dos dados distintos, hay exactamente quince combinaciones, del seis-cinco al dos-uno.
+
+9
+00:00:46,609 --> 00:00:53,932
+Gracias a los programas de análisis, que han jugado millones de partidas, hoy se conoce la mejor jugada para cada una.
+
+10
+00:00:53,632 --> 00:00:56,789
+Aprenderlas os da ventaja desde el primer turno.
+
+11
+00:00:58,689 --> 00:01:01,511
+Antes de empezar, un pequeño recordatorio.
+
+12
+00:01:01,211 --> 00:01:06,974
+Una jugada siempre se describe desde vuestro punto de vista, con los números de los puntos.
+
+13
+00:01:07,124 --> 00:01:13,517
+Cuando digo «de ocho a cinco», una ficha sale de vuestro punto ocho y llega a vuestro punto cinco.
+
+14
+00:01:13,667 --> 00:01:19,536
+Y cuando digo «dos fichas de trece a once», el mismo movimiento se juega dos veces.
+
+15
+00:01:19,686 --> 00:01:26,182
+Las quince aperturas se agrupan en tres grandes familias: hacer un punto, correr y preparar.
+
+16
+00:01:25,882 --> 00:01:27,731
+Empecemos por la mejor.
+
+17
+00:01:29,631 --> 00:01:37,203
+El tres-uno es la apertura más bonita del juego. Jugad una ficha de ocho a cinco, y otra de seis a cinco.
+
+18
+00:01:37,353 --> 00:01:40,812
+Vuestras dos fichas quedan juntas en el punto cinco.
+
+19
+00:01:40,512 --> 00:01:45,975
+Ese punto queda bloqueado para el adversario, y es el más valioso de todo el tablero.
+
+20
+00:01:46,125 --> 00:01:52,401
+Con cuatro-dos, la misma idea: de ocho a cuatro y de seis a cuatro. Hacéis el punto cuatro.
+
+21
+00:01:52,551 --> 00:01:57,429
+Con cinco-tres, de ocho a tres y de seis a tres: hacéis el punto tres.
+
+22
+00:01:57,129 --> 00:02:01,419
+Es un poco menos útil, pero sigue siendo un punto sólido más.
+
+23
+00:02:01,677 --> 00:02:10,588
+El consejo de la lechuza: cuando una tirada os permite hacer un punto en vuestro cuadrante interior desde el principio, ¡no la desaprovechéis nunca!
+
+24
+00:02:12,488 --> 00:02:19,310
+El seis-uno también hace un punto, pero uno especial: el punto siete, que llamamos el bar point.
+
+25
+00:02:19,460 --> 00:02:23,554
+Jugad una ficha de trece a siete, y otra de ocho a siete.
+
+26
+00:02:24,012 --> 00:02:27,000
+El punto siete está justo al lado de la barra.
+
+27
+00:02:26,700 --> 00:02:33,837
+Junto con vuestros puntos seis y ocho, ya forma un muro de tres puntos delante de las fichas traseras del adversario.
+
+28
+00:02:33,987 --> 00:02:40,345
+Es el comienzo de un prime, ese famoso muro de seis puntos que el adversario no puede cruzar.
+
+29
+00:02:40,045 --> 00:02:43,341
+¡Y pronto se dará cuenta de que está atrapado!
+
+30
+00:02:45,241 --> 00:02:47,085
+Segunda familia: correr.
+
+31
+00:02:46,785 --> 00:02:53,775
+Vuestras dos fichas del punto veinticuatro están lejos de casa, y corren el riesgo de quedar encerradas.
+
+32
+00:02:53,925 --> 00:02:59,664
+Con seis-cinco es fácil: una sola ficha sale del veinticuatro y llega hasta el trece.
+
+33
+00:02:59,364 --> 00:03:05,486
+Esta jugada se llama el salto del enamorado. Vuestra ficha ya está a salvo, con sus amigas.
+
+34
+00:03:05,636 --> 00:03:13,430
+Con seis-cuatro, seis-tres y seis-dos, se suele jugar el seis de veinticuatro a dieciocho, para sacar una ficha trasera.
+
+35
+00:03:13,580 --> 00:03:22,642
+Y el dado pequeño se juega desde el punto trece: de trece a nueve con el cuatro, de trece a diez con el tres, de trece a once con el dos.
+
+36
+00:03:22,792 --> 00:03:30,526
+Con seis-cuatro y seis-tres, también se puede hacer correr una sola ficha, de veinticuatro a catorce, o de veinticuatro a quince.
+
+37
+00:03:30,226 --> 00:03:32,428
+Las dos formas de jugar se valen.
+
+38
+00:03:34,450 --> 00:03:41,129
+Tercera familia: preparar. Las demás tiradas no permiten ni hacer un punto ni correr lejos.
+
+39
+00:03:40,829 --> 00:03:43,512
+Entonces se colocan constructores.
+
+40
+00:03:43,662 --> 00:03:49,193
+Un constructor es una ficha colocada al alcance de los puntos que queréis hacer en el turno siguiente.
+
+41
+00:03:49,343 --> 00:03:53,465
+Con cinco-dos, jugad de trece a ocho y de trece a once.
+
+42
+00:03:53,165 --> 00:03:57,773
+Con cinco-uno, de trece a ocho y de veinticuatro a veintitrés.
+
+43
+00:03:57,923 --> 00:04:03,382
+Con cuatro-tres, dos fichas bajan del trece, una al nueve y otra al diez.
+
+44
+00:04:03,082 --> 00:04:06,279
+Con tres-dos, una al diez y otra al once.
+
+45
+00:04:07,780 --> 00:04:12,162
+Con cuatro-uno, de trece a nueve y de veinticuatro a veintitrés.
+
+46
+00:04:11,862 --> 00:04:18,794
+Con cinco-cuatro, de trece a ocho y de trece a nueve, o bien de veinticuatro a veinte y de trece a ocho.
+
+47
+00:04:19,034 --> 00:04:26,824
+Y con dos-uno, la tirada más pequeña: de trece a once, y luego de veinticuatro a veintitrés, o de seis a cinco.
+
+48
+00:04:26,974 --> 00:04:30,645
+Sí, estas jugadas a veces dejan una ficha sola, un blot.
+
+49
+00:04:30,345 --> 00:04:37,929
+Es un pequeño riesgo, pero vale la pena: en el turno siguiente, tendréis muchas más posibilidades de hacer un buen punto.
+
+50
+00:04:39,829 --> 00:04:42,606
+Un doble nunca sale en la primera jugada.
+
+51
+00:04:42,306 --> 00:04:47,197
+Pero puede salir en la segunda, para responder a la apertura del adversario.
+
+52
+00:04:46,897 --> 00:04:49,251
+Estas son las respuestas clásicas.
+
+53
+00:04:49,401 --> 00:04:54,772
+Con doble seis, dos fichas de veinticuatro a dieciocho, y dos de trece a siete.
+
+54
+00:04:54,472 --> 00:04:57,853
+Os quedáis con dos puntos muy buenos de una vez.
+
+55
+00:04:58,319 --> 00:05:01,625
+Con doble cinco, dos fichas de trece a tres.
+
+56
+00:05:01,325 --> 00:05:06,954
+Con doble cuatro, dos fichas de veinticuatro a veinte, y dos de trece a nueve.
+
+57
+00:05:08,059 --> 00:05:12,957
+Con doble tres, dos fichas de ocho a cinco y dos de seis a tres.
+
+58
+00:05:12,657 --> 00:05:17,627
+Con doble dos, dos fichas de trece a once y dos de seis a cuatro.
+
+59
+00:05:18,779 --> 00:05:26,427
+Y con doble uno, dos fichas de ocho a siete y dos de seis a cinco: ¡hacéis a la vez el punto siete y el punto cinco!
+
+60
+00:05:28,938 --> 00:05:34,391
+Atención: en la segunda jugada, todo depende también de lo que haya jugado el adversario.
+
+61
+00:05:34,541 --> 00:05:40,670
+Si ha dejado un blot al alcance de vuestros dados, golpearlo suele ser mejor que la jugada clásica.
+
+62
+00:05:40,370 --> 00:05:44,320
+Su ficha vuelve a la barra, y pierde todo el camino recorrido.
+
+63
+00:05:44,470 --> 00:05:48,333
+Tampoco intentéis aprenderlo todo de memoria de una vez.
+
+64
+00:05:48,033 --> 00:05:54,187
+Recordad primero las tres ideas: hacer un punto, correr con un seis y colocar constructores.
+
+65
+00:05:54,337 --> 00:05:56,474
+Lo demás vendrá con la práctica.
+
+66
+00:05:56,174 --> 00:06:03,247
+En TickGammon, el análisis de vuestras partidas os muestra cuándo os apartáis de la mejor jugada, aperturas incluidas.
+
+67
+00:06:05,147 --> 00:06:08,901
+¡Y listo, ya conocéis las quince aperturas del backgammon!
+
+68
+00:06:08,601 --> 00:06:13,249
+Las encontraréis todas en la tabla de la página Aperturas, en TickGammon.
+
+69
+00:06:13,399 --> 00:06:20,777
+Para practicar, jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows.
+
+70
+00:06:20,477 --> 00:06:25,865
+La próxima vez, os enseño a usar bien el cubo doblador. ¡Suscribíos para no perdérosla!
+
+71
+00:06:25,565 --> 00:06:28,205
+¡Hasta muy pronto alrededor del tablero!
+

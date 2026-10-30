@@ -1,0 +1,13 @@
+LEÇON 2 — UNE SEULE VIDÉO POUR LES 3 LANGUES (décidé par Joyce le 30/10/2026)
+Image commune (chiffres, symboles, titres de chapitre en FR + EN + ES), voix FR dans la vidéo,
+voix EN et ES en pistes audio à ajouter dans YouTube Studio (Langues → Ajouter une langue → Doublage).
+
+Étapes (copier les .woff2, owl_base.png, owl_wing.png, logo_circle.png, audio_lecon.py, align.py et short_bg.html du dossier parent à côté) :
+1. bloc1..3.mp3, bloc1..3_en.mp3, bloc1..3_es.mp3 + passages_xx.txt → python3 align.py fr|en|es
+2. python3 cut_multi.py → minutage commun (durée max de chaque passage), voice_fr/en/es.wav, timeline*.json
+3. node render2.js fr 0 N frames   (N = total × 30 ; lancer plusieurs morceaux en parallèle)
+4. node ev2.js puis le petit script Python des bruitages → ev.json ; python3 audio_lecon.py TOTAL ev.json bed.wav
+5. mix par langue : musique volume 0.22 + compresseur sur la voix + loudnorm -14 LUFS → mix_xx.wav
+6. vidéo : ffmpeg images + mix_fr.wav, 8 Mbit/s ; pistes EN/ES : mix_en/es.wav en MP3 320k
+7. python3 srt2.py fr|en|es fichier.srt ; node short_bg2.js ; python3 shorts2.py fr|en|es
+La vidéo complète (≈ 390 Mo) dépasse la limite GitHub : elle est envoyée directement à Joyce.

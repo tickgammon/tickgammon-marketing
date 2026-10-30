@@ -1,0 +1,288 @@
+1
+00:00:01,200 --> 00:00:04,457
+Bonjour et bienvenue dans les Leçons de la chouette !
+
+2
+00:00:04,157 --> 00:00:08,027
+La dernière fois, nous avons vu toutes les règles du backgammon.
+
+3
+00:00:07,727 --> 00:00:12,881
+Aujourd'hui, on passe à la pratique : je vais vous apprendre les meilleures ouvertures.
+
+4
+00:00:13,031 --> 00:00:16,155
+L'ouverture, c'est le tout premier coup de la partie.
+
+5
+00:00:15,855 --> 00:00:19,086
+Et bonne nouvelle : il n'y en a que quinze à connaître.
+
+6
+00:00:18,786 --> 00:00:22,230
+À la fin de cette leçon, vous saurez jouer chacune d'elles.
+
+7
+00:00:26,415 --> 00:00:32,733
+Vous vous souvenez : pour commencer, chaque joueur lance un seul dé, et le plus fort joue avec les deux dés.
+
+8
+00:00:33,448 --> 00:00:39,090
+Si les deux dés sont identiques, on relance. Le premier coup ne peut donc jamais être un double.
+
+9
+00:00:40,002 --> 00:00:46,430
+Avec deux dés différents, il existe exactement quinze combinaisons, du six-cinq jusqu'au deux-un.
+
+10
+00:00:46,609 --> 00:00:53,222
+Grâce aux programmes d'analyse, qui ont joué des millions de parties, on connaît aujourd'hui le meilleur coup pour chacune.
+
+11
+00:00:52,922 --> 00:00:56,353
+Les apprendre, c'est prendre de l'avance dès le premier tour.
+
+12
+00:00:58,689 --> 00:01:00,913
+Avant de commencer, un petit rappel.
+
+13
+00:01:00,613 --> 00:01:05,082
+On décrit toujours un coup de votre point de vue, avec les numéros des points.
+
+14
+00:01:07,124 --> 00:01:13,266
+Quand je dis « de huit à cinq », un pion part de votre point huit et arrive sur votre point cinq.
+
+15
+00:01:13,667 --> 00:01:18,776
+Et quand je dis « deux pions de treize à onze », le même mouvement est joué deux fois.
+
+16
+00:01:19,686 --> 00:01:25,829
+Les quinze ouvertures se rangent en trois grandes familles : faire un point, courir, et préparer.
+
+17
+00:01:25,529 --> 00:01:27,516
+Commençons par la meilleure.
+
+18
+00:01:29,631 --> 00:01:36,380
+Le trois-un est la plus belle ouverture du jeu. Jouez un pion de huit à cinq, et un pion de six à cinq.
+
+19
+00:01:37,353 --> 00:01:40,607
+Vos deux pions se retrouvent ensemble sur le point cinq.
+
+20
+00:01:40,307 --> 00:01:45,039
+Ce point est bloqué pour l'adversaire, et c'est le plus précieux de tout le plateau.
+
+21
+00:01:46,125 --> 00:01:52,344
+Avec quatre-deux, même idée : de huit à quatre et de six à quatre. Vous faites le point quatre.
+
+22
+00:01:52,551 --> 00:01:57,448
+Avec cinq-trois, de huit à trois et de six à trois : vous faites le point trois.
+
+23
+00:01:57,148 --> 00:02:01,527
+Il est un peu moins utile, mais c'est toujours un point solide de plus.
+
+24
+00:02:01,677 --> 00:02:09,230
+Le conseil de la chouette : quand un lancer vous permet de faire un point dans votre jan intérieur dès le départ, ne vous en privez jamais !
+
+25
+00:02:12,488 --> 00:02:19,281
+Le six-un fait lui aussi un point, mais un point particulier : le point sept, qu'on appelle le bar point.
+
+26
+00:02:19,460 --> 00:02:23,387
+Jouez un pion de treize à sept, et un pion de huit à sept.
+
+27
+00:02:24,012 --> 00:02:26,580
+Le point sept est juste à côté de la barre.
+
+28
+00:02:26,280 --> 00:02:32,433
+Avec vos points six et huit, il forme déjà un mur de trois points devant les pions arrière de votre adversaire.
+
+29
+00:02:33,987 --> 00:02:40,002
+C'est le début d'une prime, ce fameux mur de six points que l'adversaire ne peut pas franchir.
+
+30
+00:02:39,702 --> 00:02:42,617
+Et il va vite comprendre qu'il est coincé !
+
+31
+00:02:45,241 --> 00:02:46,996
+Deuxième famille : courir.
+
+32
+00:02:46,696 --> 00:02:52,145
+Vos deux pions du point vingt-quatre sont loin de chez eux, et ils risquent d'être enfermés.
+
+33
+00:02:53,925 --> 00:02:59,473
+Avec six-cinq, c'est facile : un seul pion part du vingt-quatre et file jusqu'au treize.
+
+34
+00:02:59,173 --> 00:03:04,601
+On appelle ce coup le saut de l'amoureux. Votre pion est déjà à l'abri, avec ses amis.
+
+35
+00:03:05,636 --> 00:03:13,094
+Avec six-quatre, six-trois et six-deux, on joue souvent le six de vingt-quatre à dix-huit, pour faire sortir un pion arrière.
+
+36
+00:03:13,580 --> 00:03:22,514
+Et on joue le petit dé depuis le point treize : de treize à neuf avec le quatre, de treize à dix avec le trois, de treize à onze avec le deux.
+
+37
+00:03:22,792 --> 00:03:30,124
+Avec six-quatre et six-trois, on peut aussi faire courir un seul pion, de vingt-quatre à quatorze, ou de vingt-quatre à quinze.
+
+38
+00:03:29,824 --> 00:03:32,062
+Les deux façons de jouer se valent.
+
+39
+00:03:34,450 --> 00:03:40,948
+Troisième famille : préparer. Les autres lancers ne permettent ni de faire un point, ni de courir loin.
+
+40
+00:03:40,648 --> 00:03:42,934
+On place alors des constructeurs.
+
+41
+00:03:43,662 --> 00:03:48,409
+Un constructeur, c'est un pion posé à portée des points que vous voulez faire au tour suivant.
+
+42
+00:03:49,343 --> 00:03:53,375
+Avec cinq-deux, jouez de treize à huit et de treize à onze.
+
+43
+00:03:53,075 --> 00:03:57,423
+Avec cinq-un, de treize à huit et de vingt-quatre à vingt-trois.
+
+44
+00:03:57,923 --> 00:04:03,848
+Avec quatre-trois, deux pions descendent du treize, l'un sur le neuf et l'autre sur le dix.
+
+45
+00:04:03,548 --> 00:04:07,310
+Avec trois-deux, l'un sur le dix et l'autre sur le onze.
+
+46
+00:04:07,780 --> 00:04:12,118
+Avec quatre-un, de treize à neuf et de vingt-quatre à vingt-trois.
+
+47
+00:04:11,818 --> 00:04:18,725
+Avec cinq-quatre, de treize à huit et de treize à neuf, ou bien de vingt-quatre à vingt et de treize à huit.
+
+48
+00:04:19,034 --> 00:04:26,681
+Et avec deux-un, le plus petit lancer : de treize à onze, puis de vingt-quatre à vingt-trois, ou de six à cinq.
+
+49
+00:04:26,974 --> 00:04:30,457
+Oui, ces coups laissent parfois un pion tout seul, un blot.
+
+50
+00:04:30,157 --> 00:04:36,986
+C'est un petit risque, mais il en vaut la peine : au tour suivant, vous aurez bien plus de chances de faire un bon point.
+
+51
+00:04:39,829 --> 00:04:42,437
+Un double ne tombe jamais au premier coup.
+
+52
+00:04:42,137 --> 00:04:46,942
+Mais il peut arriver au deuxième, pour répondre à l'ouverture de votre adversaire.
+
+53
+00:04:46,642 --> 00:04:48,590
+Voici les réponses classiques.
+
+54
+00:04:49,401 --> 00:04:54,774
+Avec double six, deux pions de vingt-quatre à dix-huit, et deux pions de treize à sept.
+
+55
+00:04:54,474 --> 00:04:57,631
+Vous prenez deux très bons points d'un seul coup.
+
+56
+00:04:58,319 --> 00:05:01,752
+Avec double cinq, deux pions de treize à trois.
+
+57
+00:05:01,452 --> 00:05:07,152
+Avec double quatre, deux pions de vingt-quatre à vingt, et deux de treize à neuf.
+
+58
+00:05:08,059 --> 00:05:13,118
+Avec double trois, deux pions de huit à cinq et deux de six à trois.
+
+59
+00:05:12,818 --> 00:05:18,017
+Avec double deux, deux pions de treize à onze et deux de six à quatre.
+
+60
+00:05:18,779 --> 00:05:26,619
+Et avec double un, deux pions de huit à sept et deux de six à cinq : vous faites à la fois le point sept et le point cinq !
+
+61
+00:05:28,938 --> 00:05:33,571
+Attention : au deuxième coup, tout dépend aussi de ce qu'a joué votre adversaire.
+
+62
+00:05:34,541 --> 00:05:39,731
+S'il a laissé un blot à portée de vos dés, le frapper est souvent meilleur que le coup classique.
+
+63
+00:05:39,431 --> 00:05:43,007
+Son pion repart sur la barre, et il perd tout le chemin parcouru.
+
+64
+00:05:44,470 --> 00:05:48,129
+Ne cherchez pas non plus à tout apprendre par cœur d'un coup.
+
+65
+00:05:47,829 --> 00:05:53,526
+Retenez d'abord les trois idées : faire un point, courir avec un six, et placer des constructeurs.
+
+66
+00:05:54,337 --> 00:05:56,399
+Le reste viendra avec la pratique.
+
+67
+00:05:56,099 --> 00:06:02,409
+Sur TickGammon, l'analyse de vos parties vous montre quand vous vous écartez du meilleur coup, ouvertures comprises.
+
+68
+00:06:05,147 --> 00:06:09,109
+Et voilà, vous connaissez maintenant les quinze ouvertures du backgammon !
+
+69
+00:06:08,809 --> 00:06:13,166
+Vous les retrouverez toutes dans le tableau de la page Ouvertures, sur TickGammon.
+
+70
+00:06:13,399 --> 00:06:20,889
+Pour vous entraîner, jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows.
+
+71
+00:06:20,589 --> 00:06:26,099
+La prochaine fois, je vous apprends à bien utiliser le videau. Abonnez-vous pour ne pas la manquer !
+
+72
+00:06:25,799 --> 00:06:27,714
+À très vite autour du plateau !
+
