@@ -1,0 +1,35 @@
+P01|0|¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez aprendisteis a ganar la carrera. Hoy hablamos de lo que asusta a todos los principiantes: la suerte.
+P02|0|En el backgammon, la suerte no es ningún misterio. Con dos dados, todo se puede calcular. Y bastan unas pocas cifras para jugar mejor. ¡Vamos allá!
+P03|1|Todo empieza con un número: treinta y seis. Dos dados de seis caras dan treinta y seis combinaciones posibles.
+P04|1|Cuidado con la trampa: seis-uno y uno-seis son dos combinaciones distintas. El primer dado puede sacar seis y el segundo uno, o al revés.
+P05|1|En cambio, un doble como tres-tres solo puede salir de una manera: los dos dados tienen que sacar tres.
+P06|1|Recordad entonces esto: cada tirada que no es doble tiene dos posibilidades de treinta y seis, y cada doble, solo una.
+P07|2|Veamos lo que significa. Para sacar una tirada concreta, como seis-uno, tenéis dos posibilidades de treinta y seis, más o menos un seis por ciento.
+P08|2|Para un doble concreto, como seis-seis, una sola posibilidad de treinta y seis: apenas un tres por ciento.
+P09|2|Y para sacar cualquier doble, hay seis posibilidades de treinta y seis. Es una tirada de cada seis, más o menos un diecisiete por ciento.
+P10|3|Ahora, una pregunta muy útil: ¿qué posibilidades tengo de sacar al menos un seis?
+P11|3|El primer dado puede sacar seis: seis combinaciones. El segundo dado también: seis más. Pero el doble seis se ha contado dos veces.
+P12|3|Resultado: once posibilidades de treinta y seis, más o menos un treinta y uno por ciento. Vale para cualquier número: al menos un tres, al menos un cinco, siempre once de treinta y seis.
+P13|3|Y de media, una tirada vale un poco más de ocho pips, porque los dobles se juegan cuatro veces. Es la referencia que usamos para la carrera.
+P14|4|Pasemos a la pregunta más importante durante la partida: si dejo un blot, ¿qué riesgo corro?
+P15|4|Cuando vuestro blot está a seis casillas o menos de una ficha del adversario, se habla de tiro directo. El riesgo es alto: entre un treinta y uno y un cuarenta y siete por ciento.
+P16|4|Lo peor es la distancia seis. Vuestro adversario puede golpear con cualquier seis, pero también con cinco-uno, cuatro-dos, tres-tres o dos-dos.
+P17|4|En total, diecisiete posibilidades de treinta y seis. ¡Casi una posibilidad de cada dos de ser golpeado! [laughs]
+P18|5|Más allá de seis casillas, es un tiro indirecto. Para golpearos, el adversario tiene que combinar sus dos dados, y eso es mucho más raro.
+P19|5|A siete u ocho casillas, solo tiene seis posibilidades de treinta y seis, más o menos un diecisiete por ciento. A once casillas, solo un seis-cinco os golpea: dos posibilidades de treinta y seis.
+P20|5|El consejo de la lechuza: si tenéis que dejar un blot, dejadlo mejor a siete casillas o más. El riesgo se divide por dos, o incluso mucho más.
+P21|6|¿Y cuando sois vosotros los golpeados? Vuestra ficha va a la barra, y tiene que volver a entrar por el cuadrante interior del adversario.
+P22|6|Vuestras posibilidades dependen del número de puntos que siguen abiertos. Con cinco puntos abiertos, entráis casi seguro: treinta y cinco veces de treinta y seis.
+P23|6|Con cuatro puntos abiertos, unas nueve veces de cada diez. Con tres, tres veces de cada cuatro. Con dos, algo más de una vez de cada dos.
+P24|6|Y con un solo punto abierto, solo entráis más o menos una vez de cada tres. Si los seis puntos están cerrados, ya no podéis entrar.
+P25|6|Por eso construir vuestro cuadrante interior antes de golpear es tan fuerte: cada punto cerrado de más hace caer las posibilidades de vuestro adversario.
+P26|7|¿Cómo usar todas estas cifras en una partida? No hace falta calcular en cada jugada. Basta con recordar unos cuantos reflejos.
+P27|7|Primer reflejo: cuando dos jugadas se valen, elegid la que deja menos tiros a vuestro adversario.
+P28|7|Segundo reflejo: si un blot es inevitable, alejadlo a más de seis casillas, o escondedlo detrás de vuestros puntos.
+P29|7|Tercer reflejo: antes de golpear, mirad cuántos puntos tenéis cerrados en casa. Cuanto más sólido sea vuestro cuadrante, más daño hace vuestro golpe.
+P30|8|Estas cifras también os ayudan con el cubo doblador. ¿Os acordáis de la regla del veinticinco por ciento?
+P31|8|Para aceptar un doble, basta con ganar una partida de cada cuatro. Y contando los tiros y las posibilidades de entrar, sabéis mejor si estáis por encima de ese límite.
+P32|8|Por último, tened en cuenta que una jugada con mala suerte no es una mala jugada. Si dejasteis el menor número de tiros posible, jugasteis bien, ¡aunque el adversario os golpee!
+P33|8|En TickGammon, el análisis de vuestras partidas os muestra, jugada a jugada, si habéis corrido el riesgo adecuado.
+P34|9|¡Y listo, ya conocéis las cifras clave de los dados: treinta y seis combinaciones, once posibilidades de treinta y seis para un número, y los riesgos del tiro directo e indirecto!
+P35|9|Para practicar, jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows. La próxima vez, os presento la chouette, el backgammon para varios jugadores. ¡Suscribíos para no perdérosla! ¡Hasta muy pronto alrededor del tablero!

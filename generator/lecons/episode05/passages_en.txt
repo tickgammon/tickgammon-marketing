@@ -1,0 +1,35 @@
+P01|0|Hello and welcome to the Owl's Lessons! Last time, you learned how to win the race. Today, we're talking about what scares every beginner: luck.
+P02|0|In backgammon, luck is no mystery. With two dice, everything can be calculated. And a few numbers are enough to play better. Let's go!
+P03|1|It all starts with one number: thirty-six. Two six-sided dice give thirty-six possible combinations.
+P04|1|Watch out for the trap: six-one and one-six are two different combinations. The first die can show six and the second one, or the other way round.
+P05|1|On the other hand, a double like three-three can only happen one way: both dice have to show three.
+P06|1|So remember this: every non-double roll has two chances in thirty-six, and every double, only one.
+P07|2|Let's see what that means. To get one specific roll, like six-one, you have two chances in thirty-six, about six percent.
+P08|2|For one specific double, like six-six, just one chance in thirty-six: barely three percent.
+P09|2|And to get any double at all, there are six chances in thirty-six. That's one roll in six, about seventeen percent.
+P10|3|Now, a very useful question: what are my chances of rolling at least one six?
+P11|3|The first die can show six: six combinations. The second die too: six more. But double six has been counted twice.
+P12|3|Result: eleven chances in thirty-six, about thirty-one percent. It works for any number: at least one three, at least one five, always eleven in thirty-six.
+P13|3|And on average, one roll is worth a little over eight pips, since doubles are played four times. That's the benchmark we used for the race.
+P14|4|Now for the most important question during a game: if I leave a blot, how big a risk am I taking?
+P15|4|When your blot is six points or fewer from an opponent's checker, it's called a direct shot. The risk is high: between thirty-one and forty-seven percent.
+P16|4|The worst is distance six. Your opponent can hit with any six, but also with five-one, four-two, three-three or two-two.
+P17|4|That's seventeen chances in thirty-six altogether. Almost one chance in two of getting hit! [laughs]
+P18|5|Beyond six points, it's an indirect shot. To hit you, your opponent has to combine both dice, and that's much rarer.
+P19|5|At seven or eight points away, they only have six chances in thirty-six, about seventeen percent. At eleven points, only six-five hits you: two chances in thirty-six.
+P20|5|The owl's tip: if you have to leave a blot, leave it seven points away or more. The risk is cut in half, or even much more.
+P21|6|And what about when you get hit? Your checker goes to the bar, and it has to come back in through your opponent's home board.
+P22|6|Your chances depend on how many points are still open. With five open points, you come in almost for sure: thirty-five times in thirty-six.
+P23|6|With four open points, about nine times in ten. With three, three times in four. With two, a little more than one time in two.
+P24|6|And with only one open point, you only come in about one time in three. If all six points are closed, you can't come in at all.
+P25|6|That's why building your home board before hitting is so strong: every extra closed point makes your opponent's chances drop.
+P26|7|How do you use all these numbers in a game? No need to calculate every move. Just remember a few reflexes.
+P27|7|First reflex: when two moves are about equal, choose the one that leaves your opponent the fewest shots.
+P28|7|Second reflex: if a blot can't be avoided, move it more than six points away, or hide it behind your points.
+P29|7|Third reflex: before hitting, look at how many points are closed in your home board. The stronger your board, the more your hit hurts.
+P30|8|These numbers also help you with the doubling cube. Do you remember the twenty-five percent rule?
+P31|8|To take a double, you only need to win one game in four. And by counting shots and your chances of coming in, you know better whether you're above that line.
+P32|8|Finally, keep in mind that an unlucky move isn't a bad move. If you left as few shots as possible, you played well, even if your opponent hits!
+P33|8|On TickGammon, the analysis of your games shows you, move by move, whether you took the right risk.
+P34|9|And there you go, you now know the key dice numbers: thirty-six combinations, eleven chances in thirty-six for a given number, and the risks of direct and indirect shots!
+P35|9|To practise, play for free against other players or against the computer, in your browser, on Android or on Windows. Next time, I'll introduce the chouette, backgammon for several players. Subscribe so you don't miss it! See you soon around the board!

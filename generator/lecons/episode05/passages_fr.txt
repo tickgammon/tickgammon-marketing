@@ -1,0 +1,35 @@
+P01|0|Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez appris à gagner la course. Aujourd'hui, on parle de ce qui fait peur à tous les débutants : la chance.
+P02|0|Au backgammon, la chance n'est pas un mystère. Avec deux dés, tout se calcule. Et quelques chiffres suffisent pour mieux jouer. On y va !
+P03|1|Tout commence par un chiffre : trente-six. Deux dés de six faces donnent trente-six combinaisons possibles.
+P04|1|Attention au piège : six-un et un-six, ce sont deux combinaisons différentes. Le premier dé peut faire six et le second un, ou l'inverse.
+P05|1|En revanche, un double comme trois-trois n'arrive que d'une seule façon : les deux dés doivent faire trois.
+P06|1|Retenez donc ceci : chaque lancer non double a deux chances sur trente-six, et chaque double, une seule.
+P07|2|Voyons ce que cela donne. Pour obtenir un lancer précis, comme six-un, vous avez deux chances sur trente-six, soit environ six pour cent.
+P08|2|Pour un double précis, comme six-six, une seule chance sur trente-six : à peine trois pour cent.
+P09|2|Et pour obtenir n'importe quel double, il y a six chances sur trente-six. C'est un lancer sur six, environ dix-sept pour cent.
+P10|3|Maintenant, une question très utile : quelles sont mes chances d'avoir au moins un six ?
+P11|3|Le premier dé peut faire six : six combinaisons. Le second dé aussi : six autres. Mais le double six a été compté deux fois.
+P12|3|Résultat : onze chances sur trente-six, soit environ trente et un pour cent. C'est vrai pour n'importe quel chiffre : au moins un trois, au moins un cinq, toujours onze sur trente-six.
+P13|3|Et en moyenne, un lancer vaut un peu plus de huit pips, puisque les doubles se jouent quatre fois. C'est le repère qu'on a utilisé pour la course.
+P14|4|Passons à la question la plus importante en partie : si je laisse un blot, quel risque est-ce que je prends ?
+P15|4|Quand votre blot est à six cases ou moins d'un pion adverse, on parle de tir direct. Le risque est élevé : entre trente et un et quarante-sept pour cent.
+P16|4|Le pire, c'est la distance six. Votre adversaire peut toucher avec n'importe quel six, mais aussi avec cinq-un, quatre-deux, trois-trois ou deux-deux.
+P17|4|Au total, dix-sept chances sur trente-six. Presque une chance sur deux de se faire frapper ! [laughs]
+P18|5|Au-delà de six cases, c'est un tir indirect. Pour vous toucher, l'adversaire doit combiner ses deux dés, et c'est beaucoup plus rare.
+P19|5|À sept ou huit cases, il n'a que six chances sur trente-six, soit dix-sept pour cent. À onze cases, seul un six-cinq vous touche : deux chances sur trente-six.
+P20|5|Le conseil de la chouette : si vous devez laisser un blot, laissez-le plutôt à sept cases ou plus. Le risque est divisé par deux, voire bien plus.
+P21|6|Et quand c'est vous qui êtes frappé ? Votre pion va sur la barre, et il doit rentrer dans le jan intérieur adverse.
+P22|6|Vos chances dépendent du nombre de points encore ouverts. Avec cinq points ouverts, vous rentrez presque à coup sûr : trente-cinq fois sur trente-six.
+P23|6|Avec quatre points ouverts, environ neuf fois sur dix. Avec trois, trois fois sur quatre. Avec deux, un peu plus d'une fois sur deux.
+P24|6|Et avec un seul point ouvert, vous ne rentrez qu'environ une fois sur trois. Si les six points sont bloqués, vous ne pouvez plus rentrer du tout.
+P25|6|C'est pour cela que construire son jan intérieur avant de frapper est si fort : chaque point bloqué de plus fait chuter les chances de votre adversaire.
+P26|7|Comment utiliser tous ces chiffres en partie ? Pas besoin de calculer à chaque coup. Retenez juste quelques réflexes.
+P27|7|Premier réflexe : quand deux coups se valent, choisissez celui qui laisse le moins de tirs à votre adversaire.
+P28|7|Deuxième réflexe : si un blot est inévitable, éloignez-le à plus de six cases, ou cachez-le derrière vos points.
+P29|7|Troisième réflexe : avant de frapper, regardez combien de points sont fermés chez vous. Plus votre jan est solide, plus votre frappe fait mal.
+P30|8|Ces chiffres vous aident aussi avec le videau. Vous vous souvenez de la règle des vingt-cinq pour cent ?
+P31|8|Pour accepter un double, il suffit de gagner une partie sur quatre. Et en comptant les tirs et les chances de rentrer, vous savez mieux si vous êtes au-dessus de ce seuil.
+P32|8|Enfin, gardez en tête qu'un coup malchanceux ne veut pas dire un mauvais coup. Si vous avez laissé le moins de tirs possible, vous avez bien joué, même si l'adversaire touche !
+P33|8|Sur TickGammon, l'analyse de vos parties vous montre, coup par coup, si vous avez pris le bon risque.
+P34|9|Et voilà, vous connaissez maintenant les chiffres clés des dés : trente-six combinaisons, onze chances sur trente-six pour un chiffre, et les risques du tir direct et indirect !
+P35|9|Pour vous entraîner, jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows. La prochaine fois, je vous présente la chouette, le backgammon à plusieurs joueurs. Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
