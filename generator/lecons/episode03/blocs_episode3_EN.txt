@@ -1,0 +1,96 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 3 — TEXTES À COLLER DANS ELEVENLABS (ENGLISH)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que pour le français.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1_en.mp3, bloc2_en.mp3, bloc3_en.mp3.
+
+########## BLOC 1 (P01 à P13, 1621 caractères) → bloc1_en.mp3 ##########
+============================================================
+Hello and welcome to the Owl's Lessons! Last time, you learned the fifteen best opening moves. Today, we're tackling the most powerful piece on the board: the doubling cube.
+
+Knowing when to double and when to take matters just as much as moving your checkers well. By the end of this lesson, you'll make these decisions like a real club player.
+
+The doubling cube is that big die marked two, four, eight, sixteen, thirty-two and sixty-four. Players often just call it the cube.
+
+It was invented in the clubs of New York, in the nineteen-twenties. And it completely changed the game.
+
+Before the cube, a game that was going badly was played to the very end. With it, every turn can become a real decision.
+
+At the start of the game, the game is worth one, and the cube sits in the middle. Both players can use it.
+
+On your turn, before rolling the dice, you can offer to double. Careful: once the dice are rolled, it's too late for that turn.
+
+Your opponent then has two choices. If they pass, they give up the game and lose its current value.
+
+If they take, the game's value doubles, and the cube goes to their side. From then on, only they can redouble later, if the game turns their way.
+
+And if they redouble, the game is worth four, and the cube comes back to you. So it travels back and forth, every time luck changes sides.
+
+The cube doesn't only multiply a single win. It also multiplies gammons and backgammons.
+
+A gammon is worth two points. With the cube on four, it's worth eight!
+
+And a backgammon, worth three points, is worth twelve with the cube on four. That's why a single game can decide a whole match.
+============================================================
+
+########## BLOC 2 (P14 à P29, 2142 caractères) → bloc2_en.mp3 ##########
+============================================================
+Now for the most important calculation in backgammon: the twenty-five percent rule. It tells you when to take a double.
+
+Let's say the game is worth one, and your opponent offers you a double.
+
+If you pass, you lose one point, for sure. If you take, the game is worth two: you'll either lose two points or score two.
+
+Picture four identical games, where you come out on top once in four. By taking, you lose two points three times, that's six, and you score two. Total: minus four.
+
+By passing all four times, you lose one point four times. Total: minus four as well. So at twenty-five percent, taking or passing comes to the same thing.
+
+The owl's tip: if you win at least one game in four from this position, take! And since you then own the cube, you can turn it again if luck changes. That's a little extra bonus.
+
+Now let's switch sides: when should you double?
+
+If you double too early, you hand the cube to your opponent for nothing. They can use it against you later.
+
+If you double too late, your position has become so strong that your opponent passes, and you only score a single point.
+
+The right moment is when your position is clearly better, and it might become too good by your next turn. Players say you mustn't lose your market.
+
+Let's look at the situations where people double most often.
+
+First, the race. When all that's left is bringing your checkers home and bearing off, you count pips: the total number of points your checkers still have to travel.
+
+At the end of the game, you usually double with about an eight percent lead, and you take with up to about twelve percent behind. We'll look at the pip count in detail in the next lesson.
+
+Next, the attack. If several of your opponent's checkers are within hitting range and your home board is strong, double before the dice give you the decisive hit.
+
+And finally, the blockade. A solid prime, that six-point wall, behind one of your opponent's checkers often justifies a double.
+
+But watch out for the trap: if you have big chances of winning a gammon, don't double! Keep playing to score two points instead of one. That's called being too good to double. [laughs]
+============================================================
+
+########## BLOC 3 (P30 à P41, 1539 caractères) → bloc3_en.mp3 ##########
+============================================================
+There are also a few special rules.
+
+In a match, for example to seven points, the Crawford rule applies. When one player gets within one point of victory, the next game is played without the cube. After that, the cube comes back.
+
+This rule stops the trailing player from doubling straight away, with nothing to lose.
+
+In free play, outside a match, two optional rules are common. The Jacoby rule: a gammon or a backgammon only counts if the cube has been used.
+
+And the beaver: a player who receives a double can redouble immediately, while keeping the cube on their side.
+
+To finish, here are the most common beginner mistakes.
+
+The first: passing doubles you should have taken. Beginners give up far too often! Remember: one chance in four is enough.
+
+The second: never doubling. You end up scoring one point where your opponent would have given up much earlier… or lost two.
+
+The third: forgetting about gammons. A position where you risk being gammoned is easier to pass.
+
+To judge your chances well, it helps to know the dice probabilities. And on TickGammon, the analysis of your games shows you every questionable cube decision.
+
+And there you go, you now know how to use the doubling cube! You'll find the twenty-five percent rule and all these tips on the Doubling cube page, on TickGammon.
+
+To practise, play for free against other players or against the computer, in your browser, on Android or on Windows. Next time, I'll teach you about the race and bearing off. Subscribe so you don't miss it! See you soon around the board!
+============================================================

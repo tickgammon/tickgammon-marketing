@@ -1,0 +1,41 @@
+P01|0|¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez aprendisteis las quince mejores aperturas. Hoy nos enfrentamos a la pieza más temible del tablero: el cubo doblador.
+P02|0|Saber cuándo doblar y cuándo aceptar cuenta tanto como mover bien las fichas. Al final de esta lección, tomaréis estas decisiones como verdaderos jugadores de club.
+P03|1|El cubo doblador es ese dado grande marcado con dos, cuatro, ocho, dieciséis, treinta y dos y sesenta y cuatro. Muchos jugadores lo llaman simplemente el cubo.
+P04|1|Se inventó en los clubes de Nueva York, en los años veinte. Y transformó por completo el juego.
+P05|1|Antes, una partida mal encaminada se jugaba hasta el final. Con el cubo, cada turno puede convertirse en una verdadera decisión.
+P06|2|Al principio de la partida, la partida vale uno, y el cubo está en el centro. Los dos jugadores pueden usarlo.
+P07|2|En vuestro turno, antes de tirar los dados, podéis proponer doblar. Atención: una vez tirados los dados, ya es tarde para ese turno.
+P08|2|Vuestro adversario tiene entonces dos opciones. Si rechaza, abandona la partida y pierde su valor actual.
+P09|2|Si acepta, el valor de la partida se dobla, y él se queda con el cubo de su lado. A partir de ahí, solo él podrá redoblar más adelante, si la partida gira a su favor.
+P10|2|Y si redobla, la partida pasa a valer cuatro, y el cubo vuelve a vosotros. Así va y viene, cada vez que la suerte cambia de bando.
+P11|3|El cubo no multiplica solo la victoria simple. También multiplica el gammon y el backgammon.
+P12|3|Un gammon vale dos puntos. Con el cubo en cuatro, ¡vale ocho!
+P13|3|Y un backgammon, que vale tres puntos, vale doce con el cubo en cuatro. Por eso una sola partida puede decidir un match entero.
+P14|4|Y ahora, el cálculo más importante del backgammon: la regla del veinticinco por ciento. Os dice cuándo aceptar un doble.
+P15|4|Imaginemos que la partida vale uno, y que vuestro adversario os propone doblar.
+P16|4|Si rechazáis, perdéis un punto, seguro. Si aceptáis, la partida vale dos: perderéis dos puntos, o sumaréis dos.
+P17|4|Pensad en cuatro partidas idénticas, en las que salís vencedores una vez de cada cuatro. Aceptando, perdéis tres veces dos puntos, o sea seis, y sumáis dos. Balance: menos cuatro.
+P18|4|Rechazando las cuatro veces, perdéis cuatro veces un punto. Balance: menos cuatro también. Con un veinticinco por ciento de posibilidades, aceptar o rechazar da lo mismo.
+P19|4|El consejo de la lechuza: si ganáis al menos una partida de cada cuatro en esa posición, ¡aceptad! Y como después tendréis el cubo, podréis volver a doblar si la suerte cambia. Es un pequeño extra.
+P20|5|Pasemos al otro lado: ¿cuándo hay que doblar?
+P21|5|Si dobláis demasiado pronto, le dais el cubo a vuestro adversario a cambio de nada. Podrá usarlo contra vosotros más adelante.
+P22|5|Si dobláis demasiado tarde, vuestra posición se ha vuelto tan buena que el adversario rechaza, y solo sumáis un punto.
+P23|5|El buen momento es cuando vuestra posición es claramente mejor, y corre el riesgo de volverse demasiado buena en el turno siguiente. Los jugadores dicen que no hay que perder el mercado.
+P24|6|Veamos las situaciones en las que más se dobla.
+P25|6|Primero, la carrera. Cuando solo queda meter y sacar las fichas, se cuentan los pips: el número total de puntos que vuestras fichas aún tienen que recorrer.
+P26|6|Al final de la partida, se suele doblar con unos ocho por ciento de ventaja, y se acepta hasta unos doce por ciento de retraso. Veremos el recuento de pips en detalle en la próxima lección.
+P27|6|Después, el ataque. Si varias fichas del adversario están al alcance y vuestro cuadrante interior es sólido, doblad antes de que los dados os den el golpe decisivo.
+P28|6|Y por último, el bloqueo. Un prime sólido, ese muro de seis puntos, detrás de una ficha del adversario suele justificar un doble.
+P29|6|Pero cuidado con la trampa: si tenéis muchas posibilidades de hacer gammon, ¡no dobléis! Seguid jugando para sumar dos puntos en lugar de uno. Se dice entonces que estáis demasiado bien para doblar. [laughs]
+P30|7|También existen algunas reglas especiales.
+P31|7|En un match, por ejemplo a siete puntos, se aplica la regla Crawford. Cuando un jugador se queda a un punto de la victoria, la partida siguiente se juega sin cubo. Después, el cubo vuelve.
+P32|7|Esta regla impide que el jugador que va por detrás doble enseguida, sin arriesgar nada.
+P33|7|En partida libre, fuera de un match, hay dos reglas opcionales habituales. La regla Jacoby: un gammon o un backgammon solo cuenta si se ha usado el cubo.
+P34|7|Y el beaver: quien recibe un doble puede redoblar enseguida, quedándose con el cubo de su lado.
+P35|8|Para terminar, estos son los errores más frecuentes de los principiantes.
+P36|8|El primero: rechazar dobles que había que aceptar. ¡Los principiantes abandonan demasiado a menudo! Recordad: una posibilidad de cada cuatro basta.
+P37|8|El segundo: no doblar nunca. Acabáis sumando un punto donde el adversario habría abandonado mucho antes… o habría perdido dos.
+P38|8|El tercero: olvidar los gammons. Una posición en la que os arriesgáis a sufrir un gammon se rechaza con más facilidad.
+P39|8|Para calcular bien vuestras posibilidades, conviene conocer las probabilidades de los dados. Y en TickGammon, el análisis de vuestras partidas os muestra cada decisión de cubo discutible.
+P40|9|¡Y listo, ya sabéis usar el cubo doblador! Encontraréis la regla del veinticinco por ciento y todos estos consejos en la página del cubo doblador, en TickGammon.
+P41|9|Para practicar, jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows. La próxima vez, os enseño la carrera y la salida de las fichas. ¡Suscribíos para no perdérosla! ¡Hasta muy pronto alrededor del tablero!

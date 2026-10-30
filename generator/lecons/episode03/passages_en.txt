@@ -1,0 +1,41 @@
+P01|0|Hello and welcome to the Owl's Lessons! Last time, you learned the fifteen best opening moves. Today, we're tackling the most powerful piece on the board: the doubling cube.
+P02|0|Knowing when to double and when to take matters just as much as moving your checkers well. By the end of this lesson, you'll make these decisions like a real club player.
+P03|1|The doubling cube is that big die marked two, four, eight, sixteen, thirty-two and sixty-four. Players often just call it the cube.
+P04|1|It was invented in the clubs of New York, in the nineteen-twenties. And it completely changed the game.
+P05|1|Before the cube, a game that was going badly was played to the very end. With it, every turn can become a real decision.
+P06|2|At the start of the game, the game is worth one, and the cube sits in the middle. Both players can use it.
+P07|2|On your turn, before rolling the dice, you can offer to double. Careful: once the dice are rolled, it's too late for that turn.
+P08|2|Your opponent then has two choices. If they pass, they give up the game and lose its current value.
+P09|2|If they take, the game's value doubles, and the cube goes to their side. From then on, only they can redouble later, if the game turns their way.
+P10|2|And if they redouble, the game is worth four, and the cube comes back to you. So it travels back and forth, every time luck changes sides.
+P11|3|The cube doesn't only multiply a single win. It also multiplies gammons and backgammons.
+P12|3|A gammon is worth two points. With the cube on four, it's worth eight!
+P13|3|And a backgammon, worth three points, is worth twelve with the cube on four. That's why a single game can decide a whole match.
+P14|4|Now for the most important calculation in backgammon: the twenty-five percent rule. It tells you when to take a double.
+P15|4|Let's say the game is worth one, and your opponent offers you a double.
+P16|4|If you pass, you lose one point, for sure. If you take, the game is worth two: you'll either lose two points or score two.
+P17|4|Picture four identical games, where you come out on top once in four. By taking, you lose two points three times, that's six, and you score two. Total: minus four.
+P18|4|By passing all four times, you lose one point four times. Total: minus four as well. So at twenty-five percent, taking or passing comes to the same thing.
+P19|4|The owl's tip: if you win at least one game in four from this position, take! And since you then own the cube, you can turn it again if luck changes. That's a little extra bonus.
+P20|5|Now let's switch sides: when should you double?
+P21|5|If you double too early, you hand the cube to your opponent for nothing. They can use it against you later.
+P22|5|If you double too late, your position has become so strong that your opponent passes, and you only score a single point.
+P23|5|The right moment is when your position is clearly better, and it might become too good by your next turn. Players say you mustn't lose your market.
+P24|6|Let's look at the situations where people double most often.
+P25|6|First, the race. When all that's left is bringing your checkers home and bearing off, you count pips: the total number of points your checkers still have to travel.
+P26|6|At the end of the game, you usually double with about an eight percent lead, and you take with up to about twelve percent behind. We'll look at the pip count in detail in the next lesson.
+P27|6|Next, the attack. If several of your opponent's checkers are within hitting range and your home board is strong, double before the dice give you the decisive hit.
+P28|6|And finally, the blockade. A solid prime, that six-point wall, behind one of your opponent's checkers often justifies a double.
+P29|6|But watch out for the trap: if you have big chances of winning a gammon, don't double! Keep playing to score two points instead of one. That's called being too good to double. [laughs]
+P30|7|There are also a few special rules.
+P31|7|In a match, for example to seven points, the Crawford rule applies. When one player gets within one point of victory, the next game is played without the cube. After that, the cube comes back.
+P32|7|This rule stops the trailing player from doubling straight away, with nothing to lose.
+P33|7|In free play, outside a match, two optional rules are common. The Jacoby rule: a gammon or a backgammon only counts if the cube has been used.
+P34|7|And the beaver: a player who receives a double can redouble immediately, while keeping the cube on their side.
+P35|8|To finish, here are the most common beginner mistakes.
+P36|8|The first: passing doubles you should have taken. Beginners give up far too often! Remember: one chance in four is enough.
+P37|8|The second: never doubling. You end up scoring one point where your opponent would have given up much earlier… or lost two.
+P38|8|The third: forgetting about gammons. A position where you risk being gammoned is easier to pass.
+P39|8|To judge your chances well, it helps to know the dice probabilities. And on TickGammon, the analysis of your games shows you every questionable cube decision.
+P40|9|And there you go, you now know how to use the doubling cube! You'll find the twenty-five percent rule and all these tips on the Doubling cube page, on TickGammon.
+P41|9|To practise, play for free against other players or against the computer, in your browser, on Android or on Windows. Next time, I'll teach you about the race and bearing off. Subscribe so you don't miss it! See you soon around the board!

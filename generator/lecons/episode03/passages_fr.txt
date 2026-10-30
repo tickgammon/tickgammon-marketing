@@ -1,0 +1,41 @@
+P01|0|Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez appris les quinze meilleures ouvertures. Aujourd'hui, on s'attaque à la pièce la plus redoutable du plateau : le videau.
+P02|0|Savoir quand doubler et quand accepter compte autant que bien déplacer ses pions. À la fin de cette leçon, vous saurez prendre ces décisions comme un vrai joueur de club.
+P03|1|Le videau, c'est ce gros dé marqué deux, quatre, huit, seize, trente-deux et soixante-quatre. En anglais, on l'appelle le cube.
+P04|1|Il a été inventé dans les clubs de New York, dans les années mille neuf cent vingt. Et il a complètement transformé le jeu.
+P05|1|Avant lui, une partie mal engagée se jouait jusqu'au bout. Avec lui, chaque tour peut devenir une vraie décision.
+P06|2|Au début de la partie, la valeur de la partie est de un, et le videau est posé au milieu. Les deux joueurs peuvent l'utiliser.
+P07|2|À votre tour, avant de lancer les dés, vous pouvez proposer de doubler. Attention : une fois les dés lancés, c'est trop tard pour ce tour-ci.
+P08|2|Votre adversaire a alors deux choix. S'il refuse, il abandonne la partie et perd la valeur actuelle.
+P09|2|S'il accepte, la valeur de la partie double, et il prend le videau de son côté. Désormais, lui seul pourra redoubler plus tard, si la partie tourne en sa faveur.
+P10|2|Et s'il redouble, la partie passe à quatre, et le videau revient chez vous. Il fait ainsi des allers-retours, à chaque fois que la chance change de camp.
+P11|3|Le videau ne multiplie pas seulement la victoire simple. Il multiplie aussi le gammon et le backgammon.
+P12|3|Un gammon vaut deux points. Avec le videau à quatre, il en vaut donc huit !
+P13|3|Et un backgammon, qui vaut trois points, en vaut douze avec le videau à quatre. Voilà pourquoi une seule partie peut décider d'un match entier.
+P14|4|Voici maintenant le calcul le plus important du backgammon : la règle des vingt-cinq pour cent. Elle vous dit quand accepter un double.
+P15|4|Imaginons que la partie vaut un, et que votre adversaire vous propose de doubler.
+P16|4|Si vous refusez, vous perdez un point, à coup sûr. Si vous acceptez, la partie vaut deux : vous perdrez deux points, ou vous en marquerez deux.
+P17|4|Prenons quatre parties identiques, où vous l'emportez une fois sur quatre. En acceptant, vous perdez trois fois deux points, soit six, et vous en marquez deux. Bilan : moins quatre.
+P18|4|En refusant les quatre fois, vous perdez quatre fois un point. Bilan : moins quatre aussi. À vingt-cinq pour cent de chances, accepter ou refuser revient donc au même.
+P19|4|Le conseil de la chouette : si vous gagnez au moins une partie sur quatre dans cette position, acceptez ! Et comme vous possédez ensuite le videau, vous pourrez le relancer si la chance tourne. C'est un petit bonus de plus.
+P20|5|Passons de l'autre côté : quand faut-il doubler ?
+P21|5|Si vous doublez trop tôt, vous donnez le videau à votre adversaire pour rien. Il pourra s'en servir contre vous plus tard.
+P22|5|Si vous doublez trop tard, votre position est devenue si bonne que votre adversaire refuse, et vous ne marquez qu'un seul point.
+P23|5|Le bon moment, c'est quand votre position est nettement meilleure, et qu'elle risque de devenir trop bonne au tour suivant. Les joueurs disent alors qu'il ne faut pas perdre son marché.
+P24|6|Voyons les situations où l'on double le plus souvent.
+P25|6|D'abord, la course. Quand il ne reste qu'à rentrer et sortir les pions, on compte les pips : le nombre total de points que vos pions doivent encore parcourir.
+P26|6|En fin de partie, on double généralement avec environ huit pour cent d'avance, et on accepte jusqu'à environ douze pour cent de retard. On verra le compte des pips en détail dans la prochaine leçon.
+P27|6|Ensuite, l'attaque. Si plusieurs pions adverses sont à portée de frappe et que votre jan intérieur est solide, doublez avant que les dés ne vous donnent le coup décisif.
+P28|6|Et enfin, le blocage. Une prime solide, ce mur de six points, derrière un pion adverse justifie souvent un double.
+P29|6|Mais attention au piège : si vous avez de grandes chances de faire gammon, ne doublez pas ! Continuez à jouer pour marquer deux points au lieu d'un. On dit alors que vous êtes trop bien pour doubler. [laughs]
+P30|7|Il existe aussi quelques règles spéciales.
+P31|7|En match, par exemple en sept points, la règle de Crawford s'applique. Quand un joueur arrive à un point de la victoire, la partie suivante se joue sans videau. Ensuite, le videau revient.
+P32|7|Cette règle empêche le joueur mené de doubler aussitôt, sans rien risquer.
+P33|7|En partie libre, hors match, deux règles optionnelles sont courantes. La règle de Jacoby : un gammon ou un backgammon ne compte que si le videau a été utilisé.
+P34|7|Et le beaver : celui qui reçoit un double peut redoubler aussitôt, tout en gardant le videau de son côté.
+P35|8|Pour finir, voici les erreurs les plus fréquentes des débutants.
+P36|8|La première : refuser des doubles qu'il fallait accepter. Les débutants abandonnent beaucoup trop souvent ! Souvenez-vous : une chance sur quatre suffit.
+P37|8|La deuxième : ne jamais doubler. Vous finissez par marquer un point là où votre adversaire aurait abandonné bien plus tôt… ou en aurait perdu deux.
+P38|8|La troisième : oublier les gammons. Une position où vous risquez d'être gammonné se refuse plus facilement.
+P39|8|Pour bien estimer vos chances, il est utile de connaître les probabilités aux dés. Et sur TickGammon, l'analyse de vos parties vous montre chaque décision de videau discutable.
+P40|9|Et voilà, vous savez maintenant utiliser le videau ! Retrouvez la règle des vingt-cinq pour cent et tous ces conseils sur la page Videau, sur TickGammon.
+P41|9|Pour vous entraîner, jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows. La prochaine fois, je vous apprends la course et la sortie des pions. Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
