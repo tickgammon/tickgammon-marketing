@@ -1,0 +1,272 @@
+1
+00:00:01,200 --> 00:00:08,324
+¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez aprendisteis a usar el cubo doblador.
+
+2
+00:00:08,024 --> 00:00:13,610
+Hoy nos ocupamos del final de la partida: la carrera y la salida de las fichas.
+
+3
+00:00:13,760 --> 00:00:17,116
+Es el momento en que se deciden muchas partidas.
+
+4
+00:00:16,816 --> 00:00:23,355
+Y sin embargo, con unas pocas reglas sencillas, podéis evitar casi todos los errores. ¡Vamos allá!
+
+5
+00:00:25,255 --> 00:00:30,048
+Al principio de la partida, las fichas de los dos jugadores se cruzan.
+
+6
+00:00:29,748 --> 00:00:33,064
+Uno puede bloquear, golpear o encerrar al otro.
+
+7
+00:00:33,214 --> 00:00:39,915
+Pero llega un momento en que la última ficha de cada jugador adelanta a la última ficha del adversario.
+
+8
+00:00:39,615 --> 00:00:41,841
+Ya nadie puede golpear a nadie.
+
+9
+00:00:41,991 --> 00:00:44,734
+A partir de ese momento, es una carrera.
+
+10
+00:00:44,434 --> 00:00:50,049
+Ya no hay nada que bloquear: el primero que saca sus quince fichas se lleva la partida.
+
+11
+00:00:51,949 --> 00:00:56,232
+Para saber quién va por delante en la carrera, se cuentan los pips.
+
+12
+00:00:55,932 --> 00:01:01,998
+El recuento de pips es la distancia total que vuestras fichas aún tienen que recorrer para salir.
+
+13
+00:01:02,148 --> 00:01:09,920
+El cálculo es sencillo: para cada punto, se multiplica el número de fichas por el número del punto, y luego se suma todo.
+
+14
+00:01:10,070 --> 00:01:15,245
+Por ejemplo, tres fichas en vuestro punto ocho son veinticuatro pips.
+
+15
+00:01:14,945 --> 00:01:18,213
+Dos fichas en vuestro punto seis son doce.
+
+16
+00:01:18,363 --> 00:01:23,203
+Al principio de la partida, cada jugador tiene ciento sesenta y siete pips.
+
+17
+00:01:22,903 --> 00:01:26,109
+Quien tiene el recuento más bajo va por delante.
+
+18
+00:01:28,009 --> 00:01:32,810
+¿Por qué es tan importante? Porque el recuento de pips os dice qué plan seguir.
+
+19
+00:01:33,099 --> 00:01:39,333
+Si vais por delante en la carrera, intentad liberar vuestras fichas y volver a casa sin correr riesgos.
+
+20
+00:01:39,033 --> 00:01:41,349
+El contacto ya no os sirve de nada.
+
+21
+00:01:41,499 --> 00:01:46,653
+Si vais por detrás, al contrario, mantened el contacto el mayor tiempo posible.
+
+22
+00:01:46,353 --> 00:01:50,462
+Vuestra única oportunidad es golpear una ficha del adversario.
+
+23
+00:01:50,612 --> 00:01:56,196
+Una referencia útil: una tirada de dados vale de media un poco más de ocho pips.
+
+24
+00:01:55,896 --> 00:02:00,819
+Así que una ventaja de diez pips es más o menos una tirada de ventaja.
+
+25
+00:02:02,719 --> 00:02:09,786
+Una vez en la carrera, hay que llevar las fichas a casa, a vuestro cuadrante interior, lo más rápido posible.
+
+26
+00:02:09,936 --> 00:02:13,077
+El consejo de la lechuza: pensad en cruces.
+
+27
+00:02:12,777 --> 00:02:18,429
+Cada vez que una ficha pasa de un cuarto del tablero al siguiente, hace un cruce.
+
+28
+00:02:18,579 --> 00:02:22,749
+Lo que cuenta es meter cada ficha en vuestro cuadrante interior.
+
+29
+00:02:22,449 --> 00:02:28,795
+Así que jugad primero las fichas más alejadas, y no perdáis tiempo avanzando las que ya han llegado.
+
+30
+00:02:28,945 --> 00:02:35,807
+Con un seis-cinco, por ejemplo, meted dos fichas del cuadrante exterior, en lugar de empujar una sola hasta el fondo.
+
+31
+00:02:38,275 --> 00:02:42,457
+Segunda regla de la carrera: no desperdiciéis vuestros pips.
+
+32
+00:02:42,607 --> 00:02:46,965
+Muchos principiantes amontonan todas sus fichas en el punto seis.
+
+33
+00:02:46,665 --> 00:02:51,960
+Llegan rápido a casa, pero luego hacen falta muchas tiradas para sacarlas todas.
+
+34
+00:02:52,110 --> 00:02:56,812
+Es mejor repartir las fichas entre los puntos seis, cinco y cuatro.
+
+35
+00:02:56,512 --> 00:03:00,623
+Todas están ya en casa, y la salida será mucho más rápida.
+
+36
+00:03:00,773 --> 00:03:05,274
+En cambio, no llenéis demasiado pronto los puntos uno, dos y tres.
+
+37
+00:03:04,974 --> 00:03:11,638
+Una ficha que llega ahí ha gastado pips para nada: habría salido de todos modos con un dado pequeño.
+
+38
+00:03:11,788 --> 00:03:16,072
+Y que no cunda el pánico si jugáis un movimiento un poco mal.
+
+39
+00:03:15,772 --> 00:03:21,949
+En una carrera, un solo error rara vez cuesta la partida… ¡pero diez pequeños errores, sí!
+
+40
+00:03:23,849 --> 00:03:27,844
+Vuestras quince fichas están en casa: empieza la salida.
+
+41
+00:03:27,544 --> 00:03:31,473
+Si ya no hay ningún contacto, la regla es muy sencilla.
+
+42
+00:03:31,623 --> 00:03:38,171
+Sacad una ficha cada vez que sea posible. Una ficha fuera es una ficha menos que llevar a casa.
+
+43
+00:03:38,321 --> 00:03:43,401
+Si vuestro dado no permite sacar una ficha, usadlo para llenar un punto vacío.
+
+44
+00:03:43,101 --> 00:03:48,304
+Cuanto más repartidas estén vuestras fichas, más os permitirá sacar cada tirada.
+
+45
+00:03:48,454 --> 00:03:55,001
+Y con un doble, jugáis cuatro veces el mismo número: a menudo son cuatro fichas que salen de golpe.
+
+46
+00:03:54,701 --> 00:03:57,777
+¡El momento perfecto para recuperar terreno!
+
+47
+00:03:59,677 --> 00:04:06,067
+Todo cambia si vuestro adversario aún tiene una ficha en vuestro cuadrante interior, o en la barra.
+
+48
+00:04:05,767 --> 00:04:07,913
+Entonces todavía hay contacto.
+
+49
+00:04:08,063 --> 00:04:11,958
+Vuestra prioridad ya no es la velocidad, es la seguridad.
+
+50
+00:04:11,658 --> 00:04:16,498
+Un solo blot golpeado durante la salida puede haceros perder la partida.
+
+51
+00:04:16,648 --> 00:04:24,380
+Vaciad vuestros puntos empezando por el más alejado, y mantened un número par de fichas en vuestros puntos más altos.
+
+52
+00:04:24,530 --> 00:04:30,716
+Así, cuando sacáis, vuestras fichas salen de dos en dos, y evitáis dejar una ficha sola.
+
+53
+00:04:30,866 --> 00:04:34,725
+A veces, la jugada más segura no saca ninguna ficha.
+
+54
+00:04:34,425 --> 00:04:39,310
+No pasa nada: más vale sacar un poco más despacio que ser golpeado.
+
+55
+00:04:41,210 --> 00:04:44,989
+Para terminar, dos ideas que tener en cuenta durante la carrera.
+
+56
+00:04:45,139 --> 00:04:47,301
+La primera es el cubo doblador.
+
+57
+00:04:47,001 --> 00:04:55,831
+En una carrera, se suele doblar con unos ocho por ciento de ventaja en el recuento de pips, y se acepta hasta unos doce por ciento de retraso.
+
+58
+00:04:55,981 --> 00:05:01,296
+Ejemplo: con cien pips contra ciento ocho, vais un ocho por ciento por delante.
+
+59
+00:05:00,996 --> 00:05:04,089
+Es el momento adecuado para proponer doblar.
+
+60
+00:05:04,239 --> 00:05:06,122
+La segunda es el gammon.
+
+61
+00:05:05,822 --> 00:05:12,849
+Si vuestro adversario ya está sacando fichas y vosotros vais muy por detrás, vuestra prioridad cambia.
+
+62
+00:05:12,999 --> 00:05:20,582
+Olvidaos del desperdicio: llevad todas vuestras fichas a casa lo más rápido posible, y sacad al menos una ficha.
+
+63
+00:05:20,282 --> 00:05:23,378
+¡Una derrota simple es mejor que un gammon!
+
+64
+00:05:23,528 --> 00:05:32,622
+Y en TickGammon, el análisis de vuestras partidas os indica el recuento de pips en cada jugada, y os muestra cuándo podríais haber jugado mejor la carrera.
+
+65
+00:05:34,522 --> 00:05:41,486
+¡Y listo, ya sabéis contar los pips, correr sin desperdiciar y sacar vuestras fichas con total seguridad!
+
+66
+00:05:41,636 --> 00:05:49,095
+Para practicar, jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows.
+
+67
+00:05:48,795 --> 00:05:54,420
+La próxima vez, os enseño las probabilidades de los dados. ¡Suscribíos para no perdérosla!
+
+68
+00:05:54,120 --> 00:05:56,787
+¡Hasta muy pronto alrededor del tablero!
+

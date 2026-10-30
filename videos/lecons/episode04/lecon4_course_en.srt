@@ -1,0 +1,272 @@
+1
+00:00:01,200 --> 00:00:07,512
+Hello and welcome to the Owl's Lessons! Last time, you learned how to use the doubling cube.
+
+2
+00:00:07,212 --> 00:00:11,955
+Today, we're tackling the end of the game: the race and bearing off.
+
+3
+00:00:13,760 --> 00:00:16,790
+This is where a lot of games are decided.
+
+4
+00:00:16,490 --> 00:00:22,049
+And yet, with a few simple rules, you can avoid almost every mistake. Let's go!
+
+5
+00:00:25,255 --> 00:00:29,165
+At the start of the game, both players' checkers cross paths.
+
+6
+00:00:28,865 --> 00:00:32,598
+You can block each other, hit each other, trap each other.
+
+7
+00:00:33,214 --> 00:00:38,870
+But at some point, each player's last checker moves past the opponent's last checker.
+
+8
+00:00:38,570 --> 00:00:40,824
+Nobody can hit anybody anymore.
+
+9
+00:00:41,991 --> 00:00:44,405
+From that moment on, it's a race.
+
+10
+00:00:44,105 --> 00:00:49,915
+There's nothing left to block: the first player to bear off all fifteen checkers wins.
+
+11
+00:00:51,949 --> 00:00:54,991
+To know who's leading the race, you count pips.
+
+12
+00:00:54,691 --> 00:00:59,832
+The pip count is the total distance your checkers still have to travel to bear off.
+
+13
+00:01:02,148 --> 00:01:09,682
+The calculation is simple: for each point, multiply the number of checkers by the point number, then add everything up.
+
+14
+00:01:10,070 --> 00:01:14,870
+For example, three checkers on your eight-point make twenty-four pips.
+
+15
+00:01:14,570 --> 00:01:17,634
+Two checkers on your six-point make twelve.
+
+16
+00:01:18,363 --> 00:01:23,238
+At the start of the game, each player has one hundred and sixty-seven pips.
+
+17
+00:01:22,938 --> 00:01:25,495
+Whoever has the lower count is ahead.
+
+18
+00:01:28,009 --> 00:01:32,949
+Why does it matter so much? Because the pip count tells you which plan to follow.
+
+19
+00:01:33,099 --> 00:01:38,663
+If you're leading the race, try to free your checkers and come home without taking risks.
+
+20
+00:01:38,363 --> 00:01:40,615
+Contact is no use to you anymore.
+
+21
+00:01:41,499 --> 00:01:45,942
+If you're behind, on the other hand, keep contact for as long as possible.
+
+22
+00:01:45,642 --> 00:01:49,246
+Your only chance is to hit one of your opponent's checkers.
+
+23
+00:01:50,612 --> 00:01:56,543
+A useful benchmark: one roll of the dice is worth a little over eight pips on average.
+
+24
+00:01:56,243 --> 00:01:59,424
+So a ten-pip lead is roughly one roll ahead.
+
+25
+00:02:02,719 --> 00:02:08,916
+Once you're in a race, you need to bring your checkers home, into your home board, as quickly as possible.
+
+26
+00:02:09,936 --> 00:02:12,475
+The owl's tip: think in crossovers.
+
+27
+00:02:12,175 --> 00:02:18,296
+Every time a checker moves from one quarter of the board into the next, that's a crossover.
+
+28
+00:02:18,579 --> 00:02:22,216
+What matters is getting every checker into your home board.
+
+29
+00:02:21,916 --> 00:02:27,984
+So move your farthest checkers first, and don't waste time pushing the ones that have already arrived.
+
+30
+00:02:28,945 --> 00:02:36,375
+With six-five, for example, bring two checkers in from the outer board, rather than pushing a single one all the way to the back.
+
+31
+00:02:38,275 --> 00:02:41,718
+Second rule of the race: don't waste your pips.
+
+32
+00:02:42,607 --> 00:02:46,038
+Many beginners pile all their checkers on the six-point.
+
+33
+00:02:45,738 --> 00:02:50,342
+They get home quickly, but then it takes a lot of rolls to bear them all off.
+
+34
+00:02:52,110 --> 00:02:56,497
+It's better to spread your checkers over the six, five and four points.
+
+35
+00:02:56,197 --> 00:03:00,065
+They're all home already, and bearing off will be much faster.
+
+36
+00:03:00,773 --> 00:03:05,060
+On the other hand, don't fill up the one, two and three points too early.
+
+37
+00:03:04,760 --> 00:03:10,740
+A checker that lands there has used pips for nothing: it would have come off anyway with a small number.
+
+38
+00:03:11,788 --> 00:03:18,826
+And don't panic if you play one move a little badly. In a race, a single mistake rarely costs the game…
+
+39
+00:03:18,526 --> 00:03:20,592
+but ten little mistakes do!
+
+40
+00:03:23,849 --> 00:03:27,343
+All fifteen checkers are home: bearing off begins.
+
+41
+00:03:27,043 --> 00:03:31,111
+If there's no contact left at all, the rule is very simple.
+
+42
+00:03:31,623 --> 00:03:37,239
+Bear off a checker every time you can. A checker off the board is one less checker to bring home.
+
+43
+00:03:38,321 --> 00:03:42,284
+If your die doesn't let you bear off, use it to fill an empty point.
+
+44
+00:03:41,984 --> 00:03:46,593
+The more spread out your checkers are, the more each roll will let you bear off.
+
+45
+00:03:48,454 --> 00:03:54,856
+And with a double, you play the same number four times: often that's four checkers off in one go.
+
+46
+00:03:54,556 --> 00:03:56,806
+The perfect moment to catch up!
+
+47
+00:03:59,677 --> 00:04:04,985
+Everything changes if your opponent still has a checker in your home board, or on the bar.
+
+48
+00:04:04,685 --> 00:04:06,488
+Then there's still contact.
+
+49
+00:04:08,063 --> 00:04:11,217
+Your priority is no longer speed, it's safety.
+
+50
+00:04:10,917 --> 00:04:14,940
+A single blot hit during the bear-off can cost you the game.
+
+51
+00:04:16,648 --> 00:04:22,283
+Clear your points starting with the farthest one, and keep an even number of checkers on your highest points.
+
+52
+00:04:24,530 --> 00:04:30,091
+That way, when you bear off, your checkers leave in pairs, and you avoid leaving a checker on its own.
+
+53
+00:04:30,866 --> 00:04:34,786
+Sometimes the safest move doesn't bear off any checker at all.
+
+54
+00:04:34,486 --> 00:04:38,815
+That's fine: better to bear off a little more slowly than to get hit.
+
+55
+00:04:41,210 --> 00:04:44,593
+To finish, two ideas to keep in mind during the race.
+
+56
+00:04:45,139 --> 00:04:47,191
+The first is the doubling cube.
+
+57
+00:04:46,891 --> 00:04:54,706
+In a race, you usually double with about an eight percent lead in the pip count, and you take with up to about twelve percent behind.
+
+58
+00:04:55,981 --> 00:05:01,088
+Example: with one hundred pips against one hundred and eight, you're eight percent ahead.
+
+59
+00:05:00,788 --> 00:05:03,357
+That's the right moment to offer a double.
+
+60
+00:05:04,239 --> 00:05:06,060
+The second is the gammon.
+
+61
+00:05:05,760 --> 00:05:11,230
+If your opponent is already bearing off and you're far behind, your priority changes.
+
+62
+00:05:12,999 --> 00:05:19,840
+Forget about wastage: bring all your checkers home as fast as you can, and bear off at least one checker.
+
+63
+00:05:19,540 --> 00:05:22,207
+A single loss is better than a gammon!
+
+64
+00:05:23,528 --> 00:05:30,694
+And on TickGammon, the analysis of your games shows you the pip count at every move, and points out when you could have played the race better.
+
+65
+00:05:34,522 --> 00:05:40,724
+And there you go, you now know how to count pips, race without wasting, and bear off your checkers safely!
+
+66
+00:05:41,636 --> 00:05:48,535
+To practise, play for free against other players or against the computer, in your browser, on Android or on Windows.
+
+67
+00:05:48,235 --> 00:05:53,257
+Next time, I'll teach you about dice probabilities. Subscribe so you don't miss it!
+
+68
+00:05:52,957 --> 00:05:54,964
+See you soon around the board!
+

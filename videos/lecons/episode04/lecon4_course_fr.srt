@@ -1,0 +1,276 @@
+1
+00:00:01,200 --> 00:00:04,520
+Bonjour et bienvenue dans les Leçons de la chouette !
+
+2
+00:00:04,220 --> 00:00:07,712
+La dernière fois, vous avez appris à utiliser le videau.
+
+3
+00:00:07,412 --> 00:00:12,442
+Aujourd'hui, on s'attaque à la fin de la partie : la course et la sortie des pions.
+
+4
+00:00:13,760 --> 00:00:16,673
+C'est le moment où beaucoup de parties se jouent.
+
+5
+00:00:16,373 --> 00:00:21,952
+Et pourtant, avec quelques règles simples, vous pouvez éviter presque toutes les erreurs. On y va !
+
+6
+00:00:25,255 --> 00:00:29,139
+Au début de la partie, les pions des deux joueurs se croisent.
+
+7
+00:00:28,839 --> 00:00:31,624
+On peut se bloquer, se frapper, s'enfermer.
+
+8
+00:00:33,214 --> 00:00:38,429
+Mais un jour, le dernier pion de chaque joueur dépasse le dernier pion de l'adversaire.
+
+9
+00:00:38,129 --> 00:00:40,632
+Plus personne ne peut frapper personne.
+
+10
+00:00:41,991 --> 00:00:44,522
+À partir de ce moment, c'est une course.
+
+11
+00:00:44,222 --> 00:00:48,873
+Il n'y a plus rien à bloquer : le premier qui sort ses quinze pions l'emporte.
+
+12
+00:00:51,949 --> 00:00:55,043
+Pour savoir qui mène la course, on compte les pips.
+
+13
+00:00:54,743 --> 00:01:00,247
+Le compte de pips, c'est la distance totale que vos pions doivent encore parcourir pour sortir.
+
+14
+00:01:02,148 --> 00:01:09,038
+Le calcul est simple : pour chaque point, on multiplie le nombre de pions par le numéro du point, puis on additionne tout.
+
+15
+00:01:10,070 --> 00:01:14,875
+Par exemple, trois pions sur votre point huit, cela fait vingt-quatre pips.
+
+16
+00:01:14,575 --> 00:01:17,758
+Deux pions sur votre point six, cela fait douze.
+
+17
+00:01:18,363 --> 00:01:22,443
+Au début de la partie, chaque joueur est à cent soixante-sept pips.
+
+18
+00:01:22,143 --> 00:01:25,095
+Celui qui a le plus petit compte est en avance.
+
+19
+00:01:28,009 --> 00:01:32,647
+Pourquoi est-ce si important ? Parce que le compte de pips vous dit quel plan suivre.
+
+20
+00:01:33,099 --> 00:01:38,591
+Si vous menez la course, cherchez à dégager vos pions et à rentrer chez vous sans prendre de risque.
+
+21
+00:01:38,291 --> 00:01:40,460
+Le contact ne vous sert plus à rien.
+
+22
+00:01:41,499 --> 00:01:46,429
+Si vous êtes en retard, au contraire, gardez le contact le plus longtemps possible.
+
+23
+00:01:46,129 --> 00:01:49,385
+Votre seule chance, c'est de frapper un pion adverse.
+
+24
+00:01:50,612 --> 00:01:55,379
+Un repère utile : un lancer de dés vaut en moyenne un peu plus de huit pips.
+
+25
+00:01:55,079 --> 00:01:59,081
+Une avance de dix pips, c'est donc à peu près un tour d'avance.
+
+26
+00:02:02,719 --> 00:02:09,071
+Une fois dans la course, il faut ramener vos pions à la maison, dans votre jan intérieur, le plus vite possible.
+
+27
+00:02:09,936 --> 00:02:13,152
+Le conseil de la chouette : pensez en franchissements.
+
+28
+00:02:12,852 --> 00:02:17,957
+Chaque fois qu'un pion passe d'un quart du plateau au suivant, il fait un franchissement.
+
+29
+00:02:18,579 --> 00:02:22,683
+Ce qui compte, c'est de faire entrer chaque pion dans votre jan intérieur.
+
+30
+00:02:22,383 --> 00:02:28,491
+Alors, jouez d'abord les pions les plus éloignés, et ne perdez pas de temps à avancer ceux qui sont déjà arrivés.
+
+31
+00:02:28,945 --> 00:02:35,474
+Avec un six-cinq, par exemple, faites entrer deux pions du jan extérieur, plutôt que d'en pousser un seul tout au fond.
+
+32
+00:02:38,275 --> 00:02:42,225
+Deuxième règle de la course : ne gaspillez pas vos pips.
+
+33
+00:02:42,607 --> 00:02:46,230
+Beaucoup de débutants empilent tous leurs pions sur le point six.
+
+34
+00:02:45,930 --> 00:02:51,036
+Ils arrivent vite à la maison, mais ensuite, il faut beaucoup de lancers pour tous les sortir.
+
+35
+00:02:52,110 --> 00:02:56,295
+Il vaut mieux répartir vos pions sur les points six, cinq et quatre.
+
+36
+00:02:55,995 --> 00:03:00,123
+Ils sont tous déjà à la maison, et la sortie sera bien plus rapide.
+
+37
+00:03:00,773 --> 00:03:04,966
+À l'inverse, ne remplissez pas trop vite les points un, deux et trois.
+
+38
+00:03:04,666 --> 00:03:10,582
+Un pion qui arrive là a utilisé des pips pour rien : il serait sorti de toute façon avec un petit dé.
+
+39
+00:03:11,788 --> 00:03:15,155
+Et pas de panique si vous jouez un peu mal un coup.
+
+40
+00:03:14,855 --> 00:03:20,207
+En course, une seule erreur coûte rarement la partie… mais dix petites erreurs, si !
+
+41
+00:03:23,849 --> 00:03:27,176
+Vos quinze pions sont à la maison : la sortie commence.
+
+42
+00:03:26,876 --> 00:03:30,259
+S'il n'y a plus aucun contact, la règle est très simple.
+
+43
+00:03:31,623 --> 00:03:37,280
+Sortez un pion à chaque fois que c'est possible. Un pion sorti, c'est un pion de moins à ramener.
+
+44
+00:03:38,321 --> 00:03:43,203
+Si votre dé ne permet pas de sortir un pion, utilisez-le pour remplir un point vide.
+
+45
+00:03:42,903 --> 00:03:47,239
+Plus vos pions sont répartis, plus chaque lancer vous permettra de sortir.
+
+46
+00:03:48,454 --> 00:03:54,452
+Et avec un double, vous jouez quatre fois le même chiffre : c'est souvent quatre pions qui sortent d'un coup.
+
+47
+00:03:54,152 --> 00:03:57,066
+C'est le moment rêvé pour rattraper votre retard !
+
+48
+00:03:59,677 --> 00:04:05,175
+Tout change si votre adversaire a encore un pion dans votre jan intérieur, ou sur la barre.
+
+49
+00:04:04,875 --> 00:04:06,832
+Là, il y a encore du contact.
+
+50
+00:04:08,063 --> 00:04:11,681
+Votre priorité, ce n'est plus la vitesse, c'est la sécurité.
+
+51
+00:04:11,381 --> 00:04:15,607
+Un seul blot frappé pendant la sortie peut vous faire perdre la partie.
+
+52
+00:04:16,648 --> 00:04:22,590
+Videz vos points en commençant par le plus éloigné, et gardez un nombre pair de pions sur vos points les plus hauts.
+
+53
+00:04:24,530 --> 00:04:29,810
+Ainsi, quand vous sortez, vos pions partent par deux, et vous évitez de laisser un pion tout seul.
+
+54
+00:04:30,866 --> 00:04:33,755
+Parfois, le coup le plus sûr ne sort aucun pion.
+
+55
+00:04:33,455 --> 00:04:38,017
+Ce n'est pas grave : mieux vaut sortir un peu plus lentement que d'être frappé.
+
+56
+00:04:41,210 --> 00:04:44,557
+Pour finir, deux idées à garder en tête pendant la course.
+
+57
+00:04:45,139 --> 00:04:47,019
+La première, c'est le videau.
+
+58
+00:04:46,719 --> 00:04:55,302
+Dans une course, on double généralement avec environ huit pour cent d'avance au compte de pips, et on accepte jusqu'à environ douze pour cent de retard.
+
+59
+00:04:55,981 --> 00:05:00,302
+Exemple : avec cent pips contre cent huit, vous menez de huit pour cent.
+
+60
+00:05:00,002 --> 00:05:02,815
+C'est le bon moment pour proposer de doubler.
+
+61
+00:05:04,239 --> 00:05:06,143
+La deuxième, c'est le gammon.
+
+62
+00:05:05,843 --> 00:05:12,062
+Si votre adversaire est déjà en train de sortir et que vous êtes très loin derrière, votre priorité change.
+
+63
+00:05:12,999 --> 00:05:19,437
+Oubliez le gaspillage : ramenez tous vos pions à la maison le plus vite possible, et sortez au moins un pion.
+
+64
+00:05:19,137 --> 00:05:21,915
+Une défaite simple vaut mieux qu'un gammon !
+
+65
+00:05:23,528 --> 00:05:31,066
+Et sur TickGammon, l'analyse de vos parties vous indique le compte de pips à chaque coup, et vous montre quand vous auriez pu mieux jouer la course.
+
+66
+00:05:34,522 --> 00:05:40,910
+Et voilà, vous savez maintenant compter les pips, courir sans gaspiller, et sortir vos pions en toute sécurité !
+
+67
+00:05:41,636 --> 00:05:49,119
+Pour vous entraîner, jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows.
+
+68
+00:05:48,819 --> 00:05:54,271
+La prochaine fois, je vous apprends les probabilités aux dés. Abonnez-vous pour ne pas la manquer !
+
+69
+00:05:53,971 --> 00:05:55,885
+À très vite autour du plateau !
+
