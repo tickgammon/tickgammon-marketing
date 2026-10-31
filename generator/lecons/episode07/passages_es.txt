@@ -1,0 +1,35 @@
+P01|0|¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez descubristeis la chouette, el backgammon en grupo. Hoy nos enfrentamos a un adversario que nunca duerme: el ordenador.
+P02|0|Jugar contra un robot no es solo para pasar el rato cuando no hay nadie. Bien usado, es el mejor de los profesores. ¡Vamos allá!
+P03|1|Primera razón para jugar contra el ordenador: está disponible a cualquier hora. Sin esperas ni horarios, la partida empieza cuando queráis.
+P04|1|Segunda razón: no hay ninguna presión. Es ideal para aprender las reglas, probar una apertura o recuperar la confianza antes de enfrentaros a jugadores reales.
+P05|1|Y tercera razón: es un adversario exigente. Un robot nunca comete un error por descuido. Ganarle es jugar realmente bien… con un poco de suerte con los dados.
+P06|2|En TickGammon, los robots se basan en GNU Backgammon, al que se suele llamar gnubg. Es uno de los programas de backgammon más fuertes del mundo.
+P07|2|Es un programa libre y gratuito, desarrollado por una comunidad de aficionados.
+P08|2|Como el famoso TD-Gammon antes que él, utiliza redes neuronales, entrenadas con un número enorme de partidas.
+P09|2|Evalúa cada posición, elige la jugada que le da más posibilidades, y también toma las decisiones del cubo doblador. Es más fuerte que la gran mayoría de los jugadores humanos.
+P10|3|Entonces, ¿hace trampa el ordenador con los dados? Es la pregunta que todo el mundo se hace algún día.
+P11|3|La respuesta es no. El robot no tiene ninguna ventaja con los dados. Gana únicamente gracias a la calidad de sus decisiones.
+P12|3|Si os parece que siempre le salen los dados buenos, fijaos más bien en cómo coloca sus fichas. Las pone donde muchas tiradas le vienen bien.
+P13|3|¿Os acordáis de la lección sobre las probabilidades? El robot lo cuenta todo, en cada jugada. ¡Ese es su verdadero secreto!
+P14|4|Lo realmente interesante del ordenador es que os muestra vuestros errores. Después de una partida, podéis hacer que la analice jugada a jugada.
+P15|4|En cada jugada, el análisis os muestra la mejor opción posible, y la compara con la que habéis jugado.
+P16|4|Cuando os habéis equivocado, os dice cuánto os ha costado ese error. Una pequeña imprecisión no es grave. Un error grande, en cambio, hay que entenderlo.
+P17|4|No intentéis corregirlo todo de golpe. Centraos en los dos o tres errores más grandes de la partida. Es ahí donde más rápido progresaréis.
+P18|5|Un consejo importante: no miréis solo el resultado de la partida.
+P19|5|Una victoria puede esconder errores grandes, porque los dados os salvaron. Y una derrota puede venir de los dados, a pesar de un juego perfecto.
+P20|5|El resultado depende en parte de la suerte. El análisis, en cambio, solo mira vuestras decisiones. ¡Es el que dice la verdad! [laughs]
+P21|6|En TickGammon, el módulo Entrenamiento va todavía más lejos. Os hace trabajar posiciones escogidas, y analiza vuestras jugadas.
+P22|6|Jugáis una posición, y enseguida veis si vuestra jugada era la buena, y cuál era la mejor.
+P23|6|Es la forma más rápida de corregir vuestras costumbres: aperturas, golpes, carrera, cubo doblador… todo lo que habéis visto en estas lecciones.
+P24|6|Y con el Pack Sabiduría, la inteligencia artificial puede incluso explicaros vuestro error con palabras sencillas, y el análisis va más a fondo.
+P25|6|En lugar de un simple número, entendéis por qué una jugada es mejor que otra. Y eso es lo que de verdad hace progresar.
+P26|7|Aquí tenéis un método sencillo para progresar contra el ordenador, en tres pasos.
+P27|7|Primer paso: jugad una partida completa, con calma, sin mirar los consejos durante el juego.
+P28|7|Segundo paso: haced que se analice la partida, y apuntad vuestros dos o tres errores más grandes.
+P29|7|Tercer paso: volved a jugar esas posiciones en el Entrenamiento, hasta encontrar la buena jugada a la primera. Y luego, empezad de nuevo con otra partida.
+P30|8|¿Estáis empezando y tenéis miedo de que sea demasiado difícil? Es normal perder a menudo al principio.
+P31|8|Pero cada partida contra un adversario fuerte os enseña algo. Y poco a poco, vuestros errores se vuelven más raros y más pequeños.
+P32|8|Si hace falta, repasad las lecciones anteriores: las reglas, las aperturas, el cubo doblador, la carrera y las probabilidades. Todo se junta en el tablero frente al robot.
+P33|8|¡Y cuando os sintáis preparados, pasad a las partidas en línea contra jugadores reales!
+P34|9|¡Y listo, ya sabéis usar el ordenador para progresar: un adversario siempre disponible, unos dados honestos, y un análisis que os muestra vuestros errores!
+P35|9|Las partidas contra los robots son gratuitas, en vuestro navegador, en Android o en Windows. La próxima vez pasamos a las partidas en línea: la clasificación y el ELO. ¡Suscribíos para no perdérosla! ¡Hasta muy pronto alrededor del tablero!

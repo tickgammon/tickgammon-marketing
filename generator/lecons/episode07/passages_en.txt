@@ -1,0 +1,35 @@
+P01|0|Hello and welcome to the Owl's Lessons! Last time, you discovered the chouette, backgammon for a group. Today, we're facing an opponent who never sleeps: the computer.
+P02|0|Playing against a bot isn't just something to do when nobody's around. Used well, it's the best teacher there is. Let's go!
+P03|1|The first reason to play against the computer: it's available at any time. No waiting, no schedule, the game starts whenever you want.
+P04|1|The second reason: there's no pressure at all. It's perfect for learning the rules, testing an opening or regaining confidence before facing real players.
+P05|1|And the third reason: it's a demanding opponent. A bot never makes a careless mistake. Beating it means playing really well… with a little luck with the dice.
+P06|2|On TickGammon, the bots are built on GNU Backgammon, often called gnubg. It's one of the strongest backgammon programs in the world.
+P07|2|It's free and open-source software, developed by a community of enthusiasts.
+P08|2|Like the famous TD-Gammon before it, it uses neural networks, trained on a very large number of games.
+P09|2|It evaluates each position, chooses the move that gives it the best chances, and also makes the doubling cube decisions. It's stronger than the vast majority of human players.
+P10|3|So, does the computer cheat with the dice? It's a question everyone asks one day.
+P11|3|The answer is no. The bot has no advantage with the dice. It wins only through the quality of its decisions.
+P12|3|If it feels like it always gets the right roll, look instead at how it places its checkers. It puts them where lots of rolls work for it.
+P13|3|Remember the lesson on probabilities? The bot counts everything, on every move. That's its real secret!
+P14|4|The real value of the computer is that it shows you your mistakes. After a game, you can have it analysed move by move.
+P15|4|For each move, the analysis shows you the best possible choice, and compares it with the one you played.
+P16|4|When you got it wrong, it tells you how much that mistake cost you. A small inaccuracy isn't a big deal. A big mistake, on the other hand, is one you need to understand.
+P17|4|Don't try to fix everything at once. Focus on the two or three biggest mistakes of the game. That's where you'll improve fastest.
+P18|5|An important tip: don't just look at the result of the game.
+P19|5|A win can hide big mistakes, because the dice saved you. And a loss can come from the dice, despite perfect play.
+P20|5|The result partly depends on luck. The analysis only looks at your decisions. It's the one that tells the truth! [laughs]
+P21|6|On TickGammon, the Training module goes even further. It has you work on selected positions, and it analyses your moves.
+P22|6|You play a position, then you see straight away whether your move was right, and what the best one was.
+P23|6|It's the fastest way to fix your habits: openings, hitting, the race, the doubling cube… everything you've seen in these lessons.
+P24|6|And with the Wisdom Pack, the artificial intelligence can even explain your mistake in plain language, and the analysis goes deeper.
+P25|6|Instead of just a number, you understand why one move is better than another. And that's what really makes you improve.
+P26|7|Here's a simple method for improving against the computer, in three steps.
+P27|7|Step one: play a full game, calmly, without looking at any hints during play.
+P28|7|Step two: have the game analysed, and write down your two or three biggest mistakes.
+P29|7|Step three: replay those positions in Training until you find the right move first time. Then start again with a new game.
+P30|8|Are you a beginner, worried that it's too hard? It's normal to lose often at first.
+P31|8|But every game against a strong opponent teaches you something. And little by little, your mistakes become rarer and smaller.
+P32|8|If needed, go back over the previous lessons: the rules, the openings, the doubling cube, the race and the probabilities. It all comes together on the board against the bot.
+P33|8|And when you feel ready, move on to online games against real players!
+P34|9|And there you go, you now know how to use the computer to improve: an opponent that's always available, honest dice, and an analysis that shows you your mistakes.
+P35|9|Games against the bots are free, in your browser, on Android or on Windows. Next time, we move on to online games: rankings and ELO. Subscribe so you don't miss it! See you soon around the board!

@@ -1,0 +1,84 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 7 — TEXTES À COLLER DANS ELEVENLABS (ENGLISH)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que pour le français.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1_en.mp3, bloc2_en.mp3, bloc3_en.mp3.
+
+########## BLOC 1 (P01 à P13, 1674 caractères) → bloc1_en.mp3 ##########
+============================================================
+Hello and welcome to the Owl's Lessons! Last time, you discovered the chouette, backgammon for a group. Today, we're facing an opponent who never sleeps: the computer.
+
+Playing against a bot isn't just something to do when nobody's around. Used well, it's the best teacher there is. Let's go!
+
+The first reason to play against the computer: it's available at any time. No waiting, no schedule, the game starts whenever you want.
+
+The second reason: there's no pressure at all. It's perfect for learning the rules, testing an opening or regaining confidence before facing real players.
+
+And the third reason: it's a demanding opponent. A bot never makes a careless mistake. Beating it means playing really well… with a little luck with the dice.
+
+On TickGammon, the bots are built on GNU Backgammon, often called gnubg. It's one of the strongest backgammon programs in the world.
+
+It's free and open-source software, developed by a community of enthusiasts.
+
+Like the famous TD-Gammon before it, it uses neural networks, trained on a very large number of games.
+
+It evaluates each position, chooses the move that gives it the best chances, and also makes the doubling cube decisions. It's stronger than the vast majority of human players.
+
+So, does the computer cheat with the dice? It's a question everyone asks one day.
+
+The answer is no. The bot has no advantage with the dice. It wins only through the quality of its decisions.
+
+If it feels like it always gets the right roll, look instead at how it places its checkers. It puts them where lots of rolls work for it.
+
+Remember the lesson on probabilities? The bot counts everything, on every move. That's its real secret!
+============================================================
+
+########## BLOC 2 (P14 à P25, 1440 caractères) → bloc2_en.mp3 ##########
+============================================================
+The real value of the computer is that it shows you your mistakes. After a game, you can have it analysed move by move.
+
+For each move, the analysis shows you the best possible choice, and compares it with the one you played.
+
+When you got it wrong, it tells you how much that mistake cost you. A small inaccuracy isn't a big deal. A big mistake, on the other hand, is one you need to understand.
+
+Don't try to fix everything at once. Focus on the two or three biggest mistakes of the game. That's where you'll improve fastest.
+
+An important tip: don't just look at the result of the game.
+
+A win can hide big mistakes, because the dice saved you. And a loss can come from the dice, despite perfect play.
+
+The result partly depends on luck. The analysis only looks at your decisions. It's the one that tells the truth! [laughs]
+
+On TickGammon, the Training module goes even further. It has you work on selected positions, and it analyses your moves.
+
+You play a position, then you see straight away whether your move was right, and what the best one was.
+
+It's the fastest way to fix your habits: openings, hitting, the race, the doubling cube… everything you've seen in these lessons.
+
+And with the Wisdom Pack, the artificial intelligence can even explain your mistake in plain language, and the analysis goes deeper.
+
+Instead of just a number, you understand why one move is better than another. And that's what really makes you improve.
+============================================================
+
+########## BLOC 3 (P26 à P35, 1183 caractères) → bloc3_en.mp3 ##########
+============================================================
+Here's a simple method for improving against the computer, in three steps.
+
+Step one: play a full game, calmly, without looking at any hints during play.
+
+Step two: have the game analysed, and write down your two or three biggest mistakes.
+
+Step three: replay those positions in Training until you find the right move first time. Then start again with a new game.
+
+Are you a beginner, worried that it's too hard? It's normal to lose often at first.
+
+But every game against a strong opponent teaches you something. And little by little, your mistakes become rarer and smaller.
+
+If needed, go back over the previous lessons: the rules, the openings, the doubling cube, the race and the probabilities. It all comes together on the board against the bot.
+
+And when you feel ready, move on to online games against real players!
+
+And there you go, you now know how to use the computer to improve: an opponent that's always available, honest dice, and an analysis that shows you your mistakes.
+
+Games against the bots are free, in your browser, on Android or on Windows. Next time, we move on to online games: rankings and ELO. Subscribe so you don't miss it! See you soon around the board!
+============================================================

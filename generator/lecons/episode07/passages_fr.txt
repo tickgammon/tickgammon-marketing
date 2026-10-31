@@ -1,0 +1,35 @@
+P01|0|Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez découvert la chouette, le backgammon à plusieurs. Aujourd'hui, on affronte un adversaire qui ne dort jamais : l'ordinateur.
+P02|0|Jouer contre un robot, ce n'est pas seulement pour s'occuper quand personne n'est là. Bien utilisé, c'est le meilleur des professeurs. On y va !
+P03|1|Première raison de jouer contre l'ordinateur : il est disponible à toute heure. Pas d'attente, pas d'horaire, la partie commence dès que vous le voulez.
+P04|1|Deuxième raison : il n'y a aucune pression. C'est idéal pour apprendre les règles, tester une ouverture ou reprendre confiance avant d'affronter de vrais joueurs.
+P05|1|Et troisième raison : c'est un adversaire exigeant. Un robot ne fait jamais d'erreur d'inattention. Le battre, c'est vraiment bien jouer… avec un peu de chance aux dés.
+P06|2|Sur TickGammon, les robots s'appuient sur GNU Backgammon, qu'on appelle souvent gnubg. C'est l'un des programmes de backgammon les plus forts au monde.
+P07|2|C'est un logiciel libre et gratuit, développé par une communauté de passionnés.
+P08|2|Comme le célèbre TD-Gammon avant lui, il utilise des réseaux de neurones, entraînés sur un très grand nombre de parties.
+P09|2|Il évalue chaque position, choisit le coup qui lui donne les meilleures chances, et prend aussi les décisions de videau. Il est plus fort que la grande majorité des joueurs humains.
+P10|3|Mais alors, l'ordinateur triche-t-il avec les dés ? C'est la question que tout le monde se pose un jour.
+P11|3|La réponse est non. Le robot n'a aucun avantage sur les dés. Il gagne uniquement grâce à la qualité de ses décisions.
+P12|3|Si vous avez l'impression qu'il a toujours les bons dés, regardez plutôt comment il place ses pions. Il les met là où beaucoup de lancers l'arrangent.
+P13|3|Vous vous souvenez de la leçon sur les probabilités ? Le robot, lui, compte tout, à chaque coup. Voilà son vrai secret !
+P14|4|Le vrai intérêt de l'ordinateur, c'est de vous montrer vos erreurs. Après une partie, vous pouvez la faire analyser coup par coup.
+P15|4|Pour chaque coup, l'analyse vous montre le meilleur choix possible, et le compare à celui que vous avez joué.
+P16|4|Quand vous vous êtes trompé, elle vous dit combien cette erreur vous a coûté. Une petite imprécision n'est pas grave. Une grosse erreur, en revanche, il faut la comprendre.
+P17|4|Ne cherchez pas à tout corriger d'un coup. Concentrez-vous sur les deux ou trois plus grosses erreurs de la partie. C'est là que vous progresserez le plus vite.
+P18|5|Un conseil important : ne regardez pas seulement le résultat de la partie.
+P19|5|Une victoire peut cacher de grosses erreurs, parce que les dés vous ont sauvé. Et une défaite peut venir des dés, malgré un jeu parfait.
+P20|5|Le résultat dépend en partie de la chance. L'analyse, elle, ne regarde que vos décisions. C'est elle qui dit la vérité ! [laughs]
+P21|6|Sur TickGammon, le module Entraînement va encore plus loin. Il vous fait travailler des positions choisies, et il analyse vos coups.
+P22|6|Vous jouez une position, puis vous voyez tout de suite si votre coup était le bon, et quel était le meilleur.
+P23|6|C'est le moyen le plus rapide de corriger vos habitudes : ouvertures, frappes, course, videau… tout ce que vous avez vu dans ces leçons.
+P24|6|Et avec le Pack Sagesse, l'intelligence artificielle peut même vous expliquer votre erreur en langage clair, et l'analyse va plus en profondeur.
+P25|6|Au lieu d'un simple chiffre, vous comprenez pourquoi un coup est meilleur qu'un autre. Et ça, c'est ce qui fait vraiment progresser.
+P26|7|Voici une méthode simple pour progresser contre l'ordinateur, en trois étapes.
+P27|7|Première étape : jouez une partie complète, tranquillement, sans regarder les conseils pendant le jeu.
+P28|7|Deuxième étape : faites analyser la partie, et notez vos deux ou trois plus grosses erreurs.
+P29|7|Troisième étape : rejouez ces positions dans l'Entraînement, jusqu'à trouver le bon coup du premier coup. Puis recommencez avec une nouvelle partie.
+P30|8|Vous débutez et vous avez peur que ce soit trop difficile ? C'est normal de perdre souvent au début.
+P31|8|Mais chaque partie contre un adversaire solide vous apprend quelque chose. Et petit à petit, vos erreurs deviennent plus rares et plus petites.
+P32|8|Si besoin, revoyez les leçons précédentes : les règles, les ouvertures, le videau, la course et les probabilités. Tout se retrouve sur le plateau face au robot.
+P33|8|Et quand vous vous sentirez prêt, passez aux parties en ligne contre de vrais joueurs !
+P34|9|Et voilà, vous savez maintenant utiliser l'ordinateur pour progresser : un adversaire toujours disponible, des dés honnêtes, et une analyse qui vous montre vos erreurs.
+P35|9|Les parties contre les robots sont gratuites, dans votre navigateur, sur Android ou sur Windows. La prochaine fois, on passe aux parties en ligne : le classement et l'ELO. Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
