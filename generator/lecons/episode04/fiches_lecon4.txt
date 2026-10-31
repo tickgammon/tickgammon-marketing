@@ -1,0 +1,11 @@
+FICHES YOUTUBE — LEÇON 4 · La course (sortie 6/12/2026, durée 6:01, écran de fin à partir de 5:41)
+YouTube Studio → la vidéo → Fiches (crayon) → choisir le type → choisir la vidéo/playlist → taper le moment dans la case 0:00:00 en bas à gauche → remplir « Message personnalisé » et « Texte d accroche » → Enregistrer.
+Règle : une fiche ne peut viser qu une vidéo déjà PUBLIQUE ; ne rien mettre dans les 20 dernières secondes (écran de fin).
+Textes en 3 langues (YouTube ne traduit pas les fiches), 30 caractères maximum.
+
+MOMENT | TYPE     | VERS                        | MESSAGE PERSONNALISÉ             | TEXTE D'ACCROCHE                 | POSSIBLE À PARTIR DU
+0:05   | Vidéo    | Leçon 3 · Le videau         | Leçon 3 · Lesson 3 · Lección 3   | 🎲 Videau · Cube · Cubo          | 22/11 (sortie leçon 3)
+0:15   | Playlist | Les leçons de la chouette   | 🦉 Leçons · Lessons · Lecciones  | 🦉 Toutes · All · Todas          | maintenant
+4:47   | Vidéo    | Leçon 3 · Le videau         | Leçon 3 · Lesson 3 · Lección 3   | 🎲 Doubler · Double · Doblar     | 22/11 (sortie leçon 3)
+
+Pourquoi : 0:05 « La dernière fois, vous avez appris à utiliser le videau » ; 4:47 « La première, c'est le videau… on double avec 8 % d'avance ».

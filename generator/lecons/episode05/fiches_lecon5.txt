@@ -1,0 +1,11 @@
+FICHES YOUTUBE — LEÇON 5 · Les probabilités aux dés (sortie 20/12/2026, durée 5:50, écran de fin à partir de 5:30)
+YouTube Studio → la vidéo → Fiches (crayon) → choisir le type → choisir la vidéo/playlist → taper le moment dans la case 0:00:00 en bas à gauche → remplir « Message personnalisé » et « Texte d accroche » → Enregistrer.
+Règle : une fiche ne peut viser qu une vidéo déjà PUBLIQUE ; ne rien mettre dans les 20 dernières secondes (écran de fin).
+Textes en 3 langues (YouTube ne traduit pas les fiches), 30 caractères maximum.
+
+MOMENT | TYPE     | VERS                        | MESSAGE PERSONNALISÉ             | TEXTE D'ACCROCHE                 | POSSIBLE À PARTIR DU
+0:15   | Playlist | Les leçons de la chouette   | 🦉 Leçons · Lessons · Lecciones  | 🦉 Toutes · All · Todas          | maintenant
+1:57   | Vidéo    | Leçon 4 · La course         | Leçon 4 · Lesson 4 · Lección 4   | 🏁 Course · Race · Carrera       | 6/12 (sortie leçon 4)
+4:43   | Vidéo    | Leçon 3 · Le videau         | Leçon 3 · Lesson 3 · Lección 3   | 🎲 Videau · Cube · Cubo          | 22/11 (sortie leçon 3)
+
+Pourquoi : 1:57 « C'est le repère qu'on a utilisé pour la course » ; 4:43 « Vous vous souvenez de la règle des vingt-cinq pour cent ? ».

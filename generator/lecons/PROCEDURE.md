@@ -83,6 +83,10 @@ Travailler dans le scratchpad (`…/scratchpad/epN/`), y copier : les 9 MP3, `pa
     `python3 shorts2.py fr|en|es` (vidéo + mix de la langue) → 24 Shorts 1080×1920.
 12. **Miniatures** : adapter les textes de `thumb2.js` (« Leçon N », titre, accroche, scène choisie) → `node thumb2.js fr|en|es`.
     Variante sans plateau (grille/schéma plein écran) : `episode05/thumb5.js` (scène P12, la page fait 1280×720 nativement).
+12 bis. **Fiches YouTube (Joyce, 31/10/2026 — toujours les livrer avec la vidéo)** : écrire `episodeNN/fiches_leconN.txt`
+    (moment, type Vidéo/Playlist, cible, message personnalisé et texte d'accroche en FR · EN · ES ≤ 30 caractères, date à partir
+    de laquelle la cible est publique) : fiche Playlist vers 0:15-0:20, fiche vers la leçon précédente à « La dernière fois »,
+    et une fiche à chaque renvoi à une autre leçon ; jamais dans les 20 dernières secondes. L'envoyer à Joyce avec la vidéo.
 13. **GitHub** (`tickgammon-marketing`) : générateur dans `generator/lecons/episodeNN/`, Shorts + .srt + pistes MP3 dans
     `videos/lecons/episodeNN/`, miniatures dans `visuels/lecons/`. **La vidéo complète (≈ 400 Mo) ne va pas sur GitHub.**
 
