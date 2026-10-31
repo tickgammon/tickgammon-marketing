@@ -161,9 +161,9 @@ function shotsChart(lt,o={}){const x0=86,bw=46,gap=13,base=500,hmax=300;let h=`<
  return h;}
 // ---- positions du plateau
 function W_(list){const s=newState();list.forEach(([n,k])=>s.p[W(n)]+=k);return s;}
-function blotState(blotPt){const s=W_([[6,5],[8,3],[13,4],[blotPt,1]]);s.p[0]=-2;s.p[11]=-5;s.p[16]=-3;s.p[18]=-5;return s;}
+function blotState(blotPt){const s=W_([[6,5],[8,3],[13,4],[24,2],[blotPt,1]]);s.p[0]=-2;s.p[11]=-5;s.p[16]=-3;s.p[18]=-5;return s;}
 // jan intérieur noir (points 19-24 des Blancs = index 18..23) avec k points fermés, pion blanc sur la barre
-function barState(k){const s=W_([[6,4],[8,3],[13,5]]);s.barW=1;for(let j=0;j<6;j++)if(j<k)s.p[23-j]=-2;s.p[11]=-5;s.p[16]=-3;return s;}
+function barState(k){const s=W_([[6,5],[8,3],[13,4],[5,2]]);s.barW=1;for(let j=0;j<k;j++)s.p[18+j]=-2;let rest=15-2*k;for(const [i,cap] of [[16,3],[11,5],[17,3],[15,3],[14,3]]){const n=Math.min(cap,rest);s.p[i]-=n;rest-=n;}return s;}
 function enterCard(lt,k,a){const n={0:36,1:35,2:32,3:27,4:20,5:11,6:0}[k];const pct={36:'100 %',35:'97 %',32:'89 %',27:'75 %',20:'56 %',11:'31 %',0:'0 %'}[n];
  return `<div class="a card" style="left:834px;top:108px;width:410px;padding:18px 24px;box-sizing:border-box;background:#0f4030;color:#fdfbf0;border:3px solid #c9a86a;${sc(a)}">
  <div style="display:flex;gap:6px;align-items:center">${Array.from({length:6},(_,j)=>j<k?LOCK(34,'#e0453a'):`<div style="width:34px;height:34px;border-radius:8px;border:3px dashed #7fe0a0;box-sizing:border-box"></div>`).join('')}</div>
@@ -221,10 +221,10 @@ const SC={
   note(X,lt,lt<h?'7 · 8 → 6/36':'11 → 2/36',null,lt<h?.2:-1,lt<h?'17 %':'6 %');},
  P20(lt,D,X){X.board=null;X.ov=shotsChart(lt,{col:d=>d<=6?'#e0453a':'#3fb36b'})+`<div class="a card" style="left:834px;top:108px;width:410px;padding:18px 24px;box-sizing:border-box;background:#0f4030;color:#fdfbf0;border:3px solid #c9a86a;display:flex;gap:16px;align-items:center;${sc(pop(lt,.3))}">${BULB}<span class="bf" style="font-size:60px;color:#7fe0a0">7+</span>${ck(60)}</div>`;X.wink=[D-1.2,D-.8];},
  P21(lt,D,X){const s=barState(0);X.board={st:s,barHl:.5+.5*Math.sin(lt*6),zones:[{a:18,b:23,al:seg(lt,D*.4,D*.55),c:'#7fe0a0'}],paths:[{d:`M${F+HALF+BAR/2} 300 Q${cx(20)} 330 ${cx(20)} ${F+R+40}`,p:eio(seg(lt,D*.5,D*.8)),c:'#fdfbf0',w:7,head:[cx(20),F+R+40,-90]}]};},
- P22(lt,D,X){const s=barState(1);X.board={st:s,barHl:.4,zones:[{a:18,b:22,al:.6,c:'#7fe0a0'}]};X.ov=enterCard(lt,1,pop(lt,.3));},
- P23(lt,D,X){const k=lt<D/3?2:(lt<2*D/3?3:4);const s=barState(k);X.board={st:s,barHl:.4,zones:[{a:18,b:23-k,al:.6,c:'#7fe0a0'}]};X.ov=enterCard(lt,k,1);},
- P24(lt,D,X){const k=lt<D*.55?5:6;const s=barState(k);X.board={st:s,barHl:.4,zones:k<6?[{a:18,b:18,al:.6+.3*Math.sin(lt*5),c:'#7fe0a0'}]:[]};X.ov=enterCard(lt,k,1);if(k===6)X.shake=[D*.6,D*.9];},
- P25(lt,D,X){const k=Math.min(5,1+Math.floor(seg(lt,.4,D*.75)*5));const s=W_([[8,3],[13,4]]);for(let j=0;j<k;j++)s.p[W(6-j)]=2;s.barB=1;s.p[11]=-5;s.p[16]=-3;s.p[18]=-4;
+ P22(lt,D,X){const s=barState(1);X.board={st:s,barHl:.4,zones:[{a:19,b:23,al:.6,c:'#7fe0a0'}]};X.ov=enterCard(lt,1,pop(lt,.3));},
+ P23(lt,D,X){const k=lt<D/3?2:(lt<2*D/3?3:4);const s=barState(k);X.board={st:s,barHl:.4,zones:[{a:18+k,b:23,al:.6,c:'#7fe0a0'}]};X.ov=enterCard(lt,k,1);},
+ P24(lt,D,X){const k=lt<D*.55?5:6;const s=barState(k);X.board={st:s,barHl:.4,zones:k<6?[{a:23,b:23,al:.6+.3*Math.sin(lt*5),c:'#7fe0a0'}]:[]};X.ov=enterCard(lt,k,1);if(k===6)X.shake=[D*.6,D*.9];},
+ P25(lt,D,X){const k=Math.min(5,1+Math.floor(seg(lt,.4,D*.75)*5));const s=newState();for(let j=0;j<k;j++)s.p[W(6-j)]=2;let rest=15-2*k;for(const [i,cap] of [[12,5],[7,4],[10,3],[9,3]]){const n=Math.min(cap,rest);s.p[i]+=n;rest-=n;}s.barB=1;s.p[11]=-5;s.p[16]=-3;s.p[18]=-4;s.p[17]=-2;
   X.board={st:s,barHl:.4,zones:[{a:6-k,b:5,al:.5,c:'#e0b55a'}],marks:Array.from({length:k},(_,j)=>({k:'lock',x:cx(W(6-j)),y:BH-F-TRI-30,al:1}))};X.ov=enterCard(lt,k,1);},
  P26(lt,D,X){X.board=null;const ic=[TARGET(80,'#0d3326'),`<span class="bf" style="font-size:64px">7+</span>`,LOCK(80,'#0d3326')];const col=['#ff7a59','#7fd3ff','#e0b55a'];
   X.ov=`<div class="a" style="left:60px;top:150px;width:740px;display:flex;gap:22px">${ic.map((h,k)=>{const a=pop(lt,.3+k*.45);return `<div class="card" style="flex:1;height:250px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:${col[k]};${sc(a)}"><span class="pill" style="background:#0d3326;color:#fdfbf0;font-size:24px">${k+1}</span>${h}</div>`;}).join('')}</div>`;},
@@ -232,15 +232,15 @@ const SC={
   X.ov=`<div class="a" style="left:90px;top:150px;width:680px;display:flex;gap:30px">
   <div class="card" style="flex:1;padding:24px;text-align:center;${sc(r1)}"><span class="pill" style="background:#0d3326;color:#fdfbf0;font-size:24px">A</span><div style="margin-top:14px">${TARGET(70)}</div><div class="bf" style="font-size:54px;margin-top:8px">11/36</div></div>
   <div class="card" style="flex:1;padding:24px;text-align:center;${sc(r2)}"><span class="pill" style="background:#0d3326;color:#fdfbf0;font-size:24px">B</span><div style="margin-top:14px">${TARGET(70,'#3fb36b')}</div><div class="bf" style="font-size:54px;margin-top:8px">6/36</div><div style="margin-top:8px;${sc(pop(lt,D*.7))}">${ck(60)}</div></div></div>`;},
- P28(lt,D,X){const s=blotState(5);const a=D*.35;X.board={st:s,mv:[M(5,9,a,a+1.1)],lt,marks:[{k:'target',x:cx(W(5)),y:BH-F-R,al:seg(lt,.3,.7)*(1-seg(lt,a,a+.2))},{k:'shield',x:cx(W(9)),y:BH-F-TRI-40,al:seg(lt,a+1.2,a+1.5)}]};
+ P28(lt,D,X){const s=W_([[6,5],[8,3],[13,5],[24,2]]);s.p[0]=-2;s.p[11]=-5;s.p[16]=-3;s.p[18]=-5;const a=D*.35;X.board={st:s,mv:[M(13,9,a,a+1.1)],lt,marks:[{k:'target',x:cx(W(5)),y:BH-F-R,al:seg(lt,.3,.7)*(1-seg(lt,a,a+.2))},{k:'shield',x:cx(W(9)),y:BH-F-TRI-40,al:seg(lt,a+1.2,a+1.5)}]};
   note(X,lt,lt<a+1.1?'4 → 15/36':'8 → 6/36',null,lt<a+1.1?.2:-1,lt<a+1.1?'42 %':'17 %');},
- P29(lt,D,X){const s=W_([[6,2],[5,2],[4,2],[3,2],[2,2],[8,2],[13,3]]);s.p[W(1)]=-1;s.p[11]=-5;s.p[16]=-3;s.p[18]=-5;const a=D*.5;
-  X.board={st:s,mv:[M(8,1,a,a+1),M(0,'bar',a+.7,a+1.4,'b')],lt,zones:[{a:1,b:5,al:seg(lt,.3,.8),c:'#e0b55a'}],marks:[2,3,4,5,6].map((n,k)=>({k:'lock',x:cx(W(n)),y:BH-F-TRI-30,al:seg(lt,.5+k*.25,.8+k*.25)})).concat([{k:'burst',x:cx(W(1)),y:BH-F-TRI-80,t:'!',al:fade(lt,a+1,a+2.5,D)}])};},
+ P29(lt,D,X){const s=W_([[6,2],[5,2],[4,2],[3,2],[2,2],[8,2],[13,3]]);s.p[W(1)]=-1;s.p[11]=-5;s.p[16]=-4;s.p[18]=-5;const a=D*.5;
+  X.board={st:s,mv:[M(0,'bar',a+.9,a+1.6,'b'),M(8,1,a,a+1)],lt,zones:[{a:1,b:5,al:seg(lt,.3,.8),c:'#e0b55a'}],marks:[2,3,4,5,6].map((n,k)=>({k:'lock',x:cx(W(n)),y:BH-F-TRI-30,al:seg(lt,.5+k*.25,.8+k*.25)})).concat([{k:'burst',x:cx(W(1)),y:BH-F-TRI-80,t:'!',al:fade(lt,a+1,a+2.5,D)}])};},
  P30(lt,D,X){X.board=null;X.ov=`<div class="a" style="left:60px;top:180px;width:740px;display:flex;gap:50px;align-items:center;justify-content:center"><span style="${sc(pop(lt,.2))}">${cubeSvg(2,150)}</span><span style="${sc(pop(lt,D*.4))}">${big('25 %',120,'#fdfbf0')}</span></div>`;},
  P31(lt,D,X){X.board=null;const cards=[0,1,2,3].map(k=>{const a=pop(lt,.3+k*.3);const win=k===0;return `<div class="card" style="flex:1;height:170px;display:flex;align-items:center;justify-content:center;background:${win?'#e9f6ec':'rgba(253,251,240,.15)'};${sc(a)}">${win?ck(80):`<span class="bf" style="font-size:54px;color:rgba(253,251,240,.6)">✕</span>`}</div>`;}).join('');
   X.ov=`<div class="a" style="left:80px;top:140px;width:700px;display:flex;gap:18px">${cards}</div>
   <div class="a" style="left:80px;top:350px;width:700px;display:flex;gap:30px;align-items:center;justify-content:center;opacity:${eo(seg(lt,D*.5,D*.6))}">${big('1/4',90)}<span class="bf" style="font-size:44px;color:#c9a86a">+</span>${TARGET(64,'#fdfbf0')}<span class="bf" style="font-size:44px;color:#c9a86a">+</span>${LOCK(60,'#fdfbf0')}</div>`;},
- P32(lt,D,X){const s=blotState(9);const a=D*.35;X.board={st:s,mv:[M(0,8,a+.6,a+1.6,'b'),M(9,'bar',a+1.4,a+2.1)],lt,marks:[{k:'tag',x:cx(W(9)),y:BH-F-TRI-40,t:'6/36',bg:'#3fb36b',fg:'#fff',al:eo(seg(lt,.3,.7)),fs:24},{k:'burst',x:cx(W(9)),y:BH-F-110,t:'!',al:fade(lt,a+1.6,a+2.8,D)}]};
+ P32(lt,D,X){const s=blotState(9);const a=D*.35;X.board={st:s,mv:[M(9,'bar',a+1.3,a+2.0),M(0,8,a+.6,a+1.6,'b')],lt,marks:[{k:'tag',x:cx(W(9)),y:BH-F-TRI-40,t:'6/36',bg:'#3fb36b',fg:'#fff',al:eo(seg(lt,.3,.7)),fs:24},{k:'burst',x:cx(W(9)),y:BH-F-110,t:'!',al:fade(lt,a+1.6,a+2.8,D)}]};
   note(X,lt,'→ 8',[6,2],a);X.ov=`<div class="a" style="left:370px;top:420px;${sc(pop(lt,D*.75))}">${ck(80)}</div>`;X.bubble={t:'Bam !',a:a+1.6,b:a+3};},
  P33(lt,D,X){X.board={st:startState(),al:.25};const rows=[['A','6/36',.35,'#3fb36b',1],['B','11/36',.62,'#e0b55a',0],['C','17/36',1,'#e0453a',0]];
   X.ov=`<div class="a card" style="left:130px;top:150px;width:600px;padding:24px 28px;${sc(pop(lt,.1))}"><div style="display:flex;align-items:center;gap:14px"><div style="width:52px;height:52px">${LOGO}</div>${TARGET(46,'#0d3326')}</div>
