@@ -1,0 +1,84 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 8 — TEXTES À COLLER DANS ELEVENLABS (ENGLISH)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que pour le français.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1_en.mp3, bloc2_en.mp3, bloc3_en.mp3.
+
+########## BLOC 1 (P01 à P13, 1627 caractères) → bloc1_en.mp3 ##########
+============================================================
+Hello and welcome to the Owl's Lessons! Last time, you learned how to improve against the computer. Today, things get serious: online games against real players.
+
+And with them comes a number everyone watches: the ELO rating. How it's calculated, and how to make it climb. Let's go!
+
+Playing online on TickGammon is simple and free. Everything happens in your browser, on Android or on Windows.
+
+Three steps are enough. First, create your free account, in one minute. Next, choose your game: an online player, a friend or a bot. And finally, roll the dice!
+
+Your account is the same everywhere. You can start a game on your computer and carry on with it on your phone.
+
+Before sending a challenge, you choose the match length, that is, the number of points needed to win.
+
+You also choose the pace. In Zen, you take all the time you want. In Classic, the clock is comfortable.
+
+In Blitz, you have to play fast. And in Bullet, every second counts! Start with a relaxed pace, then speed up once you feel at ease.
+
+You can also play with your friends. Add them, and challenge them even when they're offline: they get a notification. You can even watch their games as a spectator.
+
+Now let's talk about the ELO rating. It's a number that measures your playing level, compared with the other players.
+
+The system comes from chess. Many games use it, because it's simple and fair.
+
+On TickGammon, everyone starts at fifteen hundred. After that, every game against a real player makes your rating go up or down.
+
+And the higher your rating, the higher you climb in the rankings. Only real players count: no bots, and no team accounts.
+============================================================
+
+########## BLOC 2 (P14 à P25, 1260 caractères) → bloc2_en.mp3 ##########
+============================================================
+So how does your rating move? It all depends on your opponent.
+
+If you beat a player at your level, you gain points, and they lose the same amount. With two new players at fifteen hundred, it's sixteen points.
+
+If you beat a stronger player, you gain more. Against an opponent rated two hundred points higher, a win brings you about twenty-four.
+
+On the other hand, beating a much weaker player brings you almost nothing. And losing to them costs a lot! [laughs]
+
+Your rating also moves faster or slower depending on your experience.
+
+During your first fifty games, it moves a lot: the system is getting to know you.
+
+After that, it gradually settles down. After three hundred games, each match only moves it by a few points.
+
+So don't panic if you lose a few points at the start. It's normal, and you'll soon win them back.
+
+The rankings are the showcase of your progress. There you can see your rank, your rating, your wins and your losses.
+
+Some rating milestones also unlock achievements, with rewards to show off on your profile.
+
+And remember: on TickGammon, it's all just a game. TGC are an in-game currency, offered every twelve hours. They can't be withdrawn or converted.
+
+What really matters is your level. And the ELO rating is there to measure it.
+============================================================
+
+########## BLOC 3 (P26 à P35, 1243 caractères) → bloc3_en.mp3 ##########
+============================================================
+Here are four tips to make your rating climb.
+
+First tip: play regularly. A few games every day are better than one long session once a month.
+
+Second tip: after a loss, don't jump straight back in out of frustration. Take a break, then analyse the game.
+
+Third tip: choose opponents at your level, or slightly stronger. That's where you learn the most.
+
+And fourth tip: use everything you've seen in these lessons. The pip count, the doubling cube, the probabilities… every detail counts.
+
+A word about the doubling cube online. In a match, it changes everything, and it also weighs on your rating.
+
+A gammon, or a game with the cube at a high value, can decide the match. Think of the twenty-five percent rule before you take or pass.
+
+And after every match, open the analysis. Your cube decisions are rated there, just like your moves.
+
+And there you go, you now know how to play online: match lengths, paces, your friends, and above all the ELO rating, which climbs when you beat stronger players!
+
+To get started, play for free against other players or against the computer, in your browser, on Android or on Windows. Next time, I'll introduce tournaments, clubs and lessons. Subscribe so you don't miss it! See you soon around the board!
+============================================================

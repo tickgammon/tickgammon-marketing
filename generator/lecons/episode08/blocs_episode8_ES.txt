@@ -1,0 +1,84 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 8 — TEXTES À COLLER DANS ELEVENLABS (ESPAÑOL)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que pour le français.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1_es.mp3, bloc2_es.mp3, bloc3_es.mp3.
+
+########## BLOC 1 (P01 à P13, 1705 caractères) → bloc1_es.mp3 ##########
+============================================================
+¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez aprendisteis a progresar contra el ordenador. Hoy pasamos a lo serio: las partidas en línea contra jugadores reales.
+
+Y con ellas, un número que todo el mundo mira: el ELO. Cómo se calcula, y cómo hacerlo subir. ¡Vamos allá!
+
+Jugar en línea en TickGammon es sencillo y gratuito. Todo pasa en vuestro navegador, en Android o en Windows.
+
+Bastan tres pasos. Primero, cread vuestra cuenta gratuita, en un minuto. Después, elegid vuestra partida: un jugador en línea, un amigo o un robot. ¡Y por último, tirad los dados!
+
+Vuestra cuenta es la misma en todas partes. Podéis empezar una partida en el ordenador y seguirla en el móvil.
+
+Antes de lanzar un desafío, elegís la duración del match, es decir, el número de puntos que hay que alcanzar para ganar.
+
+También elegís el ritmo. En Zen, os tomáis todo el tiempo que queráis. En Clásico, el tiempo es cómodo.
+
+En Blitz, hay que jugar rápido. ¡Y en Bullet, cada segundo cuenta! Empezad con un ritmo tranquilo, y acelerad cuando os sintáis cómodos.
+
+También podéis jugar con vuestros amigos. Añadidlos y desafiadlos aunque no estén conectados: reciben una notificación. Incluso podéis ver sus partidas como espectadores.
+
+Pasemos ahora al ELO. Es un número que mide vuestro nivel de juego, comparado con el de los demás jugadores.
+
+Este sistema viene del ajedrez. Se usa en muchos juegos, porque es sencillo y justo.
+
+En TickGammon, todo el mundo empieza con mil quinientos. Después, cada partida contra un jugador real hace subir o bajar vuestro ELO.
+
+Y cuanto más alto sea vuestro ELO, más subís en la clasificación. Solo cuentan los jugadores reales: ni los robots, ni las cuentas del equipo.
+============================================================
+
+########## BLOC 2 (P14 à P25, 1285 caractères) → bloc2_es.mp3 ##########
+============================================================
+¿Cómo se mueve el ELO? Todo depende de vuestro adversario.
+
+Si ganáis a un jugador de vuestro nivel, ganáis puntos, y él pierde los mismos. Con dos jugadores nuevos de mil quinientos, son dieciséis puntos.
+
+Si ganáis a un jugador más fuerte, ganáis más. Contra un adversario con doscientos puntos más, la victoria os da unos veinticuatro.
+
+En cambio, ganar a un jugador mucho más débil casi no da nada. ¡Y perder contra él sale caro! [laughs]
+
+Vuestro ELO también se mueve más o menos rápido según vuestra experiencia.
+
+Durante vuestras cincuenta primeras partidas, se mueve mucho: el sistema está aprendiendo a conoceros.
+
+Después, se estabiliza poco a poco. A partir de trescientas partidas, cada match solo lo mueve unos pocos puntos.
+
+Así que no os preocupéis si perdéis algunos puntos al principio. Es normal, y se recuperan rápido.
+
+La clasificación es el escaparate de vuestro progreso. Allí veis vuestro puesto, vuestro ELO, vuestras victorias y vuestras derrotas.
+
+Algunos niveles de ELO también desbloquean logros, con recompensas para lucir en vuestro perfil.
+
+Y recordad: en TickGammon, todo es un juego. Los TGC son una moneda de juego, regalada cada doce horas. No se puede retirar ni convertir.
+
+Lo que de verdad importa es vuestro nivel. Y el ELO está ahí para medirlo.
+============================================================
+
+########## BLOC 3 (P26 à P35, 1338 caractères) → bloc3_es.mp3 ##########
+============================================================
+Aquí tenéis cuatro consejos para hacer subir vuestro ELO.
+
+Primer consejo: jugad con regularidad. Unas cuantas partidas cada día valen más que una sesión larga una vez al mes.
+
+Segundo consejo: después de una derrota, no volváis a jugar enseguida por enfado. Haced una pausa, y luego analizad la partida.
+
+Tercer consejo: elegid adversarios de vuestro nivel, o un poco más fuertes. Es ahí donde más aprendéis.
+
+Y cuarto consejo: usad todo lo que habéis visto en estas lecciones. El conteo de pips, el cubo doblador, las probabilidades… cada detalle cuenta.
+
+Una palabra sobre el cubo doblador en línea. En un match lo cambia todo, y también pesa en vuestro ELO.
+
+Un gammon, o una partida con el cubo muy alto, puede decidir el match. Pensad en la regla del veinticinco por ciento antes de aceptar o rechazar.
+
+Y después de cada match, abrid el análisis. Allí se valoran vuestras decisiones con el cubo, igual que vuestras jugadas.
+
+¡Y listo, ya sabéis jugar en línea: los formatos, los ritmos, vuestros amigos, y sobre todo el ELO, que sube cuando ganáis a jugadores más fuertes!
+
+Para empezar, jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows. La próxima vez os presento los torneos, los clubes y las clases. ¡Suscribíos para no perdérosla! ¡Hasta muy pronto alrededor del tablero!
+============================================================

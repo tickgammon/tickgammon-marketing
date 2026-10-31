@@ -1,0 +1,35 @@
+P01|0|Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez appris à progresser contre l'ordinateur. Aujourd'hui, on passe aux choses sérieuses : les parties en ligne contre de vrais joueurs.
+P02|0|Et avec elles, un chiffre que tout le monde regarde : l'ELO. Comment il se calcule, et comment le faire monter. On y va !
+P03|1|Jouer en ligne sur TickGammon, c'est simple et gratuit. Tout se passe dans votre navigateur, sur Android ou sur Windows.
+P04|1|Trois étapes suffisent. D'abord, créez votre compte gratuit, en une minute. Ensuite, choisissez votre partie : un joueur en ligne, un ami ou un robot. Et enfin, lancez les dés !
+P05|1|Votre compte est le même partout. Vous pouvez commencer une partie sur l'ordinateur, et la continuer sur votre téléphone.
+P06|2|Avant de lancer un défi, vous choisissez le format du match, c'est-à-dire le nombre de points à atteindre pour gagner.
+P07|2|Vous choisissez aussi le rythme. En Zen, vous prenez tout votre temps. En Classique, le temps est confortable.
+P08|2|En Blitz, il faut jouer vite. Et en Bullet, chaque seconde compte ! Commencez par un rythme tranquille, puis accélérez quand vous êtes à l'aise.
+P09|2|Vous pouvez aussi jouer avec vos amis. Ajoutez-les, et défiez-les même s'ils ne sont pas connectés : ils reçoivent une notification. Vous pouvez même regarder leurs parties en spectateur.
+P10|3|Passons maintenant à l'ELO. C'est un nombre qui mesure votre niveau de jeu, comparé à celui des autres joueurs.
+P11|3|Ce système vient des échecs. On l'utilise dans beaucoup de jeux, parce qu'il est simple et juste.
+P12|3|Sur TickGammon, tout le monde commence à mille cinq cents. Ensuite, chaque partie contre un vrai joueur fait monter ou descendre votre ELO.
+P13|3|Et plus votre ELO est haut, plus vous montez dans le classement. Il compte les vrais joueurs uniquement : ni les robots, ni les comptes de l'équipe.
+P14|4|Comment l'ELO bouge-t-il ? Tout dépend de votre adversaire.
+P15|4|Si vous battez un joueur de votre niveau, vous gagnez des points, et il en perd autant. Avec deux joueurs à mille cinq cents qui débutent, c'est seize points.
+P16|4|Si vous battez un joueur plus fort que vous, vous gagnez davantage. Contre un adversaire qui a deux cents points de plus, la victoire en rapporte environ vingt-quatre.
+P17|4|À l'inverse, battre un joueur beaucoup plus faible ne rapporte presque rien. Et perdre contre lui coûte cher ! [laughs]
+P18|5|Votre ELO bouge aussi plus ou moins vite selon votre expérience.
+P19|5|Pendant vos cinquante premières parties, il bouge beaucoup : le système apprend à vous connaître.
+P20|5|Ensuite, il se stabilise peu à peu. Après trois cents parties, chaque match ne le fait plus bouger que de quelques points.
+P21|5|Alors pas de panique si vous perdez quelques points au début. C'est normal, et cela se rattrape vite.
+P22|6|Le classement, c'est la vitrine de votre progression. Vous y voyez votre rang, votre ELO, vos victoires et vos défaites.
+P23|6|Certains paliers d'ELO débloquent aussi des succès, avec des récompenses à afficher sur votre profil.
+P24|6|Et rappelez-vous : sur TickGammon, tout reste un jeu. Les TGC sont une monnaie de jeu, offerte toutes les douze heures. Elle ne se retire pas et ne se convertit pas.
+P25|6|Ce qui compte vraiment, c'est votre niveau. Et l'ELO est là pour le mesurer.
+P26|7|Voici maintenant quatre conseils pour faire monter votre ELO.
+P27|7|Premier conseil : jouez régulièrement. Quelques parties chaque jour valent mieux qu'une longue séance une fois par mois.
+P28|7|Deuxième conseil : après une défaite, ne relancez pas tout de suite par énervement. Faites une pause, puis analysez la partie.
+P29|7|Troisième conseil : choisissez des adversaires de votre niveau, ou un peu plus forts. C'est là que vous apprenez le plus.
+P30|7|Et quatrième conseil : utilisez tout ce que vous avez vu dans ces leçons. Le compte de pips, le videau, les probabilités… chaque détail compte.
+P31|8|Un mot sur le videau en ligne. Dans un match, il change tout, et il pèse aussi sur votre ELO.
+P32|8|Un gammon ou une partie au videau élevé peut décider du match. Pensez à la règle des vingt-cinq pour cent avant d'accepter ou de refuser.
+P33|8|Et après chaque match, ouvrez l'analyse. Vos décisions de videau y sont notées, comme vos coups.
+P34|9|Et voilà, vous savez maintenant jouer en ligne : les formats, les rythmes, vos amis, et surtout l'ELO, qui grimpe quand vous battez des joueurs plus forts !
+P35|9|Pour vous lancer, jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows. La prochaine fois, je vous présente les tournois, les clubs et les cours. Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !

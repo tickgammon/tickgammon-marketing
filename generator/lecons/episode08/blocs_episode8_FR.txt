@@ -1,0 +1,84 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 8 — TEXTES À COLLER DANS ELEVENLABS (FR)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que ton test.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1.mp3, bloc2.mp3, bloc3.mp3.
+
+########## BLOC 1 (P01 à P13, 1830 caractères) → bloc1.mp3 ##########
+============================================================
+Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez appris à progresser contre l'ordinateur. Aujourd'hui, on passe aux choses sérieuses : les parties en ligne contre de vrais joueurs.
+
+Et avec elles, un chiffre que tout le monde regarde : l'ELO. Comment il se calcule, et comment le faire monter. On y va !
+
+Jouer en ligne sur TickGammon, c'est simple et gratuit. Tout se passe dans votre navigateur, sur Android ou sur Windows.
+
+Trois étapes suffisent. D'abord, créez votre compte gratuit, en une minute. Ensuite, choisissez votre partie : un joueur en ligne, un ami ou un robot. Et enfin, lancez les dés !
+
+Votre compte est le même partout. Vous pouvez commencer une partie sur l'ordinateur, et la continuer sur votre téléphone.
+
+Avant de lancer un défi, vous choisissez le format du match, c'est-à-dire le nombre de points à atteindre pour gagner.
+
+Vous choisissez aussi le rythme. En Zen, vous prenez tout votre temps. En Classique, le temps est confortable.
+
+En Blitz, il faut jouer vite. Et en Bullet, chaque seconde compte ! Commencez par un rythme tranquille, puis accélérez quand vous êtes à l'aise.
+
+Vous pouvez aussi jouer avec vos amis. Ajoutez-les, et défiez-les même s'ils ne sont pas connectés : ils reçoivent une notification. Vous pouvez même regarder leurs parties en spectateur.
+
+Passons maintenant à l'ELO. C'est un nombre qui mesure votre niveau de jeu, comparé à celui des autres joueurs.
+
+Ce système vient des échecs. On l'utilise dans beaucoup de jeux, parce qu'il est simple et juste.
+
+Sur TickGammon, tout le monde commence à mille cinq cents. Ensuite, chaque partie contre un vrai joueur fait monter ou descendre votre ELO.
+
+Et plus votre ELO est haut, plus vous montez dans le classement. Il compte les vrais joueurs uniquement : ni les robots, ni les comptes de l'équipe.
+============================================================
+
+########## BLOC 2 (P14 à P25, 1371 caractères) → bloc2.mp3 ##########
+============================================================
+Comment l'ELO bouge-t-il ? Tout dépend de votre adversaire.
+
+Si vous battez un joueur de votre niveau, vous gagnez des points, et il en perd autant. Avec deux joueurs à mille cinq cents qui débutent, c'est seize points.
+
+Si vous battez un joueur plus fort que vous, vous gagnez davantage. Contre un adversaire qui a deux cents points de plus, la victoire en rapporte environ vingt-quatre.
+
+À l'inverse, battre un joueur beaucoup plus faible ne rapporte presque rien. Et perdre contre lui coûte cher ! [laughs]
+
+Votre ELO bouge aussi plus ou moins vite selon votre expérience.
+
+Pendant vos cinquante premières parties, il bouge beaucoup : le système apprend à vous connaître.
+
+Ensuite, il se stabilise peu à peu. Après trois cents parties, chaque match ne le fait plus bouger que de quelques points.
+
+Alors pas de panique si vous perdez quelques points au début. C'est normal, et cela se rattrape vite.
+
+Le classement, c'est la vitrine de votre progression. Vous y voyez votre rang, votre ELO, vos victoires et vos défaites.
+
+Certains paliers d'ELO débloquent aussi des succès, avec des récompenses à afficher sur votre profil.
+
+Et rappelez-vous : sur TickGammon, tout reste un jeu. Les TGC sont une monnaie de jeu, offerte toutes les douze heures. Elle ne se retire pas et ne se convertit pas.
+
+Ce qui compte vraiment, c'est votre niveau. Et l'ELO est là pour le mesurer.
+============================================================
+
+########## BLOC 3 (P26 à P35, 1350 caractères) → bloc3.mp3 ##########
+============================================================
+Voici maintenant quatre conseils pour faire monter votre ELO.
+
+Premier conseil : jouez régulièrement. Quelques parties chaque jour valent mieux qu'une longue séance une fois par mois.
+
+Deuxième conseil : après une défaite, ne relancez pas tout de suite par énervement. Faites une pause, puis analysez la partie.
+
+Troisième conseil : choisissez des adversaires de votre niveau, ou un peu plus forts. C'est là que vous apprenez le plus.
+
+Et quatrième conseil : utilisez tout ce que vous avez vu dans ces leçons. Le compte de pips, le videau, les probabilités… chaque détail compte.
+
+Un mot sur le videau en ligne. Dans un match, il change tout, et il pèse aussi sur votre ELO.
+
+Un gammon ou une partie au videau élevé peut décider du match. Pensez à la règle des vingt-cinq pour cent avant d'accepter ou de refuser.
+
+Et après chaque match, ouvrez l'analyse. Vos décisions de videau y sont notées, comme vos coups.
+
+Et voilà, vous savez maintenant jouer en ligne : les formats, les rythmes, vos amis, et surtout l'ELO, qui grimpe quand vous battez des joueurs plus forts !
+
+Pour vous lancer, jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows. La prochaine fois, je vous présente les tournois, les clubs et les cours. Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
+============================================================
