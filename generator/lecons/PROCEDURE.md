@@ -50,6 +50,8 @@ Travailler dans le scratchpad (`…/scratchpad/epN/`), y copier : les 9 MP3, `pa
      - **contrôle automatique avant le rendu** : pour chaque scène avec plateau, vérifier par script que chaque couleur totalise 15
        (plateau + barre + sortis) à tout instant, que chaque mouvement blanc a `from > to` (et `to = 0` = sortie en bas à droite),
        et que les flèches/arcs suivent ce sens ; corriger avant de lancer le rendu complet.
+       → **`node check_board.js leconN.html timeline.json`** (script dans `generator/lecons/`, à lancer depuis le dossier de travail) :
+       il doit afficher **« OK : 0 violation »** avant tout rendu complet.
    - sur le plateau : **chiffres et symboles seulement** (dés, « 8/5 », cadenas, flèches, ✓ ✗) ; mots du jeu acceptés : BLOT, PRIME, BAR POINT ;
    - titres de chapitre : **FR en grand + EN et ES en dessous** (tableau `CH`) ; **pas de sous-titres incrustés** ;
    - carte « coup » en haut à droite (`X.note`) ; chouette en bas à droite ;
