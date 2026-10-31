@@ -1,0 +1,228 @@
+1
+00:00:01,200 --> 00:00:08,173
+Hello and welcome to the Owl's Lessons! Last time, you discovered the chouette, backgammon for a group.
+
+2
+00:00:07,873 --> 00:00:12,254
+Today, we're facing an opponent who never sleeps: the computer.
+
+3
+00:00:13,849 --> 00:00:18,279
+Playing against a bot isn't just something to do when nobody's around.
+
+4
+00:00:17,979 --> 00:00:21,347
+Used well, it's the best teacher there is. Let's go!
+
+5
+00:00:23,991 --> 00:00:28,802
+The first reason to play against the computer: it's available at any time.
+
+6
+00:00:28,502 --> 00:00:32,399
+No waiting, no schedule, the game starts whenever you want.
+
+7
+00:00:33,070 --> 00:00:35,989
+The second reason: there's no pressure at all.
+
+8
+00:00:35,689 --> 00:00:42,082
+It's perfect for learning the rules, testing an opening or regaining confidence before facing real players.
+
+9
+00:00:43,899 --> 00:00:49,392
+And the third reason: it's a demanding opponent. A bot never makes a careless mistake.
+
+10
+00:00:49,092 --> 00:00:53,680
+Beating it means playing really well… with a little luck with the dice.
+
+11
+00:00:57,056 --> 00:01:01,605
+On TickGammon, the bots are built on GNU Backgammon, often called gnubg.
+
+12
+00:01:01,305 --> 00:01:05,087
+It's one of the strongest backgammon programs in the world.
+
+13
+00:01:06,622 --> 00:01:11,356
+It's free and open-source software, developed by a community of enthusiasts.
+
+14
+00:01:11,506 --> 00:01:18,041
+Like the famous TD-Gammon before it, it uses neural networks, trained on a very large number of games.
+
+15
+00:01:18,693 --> 00:01:25,545
+It evaluates each position, chooses the move that gives it the best chances, and also makes the doubling cube decisions.
+
+16
+00:01:25,245 --> 00:01:28,494
+It's stronger than the vast majority of human players.
+
+17
+00:01:31,452 --> 00:01:36,669
+So, does the computer cheat with the dice? It's a question everyone asks one day.
+
+18
+00:01:37,865 --> 00:01:41,696
+The answer is no. The bot has no advantage with the dice.
+
+19
+00:01:41,396 --> 00:01:44,794
+It wins only through the quality of its decisions.
+
+20
+00:01:46,837 --> 00:01:52,101
+If it feels like it always gets the right roll, look instead at how it places its checkers.
+
+21
+00:01:51,801 --> 00:01:54,555
+It puts them where lots of rolls work for it.
+
+22
+00:01:55,268 --> 00:02:02,135
+Remember the lesson on probabilities? The bot counts everything, on every move. That's its real secret!
+
+23
+00:02:05,242 --> 00:02:09,722
+The real value of the computer is that it shows you your mistakes.
+
+24
+00:02:09,422 --> 00:02:13,016
+After a game, you can have it analysed move by move.
+
+25
+00:02:14,463 --> 00:02:20,402
+For each move, the analysis shows you the best possible choice, and compares it with the one you played.
+
+26
+00:02:20,918 --> 00:02:27,482
+When you got it wrong, it tells you how much that mistake cost you. A small inaccuracy isn't a big deal.
+
+27
+00:02:27,182 --> 00:02:31,337
+A big mistake, on the other hand, is one you need to understand.
+
+28
+00:02:31,487 --> 00:02:37,078
+Don't try to fix everything at once. Focus on the two or three biggest mistakes of the game.
+
+29
+00:02:36,778 --> 00:02:39,148
+That's where you'll improve fastest.
+
+30
+00:02:42,527 --> 00:02:46,064
+An important tip: don't just look at the result of the game.
+
+31
+00:02:47,076 --> 00:02:50,852
+A win can hide big mistakes, because the dice saved you.
+
+32
+00:02:50,552 --> 00:02:54,329
+And a loss can come from the dice, despite perfect play.
+
+33
+00:02:56,164 --> 00:03:01,260
+The result partly depends on luck. The analysis only looks at your decisions.
+
+34
+00:03:00,960 --> 00:03:03,378
+It's the one that tells the truth!
+
+35
+00:03:06,539 --> 00:03:09,981
+On TickGammon, the Training module goes even further.
+
+36
+00:03:09,681 --> 00:03:13,894
+It has you work on selected positions, and it analyses your moves.
+
+37
+00:03:15,283 --> 00:03:20,689
+You play a position, then you see straight away whether your move was right, and what the best one was.
+
+38
+00:03:21,048 --> 00:03:26,543
+It's the fastest way to fix your habits: openings, hitting, the race, the doubling cube…
+
+39
+00:03:26,243 --> 00:03:28,904
+everything you've seen in these lessons.
+
+40
+00:03:30,464 --> 00:03:38,043
+And with the Wisdom Pack, the artificial intelligence can even explain your mistake in plain language, and the analysis goes deeper.
+
+41
+00:03:39,393 --> 00:03:43,963
+Instead of just a number, you understand why one move is better than another.
+
+42
+00:03:43,663 --> 00:03:46,237
+And that's what really makes you improve.
+
+43
+00:03:48,702 --> 00:03:53,239
+Here's a simple method for improving against the computer, in three steps.
+
+44
+00:03:54,030 --> 00:03:59,722
+Step one: play a full game, calmly, without looking at any hints during play.
+
+45
+00:04:00,419 --> 00:04:06,200
+Step two: have the game analysed, and write down your two or three biggest mistakes.
+
+46
+00:04:07,262 --> 00:04:13,148
+Step three: replay those positions in Training until you find the right move first time.
+
+47
+00:04:12,848 --> 00:04:15,243
+Then start again with a new game.
+
+48
+00:04:18,847 --> 00:04:23,970
+Are you a beginner, worried that it's too hard? It's normal to lose often at first.
+
+49
+00:04:25,167 --> 00:04:28,985
+But every game against a strong opponent teaches you something.
+
+50
+00:04:28,685 --> 00:04:32,392
+And little by little, your mistakes become rarer and smaller.
+
+51
+00:04:33,412 --> 00:04:41,021
+If needed, go back over the previous lessons: the rules, the openings, the doubling cube, the race and the probabilities.
+
+52
+00:04:40,721 --> 00:04:44,102
+It all comes together on the board against the bot.
+
+53
+00:04:44,570 --> 00:04:48,942
+And when you feel ready, move on to online games against real players!
+
+54
+00:04:51,618 --> 00:05:01,493
+And there you go, you now know how to use the computer to improve: an opponent that's always available, honest dice, and an analysis that shows you your mistakes.
+
+55
+00:05:01,643 --> 00:05:06,832
+Games against the bots are free, in your browser, on Android or on Windows.
+
+56
+00:05:06,532 --> 00:05:12,568
+Next time, we move on to online games: rankings and ELO. Subscribe so you don't miss it!
+
+57
+00:05:12,268 --> 00:05:14,523
+See you soon around the board!
+

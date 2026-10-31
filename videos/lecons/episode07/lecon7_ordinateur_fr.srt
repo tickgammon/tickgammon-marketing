@@ -1,0 +1,240 @@
+1
+00:00:01,200 --> 00:00:04,610
+Bonjour et bienvenue dans les Leçons de la chouette !
+
+2
+00:00:04,310 --> 00:00:09,128
+La dernière fois, vous avez découvert la chouette, le backgammon à plusieurs.
+
+3
+00:00:08,828 --> 00:00:13,412
+Aujourd'hui, on affronte un adversaire qui ne dort jamais : l'ordinateur.
+
+4
+00:00:13,849 --> 00:00:18,590
+Jouer contre un robot, ce n'est pas seulement pour s'occuper quand personne n'est là.
+
+5
+00:00:18,290 --> 00:00:21,621
+Bien utilisé, c'est le meilleur des professeurs. On y va !
+
+6
+00:00:23,991 --> 00:00:28,615
+Première raison de jouer contre l'ordinateur : il est disponible à toute heure.
+
+7
+00:00:28,315 --> 00:00:32,556
+Pas d'attente, pas d'horaire, la partie commence dès que vous le voulez.
+
+8
+00:00:33,070 --> 00:00:35,856
+Deuxième raison : il n'y a aucune pression.
+
+9
+00:00:35,556 --> 00:00:42,677
+C'est idéal pour apprendre les règles, tester une ouverture ou reprendre confiance avant d'affronter de vrais joueurs.
+
+10
+00:00:43,899 --> 00:00:49,961
+Et troisième raison : c'est un adversaire exigeant. Un robot ne fait jamais d'erreur d'inattention.
+
+11
+00:00:49,661 --> 00:00:53,919
+Le battre, c'est vraiment bien jouer… avec un peu de chance aux dés.
+
+12
+00:00:57,056 --> 00:01:02,062
+Sur TickGammon, les robots s'appuient sur GNU Backgammon, qu'on appelle souvent gnubg.
+
+13
+00:01:01,762 --> 00:01:05,564
+C'est l'un des programmes de backgammon les plus forts au monde.
+
+14
+00:01:06,622 --> 00:01:11,189
+C'est un logiciel libre et gratuit, développé par une communauté de passionnés.
+
+15
+00:01:11,506 --> 00:01:18,173
+Comme le célèbre TD-Gammon avant lui, il utilise des réseaux de neurones, entraînés sur un très grand nombre de parties.
+
+16
+00:01:18,693 --> 00:01:25,113
+Il évalue chaque position, choisit le coup qui lui donne les meilleures chances, et prend aussi les décisions de videau.
+
+17
+00:01:24,813 --> 00:01:28,173
+Il est plus fort que la grande majorité des joueurs humains.
+
+18
+00:01:31,452 --> 00:01:36,996
+Mais alors, l'ordinateur triche-t-il avec les dés ? C'est la question que tout le monde se pose un jour.
+
+19
+00:01:37,865 --> 00:01:41,870
+La réponse est non. Le robot n'a aucun avantage sur les dés.
+
+20
+00:01:41,570 --> 00:01:45,328
+Il gagne uniquement grâce à la qualité de ses décisions.
+
+21
+00:01:46,837 --> 00:01:52,003
+Si vous avez l'impression qu'il a toujours les bons dés, regardez plutôt comment il place ses pions.
+
+22
+00:01:51,703 --> 00:01:54,388
+Il les met là où beaucoup de lancers l'arrangent.
+
+23
+00:01:55,268 --> 00:02:01,057
+Vous vous souvenez de la leçon sur les probabilités ? Le robot, lui, compte tout, à chaque coup.
+
+24
+00:02:00,757 --> 00:02:02,372
+Voilà son vrai secret !
+
+25
+00:02:05,242 --> 00:02:09,095
+Le vrai intérêt de l'ordinateur, c'est de vous montrer vos erreurs.
+
+26
+00:02:08,795 --> 00:02:12,382
+Après une partie, vous pouvez la faire analyser coup par coup.
+
+27
+00:02:14,463 --> 00:02:20,168
+Pour chaque coup, l'analyse vous montre le meilleur choix possible, et le compare à celui que vous avez joué.
+
+28
+00:02:20,918 --> 00:02:25,236
+Quand vous vous êtes trompé, elle vous dit combien cette erreur vous a coûté.
+
+29
+00:02:24,936 --> 00:02:30,141
+Une petite imprécision n'est pas grave. Une grosse erreur, en revanche, il faut la comprendre.
+
+30
+00:02:31,487 --> 00:02:33,896
+Ne cherchez pas à tout corriger d'un coup.
+
+31
+00:02:33,596 --> 00:02:37,510
+Concentrez-vous sur les deux ou trois plus grosses erreurs de la partie.
+
+32
+00:02:37,210 --> 00:02:39,719
+C'est là que vous progresserez le plus vite.
+
+33
+00:02:42,527 --> 00:02:46,749
+Un conseil important : ne regardez pas seulement le résultat de la partie.
+
+34
+00:02:47,076 --> 00:02:51,379
+Une victoire peut cacher de grosses erreurs, parce que les dés vous ont sauvé.
+
+35
+00:02:51,079 --> 00:02:54,304
+Et une défaite peut venir des dés, malgré un jeu parfait.
+
+36
+00:02:56,164 --> 00:03:02,398
+Le résultat dépend en partie de la chance. L'analyse, elle, ne regarde que vos décisions.
+
+37
+00:03:02,098 --> 00:03:04,398
+C'est elle qui dit la vérité !
+
+38
+00:03:06,539 --> 00:03:09,965
+Sur TickGammon, le module Entraînement va encore plus loin.
+
+39
+00:03:09,665 --> 00:03:13,780
+Il vous fait travailler des positions choisies, et il analyse vos coups.
+
+40
+00:03:15,283 --> 00:03:20,721
+Vous jouez une position, puis vous voyez tout de suite si votre coup était le bon, et quel était le meilleur.
+
+41
+00:03:21,048 --> 00:03:26,554
+C'est le moyen le plus rapide de corriger vos habitudes : ouvertures, frappes, course, videau…
+
+42
+00:03:26,254 --> 00:03:28,824
+tout ce que vous avez vu dans ces leçons.
+
+43
+00:03:30,464 --> 00:03:38,571
+Et avec le Pack Sagesse, l'intelligence artificielle peut même vous expliquer votre erreur en langage clair, et l'analyse va plus en profondeur.
+
+44
+00:03:39,393 --> 00:03:44,183
+Au lieu d'un simple chiffre, vous comprenez pourquoi un coup est meilleur qu'un autre.
+
+45
+00:03:43,883 --> 00:03:46,533
+Et ça, c'est ce qui fait vraiment progresser.
+
+46
+00:03:48,702 --> 00:03:53,323
+Voici une méthode simple pour progresser contre l'ordinateur, en trois étapes.
+
+47
+00:03:54,030 --> 00:03:59,874
+Première étape : jouez une partie complète, tranquillement, sans regarder les conseils pendant le jeu.
+
+48
+00:04:00,419 --> 00:04:05,908
+Deuxième étape : faites analyser la partie, et notez vos deux ou trois plus grosses erreurs.
+
+49
+00:04:07,262 --> 00:04:13,166
+Troisième étape : rejouez ces positions dans l'Entraînement, jusqu'à trouver le bon coup du premier coup.
+
+50
+00:04:12,866 --> 00:04:15,408
+Puis recommencez avec une nouvelle partie.
+
+51
+00:04:18,847 --> 00:04:24,247
+Vous débutez et vous avez peur que ce soit trop difficile ? C'est normal de perdre souvent au début.
+
+52
+00:04:25,167 --> 00:04:29,322
+Mais chaque partie contre un adversaire solide vous apprend quelque chose.
+
+53
+00:04:29,022 --> 00:04:32,864
+Et petit à petit, vos erreurs deviennent plus rares et plus petites.
+
+54
+00:04:33,412 --> 00:04:40,407
+Si besoin, revoyez les leçons précédentes : les règles, les ouvertures, le videau, la course et les probabilités.
+
+55
+00:04:40,107 --> 00:04:43,133
+Tout se retrouve sur le plateau face au robot.
+
+56
+00:04:44,570 --> 00:04:49,031
+Et quand vous vous sentirez prêt, passez aux parties en ligne contre de vrais joueurs !
+
+57
+00:04:51,618 --> 00:05:01,033
+Et voilà, vous savez maintenant utiliser l'ordinateur pour progresser : un adversaire toujours disponible, des dés honnêtes, et une analyse qui vous montre vos erreurs.
+
+58
+00:05:01,643 --> 00:05:07,113
+Les parties contre les robots sont gratuites, dans votre navigateur, sur Android ou sur Windows.
+
+59
+00:05:06,813 --> 00:05:11,099
+La prochaine fois, on passe aux parties en ligne : le classement et l'ELO.
+
+60
+00:05:10,799 --> 00:05:14,815
+Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
+

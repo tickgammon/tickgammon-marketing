@@ -1,0 +1,76 @@
+TITRE FR
+Progresser au backgammon contre l'ordinateur : GNU Backgammon et l'analyse 🦉 Leçon 7
+
+DESCRIPTION FR
+Comment utiliser l'ordinateur pour progresser au backgammon, expliqué par la chouette de TickGammon : pourquoi jouer contre un robot, ce qu'est GNU Backgammon, pourquoi les dés ne sont pas truqués, comment lire l'analyse de vos parties, le module Entraînement… et une méthode simple en 3 étapes.
+
+🎲 Jouez gratuitement contre l'ordinateur : https://www.tickgammon.com (navigateur, Android, Windows)
+🤖 Jouer contre l'ordinateur : https://www.tickgammon.com/backgammon-contre-ordinateur.php
+
+0:00 Introduction
+0:22 Pourquoi l'ordinateur
+0:55 GNU Backgammon
+1:29 Les dés sont honnêtes
+2:03 L'analyse
+2:40 Résultat ≠ jeu
+3:04 L'Entraînement
+3:46 La méthode
+4:17 Pour débuter
+4:49 Conclusion
+
+🤖 Voix et animations créées avec l'aide de l'IA.
+
+TAGS
+backgammon, backgammon contre l'ordinateur, GNU Backgammon, gnubg, analyse backgammon, progresser au backgammon, entraînement backgammon, robot backgammon, apprendre le backgammon, backgammon débutant, TickGammon, leçon de backgammon
+
+=====
+TITLE EN
+Improve at backgammon against the computer: GNU Backgammon and analysis 🦉 Lesson 7
+
+DESCRIPTION EN
+How to use the computer to improve at backgammon, explained by the TickGammon owl: why play against a bot, what GNU Backgammon is, why the dice aren't rigged, how to read the analysis of your games, the Training module… and a simple 3-step method.
+
+🎲 Play for free against the computer: https://www.tickgammon.com (browser, Android, Windows)
+🤖 Play against the computer: https://www.tickgammon.com/backgammon-contre-ordinateur.php?lang=en
+
+0:00 Introduction
+0:22 Why the computer
+0:55 GNU Backgammon
+1:29 Honest dice
+2:03 The analysis
+2:40 Result ≠ play
+3:04 Training
+3:46 The method
+4:17 Getting started
+4:49 Conclusion
+
+🤖 Voice and animations created with the help of AI.
+
+TAGS EN
+backgammon, backgammon against the computer, GNU Backgammon, gnubg, backgammon analysis, improve at backgammon, backgammon training, backgammon bot, learn backgammon, backgammon for beginners, TickGammon, backgammon lesson
+
+=====
+TÍTULO ES
+Progresar en backgammon contra el ordenador: GNU Backgammon y el análisis 🦉 Lección 7
+
+DESCRIPCIÓN ES
+Cómo usar el ordenador para progresar en backgammon, explicado por la lechuza de TickGammon: por qué jugar contra un robot, qué es GNU Backgammon, por qué los dados no están trucados, cómo leer el análisis de vuestras partidas, el módulo Entrenamiento… y un método sencillo en 3 pasos.
+
+🎲 Juega gratis contra el ordenador: https://www.tickgammon.com (navegador, Android, Windows)
+🤖 Jugar contra el ordenador: https://www.tickgammon.com/backgammon-contre-ordinateur.php?lang=es
+
+0:00 Introducción
+0:22 Por qué el ordenador
+0:55 GNU Backgammon
+1:29 Dados honestos
+2:03 El análisis
+2:40 Resultado ≠ juego
+3:04 Entrenamiento
+3:46 El método
+4:17 Para empezar
+4:49 Conclusión
+
+🤖 Voz y animaciones creadas con ayuda de la IA.
+
+ETIQUETAS ES
+backgammon, backgammon contra el ordenador, GNU Backgammon, gnubg, análisis backgammon, progresar en backgammon, entrenamiento backgammon, robot backgammon, aprender backgammon, backgammon principiantes, TickGammon, lección de backgammon

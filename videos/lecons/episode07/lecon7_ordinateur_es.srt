@@ -1,0 +1,236 @@
+1
+00:00:01,200 --> 00:00:04,870
+¡Hola y bienvenidos a las Lecciones de la lechuza!
+
+2
+00:00:04,570 --> 00:00:09,183
+La última vez descubristeis la chouette, el backgammon en grupo.
+
+3
+00:00:08,883 --> 00:00:13,699
+Hoy nos enfrentamos a un adversario que nunca duerme: el ordenador.
+
+4
+00:00:13,849 --> 00:00:18,652
+Jugar contra un robot no es solo para pasar el rato cuando no hay nadie.
+
+5
+00:00:18,352 --> 00:00:22,091
+Bien usado, es el mejor de los profesores. ¡Vamos allá!
+
+6
+00:00:23,991 --> 00:00:29,231
+Primera razón para jugar contra el ordenador: está disponible a cualquier hora.
+
+7
+00:00:28,931 --> 00:00:32,920
+Sin esperas ni horarios, la partida empieza cuando queráis.
+
+8
+00:00:33,070 --> 00:00:35,866
+Segunda razón: no hay ninguna presión.
+
+9
+00:00:35,566 --> 00:00:43,749
+Es ideal para aprender las reglas, probar una apertura o recuperar la confianza antes de enfrentaros a jugadores reales.
+
+10
+00:00:43,899 --> 00:00:50,341
+Y tercera razón: es un adversario exigente. Un robot nunca comete un error por descuido.
+
+11
+00:00:50,041 --> 00:00:55,156
+Ganarle es jugar realmente bien… con un poco de suerte con los dados.
+
+12
+00:00:57,056 --> 00:01:02,647
+En TickGammon, los robots se basan en GNU Backgammon, al que se suele llamar gnubg.
+
+13
+00:01:02,347 --> 00:01:06,472
+Es uno de los programas de backgammon más fuertes del mundo.
+
+14
+00:01:06,622 --> 00:01:11,285
+Es un programa libre y gratuito, desarrollado por una comunidad de aficionados.
+
+15
+00:01:11,506 --> 00:01:18,543
+Como el famoso TD-Gammon antes que él, utiliza redes neuronales, entrenadas con un número enorme de partidas.
+
+16
+00:01:18,693 --> 00:01:25,972
+Evalúa cada posición, elige la jugada que le da más posibilidades, y también toma las decisiones del cubo doblador.
+
+17
+00:01:25,672 --> 00:01:29,552
+Es más fuerte que la gran mayoría de los jugadores humanos.
+
+18
+00:01:31,452 --> 00:01:37,715
+Entonces, ¿hace trampa el ordenador con los dados? Es la pregunta que todo el mundo se hace algún día.
+
+19
+00:01:37,865 --> 00:01:42,876
+La respuesta es no. El robot no tiene ninguna ventaja con los dados.
+
+20
+00:01:42,576 --> 00:01:46,687
+Gana únicamente gracias a la calidad de sus decisiones.
+
+21
+00:01:46,837 --> 00:01:52,534
+Si os parece que siempre le salen los dados buenos, fijaos más bien en cómo coloca sus fichas.
+
+22
+00:01:52,234 --> 00:01:55,118
+Las pone donde muchas tiradas le vienen bien.
+
+23
+00:01:55,268 --> 00:02:01,494
+¿Os acordáis de la lección sobre las probabilidades? El robot lo cuenta todo, en cada jugada.
+
+24
+00:02:01,194 --> 00:02:03,342
+¡Ese es su verdadero secreto!
+
+25
+00:02:05,242 --> 00:02:10,113
+Lo realmente interesante del ordenador es que os muestra vuestros errores.
+
+26
+00:02:09,813 --> 00:02:14,313
+Después de una partida, podéis hacer que la analice jugada a jugada.
+
+27
+00:02:14,463 --> 00:02:20,768
+En cada jugada, el análisis os muestra la mejor opción posible, y la compara con la que habéis jugado.
+
+28
+00:02:20,918 --> 00:02:25,407
+Cuando os habéis equivocado, os dice cuánto os ha costado ese error.
+
+29
+00:02:25,107 --> 00:02:30,582
+Una pequeña imprecisión no es grave. Un error grande, en cambio, hay que entenderlo.
+
+30
+00:02:31,487 --> 00:02:38,240
+No intentéis corregirlo todo de golpe. Centraos en los dos o tres errores más grandes de la partida.
+
+31
+00:02:37,940 --> 00:02:40,627
+Es ahí donde más rápido progresaréis.
+
+32
+00:02:42,527 --> 00:02:46,926
+Un consejo importante: no miréis solo el resultado de la partida.
+
+33
+00:02:47,076 --> 00:02:51,846
+Una victoria puede esconder errores grandes, porque los dados os salvaron.
+
+34
+00:02:51,546 --> 00:02:56,014
+Y una derrota puede venir de los dados, a pesar de un juego perfecto.
+
+35
+00:02:56,164 --> 00:03:02,925
+El resultado depende en parte de la suerte. El análisis, en cambio, solo mira vuestras decisiones.
+
+36
+00:03:02,625 --> 00:03:04,639
+¡Es el que dice la verdad!
+
+37
+00:03:06,539 --> 00:03:10,789
+En TickGammon, el módulo Entrenamiento va todavía más lejos.
+
+38
+00:03:10,489 --> 00:03:15,133
+Os hace trabajar posiciones escogidas, y analiza vuestras jugadas.
+
+39
+00:03:15,283 --> 00:03:20,898
+Jugáis una posición, y enseguida veis si vuestra jugada era la buena, y cuál era la mejor.
+
+40
+00:03:21,048 --> 00:03:27,536
+Es la forma más rápida de corregir vuestras costumbres: aperturas, golpes, carrera, cubo doblador…
+
+41
+00:03:27,236 --> 00:03:30,314
+todo lo que habéis visto en estas lecciones.
+
+42
+00:03:30,464 --> 00:03:39,243
+Y con el Pack Sabiduría, la inteligencia artificial puede incluso explicaros vuestro error con palabras sencillas, y el análisis va más a fondo.
+
+43
+00:03:39,393 --> 00:03:44,332
+En lugar de un simple número, entendéis por qué una jugada es mejor que otra.
+
+44
+00:03:44,032 --> 00:03:46,802
+Y eso es lo que de verdad hace progresar.
+
+45
+00:03:48,702 --> 00:03:53,880
+Aquí tenéis un método sencillo para progresar contra el ordenador, en tres pasos.
+
+46
+00:03:54,030 --> 00:04:00,269
+Primer paso: jugad una partida completa, con calma, sin mirar los consejos durante el juego.
+
+47
+00:04:00,419 --> 00:04:07,112
+Segundo paso: haced que se analice la partida, y apuntad vuestros dos o tres errores más grandes.
+
+48
+00:04:07,262 --> 00:04:14,309
+Tercer paso: volved a jugar esas posiciones en el Entrenamiento, hasta encontrar la buena jugada a la primera.
+
+49
+00:04:14,009 --> 00:04:16,947
+Y luego, empezad de nuevo con otra partida.
+
+50
+00:04:18,847 --> 00:04:25,017
+¿Estáis empezando y tenéis miedo de que sea demasiado difícil? Es normal perder a menudo al principio.
+
+51
+00:04:25,167 --> 00:04:29,153
+Pero cada partida contra un adversario fuerte os enseña algo.
+
+52
+00:04:28,853 --> 00:04:33,262
+Y poco a poco, vuestros errores se vuelven más raros y más pequeños.
+
+53
+00:04:33,412 --> 00:04:41,649
+Si hace falta, repasad las lecciones anteriores: las reglas, las aperturas, el cubo doblador, la carrera y las probabilidades.
+
+54
+00:04:41,349 --> 00:04:44,420
+Todo se junta en el tablero frente al robot.
+
+55
+00:04:44,570 --> 00:04:49,718
+¡Y cuando os sintáis preparados, pasad a las partidas en línea contra jugadores reales!
+
+56
+00:04:51,618 --> 00:05:01,042
+¡Y listo, ya sabéis usar el ordenador para progresar: un adversario siempre disponible, unos dados honestos, y un análisis que os muestra vuestros errores!
+
+57
+00:05:01,643 --> 00:05:07,451
+Las partidas contra los robots son gratuitas, en vuestro navegador, en Android o en Windows.
+
+58
+00:05:07,151 --> 00:05:11,881
+La próxima vez pasamos a las partidas en línea: la clasificación y el ELO.
+
+59
+00:05:11,581 --> 00:05:16,191
+¡Suscribíos para no perdérosla! ¡Hasta muy pronto alrededor del tablero!
+
