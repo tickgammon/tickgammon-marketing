@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Résultats d'un tournoi officiel</title>
+<style>
+@font-face{font-family:'Bricolage Grotesque';font-weight:800;src:url(../fridaycup/fonts/bricolage-grotesque-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:600;src:url(../fridaycup/fonts/manrope-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:800;src:url(../fridaycup/fonts/manrope-latin-800-normal.woff2) format('woff2')}
+body{margin:0}
+.bg{font-family:'Bricolage Grotesque',sans-serif;font-weight:800}
+.card{position:relative;width:1080px;height:1080px;overflow:hidden;box-sizing:border-box;padding:56px 60px;font-family:Manrope,sans-serif;color:#fdfbf0;
+ background:var(--bg)}
+.moon{display:var(--moon);position:absolute;right:120px;top:70px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle at 40% 38%,#fff6d6,#f3c969 60%,#e09a3a);box-shadow:0 0 120px 40px rgba(243,170,70,.35)}
+.bat{position:absolute;fill:#0d0a1c;display:var(--moon)}
+.star{position:absolute;width:6px;height:6px;border-radius:50%;background:#fdfbf0;opacity:.7}
+.owl{position:absolute;right:50px;top:170px;width:440px}
+.owl img{position:absolute;left:0;top:0;width:440px}
+.pill{display:inline-block;padding:10px 20px;border-radius:999px;background:var(--acc);color:var(--ink);font-size:21px;font-weight:800;letter-spacing:3px;text-transform:uppercase}
+.title{margin-top:24px;font-size:var(--tsize,96px);line-height:.9;letter-spacing:-3px;text-transform:uppercase;color:#fdfbf0;width:560px}
+.title span{color:var(--acc2)}
+.sub{margin-top:16px;font-size:28px;font-weight:800;color:var(--sub)}
+.champ{position:absolute;left:60px;top:520px;width:620px}
+.champ .lab{font-size:20px;font-weight:800;letter-spacing:4px;text-transform:uppercase;color:#f3c969}
+.champ .name{margin-top:6px;font-size:140px;line-height:1;letter-spacing:-4px;color:#f3c969;white-space:nowrap;text-shadow:0 6px 0 rgba(0,0,0,.35)}
+.prize{margin-top:10px;font-size:34px;font-weight:800;color:var(--acc2)}
+.ticket{position:absolute;left:60px;right:60px;bottom:56px;background:#fdfbf0;color:var(--ink);border-radius:28px;box-shadow:0 14px 0 rgba(0,0,0,.35);overflow:hidden}
+.row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding:24px 32px 20px}
+.col{display:flex;align-items:center;gap:14px;min-width:0}
+.col + .col{border-left:2px solid #e6dcc3;padding-left:18px}
+.medal{color:var(--ink);flex:0 0 auto;width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque';font-weight:800;font-size:28px;color:#1c1236}
+.pn{font-family:'Bricolage Grotesque';font-weight:800;font-size:32px;line-height:1.05;white-space:nowrap;overflow:hidden}
+.pt{font-size:19px;font-weight:800;color:#c2560c}
+.cut{position:relative;height:0;margin:0 30px;border-top:3px dashed #d8c9a5}
+.foot{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 32px 20px}
+.cta{font-size:24px;font-weight:800}
+.cta2{font-size:17px;font-weight:600;color:#5b5370}
+.btn{padding:14px 24px;border-radius:999px;background:var(--ink);color:#f3c969;font-size:23px;font-weight:800;white-space:nowrap}
+</style></head><body>
+<div class="card">
+ <div class="moon"></div>
+ <div class="star" style="left:520px;top:60px"></div><div class="star" style="left:640px;top:330px"></div><div class="star" style="left:980px;top:420px"></div><div class="star" style="left:430px;top:380px;width:4px;height:4px"></div><div class="star" style="left:1010px;top:40px;width:4px;height:4px"></div>
+ <svg class="bat" style="left:560px;top:120px;width:90px" viewBox="0 0 100 40"><path d="M50 14c-3-6-8-8-8-8 2 4 1 7 1 7-6-8-20-10-30-6 8 1 12 6 12 6-8-1-14 3-17 8 7-2 13 0 16 4 3-4 9-6 14-3 4 1 8 6 12 10 4-4 8-9 12-10 5-3 11-1 14 3 3-4 9-6 16-4-3-5-9-9-17-8 0 0 4-5 12-6-10-4-24-2-30 6 0 0-1-3 1-7 0 0-5 2-8 8z"/></svg>
+ <svg class="bat" style="left:960px;top:540px;width:70px;transform:rotate(-12deg)" viewBox="0 0 100 40"><path d="M50 14c-3-6-8-8-8-8 2 4 1 7 1 7-6-8-20-10-30-6 8 1 12 6 12 6-8-1-14 3-17 8 7-2 13 0 16 4 3-4 9-6 14-3 4 1 8 6 12 10 4-4 8-9 12-10 5-3 11-1 14 3 3-4 9-6 16-4-3-5-9-9-17-8 0 0 4-5 12-6-10-4-24-2-30 6 0 0-1-3 1-7 0 0-5 2-8 8z"/></svg>
+ <div class="owl"><img src="owl_base.png"><img src="owl_wing.png"></div>
+ <div class="pill" id="pill"></div>
+ <div class="title bg" id="title"></div>
+ <div class="sub" id="sub"></div>
+ <div class="champ"><div class="lab" id="lChamp"></div><div class="name bg" id="winner"></div><div class="prize" id="prize"></div></div>
+ <div class="ticket">
+  <div class="row">
+   <div class="col"><div class="medal" style="background:#f3c969">1</div><div style="min-width:0"><div class="pn" id="n1"></div><div class="pt"></div></div></div>
+   <div class="col"><div class="medal" style="background:#d6d6dc">2</div><div style="min-width:0"><div class="pn" id="n2"></div><div class="pt"></div></div></div>
+   <div class="col"><div class="medal" style="background:#d9945a">3</div><div style="min-width:0"><div class="pn" id="n3"></div><div class="pt"></div></div></div>
+  </div>
+  <div class="cut"></div>
+  <div class="foot"><div><div class="cta" id="cta"></div><div class="cta2" id="cta2"></div></div><div class="btn">tickgammon.com →</div></div>
+ </div>
+</div>
+<script>
+const TH={
+ felt:{'--bg':'radial-gradient(circle at 78% 26%,#1f6b4a 0,#124a33 40%,#0b2c1f 80%)','--moon':'none','--acc':'#c9a86a','--acc2':'#ff7a59','--ink':'#0d3326','--sub':'#b9c9bd'},
+ halloween:{'--bg':'radial-gradient(circle at 78% 26%,#3b2a5c 0,#1c1236 38%,#0d0a1c 75%)','--moon':'block','--acc':'#ff7a1a','--acc2':'#ff8a2a','--ink':'#1c1236','--sub':'#d9c8f5'},
+ noel:{'--bg':'radial-gradient(circle at 78% 26%,#7a1f2b 0,#4a0f18 45%,#22060b 80%)','--moon':'none','--acc':'#f3c969','--acc2':'#f3c969','--ink':'#3a0b13','--sub':'#f1d9d9'}};
+const T={
+ fr:{pill:n=>'🏆 Résultats'+(n?' · '+n+' TGC offerts':''),sub:'Merci à tous les joueurs !',lChamp:'🏆 Champion',cta:'Le prochain tournoi t\'attend',cta2:'Tous les tournois dans Events',sep:' '},
+ en:{pill:n=>'🏆 Results'+(n?' · '+n+' TGC offered':''),sub:'Thanks to every player!',lChamp:'🏆 Champion',cta:'The next tournament is waiting',cta2:'All tournaments in Events',sep:','},
+ es:{pill:n=>'🏆 Resultados'+(n?' · '+n+' TGC':''),sub:'¡Gracias a todos los jugadores!',lChamp:'🏆 Campeón',cta:'El próximo torneo te espera',cta2:'Todos los torneos en Events',sep:' '}};
+const D=window.DATA;const t=T[D.lang];const th=TH[D.theme]||TH.felt;
+for(const k in th)document.documentElement.style.setProperty(k,th[k]);
+const fmt=n=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,t.sep);
+document.getElementById('pill').textContent=t.pill(D.total?fmt(D.total):'');
+// Titre : dernier mot en couleur
+const words=D.name.split(' ');const last=words.pop();
+const ti=document.getElementById('title');ti.textContent=words.join(' ')+(words.length?' ':'');const sp=document.createElement('span');sp.textContent=last;ti.appendChild(sp);
+let ts=96;while(ti.scrollHeight>300&&ts>48){ts-=6;ti.style.fontSize=ts+'px'}
+['sub','lChamp','cta','cta2'].forEach(k=>document.getElementById(k).textContent=t[k]);
+const P=D.podium;const tg=p=>p&&p.tgc>0?'+'+fmt(p.tgc)+' TGC':'';
+document.getElementById('winner').textContent=P[0].name;document.getElementById('prize').textContent=tg(P[0]);
+const row=document.querySelector('.row');const cols=row.querySelectorAll('.col');
+[0,1,2].forEach(i=>{if(!P[i]){cols[i].style.visibility='hidden';return}cols[i].querySelector('.pn').textContent=P[i].name;cols[i].querySelector('.pt').textContent=tg(P[i])});
+const w=document.getElementById('winner');let fs=140;while(w.scrollWidth>620&&fs>50){fs-=4;w.style.fontSize=fs+'px'}
+document.querySelectorAll('.pn').forEach(el=>{let f=32;while(el.scrollWidth>el.clientWidth&&f>18){f-=2;el.style.fontSize=f+'px'}});
+</script></body></html>
