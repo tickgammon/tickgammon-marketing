@@ -123,6 +123,15 @@ for x in E.get('whoosh',[]): add(sfx,x,whoosh(),0.22)
 for x in E.get('tada',[]): add(sfx,x,tada(),0.35)
 for x in E.get('chime',[]):
     for k,n in enumerate([84,88,91,96]): add(sfx,x+k*0.11,ting(n),0.2)
+# grelots (décembre 2026) : clé optionnelle 'bells' = [[début, durée], ...]
+def bells(d=1.6):
+    n=int(SR*d); out=np.zeros(n); k=0
+    while k*0.09<d-0.1:
+        g=0.6+0.4*rng.random(); t=t_(0.25)
+        s=sum(np.sin(2*np.pi*fr*t*(1+0.003*rng.random())) for fr in (2400,3150,4020,5230))
+        s=s*env(len(t),0.001,0.05)*g; i=int(k*0.09*SR+rng.random()*0.012*SR); j=min(n,i+len(s)); out[i:j]+=s[:j-i]; k+=1
+    return hp(out,1800)*np.sin(np.pi*np.linspace(0,1,n))**0.5
+for x in E.get('bells',[]): add(sfx,x[0],bells(x[1] if len(x)>1 else 1.6),0.10)
 mix=music*0.55+sfx
 mix/=max(1e-9,np.max(np.abs(mix)))/0.89
 st=np.stack([mix,mix],1)
