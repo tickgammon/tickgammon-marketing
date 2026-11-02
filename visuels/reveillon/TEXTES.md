@@ -25,4 +25,4 @@ Le *Réveillon de la Chouette*, dernier tournoi de 2026 :
 🆓 Gratuit, il reste des places
 
 Inscris-toi vite dans *Événements* 👉 https://www.tickgammon.com
-Pense à être là à 21h : tu as 10 minutes pour rejoindre ta table à chaque tour. Bonne chance à tous ! 🦉
+Pense à être là à 21h : tu as 5 minutes pour rejoindre ta table à chaque tour. Bonne chance à tous ! 🦉
