@@ -1,0 +1,149 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Bricolage Grotesque';font-weight:800;src:url(../fridaycup/fonts/bricolage-grotesque-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:700;src:url(../fridaycup/fonts/manrope-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:800;src:url(../fridaycup/fonts/manrope-latin-800-normal.woff2) format('woff2')}
+html,body{margin:0;overflow:hidden;background:#0b1a33;font-family:Manrope,sans-serif;color:#fdfbf0}
+#s{position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 35%,#163a6b 0%,#0b1a33 70%)}
+.a{position:absolute}
+.scene{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;box-sizing:border-box;flex-direction:column}
+.txt{display:flex;flex-direction:column;flex:0 0 auto;align-items:center;text-align:center}
+.kick{background:#d4a94a;color:#0b1a33;font-weight:800;letter-spacing:3px;text-transform:uppercase;border-radius:999px;padding:.35em .9em;font-size:20px}
+.ttl{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;text-transform:uppercase;font-size:68px;line-height:.95;letter-spacing:-.03em;margin:.22em 0 .2em}
+.ttl em,.sub em{font-style:normal;color:#e6c47c}
+.sub{font-size:28px;font-weight:700;color:#dce8f5;line-height:1.3}
+.vbox{flex:0 0 auto;position:relative;width:640px;height:600px}
+.bf{font-family:'Bricolage Grotesque',sans-serif;font-weight:800}
+.card{background:#fdfbf0;color:#0b1a33;border-radius:24px;box-shadow:0 12px 0 rgba(0,0,0,.3);box-sizing:border-box}
+.btnff{display:inline-flex;align-items:center;gap:.45em;background:linear-gradient(#e6c47c,#c9a86a);color:#0b1a33;border-radius:16px;padding:.42em .9em;box-shadow:0 6px 0 #8a6a3a}
+.cell{position:absolute;width:86px;height:86px;border-radius:16px;background:#123f30;box-shadow:inset 0 0 0 3px rgba(212,169,74,.6),0 6px 0 rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque';font-weight:800;font-size:34px;color:#e6c47c}
+.cell.r{background:#7a1f2b}
+.ck{position:absolute;border-radius:50%;overflow:hidden;box-shadow:0 10px 0 rgba(0,0,0,.35)}
+.ck img{width:100%;height:100%;display:block}
+.price{position:absolute;background:#d4a94a;color:#0b1a33;border-radius:999px;padding:6px 18px;font-family:'Bricolage Grotesque';font-weight:800;font-size:30px;box-shadow:0 5px 0 #8a6a3a;white-space:nowrap}
+#ia{position:absolute;left:18px;bottom:22px;background:rgba(0,0,0,.45);border:2px solid rgba(255,255,255,.35);color:#fff;font-weight:800;font-size:17px;border-radius:999px;padding:5px 14px;letter-spacing:.5px;z-index:9}
+</style></head><body><div id="s">
+<div id="snow" class="a" style="inset:0"></div>
+<div id="url" class="a" style="left:0;right:0;top:34px;text-align:center;font-weight:800;letter-spacing:3px;color:#e6c47c;font-size:20px">TICKGAMMON.COM</div>
+<div id="prog" class="a" style="left:0;bottom:0;height:6px;background:#d4a94a;width:0"></div>
+<div id="conf" class="a" style="inset:0"></div>
+<div id="scenes"></div>
+<div id="ia"></div>
+</div>
+<script>
+const LY=window.LY, L=window.LANG, VID=window.VID;
+const $=q=>document.querySelector(q);
+const S=$('#s');S.style.width=LY.W+'px';S.style.height=LY.H+'px';
+$('#ia').textContent={fr:'🤖 Créé avec l’IA',en:'🤖 Made with AI',es:'🤖 Creado con IA'}[L];
+// ---------- chouette officielle (owl_base.png / owl_wing.png) ----------
+const LOGO=`<div style="position:relative;width:100%;height:100%">
+<svg viewBox="0 0 520 520" width="100%" height="100%" style="position:absolute;inset:0"><defs>
+<linearGradient id="gd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6d77a"/><stop offset=".5" stop-color="#c99a3a"/><stop offset="1" stop-color="#f1cf6e"/></linearGradient>
+<radialGradient id="gr" cx=".5" cy=".42" r=".6"><stop offset="0" stop-color="#1c5a3c"/><stop offset="1" stop-color="#0f3a26"/></radialGradient></defs>
+<circle cx="260" cy="260" r="256" fill="url(#gd)"/><circle cx="260" cy="260" r="243" fill="url(#gr)"/></svg>
+<div style="position:absolute;left:11.9%;top:14.6%;width:76.2%;height:72.3%">
+<img src="../owl_base.png" style="position:absolute;inset:0;width:100%;height:100%">
+<svg class="eyeW" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0"><circle cx="365" cy="148" r="52" fill="#fdeecf"/><path d="M328 158 Q365 122 402 158" stroke="#0b2a17" stroke-width="10" fill="none" stroke-linecap="round"/></svg>
+<img class="wingI" src="../owl_wing.png" style="position:absolute;inset:0;width:100%;height:100%;transform-origin:70.8% 53.5%">
+</div></div>`;
+// bonnet de Noël (dessiné, posé sur la tête de la chouette)
+const HAT=`<svg viewBox="0 0 200 150" width="100%" height="100%"><path d="M20 120 Q60 20 150 18 Q120 50 176 112 Z" fill="#c62f3a"/><path d="M60 50 Q100 30 150 18" stroke="#e24b55" stroke-width="8" fill="none" opacity=".6"/><rect x="8" y="104" width="180" height="34" rx="17" fill="#fdfbf0"/><circle cx="160" cy="20" r="18" fill="#fdfbf0"/></svg>`;
+const LOGOV=(extra='')=>`<div class="a" style="left:110px;top:70px;width:420px;height:420px"><div style="width:100%;height:100%">${LOGO}</div>${extra}</div>`;
+const OWLHAT=LOGOV(`<div class="a hat" style="left:95px;top:-28px;width:220px;height:165px;transform:rotate(-8deg);transform-origin:50% 90%">${HAT}</div>`);
+// couronne de galette (dessinée, posée sur la tête de la chouette)
+const CROWN=`<svg viewBox="0 0 220 120" width="100%" height="100%"><defs><linearGradient id="cg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff0a8"/><stop offset=".5" stop-color="#f2c94c"/><stop offset="1" stop-color="#c8901f"/></linearGradient></defs><polygon points="10,110 10,40 40,72 70,20 110,62 150,20 180,72 210,40 210,110" fill="url(#cg)" stroke="#8a5f12" stroke-width="5" stroke-linejoin="round"/><circle cx="60" cy="88" r="11" fill="#2fa35a"/><circle cx="110" cy="88" r="11" fill="#2f6fd6"/><circle cx="160" cy="88" r="11" fill="#e3263a"/></svg>`;
+const OWLCROWN=LOGOV(`<div class="a hat" style="left:100px;top:-30px;width:220px;height:120px;transform:rotate(-6deg);transform-origin:50% 90%">${CROWN}</div>`);
+// ---------- textes ----------
+const T={
+galette:{
+ fr:{a:['ÉPIPHANIE · 4 → 10 JANVIER','La <em>galette</em> de la chouette !','Après chaque partie contre un joueur, choisis ta part'],b:['DANS LES PARTS','TGC offerts, cosmétiques… <em>et la fève 👑</em>','La fève : l’avatar exclusif « Couronne 2027 » + 500 TGC'],o:['Qui sera <em>roi ou reine</em> ? 👑','3 parts par jour','GALETTE','Sur le site, Android et Windows']},
+ en:{a:['EPIPHANY · JAN 4 → 10','The owl’s <em>king cake</em>!','After each game against a player, pick your slice'],b:['IN THE SLICES','TGC offered, cosmetics… <em>and the lucky charm 👑</em>','The lucky charm: the exclusive « Crown 2027 » avatar + 500 TGC'],o:['Who will be <em>king or queen</em>? 👑','3 slices a day','KING CAKE','On the website, Android and Windows']},
+ es:{a:['REYES · 4 → 10 DE ENERO','¡El <em>roscón</em> de la lechuza!','Después de cada partida contra un jugador, elige tu porción'],b:['EN LAS PORCIONES','TGC de regalo, cosméticos… <em>¡y el haba 👑!</em>','El haba: el avatar exclusivo « Corona 2027 » + 500 TGC'],o:['¿Quién será <em>rey o reina</em>? 👑','3 porciones al día','ROSCÓN','En la web, Android y Windows']}},
+soldes:{
+ fr:{a:['13 → 26 JANVIER','Les <em>soldes d’hiver</em> !','Dans la boutique TickGammon'],b:['-30 % SANS CODE','Pions, plateaux, <em>avatars & effets</em>','Prix barré directement en boutique'],o:['Fais-toi <em>plaisir</em> ❄️','Dans la boutique','BOUTIQUE','Sur le site, Android et Windows'],was:'500 TGC',now:'350 TGC'},
+ en:{a:['JANUARY 13 → 26','The <em>winter sale</em>!','In the TickGammon shop'],b:['-30% NO CODE','Checkers, boards, <em>avatars & effects</em>','Reduced price straight in the shop'],o:['Treat <em>yourself</em> ❄️','In the shop','SHOP','On the website, Android and Windows'],was:'500 TGC',now:'350 TGC'},
+ es:{a:['13 → 26 DE ENERO','¡Las <em>rebajas de invierno</em>!','En la tienda de TickGammon'],b:['-30 % SIN CÓDIGO','Fichas, tableros, <em>avatares y efectos</em>','Precio rebajado directamente en la tienda'],o:['Date un <em>capricho</em> ❄️','En la tienda','TIENDA','En la web, Android y Windows'],was:'500 TGC',now:'350 TGC'}},
+tournoi:{
+ fr:{a:['SAMEDI 16 JANVIER · 21:00','Le tournoi <em>Hiver 2027</em> !','Le premier tournoi officiel de l’année'],b:['RÉCOMPENSES','<em>3 000 TGC</em> offerts','Et le plateau exclusif « Hiver 2027 » au vainqueur'],o:['Gratuit, <em>inscris-toi</em> ! 🏆','Dans Events','TOURNOI','Sur le site, Android et Windows']},
+ en:{a:['SATURDAY JAN 16 · 9 PM','The <em>Winter 2027</em> cup!','The first official tournament of the year'],b:['REWARDS','<em>3,000 TGC</em> offered','And the exclusive « Winter 2027 » board for the winner'],o:['Free, <em>sign up</em>! 🏆','In Events','TOURNAMENT','On the website, Android and Windows']},
+ es:{a:['SÁBADO 16 DE ENERO · 21:00','¡El torneo <em>Invierno 2027</em>!','El primer torneo oficial del año'],b:['RECOMPENSAS','<em>3.000 TGC</em> de regalo','Y el tablero exclusivo « Invierno 2027 » para el ganador'],o:['¡Gratis, <em>inscríbete</em>! 🏆','En Events','TORNEO','En la web, Android y Windows']}}
+}[VID][L];
+// ---------- visuels (640 x 600) ----------
+function galette(){let s=`<svg class="a gal" viewBox="0 0 300 300" style="left:120px;top:110px;width:400px;height:400px;overflow:visible"><defs><radialGradient id="gG" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#f6cf72"/><stop offset=".7" stop-color="#e0a443"/><stop offset="1" stop-color="#b8741f"/></radialGradient></defs><circle cx="150" cy="150" r="140" fill="#7a4a12" opacity=".45"/>`;
+ for(let i=0;i<8;i++){const a0=(i*45-90)*Math.PI/180,a1=((i+1)*45-90)*Math.PI/180,r=128,c=150;s+=`<path class="sl" data-i="${i}" d="M${c},${c} L${c+r*Math.cos(a0)},${c+r*Math.sin(a0)} A${r},${r} 0 0,1 ${c+r*Math.cos(a1)},${c+r*Math.sin(a1)} Z" fill="url(#gG)" stroke="#7a4a12" stroke-width="3"/>`;}
+ const m=(i,rr)=>{const a=(i*45+22.5-90)*Math.PI/180;return [150+rr*Math.cos(a),150+rr*Math.sin(a)];};
+ const lab=['+20','🎁','👑','+30','+15','+50','+10','+25'];
+ lab.forEach((t,i)=>{const p=m(i,84);s+=`<text class="lb" data-i="${i}" x="${p[0]}" y="${p[1]+8}" text-anchor="middle" font-family="Bricolage Grotesque" font-weight="800" font-size="${t==='👑'?34:24}" fill="#5a3208" opacity="0">${t}</text>`;});
+ return s+`<circle cx="150" cy="150" r="16" fill="#f6cf72" stroke="#7a4a12" stroke-width="3"/></svg>`;}
+function feve(){return `<div class="a" style="left:170px;top:60px;width:300px;height:300px;border-radius:50%;overflow:hidden;box-shadow:0 0 0 8px #e6c47c,0 0 60px rgba(230,196,124,.6)"><img class="av" src="img/avatar_couronne_2027.png" style="width:100%;height:100%"></div>
+ <div class="price pf" style="left:215px;top:410px;font-size:40px">+500 TGC</div>`;}
+function sale(){return `<div class="a card sx" style="left:120px;top:90px;width:400px;height:400px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#eaf6ff,#9fcbea)"><div class="bf pc" style="font-size:150px;color:#0d3550;line-height:1">-30%</div></div><div class="a" style="left:430px;top:60px;font-size:100px">❄️</div>`;}
+function checkers(){return `<div class="ck c1" style="left:70px;top:130px;width:240px;height:240px"><img src="img/checker_skin_pions_hiver.png"></div>
+ <div class="ck c2" style="left:330px;top:130px;width:240px;height:240px"><img src="img/checker_skin_sapin.png"></div>
+ <div class="a bf p1" style="left:60px;top:410px;width:520px;text-align:center;font-size:40px"><span style="text-decoration:line-through;opacity:.55;color:#dce8f5">${T.was}</span> → <span style="color:#e6c47c">${T.now}</span></div>`;}
+function board(){return `<div class="a brd" style="left:-40px;top:110px;width:720px;height:405px;border-radius:20px;overflow:hidden;box-shadow:0 18px 0 rgba(0,0,0,.35),0 0 60px rgba(230,196,124,.35)"><img src="img/preset_hiver_2027.png" style="width:100%;height:100%;display:block"></div>`;}
+function trophy(){return `<div class="a tr" style="left:0;width:640px;top:120px;text-align:center;font-size:230px;line-height:1">🏆</div><div class="price pb" style="left:200px;top:430px;font-size:44px">${({fr:"3 000 TGC",en:"3,000 TGC",es:"3.000 TGC"})[L]}</div>`;}
+// ---------- scènes ----------
+const scenes=[];
+function scene(s,e,txt,vis,kind,o={}){const d=document.createElement('div');d.className='scene';
+ d.innerHTML=(o.visFirst?'':`<div class="txt">${txt}</div>`)+(vis?`<div class="vbox" style="height:${o.vh||600}px"><div class="vis in" data-d=".1" style="position:absolute;inset:0">${vis}</div></div>`:'')+(o.visFirst?`<div class="txt">${txt}</div>`:'');
+ $('#scenes').appendChild(d);d.style.gap='30px';d.style.padding='96px 40px 60px';
+ d.querySelector('.txt').style.maxWidth=(LY.W-80)+'px';
+ if(o.tfk)d.querySelectorAll('.ttl').forEach(t=>t.style.fontSize=(68*o.tfk)+'px');
+ scenes.push({el:d,s,e,kind,ins:[...d.querySelectorAll('.in')]});}
+const K=(k,d='.05')=>`<div class="kick in" data-d="${d}">${k}</div>`;
+const TT=(t,d='.2')=>`<div class="ttl in" data-d="${d}">${t}</div>`;
+const SB=(t,d='.45')=>t?`<div class="sub in" data-d="${d}">${t}</div>`:'';
+const ICON={galette:'🥮',soldes:'❄️',tournoi:'🏆'}[VID];
+function outro(s,e,o){const card=`<div class="card in" data-d=".6" style="text-align:center;padding:22px 30px;margin-top:10px;width:470px">
+ <div style="font-weight:800;letter-spacing:3px;font-size:17px;color:#8a6a3a;text-transform:uppercase">${o[1]}</div>
+ <div class="btnff bf" style="font-size:32px;margin:.35em 0 .1em"><span>${ICON}</span><span>${o[2]}</span></div>
+ <div style="border-top:3px dashed #d8ceb0;margin:.7em 0"></div>
+ <div class="cta bf" style="display:inline-block;background:#0b1a33;color:#e6c47c;border-radius:999px;padding:.35em 1em;font-size:29px">tickgammon.com →</div></div>`;
+ scene(s,e,`${TT(o[0],'.3')}${card}${SB(o[3],'1.0')}`,OWLCROWN,'outro',{visFirst:true,vh:500,tfk:.8});}
+let END;
+if(VID==='galette'){END=14;
+ scene(0,5,`${K(T.a[0],'.3')}${TT(T.a[1],'.5')}${SB(T.a[2],'.9')}`,galette(),'gal',{tfk:.95});
+ scene(5,9.5,`${K(T.b[0])}${TT(T.b[1])}${SB(T.b[2])}`,feve(),'feve',{tfk:.8});
+ outro(9.5,END+1,T.o);}
+if(VID==='soldes'){END=14;
+ scene(0,4.6,`${K(T.a[0],'.3')}${TT(T.a[1],'.5')}${SB(T.a[2],'.9')}`,sale(),'sale',{tfk:1});
+ scene(4.6,9.5,`${K(T.b[0])}${TT(T.b[1])}${SB(T.b[2])}`,checkers(),'cks',{tfk:.85});
+ outro(9.5,END+1,T.o);}
+if(VID==='tournoi'){END=15;
+ scene(0,5,`${K(T.a[0],'.3')}${TT(T.a[1],'.5')}${SB(T.a[2],'.9')}`,trophy(),'tro',{tfk:1});
+ scene(5,10,`${K(T.b[0])}${TT(T.b[1])}${SB(T.b[2])}`,board(),'brd2',{tfk:1});
+ outro(10,END+1,T.o);}
+// neige + confettis
+const SNOW=[],CONF=[];(function(){let seed=13;const r=()=>{seed=(seed*16807)%2147483647;return seed/2147483647;};
+ for(let i=0;i<70;i++){const d=document.createElement('div');d.className='a';const w=3+r()*7;d.style.cssText=`width:${w}px;height:${w}px;border-radius:50%;background:#fff;opacity:${.35+r()*.5}`;$('#snow').appendChild(d);SNOW.push({d,x:r()*LY.W,y:r()*LY.H,v:30+r()*70,sw:10+r()*25,ph:r()*6});}
+ const cols=['#d4a94a','#c62f3a','#fdfbf0','#2f9a64'];
+ for(let i=0;i<50;i++){const d=document.createElement('div');d.className='a';const w=9+r()*11;d.style.cssText=`width:${w}px;height:${w*.5}px;background:${cols[i%4]};border-radius:2px`;$('#conf').appendChild(d);CONF.push({d,x:r()*LY.W,v:150+r()*200,r:r()*360,vr:(r()-.5)*500,sw:r()*30,ph:r()*6});}})();
+// ---------- animation ----------
+const cl=x=>Math.max(0,Math.min(1,x)),seg=(t,a,b)=>cl((t-a)/(b-a)),eo=x=>1-Math.pow(1-x,3),back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+function wink(el,on){el.querySelectorAll('.eyeW').forEach(x=>x.style.opacity=on?1:0);}
+function wave(el,lt,a,b){const e=Math.min(seg(lt,a,a+.3),1-seg(lt,b-.3,b));const ang=e*(52+22*Math.sin((lt-a)*Math.PI*4.4));el.querySelectorAll('.wingI').forEach(w=>w.style.transform=`rotate(${-ang}deg)`);}
+function render(t){
+ $('#prog').style.width=(t/END*100)+'%';
+ const sOut=scenes.find(x=>x.kind==='outro');
+ $('#url').style.opacity=(t>scenes[0].e-0.01&&t<sOut.s)?1:0;
+ SNOW.forEach(f=>{const y=(f.y+f.v*t)%(LY.H+20)-10;f.d.style.transform=`translate(${f.x+Math.sin(t*1.2+f.ph)*f.sw}px,${y}px)`;});
+ scenes.forEach(sc=>{const lt=t-sc.s,dur=sc.e-sc.s,on=t>=sc.s&&t<sc.e;
+  if(!on){sc.el.style.opacity=0;return;}
+  const out=sc.kind==='outro'?0:seg(lt,dur-.3,dur);sc.el.style.opacity=Math.min(seg(lt,0,.2),1-out);sc.el.style.transform=`translateX(${-out*60}px)`;
+  sc.ins.forEach(e=>{const p=seg(lt,+e.dataset.d,+e.dataset.d+.5);e.style.opacity=eo(p);e.style.transform=`translateY(${(1-back(p))*40}px) scale(${.85+.15*back(p)})`;});
+  const E=sc.el;
+  if(sc.kind==='gal'){const g=E.querySelector('.gal');g.style.transform=`rotate(${Math.sin(lt*1.5)*3}deg)`;const p=seg(lt,2.2,2.8);E.querySelectorAll('.sl').forEach(x=>{const i=+x.dataset.i;const m=((i*45+22.5-90)*Math.PI/180);const o=i===2?eo(p)*16:0;x.setAttribute('transform',`translate(${o*Math.cos(m)},${o*Math.sin(m)})`);x.style.filter=i===2&&p>0?'brightness(1.15)':'';});E.querySelectorAll('.lb').forEach(x=>{const i=+x.dataset.i;const q=seg(lt,2.6+(i===2?0:.4+i*.08),3.0+(i===2?0:.4+i*.08));x.setAttribute('opacity',q);const m=((i*45+22.5-90)*Math.PI/180);const o=i===2?eo(p)*16:0;x.setAttribute('transform',`translate(${o*Math.cos(m)},${o*Math.sin(m)})`);});}
+  if(sc.kind==='feve'){const a=E.querySelector('.av');a.style.transform=`scale(${.6+.4*back(seg(lt,.2,.9))}) rotate(${Math.sin(lt*2)*3}deg)`;E.querySelector('.pf').style.transform=`scale(${eo(seg(lt,1.0,1.5))})`;}
+  if(sc.kind==='sale'){E.querySelector('.sx').style.transform=`scale(${.7+.3*back(seg(lt,.2,.9))}) rotate(${Math.sin(lt*2)*2}deg)`;E.querySelector('.pc').style.transform=`scale(${1+.06*Math.max(0,Math.sin(lt*5))})`;}
+  if(sc.kind==='cks'){[['.c1',.3],['.c2',.8]].forEach(([q,a])=>{const c=E.querySelector(q);const p=back(seg(lt,a,a+.6));c.style.transform=`translateY(${(1-p)*-300}px) rotate(${(1-p)*-180+Math.sin(lt*2)*4}deg)`;});E.querySelector('.p1').style.transform=`scale(${eo(seg(lt,1.4,1.9))})`;}
+  if(sc.kind==='tro'){E.querySelector('.tr').style.transform=`translateY(${(1-back(seg(lt,.2,.9)))*-200}px) rotate(${Math.sin(lt*3)*4}deg)`;E.querySelector('.pb').style.transform=`scale(${eo(seg(lt,1.2,1.7))})`;}
+  if(sc.kind==='brd2'){const b=E.querySelector('.brd');b.style.transform=`perspective(900px) rotateX(${(1-eo(seg(lt,.2,1.2)))*35}deg) scale(${.75+.25*eo(seg(lt,.2,1.2))+.06*eo(seg(lt,1.2,4.5))})`;}
+  if(sc.kind==='outro'){wave(E,lt,.6,2.8);wink(E,(lt>1.3&&lt<1.65)||(lt>3.2&&lt<3.5));const c=E.querySelector('.cta');if(c)c.style.transform=`scale(${1+.04*Math.sin(Math.max(0,lt-1.2)*5)})`;const h=E.querySelector('.hat');if(h)h.style.transform=`rotate(${-8+Math.sin(lt*3)*4}deg)`;}
+ });
+ const yr=scenes.find(x=>x.kind==='feve'||x.kind==='tro');
+ const ct=(yr&&t>=yr.s+.8&&t<yr.e)?t-yr.s-1.5:(sOut&&t>=sOut.s+.1?t-sOut.s-.1:-1);
+ CONF.forEach(c=>{if(ct<0||ct>5){c.d.style.opacity=0;return;}c.d.style.opacity=1;c.d.style.transform=`translate(${c.x+Math.sin(ct*2+c.ph)*c.sw}px,${-30+c.v*ct*(LY.H/900)}px) rotate(${c.r+c.vr*ct}deg)`;});
+}
+window.render=render;window.END=END;render(0);
+</script></body></html>
