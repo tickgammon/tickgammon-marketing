@@ -1,0 +1,123 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Bricolage Grotesque';font-weight:800;src:url(../fridaycup/fonts/bricolage-grotesque-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:700;src:url(../fridaycup/fonts/manrope-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:800;src:url(../fridaycup/fonts/manrope-latin-800-normal.woff2) format('woff2')}
+html,body{margin:0;overflow:hidden;background:#0a0a0a;font-family:Manrope,sans-serif;color:#fdfbf0}
+#s{position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 35%,#2e2e2e 0%,#101010 62%,#050505 100%)}
+.rays{position:absolute;left:50%;top:38%;width:2600px;height:2600px;margin:-1300px 0 0 -1300px;border-radius:50%;background:repeating-conic-gradient(rgba(243,214,138,.05) 0 6deg,transparent 6deg 15deg)}
+.pk{display:flex;justify-content:space-between;align-items:baseline;padding:14px 0;border-bottom:3px dashed #d8ceb0;font-weight:800;font-size:34px}
+.pk s{color:#9a8a70;font-size:24px}.pk b{font-family:'Bricolage Grotesque';font-size:44px;color:#8a5f20}
+.a{position:absolute}
+.scene{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;box-sizing:border-box;flex-direction:column}
+.txt{display:flex;flex-direction:column;flex:0 0 auto;align-items:center;text-align:center}
+.kick{background:#f3d68a;color:#111;font-weight:800;letter-spacing:3px;text-transform:uppercase;border-radius:999px;padding:.35em .9em;font-size:20px}
+.ttl{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;text-transform:uppercase;font-size:68px;line-height:.95;letter-spacing:-.03em;margin:.22em 0 .2em}
+.ttl em,.sub em{font-style:normal;color:#e6c47c}
+.sub{font-size:28px;font-weight:700;color:#ece6d8;line-height:1.3}
+.vbox{flex:0 0 auto;position:relative;width:640px;height:600px}
+.bf{font-family:'Bricolage Grotesque',sans-serif;font-weight:800}
+.card{background:#fdfbf0;color:#0b1a33;border-radius:24px;box-shadow:0 12px 0 rgba(0,0,0,.3);box-sizing:border-box}
+.btnff{display:inline-flex;align-items:center;gap:.45em;background:linear-gradient(#e6c47c,#c9a86a);color:#0b1a33;border-radius:16px;padding:.42em .9em;box-shadow:0 6px 0 #8a6a3a}
+.cell{position:absolute;width:86px;height:86px;border-radius:16px;background:#123f30;box-shadow:inset 0 0 0 3px rgba(212,169,74,.6),0 6px 0 rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque';font-weight:800;font-size:34px;color:#e6c47c}
+.cell.r{background:#7a1f2b}
+.ck{position:absolute;border-radius:50%;overflow:hidden;box-shadow:0 10px 0 rgba(0,0,0,.35)}
+.ck img{width:100%;height:100%;display:block}
+.price{position:absolute;background:#d4a94a;color:#0b1a33;border-radius:999px;padding:6px 18px;font-family:'Bricolage Grotesque';font-weight:800;font-size:30px;box-shadow:0 5px 0 #8a6a3a;white-space:nowrap}
+#ia{position:absolute;left:18px;bottom:22px;background:rgba(0,0,0,.45);border:2px solid rgba(255,255,255,.35);color:#fff;font-weight:800;font-size:17px;border-radius:999px;padding:5px 14px;letter-spacing:.5px;z-index:9}
+</style></head><body><div id="s">
+<div class="rays"></div><div id="snow" class="a" style="inset:0;display:none"></div>
+<div id="url" class="a" style="left:0;right:0;top:34px;text-align:center;font-weight:800;letter-spacing:3px;color:#e6c47c;font-size:20px">TICKGAMMON.COM</div>
+<div id="prog" class="a" style="left:0;bottom:0;height:6px;background:#d4a94a;width:0"></div>
+<div id="conf" class="a" style="inset:0"></div>
+<div id="scenes"></div>
+<div id="ia"></div>
+</div>
+<script>
+const LY=window.LY, L=window.LANG, VID=window.VID;
+const $=q=>document.querySelector(q);
+const S=$('#s');S.style.width=LY.W+'px';S.style.height=LY.H+'px';
+$('#ia').textContent={fr:'🤖 Créé avec l’IA',en:'🤖 Made with AI',es:'🤖 Creado con IA'}[L];
+// ---------- chouette officielle (owl_base.png / owl_wing.png) ----------
+const LOGO=`<div style="position:relative;width:100%;height:100%">
+<svg viewBox="0 0 520 520" width="100%" height="100%" style="position:absolute;inset:0"><defs>
+<linearGradient id="gd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6d77a"/><stop offset=".5" stop-color="#c99a3a"/><stop offset="1" stop-color="#f1cf6e"/></linearGradient>
+<radialGradient id="gr" cx=".5" cy=".42" r=".6"><stop offset="0" stop-color="#1c5a3c"/><stop offset="1" stop-color="#0f3a26"/></radialGradient></defs>
+<circle cx="260" cy="260" r="256" fill="url(#gd)"/><circle cx="260" cy="260" r="243" fill="url(#gr)"/></svg>
+<div style="position:absolute;left:11.9%;top:14.6%;width:76.2%;height:72.3%">
+<img src="../owl_base.png" style="position:absolute;inset:0;width:100%;height:100%">
+<svg class="eyeW" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0"><circle cx="365" cy="148" r="52" fill="#fdeecf"/><path d="M328 158 Q365 122 402 158" stroke="#0b2a17" stroke-width="10" fill="none" stroke-linecap="round"/></svg>
+<img class="wingI" src="../owl_wing.png" style="position:absolute;inset:0;width:100%;height:100%;transform-origin:70.8% 53.5%">
+</div></div>`;
+// bonnet de Noël (dessiné, posé sur la tête de la chouette)
+const HAT=`<svg viewBox="0 0 200 150" width="100%" height="100%"><path d="M20 120 Q60 20 150 18 Q120 50 176 112 Z" fill="#c62f3a"/><path d="M60 50 Q100 30 150 18" stroke="#e24b55" stroke-width="8" fill="none" opacity=".6"/><rect x="8" y="104" width="180" height="34" rx="17" fill="#fdfbf0"/><circle cx="160" cy="20" r="18" fill="#fdfbf0"/></svg>`;
+const LOGOV=(extra='')=>`<div class="a" style="left:110px;top:70px;width:420px;height:420px"><div style="width:100%;height:100%">${LOGO}</div>${extra}</div>`;
+const OWLHAT=LOGOV(`<div class="a hat" style="left:95px;top:-28px;width:220px;height:165px;transform:rotate(-8deg);transform-origin:50% 90%">${HAT}</div>`);
+// ---------- textes ----------
+const T={
+bw:{
+ fr:{a:['BLACK WEEK','Les packs à <em>-50 %</em>&nbsp;!','Du 23 au 30 novembre'],b:['SANS CODE À TAPER','Prix barrés <em>automatiques</em>','-50 % la 1re année des packs annuels · -30 % le 1er mois des mensuels'],o:['Jusqu’au <em>30 novembre</em>&nbsp;!','Dans la boutique','PACKS PREMIUM','Plumage · Sagesse · Chouette'],h:['Packs annuels · 1re année','/an']},
+ en:{a:['BLACK WEEK','Plans at <em>-50%</em>!','November 23 to 30'],b:['NO CODE NEEDED','Prices <em>already reduced</em>','-50% on the 1st year of annual plans · -30% on the 1st month of monthly plans'],o:['Until <em>November 30</em>!','In the shop','PREMIUM PLANS','Plumage · Sagesse · Chouette'],h:['Annual plans · 1st year','/yr']},
+ es:{a:['BLACK WEEK','¡Planes a <em>-50 %</em>!','Del 23 al 30 de noviembre'],b:['SIN CÓDIGO','Precios <em>ya rebajados</em>','-50 % el 1.er año de los planes anuales · -30 % el 1.er mes de los mensuales'],o:['¡Hasta el <em>30 de noviembre</em>!','En la tienda','PLANES PREMIUM','Plumage · Sagesse · Chouette'],h:['Planes anuales · 1.er año','/año']}},
+bwfin:{
+ fr:{a:['DERNIÈRES HEURES','Black Week : <em>c’est bientôt fini</em>&nbsp;!','Jusqu’à demain 23:59'],b:['ENCORE AUJOURD’HUI ET DEMAIN','Ton pack <em>à moitié prix</em>','-50 % la 1re année des packs annuels · -30 % le 1er mois des mensuels'],o:['Plus que <em>quelques heures</em> ⏳','Dans la boutique','PACKS PREMIUM','Sans code : le prix est déjà barré'],h:['Packs annuels · 1re année','/an']},
+ en:{a:['FINAL HOURS','Black Week: <em>almost over</em>!','Until tomorrow 23:59'],b:['TODAY AND TOMORROW ONLY','Your plan <em>at half price</em>','-50% on the 1st year of annual plans · -30% on the 1st month of monthly plans'],o:['Only <em>a few hours left</em> ⏳','In the shop','PREMIUM PLANS','No code: the price is already reduced'],h:['Annual plans · 1st year','/yr']},
+ es:{a:['ÚLTIMAS HORAS','Black Week: <em>¡ya casi termina!</em>','Hasta mañana a las 23:59'],b:['SOLO HOY Y MAÑANA','Tu plan <em>a mitad de precio</em>','-50 % el 1.er año de los planes anuales · -30 % el 1.er mes de los mensuales'],o:['Solo quedan <em>unas horas</em> ⏳','En la tienda','PLANES PREMIUM','Sin código: el precio ya está rebajado'],h:['Planes anuales · 1.er año','/año']}}
+}[VID][L];
+// ---------- visuels (640 x 600) ----------
+function badge(){return LOGOV(`<div class="a bdg bf" style="left:250px;top:240px;width:230px;height:230px;border-radius:50%;background:#111;box-shadow:0 0 0 8px #c9a86a,0 0 60px rgba(243,214,138,.5);display:flex;align-items:center;justify-content:center;font-size:84px;color:#f3d68a;transform:rotate(12deg)">-50%</div>`)
+ +(VID==='bwfin'?`<div class="a hg" style="left:20px;top:300px;font-size:130px">⏳</div>`:'');}
+function prices(){const P=[['Plumage','24,99','12,49'],['Sagesse','84,99','42,49'],['Chouette','99,99','49,99']];if(L==='en')P.forEach(p=>{p[1]=p[1].replace(',','.');p[2]=p[2].replace(',','.');});
+ return `<div class="a card pc" style="left:40px;top:80px;width:560px;padding:0 0 18px;overflow:hidden"><div class="bf" style="background:#111;color:#f3d68a;text-align:center;padding:18px 0;font-size:28px;letter-spacing:2px;text-transform:uppercase">🖤 ${T.h[0]}</div>
+ <div style="padding:6px 34px 0">${P.map((p,i)=>`<div class="pk pr${i}"><span>${p[0]}</span><span><s>${p[1]} €</s> <b>${p[2]} €</b><span style="font-size:22px;color:#5a4128">${T.h[1]}</span></span></div>`).join('')}</div></div>`;}
+// ---------- scènes ----------
+const scenes=[];
+function scene(s,e,txt,vis,kind,o={}){const d=document.createElement('div');d.className='scene';
+ d.innerHTML=(o.visFirst?'':`<div class="txt">${txt}</div>`)+(vis?`<div class="vbox" style="height:${o.vh||600}px"><div class="vis in" data-d=".1" style="position:absolute;inset:0">${vis}</div></div>`:'')+(o.visFirst?`<div class="txt">${txt}</div>`:'');
+ $('#scenes').appendChild(d);d.style.gap='30px';d.style.padding='96px 40px 60px';
+ d.querySelector('.txt').style.maxWidth=(LY.W-80)+'px';
+ if(o.tfk)d.querySelectorAll('.ttl').forEach(t=>t.style.fontSize=(68*o.tfk)+'px');
+ scenes.push({el:d,s,e,kind,ins:[...d.querySelectorAll('.in')]});}
+const K=(k,d='.05')=>`<div class="kick in" data-d="${d}">${k}</div>`;
+const TT=(t,d='.2')=>`<div class="ttl in" data-d="${d}">${t}</div>`;
+const SB=(t,d='.45')=>t?`<div class="sub in" data-d="${d}">${t}</div>`:'';
+const ICON='🖤';
+function outro(s,e,o){const card=`<div class="card in" data-d=".6" style="text-align:center;padding:22px 30px;margin-top:10px;width:470px">
+ <div style="font-weight:800;letter-spacing:3px;font-size:17px;color:#8a6a3a;text-transform:uppercase">${o[1]}</div>
+ <div class="btnff bf" style="font-size:32px;margin:.35em 0 .1em"><span>${ICON}</span><span>${o[2]}</span></div>
+ <div style="border-top:3px dashed #d8ceb0;margin:.7em 0"></div>
+ <div class="cta bf" style="display:inline-block;background:#111;color:#f3d68a;border-radius:999px;padding:.35em 1em;font-size:29px">tickgammon.com →</div></div>`;
+ scene(s,e,`${TT(o[0],'.3')}${card}${SB(o[3],'1.0')}`,LOGOV(),'outro',{visFirst:true,vh:500,tfk:.8});}
+let END=14;
+scene(0,4.6,`${K(T.a[0],'.3')}${TT(T.a[1],'.5')}${SB(T.a[2],'.9')}`,badge(),'owl',{visFirst:true,vh:520,tfk:1});
+scene(4.6,9.6,`${K(T.b[0])}${TT(T.b[1])}${SB(T.b[2])}`,prices(),'prices',{tfk:.9,vh:520});
+outro(9.6,END+1,T.o);
+// neige + confettis
+const SNOW=[],CONF=[];(function(){let seed=13;const r=()=>{seed=(seed*16807)%2147483647;return seed/2147483647;};
+ for(let i=0;i<70;i++){const d=document.createElement('div');d.className='a';const w=3+r()*7;d.style.cssText=`width:${w}px;height:${w}px;border-radius:50%;background:#fff;opacity:${.35+r()*.5}`;$('#snow').appendChild(d);SNOW.push({d,x:r()*LY.W,y:r()*LY.H,v:30+r()*70,sw:10+r()*25,ph:r()*6});}
+ const cols=['#f3d68a','#c9a86a','#fdfbf0','#444'];
+ for(let i=0;i<50;i++){const d=document.createElement('div');d.className='a';const w=9+r()*11;d.style.cssText=`width:${w}px;height:${w*.5}px;background:${cols[i%4]};border-radius:2px`;$('#conf').appendChild(d);CONF.push({d,x:r()*LY.W,v:150+r()*200,r:r()*360,vr:(r()-.5)*500,sw:r()*30,ph:r()*6});}})();
+// ---------- animation ----------
+const cl=x=>Math.max(0,Math.min(1,x)),seg=(t,a,b)=>cl((t-a)/(b-a)),eo=x=>1-Math.pow(1-x,3),back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+function wink(el,on){el.querySelectorAll('.eyeW').forEach(x=>x.style.opacity=on?1:0);}
+function wave(el,lt,a,b){const e=Math.min(seg(lt,a,a+.3),1-seg(lt,b-.3,b));const ang=e*(52+22*Math.sin((lt-a)*Math.PI*4.4));el.querySelectorAll('.wingI').forEach(w=>w.style.transform=`rotate(${-ang}deg)`);}
+function render(t){
+ $('#prog').style.width=(t/END*100)+'%';
+ const sOut=scenes.find(x=>x.kind==='outro');
+ $('#url').style.opacity=(t>scenes[0].e-0.01&&t<sOut.s)?1:0;
+ SNOW.forEach(f=>{const y=(f.y+f.v*t)%(LY.H+20)-10;f.d.style.transform=`translate(${f.x+Math.sin(t*1.2+f.ph)*f.sw}px,${y}px)`;});
+ scenes.forEach(sc=>{const lt=t-sc.s,dur=sc.e-sc.s,on=t>=sc.s&&t<sc.e;
+  if(!on){sc.el.style.opacity=0;return;}
+  const out=sc.kind==='outro'?0:seg(lt,dur-.3,dur);sc.el.style.opacity=Math.min(seg(lt,0,.2),1-out);sc.el.style.transform=`translateX(${-out*60}px)`;
+  sc.ins.forEach(e=>{const p=seg(lt,+e.dataset.d,+e.dataset.d+.5);e.style.opacity=eo(p);e.style.transform=`translateY(${(1-back(p))*40}px) scale(${.85+.15*back(p)})`;});
+  const E=sc.el;
+  if(sc.kind==='prices'){E.querySelectorAll('.pk').forEach((r,i)=>{const p=eo(seg(lt,.7+i*.45,1.1+i*.45));r.style.opacity=p;r.style.transform=`translateX(${(1-p)*-80}px)`;const st=r.querySelector('s');if(st)st.style.opacity=p;});}
+  if(sc.kind==='owl'){wave(E,lt,1.2,3.4);wink(E,lt>2.0&&lt<2.35);const h=E.querySelector('.hat');if(h)h.style.transform=`rotate(${-8+Math.sin(lt*3)*4}deg)`;const g=E.querySelector('.bdg');if(g)g.style.transform=`rotate(12deg) scale(${back(seg(lt,.6,1.2))*(1+.05*Math.sin(lt*6))})`;const hg=E.querySelector('.hg');if(hg)hg.style.transform=`rotate(${Math.sin(lt*4)*14}deg)`;}
+  if(sc.kind==='outro'){wave(E,lt,.6,2.8);wink(E,(lt>1.3&&lt<1.65)||(lt>3.2&&lt<3.5));const c=E.querySelector('.cta');if(c)c.style.transform=`scale(${1+.04*Math.sin(Math.max(0,lt-1.2)*5)})`;const h=E.querySelector('.hat');if(h)h.style.transform=`rotate(${-8+Math.sin(lt*3)*4}deg)`;}
+ });
+ const yr=scenes.find(x=>x.kind==='year');
+ const ct=(yr&&t>=yr.s+1.5&&t<yr.e)?t-yr.s-1.5:(sOut&&t>=sOut.s+.1&&true?t-sOut.s-.1:-1);
+ CONF.forEach(c=>{if(ct<0||ct>5){c.d.style.opacity=0;return;}c.d.style.opacity=1;c.d.style.transform=`translate(${c.x+Math.sin(ct*2+c.ph)*c.sw}px,${-30+c.v*ct*(LY.H/900)}px) rotate(${c.r+c.vr*ct}deg)`;});
+}
+window.render=render;window.END=END;render(0);
+</script></body></html>
