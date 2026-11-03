@@ -8,7 +8,7 @@ V={
 'bw':('2026-11-23',
  {'fr':("🖤 C'est la Black Week sur TickGammon !\n-50 % sur la 1re année des packs annuels, -30 % sur le 1er mois des mensuels. Prix déjà barré, sans code. Jusqu'au 30/11.\n👉 https://www.tickgammon.com\n#backgammon","Black Week : les packs à -50 % 🖤 #shorts","Black Week -50 %"),
   'en':("🖤 It's Black Week on TickGammon!\n-50% on the 1st year of annual plans, -30% on the 1st month of monthly plans. Price already reduced, no code. Until 30/11.\n👉 https://www.tickgammon.com\n#backgammon","Black Week: plans at -50% 🖤 #shorts","Black Week -50%"),
-  'es':("🖤 ¡Es la Black Week en TickGammon!\n-50 % el 1.er año de los planes anuales, -30 % el 1.er mes de los mensuales. Precio ya rebajado, sin código. Hasta el 30/11.\n👉 https://www.tickgammon.com\n#backgammon","Black Week: planes a -50 % 🖤 #shorts","Black Week -50 %")}),
+  'es':("🖤 ¡Black Week en TickGammon!\n-50 % el 1.er año de los planes anuales, -30 % el 1.er mes de los mensuales. Sin código, hasta el 30/11.\n👉 https://www.tickgammon.com\n#backgammon","Black Week: planes a -50 % 🖤 #shorts","Black Week -50 %")}),
 'bwfin':('2026-11-29',
  {'fr':("⏳ Black Week : dernières heures !\nJusqu'à demain 23:59 : -50 % sur la 1re année des packs annuels, -30 % sur le 1er mois des mensuels. Sans code.\n👉 https://www.tickgammon.com\n#backgammon","Black Week : dernières heures ⏳ #shorts","Black Week, dernières heures"),
   'en':("⏳ Black Week: final hours!\nUntil tomorrow 23:59: -50% on the 1st year of annual plans, -30% on the 1st month of monthly plans. No code needed.\n👉 https://www.tickgammon.com\n#backgammon","Black Week: final hours ⏳ #shorts","Black Week, final hours"),
