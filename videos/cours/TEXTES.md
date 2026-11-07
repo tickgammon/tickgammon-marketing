@@ -34,7 +34,7 @@ YouTube — título: Clases de backgammon en grupo 🎓 TickGammon #shorts
 **FR**
 👤 Un prof de backgammon rien que pour toi ! Choisis ton prof sur TickGammon, demande un créneau avec ton message, il valide sous 48 h. Tes TGC sont bloqués, pas dépensés : rendus en cas de refus ou d'annulation.
 👉 https://www.tickgammon.com
-#backgammon #coursparticulier #jeudesociete
+#backgammon #jeudesociete
 
 YouTube — titre : Ton prof de backgammon rien que pour toi 👤 TickGammon #shorts
 
