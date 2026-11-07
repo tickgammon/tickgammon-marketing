@@ -1,0 +1,255 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Bricolage Grotesque';font-weight:800;src:url(../fridaycup/fonts/bricolage-grotesque-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:700;src:url(../fridaycup/fonts/manrope-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:800;src:url(../fridaycup/fonts/manrope-latin-800-normal.woff2) format('woff2')}
+html,body{margin:0;overflow:hidden;background:#0d3326;font-family:Manrope,sans-serif;color:#fdfbf0}
+#s{position:relative;overflow:hidden;background-color:#0d3326;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.025) 0 2px,transparent 2px 14px)}
+.a{position:absolute}
+.scene{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;box-sizing:border-box}
+.txt{display:flex;flex-direction:column;flex:0 0 auto}
+.kick{align-self:var(--al);background:#ff7a59;color:#0d3326;font-weight:800;letter-spacing:3px;text-transform:uppercase;border-radius:999px;padding:.35em .9em;font-size:var(--kf)}
+.ttl{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;text-transform:uppercase;font-size:var(--tf);line-height:.95;letter-spacing:-.03em;margin:.22em 0 .2em}
+.ttl em,.sub em{font-style:normal;color:#c9a86a}
+.sub{font-size:var(--sf);font-weight:700;color:#d9e6dc;line-height:1.3}
+.vbox{flex:0 0 auto;position:relative}
+.vis{position:absolute;left:0;top:0;width:640px;height:560px;transform-origin:0 0}
+.bf{font-family:'Bricolage Grotesque',sans-serif;font-weight:800}
+.card{background:#fdfbf0;color:#0d3326;border-radius:24px;box-shadow:0 12px 0 rgba(0,0,0,.25);box-sizing:border-box}
+.chk{display:flex;align-items:center;gap:16px;font-weight:800;font-size:27px;line-height:1.15;padding:11px 0;border-bottom:3px dashed #e3d9bd}
+.chk:last-child{border-bottom:0}
+.chk i{flex:0 0 40px;height:40px;border-radius:50%;background:#0d3326;display:flex;align-items:center;justify-content:center}
+.btnff{display:inline-flex;align-items:center;gap:.45em;background:linear-gradient(#e6c47c,#c9a86a);color:#0d3326;border-radius:16px;padding:.42em .9em;box-shadow:0 6px 0 #8a6a3a}
+.shot{position:absolute;overflow:hidden;border-radius:22px;box-shadow:0 0 0 5px #c9a86a,0 16px 0 rgba(0,0,0,.3);background:#1a120a}
+.shot img{position:absolute;left:0;top:0;transform-origin:0 0}
+.chip{display:inline-block;border-radius:999px;padding:6px 14px;font-weight:800;font-size:20px;background:#efe6d2;color:#5a3417;margin:0 6px 8px 0}
+.chip.on{background:#0d3326;color:#c9a86a}
+.tap{position:absolute;width:90px;height:90px;border-radius:50%;border:6px solid #ff7a59;opacity:0}
+</style></head><body><div id="s">
+<div id="url" class="a" style="left:0;right:0;text-align:center;font-weight:800;letter-spacing:3px;color:#c9a86a">TICKGAMMON.COM</div>
+<div id="prog" class="a" style="left:0;bottom:0;height:6px;background:#ff7a59;width:0"></div>
+<div id="conf" class="a" style="inset:0"></div>
+<div id="scenes"></div>
+</div>
+<script>
+const LY=window.LY, L=window.LANG, VID=window.VID;
+const $=q=>document.querySelector(q);
+const S=$('#s');S.style.width=LY.W+'px';S.style.height=LY.H+'px';
+const R=document.documentElement.style;
+R.setProperty('--tf',LY.tf+'px');R.setProperty('--sf',LY.sf+'px');R.setProperty('--kf',LY.kf+'px');
+R.setProperty('--al',LY.dir==='row'?'flex-start':'center');
+$('#url').style.top=LY.urlY+'px';$('#url').style.fontSize=LY.url+'px';
+const CAP='../../videos/cours/captures/';
+// ---------- la chouette officielle (owl_base.png / owl_wing.png du générateur, jamais redessinée) ----------
+const LOGO=`<div style="position:relative;width:100%;height:100%">
+<svg viewBox="0 0 520 520" width="100%" height="100%" style="position:absolute;inset:0"><defs>
+<linearGradient id="gd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6d77a"/><stop offset=".5" stop-color="#c99a3a"/><stop offset="1" stop-color="#f1cf6e"/></linearGradient>
+<radialGradient id="gr" cx=".5" cy=".42" r=".6"><stop offset="0" stop-color="#1c5a3c"/><stop offset="1" stop-color="#0f3a26"/></radialGradient></defs>
+<circle cx="260" cy="260" r="256" fill="url(#gd)"/><circle cx="260" cy="260" r="243" fill="url(#gr)"/></svg>
+<div style="position:absolute;left:11.9%;top:14.6%;width:76.2%;height:72.3%">
+<img src="../owl_base.png" style="position:absolute;inset:0;width:100%;height:100%">
+<svg class="eyeW" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0"><circle cx="365" cy="148" r="52" fill="#fdeecf"/><path d="M328 158 Q365 122 402 158" stroke="#0b2a17" stroke-width="10" fill="none" stroke-linecap="round"/></svg>
+<img class="wingI" src="../owl_wing.png" style="position:absolute;inset:0;width:100%;height:100%;transform-origin:70.8% 53.5%">
+</div></div>`;
+const CHECK=`<svg viewBox="0 0 24 24" width="24" height="24"><path d="M5 12.5l4.2 4.2L19 7" stroke="#c9a86a" stroke-width="3.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const COIN=(s=26)=>`<svg viewBox="0 0 32 32" width="${s}" height="${s}" style="vertical-align:-.18em"><circle cx="16" cy="16" r="15" fill="#e2b13c" stroke="#8a5f20" stroke-width="2"/><circle cx="16" cy="16" r="10" fill="none" stroke="#fbe7a6" stroke-width="2"/><text x="16" y="21" text-anchor="middle" font-family="Arial" font-weight="900" font-size="13" fill="#6b4416">T</text></svg>`;
+const CAPICO=(c='#0d3326')=>`<svg viewBox="0 0 64 64" width="1.1em" height="1.1em"><path d="M32 10 L60 22 L32 34 L4 22 Z" fill="${c}"/><path d="M16 28 V42 Q32 52 48 42 V28 L32 35 Z" fill="${c}"/><path d="M56 24 V40" stroke="${c}" stroke-width="4"/></svg>`;
+// ---------- textes FR / EN / ES ----------
+const TX={
+collectifs:{
+ fr:{s1:['NOUVEAU','Les cours <em>en groupe</em>','avec un vrai prof, en direct !'],
+  s2:['ÉTAPE 1','Réserve ta place <em>dans l\'agenda</em>','Le prix est affiché en TGC, la monnaie du jeu.'],
+  card:{t:'Les bases du videau',d:'Jeu. 19:00 · 60 min',lv:'Débutant',p:'50',pl:'12 / 15 élèves',b:'Réserver'},
+  s3:['EN DIRECT','La salle <em>de cours</em>','Vidéo du prof et plateau partagé : tu vois tout en temps réel.'],
+  s4:['DANS LA SALLE','Tout pour <em>progresser</em>'],
+  checks:['Le prof dessine sur le plateau','Les meilleurs coups, expliqués','Matchs commentés en direct','Des replays pour revoir le cours'],
+  s5:['LES CONSEILS','Les meilleurs coups <em>sous tes yeux</em>','Flèches sur le plateau et explication de chaque coup.'],
+  out:['Choisis <em>ton cours</em>','Dans l\'appli, ouvre','AGENDA DES COURS','Sur le site, Android et Windows']},
+ en:{s1:['NEW','Group <em>lessons</em>','with a real teacher, live!'],
+  s2:['STEP 1','Book your seat <em>in the calendar</em>','The price is shown in TGC, the game currency.'],
+  card:{t:'Doubling cube basics',d:'Thu. 7:00 pm · 60 min',lv:'Beginner',p:'50',pl:'12 / 15 students',b:'Book'},
+  s3:['LIVE','The <em>classroom</em>','Teacher video and shared board: you see everything in real time.'],
+  s4:['IN THE CLASSROOM','Everything <em>to improve</em>'],
+  checks:['The teacher draws on the board','Best moves, explained','Live commented matches','Replays to watch the lesson again'],
+  s5:['TIPS','The best moves <em>right in front of you</em>','Arrows on the board and an explanation for each move.'],
+  out:['Pick <em>your lesson</em>','In the app, open','LESSONS CALENDAR','On the website, Android and Windows']},
+ es:{s1:['NOVEDAD','Clases <em>en grupo</em>','¡con un profe de verdad, en directo!'],
+  s2:['PASO 1','Reserva tu plaza <em>en la agenda</em>','El precio se muestra en TGC, la moneda del juego.'],
+  card:{t:'Lo básico del doblador',d:'Jue. 19:00 · 60 min',lv:'Principiante',p:'50',pl:'12 / 15 alumnos',b:'Reservar'},
+  s3:['EN DIRECTO','El aula <em>de clase</em>','Vídeo del profe y tablero compartido: lo ves todo en tiempo real.'],
+  s4:['EN EL AULA','Todo para <em>mejorar</em>'],
+  checks:['El profe dibuja en el tablero','Las mejores jugadas, explicadas','Partidas comentadas en directo','Replays para volver a ver la clase'],
+  s5:['CONSEJOS','Las mejores jugadas <em>ante tus ojos</em>','Flechas en el tablero y la explicación de cada jugada.'],
+  out:['Elige <em>tu clase</em>','En la app, abre','AGENDA DE CLASES','En la web, Android y Windows']}},
+particuliers:{
+ fr:{s1:['COURS PARTICULIERS','Ton prof, <em>rien que pour toi</em>','Ton créneau, ton thème, ton rythme.'],
+  s2:['ÉTAPE 1','Choisis <em>ton prof</em>','Langues, spécialités et tarifs en TGC sur sa tuile.'],
+  s3:['ÉTAPE 2','Lis <em>sa fiche</em>','Sa présentation, ses spécialités, ses tarifs.'],
+  s4:['ÉTAPE 3','Demande <em>un créneau</em>','Coche tes thèmes et écris-lui un message.'],
+  form:{slot:'Dim. 18:00 · 60 min',th:['Videau','Ouvertures','Fin de partie'],lbl:'Ton message',msg:'Je veux progresser au videau !',b:'Envoyer la demande'},
+  s5:['EN TOUTE CONFIANCE','Simple <em>et sûr</em>'],
+  checks:['Le prof répond sous 48 h','Tes TGC sont bloqués, pas dépensés','Refus ou annulation : TGC rendus','Cours en direct : vidéo + plateau'],
+  out:['Trouve <em>ton prof</em>','Dans l\'appli, ouvre','AGENDA DES COURS','Onglet Cours particuliers']},
+ en:{s1:['PRIVATE LESSONS','Your teacher, <em>just for you</em>','Your slot, your topic, your pace.'],
+  s2:['STEP 1','Pick <em>your teacher</em>','Languages, specialties and TGC rates on their tile.'],
+  s3:['STEP 2','Read <em>their profile</em>','Their intro, specialties and rates.'],
+  s4:['STEP 3','Request <em>a slot</em>','Tick your topics and write them a message.'],
+  form:{slot:'Sun. 6:00 pm · 60 min',th:['Doubling cube','Openings','Endgame'],lbl:'Your message',msg:'I want to get better with the cube!',b:'Send request'},
+  s5:['WORRY-FREE','Simple <em>and safe</em>'],
+  checks:['The teacher replies within 48 h','Your TGC are held, not spent','Declined or cancelled: TGC refunded','Live lesson: video + board'],
+  out:['Find <em>your teacher</em>','In the app, open','LESSONS CALENDAR','Private lessons tab']},
+ es:{s1:['CLASES PARTICULARES','Tu profe, <em>solo para ti</em>','Tu horario, tu tema, tu ritmo.'],
+  s2:['PASO 1','Elige <em>a tu profe</em>','Idiomas, especialidades y tarifas en TGC en su ficha.'],
+  s3:['PASO 2','Lee <em>su perfil</em>','Su presentación, especialidades y tarifas.'],
+  s4:['PASO 3','Pide <em>un horario</em>','Marca tus temas y escríbele un mensaje.'],
+  form:{slot:'Dom. 18:00 · 60 min',th:['Doblador','Aperturas','Final'],lbl:'Tu mensaje',msg:'¡Quiero mejorar con el doblador!',b:'Enviar solicitud'},
+  s5:['CON TODA CONFIANZA','Fácil <em>y seguro</em>'],
+  checks:['El profe responde en 48 h','Tus TGC quedan bloqueados, no gastados','Rechazo o cancelación: TGC devueltos','Clase en directo: vídeo + tablero'],
+  out:['Encuentra <em>a tu profe</em>','En la app, abre','AGENDA DE CLASES','Pestaña Clases particulares']}},
+prof:{
+ fr:{s1:['TU AS LE NIVEAU ?','Deviens <em>prof</em>','et partage ta passion du backgammon !'],
+  s2:['TON OFFRE','Crée <em>ta fiche</em>','Présentation, spécialités, langues et tes prix en TGC.'],
+  s3:['TON ESPACE','Ton tableau <em>de bord</em>','Tes cours, tes demandes et tes chiffres en un coup d\'œil.'],
+  s4:['POUR TOI','Tu touches <em>90 %</em>','du prix de chaque cours, en TGC.'],
+  split:{p:'Cours à 50',you:'Pour toi',tg:'TickGammon',a:'45',b:'5'},
+  s5:['ET EN PLUS','Fais <em>grandir</em> ta classe'],
+  checks:['Cours en groupe et particuliers','Enregistre tes cours','Vends tes replays au prix que tu veux','Avec le Pack Chouette'],
+  out:['Lance-toi <em>!</em>','Dans l\'agenda des cours','DEVENIR PROF','Avec le Pack Chouette']},
+ en:{s1:['GOT THE SKILLS?','Become <em>a teacher</em>','and share your love of backgammon!'],
+  s2:['YOUR OFFER','Create <em>your profile</em>','Intro, specialties, languages and your TGC prices.'],
+  s3:['YOUR SPACE','Your <em>dashboard</em>','Your lessons, requests and figures at a glance.'],
+  s4:['FOR YOU','You receive <em>90%</em>','of the price of every lesson, in TGC.'],
+  split:{p:'Lesson at 50',you:'For you',tg:'TickGammon',a:'45',b:'5'},
+  s5:['AND MORE','Grow <em>your class</em>'],
+  checks:['Group and private lessons','Record your lessons','Sell your replays at the price you want','With the Chouette Pack'],
+  out:['Go <em>for it!</em>','In the lessons calendar','BECOME A TEACHER','With the Chouette Pack']},
+ es:{s1:['¿TIENES EL NIVEL?','Hazte <em>profe</em>','¡y comparte tu pasión por el backgammon!'],
+  s2:['TU OFERTA','Crea <em>tu ficha</em>','Presentación, especialidades, idiomas y tus precios en TGC.'],
+  s3:['TU ESPACIO','Tu panel <em>de control</em>','Tus clases, solicitudes y cifras de un vistazo.'],
+  s4:['PARA TI','Recibes <em>el 90 %</em>','del precio de cada clase, en TGC.'],
+  split:{p:'Clase a 50',you:'Para ti',tg:'TickGammon',a:'45',b:'5'},
+  s5:['Y ADEMÁS','Haz <em>crecer</em> tu clase'],
+  checks:['Clases en grupo y particulares','Graba tus clases','Vende tus replays al precio que quieras','Con el Pack Chouette'],
+  out:['¡<em>Lánzate</em>!','En la agenda de clases','HAZTE PROFE','Con el Pack Chouette']}},
+whatsapp:{
+ fr:{s1:['NOUVEAU SUR TICKGAMMON','Les cours <em>de backgammon</em>','En groupe ou en particulier, avec un vrai prof.'],
+  s2:['EN GROUPE','Réserve <em>ta place</em>','Le prix est affiché en TGC, la monnaie du jeu.'],
+  card:{t:'Les bases du videau',d:'Jeu. 19:00 · 60 min',lv:'Débutant',p:'50',pl:'12 / 15 élèves',b:'Réserver'},
+  s3:['EN DIRECT','La salle <em>de cours</em>','Vidéo du prof, plateau partagé, dessins et conseils.'],
+  s4:['EN PARTICULIER','Choisis <em>ton prof</em>','Il valide ta demande sous 48 h.'],
+  s5:['EN TOUTE CONFIANCE','Simple <em>et sûr</em>'],
+  checks:['Tes TGC sont bloqués, pas dépensés','Refus ou annulation : TGC rendus','Replays pour revoir les cours','Tu as le niveau ? Deviens prof !'],
+  out:['À toi <em>de jouer !</em>','Dans l\'appli, ouvre','AGENDA DES COURS','Sur le site, Android et Windows']},
+ en:{s1:['NEW ON TICKGAMMON','Backgammon <em>lessons</em>','Group or private, with a real teacher.'],
+  s2:['GROUP','Book <em>your seat</em>','The price is shown in TGC, the game currency.'],
+  card:{t:'Doubling cube basics',d:'Thu. 7:00 pm · 60 min',lv:'Beginner',p:'50',pl:'12 / 15 students',b:'Book'},
+  s3:['LIVE','The <em>classroom</em>','Teacher video, shared board, drawings and tips.'],
+  s4:['PRIVATE','Pick <em>your teacher</em>','They confirm your request within 48 h.'],
+  s5:['WORRY-FREE','Simple <em>and safe</em>'],
+  checks:['Your TGC are held, not spent','Declined or cancelled: TGC refunded','Replays to watch lessons again','Got the skills? Become a teacher!'],
+  out:['Your turn <em>to play!</em>','In the app, open','LESSONS CALENDAR','On the website, Android and Windows']},
+ es:{s1:['NOVEDAD EN TICKGAMMON','Clases <em>de backgammon</em>','En grupo o particulares, con un profe de verdad.'],
+  s2:['EN GRUPO','Reserva <em>tu plaza</em>','El precio se muestra en TGC, la moneda del juego.'],
+  card:{t:'Lo básico del doblador',d:'Jue. 19:00 · 60 min',lv:'Principiante',p:'50',pl:'12 / 15 alumnos',b:'Reservar'},
+  s3:['EN DIRECTO','El aula <em>de clase</em>','Vídeo del profe, tablero compartido, dibujos y consejos.'],
+  s4:['PARTICULARES','Elige <em>a tu profe</em>','Confirma tu solicitud en 48 h.'],
+  s5:['CON TODA CONFIANZA','Fácil <em>y seguro</em>'],
+  checks:['Tus TGC quedan bloqueados, no gastados','Rechazo o cancelación: TGC devueltos','Replays para volver a ver las clases','¿Tienes el nivel? ¡Hazte profe!'],
+  out:['¡Te toca <em>jugar!</em>','En la app, abre','AGENDA DE CLASES','En la web, Android y Windows']}}
+};
+const T=TX[VID][L];
+// ---------- visuels (640 x 560) ----------
+// capture recadrée [x,y,w,h] en px de l'image source, centrée dans le cadre 600 x 520, léger zoom pendant la scène
+function shot(file,c,o={}){const mw=o.mw||600,mh=o.mh||520;const k=Math.min(mw/c[2],mh/c[3]);const w=Math.round(c[2]*k),h=Math.round(c[3]*k);
+ return `<div class="shot kb" style="left:${(640-w)/2}px;top:${(560-h)/2}px;width:${w}px;height:${h}px"><img src="${CAP+file}" data-k="${k}" style="width:${o.sw*k}px;transform:translate(${-c[0]*k}px,${-c[1]*k}px)"></div>`;}
+const SH={
+ tuile:()=>shot('01_tuile_prof.png',[0,0,389,256],{sw:389}),
+ fiche:()=>shot('02_fiche_prof.png',[0,0,665,412],{sw:665}),
+ salle:()=>shot('03_salle_crayon.png',[88,18,1100,705],{sw:1261}),
+ conseils:()=>shot('05_conseils_eleve.png',[80,68,1100,575],{sw:1260}),
+ offre:()=>shot('06_prof_offre.png',[402,400,905,450],{sw:1366}),
+ dash:()=>shot('07_prof_tableau_de_bord.png',[58,255,1250,490],{sw:1366})};
+function courseCard(c){return `<div class="a card" style="left:50px;top:60px;width:540px;padding:30px 34px">
+ <div style="display:flex;justify-content:space-between;align-items:center"><span class="bf" style="font-size:34px">${c.t}</span><span class="chip on" style="margin:0">${c.lv}</span></div>
+ <div style="font-weight:800;font-size:24px;color:#8a6a3a;margin:12px 0 18px">${c.d}</div>
+ <div style="display:flex;gap:18px;align-items:center;font-weight:800;font-size:28px;padding:14px 0;border-top:3px dashed #e3d9bd;border-bottom:3px dashed #e3d9bd">
+  <span>${COIN(34)} ${c.p} TGC</span><span style="color:#8a6a3a">·</span><span>${CAPICO()} ${c.pl}</span></div>
+ <div style="text-align:center;margin-top:26px"><span class="btnff bf hb" style="font-size:36px">${c.b} →</span></div>
+ <div class="tap" style="left:300px;top:290px"></div></div>`;}
+function reqForm(f){return `<div class="a card" style="left:40px;top:40px;width:560px;padding:26px 30px">
+ <div class="bf" style="font-size:30px;margin-bottom:12px">${f.slot}</div>
+ <div>${f.th.map((x,i)=>`<span class="chip th" data-i="${i}">${x}</span>`).join('')}</div>
+ <div style="font-weight:800;letter-spacing:2px;font-size:18px;color:#8a6a3a;text-transform:uppercase;margin-top:12px">${f.lbl}</div>
+ <div style="margin-top:8px;border:4px solid #c9a86a;border-radius:16px;padding:14px 16px;font-size:26px;font-weight:800;min-height:68px"><span class="typed"></span><span class="caret" style="color:#ff7a59">|</span></div>
+ <div style="text-align:center;margin-top:20px"><span class="btnff bf hb" style="font-size:30px">${f.b} →</span></div>
+ <div class="tap" style="left:290px;top:330px"></div></div>`;}
+function split(s){return `<div class="a card" style="left:60px;top:50px;width:520px;padding:26px 30px;text-align:center">
+ <div class="bf" style="font-size:34px">${s.p} ${COIN(34)}</div>
+ <div style="display:flex;gap:16px;margin-top:22px">
+  <div class="sp1" style="flex:9;background:#0d3326;color:#fdfbf0;border-radius:18px;padding:22px 10px"><div style="font-weight:800;font-size:22px;color:#c9a86a;text-transform:uppercase;letter-spacing:2px">${s.you}</div><div class="bf" style="font-size:72px">${s.a}</div><div style="font-weight:800;font-size:22px">TGC · 90 %</div></div>
+  <div class="sp2" style="flex:3.2;background:#efe6d2;color:#5a3417;border-radius:18px;padding:22px 6px"><div style="font-weight:800;font-size:15px;text-transform:uppercase">${s.tg}</div><div class="bf" style="font-size:44px;margin-top:14px">${s.b}</div><div style="font-weight:800;font-size:18px">10 %</div></div>
+ </div></div>`;}
+function checks(list){return `<div class="a card" style="left:20px;top:90px;width:600px;padding:18px 30px">${list.map((c,i)=>`<div class="chk ci" data-i="${i}"><i>${CHECK}</i><span>${c}</span></div>`).join('')}</div>`;}
+// ---------- scènes ----------
+const scenes=[];
+function scene(s,e,txt,vis,kind,opt={}){const d=document.createElement('div');d.className='scene';
+ const sc=opt.sc||Math.min(LY.vbW/640,LY.vbH/560);const w=640*sc,h=(opt.vh||560)*sc;
+ d.innerHTML=(opt.visFirst?'':`<div class="txt">${txt}</div>`)+(vis?`<div class="vbox" style="width:${w}px;height:${h}px"><div class="vis in" data-d=".1" data-sc="${sc}">${vis}</div></div>`:'')+(opt.visFirst?`<div class="txt">${txt}</div>`:'');
+ $('#scenes').appendChild(d);
+ d.style.flexDirection=LY.dir;d.style.gap=LY.gap+'px';d.style.padding=LY.padT+'px '+LY.pad+'px '+LY.pad+'px';
+ const tx=d.querySelector('.txt');tx.style.textAlign=LY.dir==='row'?'left':'center';tx.style.alignItems=LY.dir==='row'?'flex-start':'center';
+ if(LY.dir==='row')tx.style.width=(LY.W-w-LY.gap-2*LY.pad)+'px';else tx.style.maxWidth=(LY.W-2*LY.pad)+'px';
+ if(opt.tfk)tx.querySelectorAll('.ttl').forEach(t=>t.style.fontSize=`calc(var(--tf)*${opt.tfk})`);
+ scenes.push({el:d,s,e,kind,ins:[...d.querySelectorAll('.in')]});return d;}
+const K=(k,d='.05')=>`<div class="kick in" data-d="${d}">${k}</div>`;
+const TT=(t,d='.2')=>`<div class="ttl in" data-d="${d}">${t}</div>`;
+const SB=(t,d='.45')=>t?`<div class="sub in" data-d="${d}">${t}</div>`:'';
+const LOGOV=`<div class="a" style="left:100px;top:60px;width:440px;height:440px"><div class="logo" style="width:100%;height:100%">${LOGO}</div></div>`;
+function outro(s,e,o){const card=`<div class="card in" data-d=".6" style="text-align:center;padding:calc(var(--sf)*.8) calc(var(--sf)*1.1);margin-top:calc(var(--sf)*.4);width:min(100%,calc(var(--sf)*17))">
+ <div style="font-weight:800;letter-spacing:3px;font-size:calc(var(--sf)*.6);color:#8a6a3a;text-transform:uppercase">${o[1]}</div>
+ <div class="btnff bf" style="font-size:calc(var(--sf)*1.05);margin:.35em 0 .1em">${CAPICO()}<span>${o[2]}</span></div>
+ <div style="border-top:3px dashed #d8ceb0;margin:.7em 0"></div>
+ <div class="cta bf" style="display:inline-block;background:#0d3326;color:#c9a86a;border-radius:999px;padding:.35em 1em;font-size:calc(var(--sf)*1.05)">tickgammon.com →</div></div>`;
+ return scene(s,e,`${TT(o[0],'.3')}${card}${SB(o[3],'1.0')}`,LOGOV,'outro',{visFirst:true,vh:LY.dir==='row'?560:(LY.H>1000?500:520),sc:(LY.dir==='column'&&LY.H<1000)?.36:0,tfk:.8});}
+const I=(s,e,t)=>scene(s,e,`${K(t[0],'.4')}${TT(t[1],'.6')}${SB(t[2],'.9')}`,LOGOV,'intro',{visFirst:true,tfk:1.1});
+const N=(s,e,t,vis,kind)=>scene(s,e,`${K(t[0])}${TT(t[1])}${SB(t[2])}`,vis,kind||'shot',{tfk:.85});
+let END;const CUTS=[];
+function build(list){let t=0;list.forEach(([d,fn])=>{fn(t,t+d);CUTS.push(t);t+=d;});END=t;}
+if(VID==='collectifs')build([[3.4,(a,b)=>I(a,b,T.s1)],[4,(a,b)=>N(a,b,T.s2,courseCard(T.card),'book')],[4.2,(a,b)=>N(a,b,T.s3,SH.salle())],
+ [4,(a,b)=>N(a,b,T.s4,checks(T.checks),'checks')],[3.8,(a,b)=>N(a,b,T.s5,SH.conseils())],[5.2,(a,b)=>outro(a,b+1,T.out)]]);
+if(VID==='particuliers')build([[3.4,(a,b)=>I(a,b,T.s1)],[3.6,(a,b)=>N(a,b,T.s2,SH.tuile())],[3.6,(a,b)=>N(a,b,T.s3,SH.fiche())],
+ [4.4,(a,b)=>N(a,b,T.s4,reqForm(T.form),'req')],[4,(a,b)=>N(a,b,T.s5,checks(T.checks),'checks')],[5.2,(a,b)=>outro(a,b+1,T.out)]]);
+if(VID==='prof')build([[3.4,(a,b)=>I(a,b,T.s1)],[3.8,(a,b)=>N(a,b,T.s2,SH.offre())],[3.8,(a,b)=>N(a,b,T.s3,SH.dash())],
+ [3.8,(a,b)=>N(a,b,T.s4,split(T.split),'split')],[4,(a,b)=>N(a,b,T.s5,checks(T.checks),'checks')],[5.2,(a,b)=>outro(a,b+1,T.out)]]);
+if(VID==='whatsapp')build([[3.6,(a,b)=>I(a,b,T.s1)],[4,(a,b)=>N(a,b,T.s2,courseCard(T.card),'book')],[4,(a,b)=>N(a,b,T.s3,SH.salle())],
+ [4,(a,b)=>N(a,b,T.s4,SH.fiche())],[4.2,(a,b)=>N(a,b,T.s5,checks(T.checks),'checks')],[5.4,(a,b)=>outro(a,b+1,T.out)]]);
+// confettis
+const CONF=[];(function(){let seed=11;const r=()=>{seed=(seed*16807)%2147483647;return seed/2147483647;};const cols=['#ff7a59','#c9a86a','#fdfbf0','#e0c27a'];
+ for(let i=0;i<46;i++){const d=document.createElement('div');d.className='a';const w=9+r()*11;d.style.cssText=`width:${w}px;height:${w*.5}px;background:${cols[i%4]};border-radius:2px`;$('#conf').appendChild(d);CONF.push({d,x:r()*LY.W,v:150+r()*200,r:r()*360,vr:(r()-.5)*500,sw:r()*30,ph:r()*6});}})();
+// ---------- animation ----------
+const cl=x=>Math.max(0,Math.min(1,x)),seg=(t,a,b)=>cl((t-a)/(b-a)),eo=x=>1-Math.pow(1-x,3),back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+function wink(el,on){el.querySelectorAll('.eyeW').forEach(x=>{x.style.opacity=on?1:0;});}
+function wave(el,lt,a,b){const e=Math.min(seg(lt,a,a+.3),1-seg(lt,b-.3,b));const ang=e*(52+22*Math.sin((lt-a)*Math.PI*2*2.2));el.querySelectorAll('.wingI').forEach(w=>w.style.transform=`rotate(${-ang}deg)`);}
+function render(t){
+ $('#prog').style.width=(t/END*100)+'%';
+ const sOut=scenes.find(x=>x.kind==='outro');
+ $('#url').style.opacity=(t>scenes[1].s&&t<sOut.s)?1:0;
+ scenes.forEach(sc=>{const lt=t-sc.s,dur=sc.e-sc.s,on=t>=sc.s&&t<sc.e;
+  if(!on){sc.el.style.opacity=0;return;}
+  const out=sc.kind==='outro'?0:seg(lt,dur-.3,dur);sc.el.style.opacity=Math.min(seg(lt,0,.2),1-out);sc.el.style.transform=`translateX(${-out*60}px)`;
+  sc.ins.forEach(e=>{const p=seg(lt,+e.dataset.d,+e.dataset.d+.5);e.style.opacity=eo(p);e.style.transform=(e.dataset.sc?`scale(${e.dataset.sc}) `:'')+`translateY(${(1-back(p))*40}px) scale(${.85+.15*back(p)})`;});
+  const E=sc.el;
+  if(sc.kind==='intro'){wave(E,lt,.9,2.9);wink(E,lt>1.6&&lt<1.95);}
+  if(sc.kind==='outro'){wave(E,lt,.6,2.8);wink(E,(lt>1.3&&lt<1.65)||(lt>3.6&&lt<3.9));const c=E.querySelector('.cta');if(c)c.style.transform=`scale(${1+.04*Math.sin(Math.max(0,lt-1.2)*5)})`;}
+  E.querySelectorAll('.kb img').forEach(im=>{const z=1+.07*seg(lt,.4,dur);im.parentNode.style.transform=`scale(${z})`;});
+  if(sc.kind==='checks'){E.querySelectorAll('.ci').forEach(c=>{const p=seg(lt,.5+(+c.dataset.i)*.4,.85+(+c.dataset.i)*.4);c.style.opacity=.15+.85*eo(p);c.style.transform=`translateX(${(1-eo(p))*30}px)`;});}
+  if(sc.kind==='book'||sc.kind==='req'){const at=sc.kind==='book'?2.2:3.0;const tp=E.querySelector('.tap'),b=E.querySelector('.hb');const p=seg(lt,at,at+.6);tp.style.opacity=p>0&&p<1?1-p:0;tp.style.transform=`scale(${.4+p})`;b.style.transform=`scale(${lt>at&&lt<at+.3?.93:1+.03*Math.sin(lt*5)})`;}
+  if(sc.kind==='req'){E.querySelectorAll('.th').forEach(c=>{c.classList.toggle('on',+c.dataset.i===0?lt>.9:(+c.dataset.i===2&&lt>1.3));});
+   const m=T.form.msg;const n=Math.floor(seg(lt,1.5,2.8)*m.length+.001);E.querySelector('.typed').textContent=m.slice(0,n);E.querySelector('.caret').style.opacity=Math.sin(lt*9)>0?1:0;}
+  if(sc.kind==='split'){[['.sp1',.6],['.sp2',1.0]].forEach(([q,a])=>{const x=E.querySelector(q);const p=seg(lt,a,a+.5);x.style.opacity=eo(p);x.style.transform=`scale(${.8+.2*back(p)})`;});}
+ });
+ const ct=t<3?t-.3:(t>=sOut.s+.1?t-sOut.s-.1:-1);
+ CONF.forEach(c=>{if(ct<0||ct>5){c.d.style.opacity=0;return;}c.d.style.opacity=1;c.d.style.transform=`translate(${c.x+Math.sin(ct*2+c.ph)*c.sw}px,${-30+c.v*ct*(LY.H/900)}px) rotate(${c.r+c.vr*ct}deg)`;});
+}
+window.render=render;window.END=END;window.CUTS=CUTS;render(0);
+</script></body></html>
