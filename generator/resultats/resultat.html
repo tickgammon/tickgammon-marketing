@@ -76,6 +76,8 @@ const P=D.podium;const tg=p=>p&&p.tgc>0?'+'+fmt(p.tgc)+' TGC':'';
 document.getElementById('winner').textContent=P[0].name;document.getElementById('prize').textContent=tg(P[0]);
 const row=document.querySelector('.row');const cols=row.querySelectorAll('.col');
 [0,1,2].forEach(i=>{if(!P[i]){cols[i].style.visibility='hidden';return}cols[i].querySelector('.pn').textContent=P[i].name;cols[i].querySelector('.pt').textContent=tg(P[i])});
-const w=document.getElementById('winner');let fs=140;while(w.scrollWidth>620&&fs>50){fs-=4;w.style.fontSize=fs+'px'}
-document.querySelectorAll('.pn').forEach(el=>{let f=32;while(el.scrollWidth>el.clientWidth&&f>18){f-=2;el.style.fontSize=f+'px'}});
+// Ajustement des tailles, relancé une fois les polices chargées (sinon mesure faussée → pseudo coupé)
+function fit(){const w=document.getElementById('winner');w.style.fontSize='';let fs=140;while(w.scrollWidth>620&&fs>50){fs-=4;w.style.fontSize=fs+'px'}
+document.querySelectorAll('.pn').forEach(el=>{el.style.fontSize='';let f=32;while(el.scrollWidth>el.clientWidth&&f>18){f-=2;el.style.fontSize=f+'px'}});}
+fit();document.fonts.ready.then(fit);
 </script></body></html>
