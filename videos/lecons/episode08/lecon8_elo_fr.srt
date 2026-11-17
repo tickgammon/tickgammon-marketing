@@ -1,0 +1,248 @@
+1
+00:00:01,200 --> 00:00:04,496
+Bonjour et bienvenue dans les Leçons de la chouette !
+
+2
+00:00:04,196 --> 00:00:08,339
+La dernière fois, vous avez appris à progresser contre l'ordinateur.
+
+3
+00:00:08,039 --> 00:00:13,426
+Aujourd'hui, on passe aux choses sérieuses : les parties en ligne contre de vrais joueurs.
+
+4
+00:00:13,914 --> 00:00:17,878
+Et avec elles, un chiffre que tout le monde regarde : l'ELO.
+
+5
+00:00:17,578 --> 00:00:21,541
+Comment il se calcule, et comment le faire monter. On y va !
+
+6
+00:00:24,185 --> 00:00:28,496
+Jouer en ligne sur TickGammon, c'est simple et gratuit.
+
+7
+00:00:28,196 --> 00:00:33,163
+Tout se passe dans votre navigateur, sur Android ou sur Windows.
+
+8
+00:00:33,313 --> 00:00:37,942
+Trois étapes suffisent. D'abord, créez votre compte gratuit, en une minute.
+
+9
+00:00:37,642 --> 00:00:43,772
+Ensuite, choisissez votre partie : un joueur en ligne, un ami ou un robot. Et enfin, lancez les dés !
+
+10
+00:00:46,883 --> 00:00:48,899
+Votre compte est le même partout.
+
+11
+00:00:48,599 --> 00:00:53,424
+Vous pouvez commencer une partie sur l'ordinateur, et la continuer sur votre téléphone.
+
+12
+00:00:55,478 --> 00:01:01,951
+Avant de lancer un défi, vous choisissez le format du match, c'est-à-dire le nombre de points à atteindre pour gagner.
+
+13
+00:01:02,951 --> 00:01:07,407
+Vous choisissez aussi le rythme. En Zen, vous prenez tout votre temps.
+
+14
+00:01:07,107 --> 00:01:09,722
+En Classique, le temps est confortable.
+
+15
+00:01:10,329 --> 00:01:14,486
+En Blitz, il faut jouer vite. Et en Bullet, chaque seconde compte !
+
+16
+00:01:14,186 --> 00:01:18,861
+Commencez par un rythme tranquille, puis accélérez quand vous êtes à l'aise.
+
+17
+00:01:19,552 --> 00:01:21,834
+Vous pouvez aussi jouer avec vos amis.
+
+18
+00:01:21,534 --> 00:01:26,685
+Ajoutez-les, et défiez-les même s'ils ne sont pas connectés : ils reçoivent une notification.
+
+19
+00:01:26,385 --> 00:01:29,501
+Vous pouvez même regarder leurs parties en spectateur.
+
+20
+00:01:32,377 --> 00:01:34,202
+Passons maintenant à l'ELO.
+
+21
+00:01:33,902 --> 00:01:38,890
+C'est un nombre qui mesure votre niveau de jeu, comparé à celui des autres joueurs.
+
+22
+00:01:39,343 --> 00:01:44,996
+Ce système vient des échecs. On l'utilise dans beaucoup de jeux, parce qu'il est simple et juste.
+
+23
+00:01:45,247 --> 00:01:48,875
+Sur TickGammon, tout le monde commence à mille cinq cents.
+
+24
+00:01:48,575 --> 00:01:53,466
+Ensuite, chaque partie contre un vrai joueur fait monter ou descendre votre ELO.
+
+25
+00:01:54,119 --> 00:01:57,757
+Et plus votre ELO est haut, plus vous montez dans le classement.
+
+26
+00:01:57,457 --> 00:02:02,085
+Il compte les vrais joueurs uniquement : ni les robots, ni les comptes de l'équipe.
+
+27
+00:02:04,981 --> 00:02:08,529
+Comment l'ELO bouge-t-il ? Tout dépend de votre adversaire.
+
+28
+00:02:09,191 --> 00:02:13,653
+Si vous battez un joueur de votre niveau, vous gagnez des points, et il en perd autant.
+
+29
+00:02:13,353 --> 00:02:17,001
+Avec deux joueurs à mille cinq cents qui débutent, c'est seize points.
+
+30
+00:02:18,592 --> 00:02:22,169
+Si vous battez un joueur plus fort que vous, vous gagnez davantage.
+
+31
+00:02:21,869 --> 00:02:27,010
+Contre un adversaire qui a deux cents points de plus, la victoire en rapporte environ vingt-quatre.
+
+32
+00:02:27,164 --> 00:02:32,150
+À l'inverse, battre un joueur beaucoup plus faible ne rapporte presque rien.
+
+33
+00:02:31,850 --> 00:02:34,184
+Et perdre contre lui coûte cher !
+
+34
+00:02:36,084 --> 00:02:39,647
+Votre ELO bouge aussi plus ou moins vite selon votre expérience.
+
+35
+00:02:40,743 --> 00:02:45,750
+Pendant vos cinquante premières parties, il bouge beaucoup : le système apprend à vous connaître.
+
+36
+00:02:46,842 --> 00:02:48,972
+Ensuite, il se stabilise peu à peu.
+
+37
+00:02:48,672 --> 00:02:53,468
+Après trois cents parties, chaque match ne le fait plus bouger que de quelques points.
+
+38
+00:02:54,585 --> 00:02:59,850
+Alors pas de panique si vous perdez quelques points au début. C'est normal, et cela se rattrape vite.
+
+39
+00:03:02,376 --> 00:03:05,715
+Le classement, c'est la vitrine de votre progression.
+
+40
+00:03:05,415 --> 00:03:09,499
+Vous y voyez votre rang, votre ELO, vos victoires et vos défaites.
+
+41
+00:03:10,913 --> 00:03:16,150
+Certains paliers d'ELO débloquent aussi des succès, avec des récompenses à afficher sur votre profil.
+
+42
+00:03:16,588 --> 00:03:19,877
+Et rappelez-vous : sur TickGammon, tout reste un jeu.
+
+43
+00:03:19,577 --> 00:03:23,542
+Les TGC sont une monnaie de jeu, offerte toutes les douze heures.
+
+44
+00:03:23,242 --> 00:03:26,080
+Elle ne se retire pas et ne se convertit pas.
+
+45
+00:03:26,615 --> 00:03:31,145
+Ce qui compte vraiment, c'est votre niveau. Et l'ELO est là pour le mesurer.
+
+46
+00:03:33,383 --> 00:03:36,817
+Voici maintenant quatre conseils pour faire monter votre ELO.
+
+47
+00:03:37,053 --> 00:03:39,485
+Premier conseil : jouez régulièrement.
+
+48
+00:03:39,185 --> 00:03:44,028
+Quelques parties chaque jour valent mieux qu'une longue séance une fois par mois.
+
+49
+00:03:45,156 --> 00:03:50,344
+Deuxième conseil : après une défaite, ne relancez pas tout de suite par énervement.
+
+50
+00:03:50,044 --> 00:03:52,817
+Faites une pause, puis analysez la partie.
+
+51
+00:03:53,875 --> 00:03:58,967
+Troisième conseil : choisissez des adversaires de votre niveau, ou un peu plus forts.
+
+52
+00:03:58,667 --> 00:04:00,940
+C'est là que vous apprenez le plus.
+
+53
+00:04:01,116 --> 00:04:05,866
+Et quatrième conseil : utilisez tout ce que vous avez vu dans ces leçons.
+
+54
+00:04:05,566 --> 00:04:10,072
+Le compte de pips, le videau, les probabilités… chaque détail compte.
+
+55
+00:04:12,831 --> 00:04:18,389
+Un mot sur le videau en ligne. Dans un match, il change tout, et il pèse aussi sur votre ELO.
+
+56
+00:04:19,559 --> 00:04:23,307
+Un gammon ou une partie au videau élevé peut décider du match.
+
+57
+00:04:23,007 --> 00:04:27,423
+Pensez à la règle des vingt-cinq pour cent avant d'accepter ou de refuser.
+
+58
+00:04:28,561 --> 00:04:34,057
+Et après chaque match, ouvrez l'analyse. Vos décisions de videau y sont notées, comme vos coups.
+
+59
+00:04:37,730 --> 00:04:46,885
+Et voilà, vous savez maintenant jouer en ligne : les formats, les rythmes, vos amis, et surtout l'ELO, qui grimpe quand vous battez des joueurs plus forts !
+
+60
+00:04:48,007 --> 00:04:55,570
+Pour vous lancer, jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows.
+
+61
+00:04:55,270 --> 00:04:59,497
+La prochaine fois, je vous présente les tournois, les clubs et les cours.
+
+62
+00:04:59,197 --> 00:05:03,209
+Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
+

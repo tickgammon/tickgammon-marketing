@@ -1,0 +1,240 @@
+1
+00:00:01,200 --> 00:00:04,926
+¡Hola y bienvenidos a las Lecciones de la lechuza!
+
+2
+00:00:04,626 --> 00:00:08,968
+La última vez aprendisteis a progresar contra el ordenador.
+
+3
+00:00:08,668 --> 00:00:13,764
+Hoy pasamos a lo serio: las partidas en línea contra jugadores reales.
+
+4
+00:00:13,914 --> 00:00:21,209
+Y con ellas, un número que todo el mundo mira: el ELO. Cómo se calcula, y cómo hacerlo subir.
+
+5
+00:00:20,909 --> 00:00:22,112
+¡Vamos allá!
+
+6
+00:00:24,185 --> 00:00:27,849
+Jugar en línea en TickGammon es sencillo y gratuito.
+
+7
+00:00:27,549 --> 00:00:31,471
+Todo pasa en vuestro navegador, en Android o en Windows.
+
+8
+00:00:33,313 --> 00:00:38,950
+Bastan tres pasos. Primero, cread vuestra cuenta gratuita, en un minuto.
+
+9
+00:00:38,650 --> 00:00:44,435
+Después, elegid vuestra partida: un jugador en línea, un amigo o un robot.
+
+10
+00:00:44,135 --> 00:00:46,733
+¡Y por último, tirad los dados!
+
+11
+00:00:46,883 --> 00:00:49,706
+Vuestra cuenta es la misma en todas partes.
+
+12
+00:00:49,406 --> 00:00:53,578
+Podéis empezar una partida en el ordenador y seguirla en el móvil.
+
+13
+00:00:55,478 --> 00:01:02,801
+Antes de lanzar un desafío, elegís la duración del match, es decir, el número de puntos que hay que alcanzar para ganar.
+
+14
+00:01:02,951 --> 00:01:10,179
+También elegís el ritmo. En Zen, os tomáis todo el tiempo que queráis. En Clásico, el tiempo es cómodo.
+
+15
+00:01:10,329 --> 00:01:14,875
+En Blitz, hay que jugar rápido. ¡Y en Bullet, cada segundo cuenta!
+
+16
+00:01:14,575 --> 00:01:19,315
+Empezad con un ritmo tranquilo, y acelerad cuando os sintáis cómodos.
+
+17
+00:01:19,552 --> 00:01:22,445
+También podéis jugar con vuestros amigos.
+
+18
+00:01:22,145 --> 00:01:27,315
+Añadidlos y desafiadlos aunque no estén conectados: reciben una notificación.
+
+19
+00:01:27,015 --> 00:01:30,477
+Incluso podéis ver sus partidas como espectadores.
+
+20
+00:01:32,377 --> 00:01:33,956
+Pasemos ahora al ELO.
+
+21
+00:01:33,656 --> 00:01:39,193
+Es un número que mide vuestro nivel de juego, comparado con el de los demás jugadores.
+
+22
+00:01:39,343 --> 00:01:45,097
+Este sistema viene del ajedrez. Se usa en muchos juegos, porque es sencillo y justo.
+
+23
+00:01:45,247 --> 00:01:49,120
+En TickGammon, todo el mundo empieza con mil quinientos.
+
+24
+00:01:48,820 --> 00:01:53,969
+Después, cada partida contra un jugador real hace subir o bajar vuestro ELO.
+
+25
+00:01:54,119 --> 00:01:58,412
+Y cuanto más alto sea vuestro ELO, más subís en la clasificación.
+
+26
+00:01:58,112 --> 00:02:03,081
+Solo cuentan los jugadores reales: ni los robots, ni las cuentas del equipo.
+
+27
+00:02:04,981 --> 00:02:08,806
+¿Cómo se mueve el ELO? Todo depende de vuestro adversario.
+
+28
+00:02:09,191 --> 00:02:14,402
+Si ganáis a un jugador de vuestro nivel, ganáis puntos, y él pierde los mismos.
+
+29
+00:02:14,102 --> 00:02:18,442
+Con dos jugadores nuevos de mil quinientos, son dieciséis puntos.
+
+30
+00:02:18,592 --> 00:02:21,766
+Si ganáis a un jugador más fuerte, ganáis más.
+
+31
+00:02:21,466 --> 00:02:27,014
+Contra un adversario con doscientos puntos más, la victoria os da unos veinticuatro.
+
+32
+00:02:27,164 --> 00:02:34,004
+En cambio, ganar a un jugador mucho más débil casi no da nada. ¡Y perder contra él sale caro!
+
+33
+00:02:36,084 --> 00:02:40,593
+Vuestro ELO también se mueve más o menos rápido según vuestra experiencia.
+
+34
+00:02:40,743 --> 00:02:46,692
+Durante vuestras cincuenta primeras partidas, se mueve mucho: el sistema está aprendiendo a conoceros.
+
+35
+00:02:46,842 --> 00:02:49,421
+Después, se estabiliza poco a poco.
+
+36
+00:02:49,121 --> 00:02:54,435
+A partir de trescientas partidas, cada match solo lo mueve unos pocos puntos.
+
+37
+00:02:54,585 --> 00:03:00,476
+Así que no os preocupéis si perdéis algunos puntos al principio. Es normal, y se recuperan rápido.
+
+38
+00:03:02,376 --> 00:03:05,984
+La clasificación es el escaparate de vuestro progreso.
+
+39
+00:03:05,684 --> 00:03:10,763
+Allí veis vuestro puesto, vuestro ELO, vuestras victorias y vuestras derrotas.
+
+40
+00:03:10,913 --> 00:03:16,438
+Algunos niveles de ELO también desbloquean logros, con recompensas para lucir en vuestro perfil.
+
+41
+00:03:16,588 --> 00:03:24,070
+Y recordad: en TickGammon, todo es un juego. Los TGC son una moneda de juego, regalada cada doce horas.
+
+42
+00:03:23,770 --> 00:03:26,371
+No se puede retirar ni convertir.
+
+43
+00:03:26,615 --> 00:03:31,443
+Lo que de verdad importa es vuestro nivel. Y el ELO está ahí para medirlo.
+
+44
+00:03:33,383 --> 00:03:36,903
+Aquí tenéis cuatro consejos para hacer subir vuestro ELO.
+
+45
+00:03:37,053 --> 00:03:39,882
+Primer consejo: jugad con regularidad.
+
+46
+00:03:39,582 --> 00:03:45,006
+Unas cuantas partidas cada día valen más que una sesión larga una vez al mes.
+
+47
+00:03:45,156 --> 00:03:50,772
+Segundo consejo: después de una derrota, no volváis a jugar enseguida por enfado.
+
+48
+00:03:50,472 --> 00:03:53,725
+Haced una pausa, y luego analizad la partida.
+
+49
+00:03:53,875 --> 00:04:00,966
+Tercer consejo: elegid adversarios de vuestro nivel, o un poco más fuertes. Es ahí donde más aprendéis.
+
+50
+00:04:01,116 --> 00:04:05,843
+Y cuarto consejo: usad todo lo que habéis visto en estas lecciones.
+
+51
+00:04:05,543 --> 00:04:10,931
+El conteo de pips, el cubo doblador, las probabilidades… cada detalle cuenta.
+
+52
+00:04:12,831 --> 00:04:19,161
+Una palabra sobre el cubo doblador en línea. En un match lo cambia todo, y también pesa en vuestro ELO.
+
+53
+00:04:19,559 --> 00:04:24,016
+Un gammon, o una partida con el cubo muy alto, puede decidir el match.
+
+54
+00:04:23,716 --> 00:04:28,411
+Pensad en la regla del veinticinco por ciento antes de aceptar o rechazar.
+
+55
+00:04:28,561 --> 00:04:31,379
+Y después de cada match, abrid el análisis.
+
+56
+00:04:31,079 --> 00:04:35,830
+Allí se valoran vuestras decisiones con el cubo, igual que vuestras jugadas.
+
+57
+00:04:37,730 --> 00:04:47,540
+¡Y listo, ya sabéis jugar en línea: los formatos, los ritmos, vuestros amigos, y sobre todo el ELO, que sube cuando ganáis a jugadores más fuertes!
+
+58
+00:04:48,007 --> 00:04:55,415
+Para empezar, jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows.
+
+59
+00:04:55,115 --> 00:05:01,150
+La próxima vez os presento los torneos, los clubes y las clases. ¡Suscribíos para no perdérosla!
+
+60
+00:05:00,850 --> 00:05:03,539
+¡Hasta muy pronto alrededor del tablero!
+

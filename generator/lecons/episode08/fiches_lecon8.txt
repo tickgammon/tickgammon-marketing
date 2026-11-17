@@ -1,0 +1,13 @@
+FICHES YOUTUBE — LEÇON 8 · Jouer en ligne : classement et ELO (sortie 31/01/2027, durée 5:08, écran de fin à partir de 4:48)
+YouTube Studio → la vidéo → Fiches (crayon) → choisir le type → choisir la vidéo/playlist → taper le moment dans la case 0:00:00 en bas à gauche → remplir « Message personnalisé » et « Texte d accroche » → Enregistrer.
+Règle : une fiche ne peut viser qu une vidéo déjà PUBLIQUE ; ne rien mettre dans les 20 dernières secondes (écran de fin).
+Textes en 3 langues (YouTube ne traduit pas les fiches), 30 caractères maximum.
+
+MOMENT | TYPE     | VERS                         | MESSAGE PERSONNALISÉ             | TEXTE D'ACCROCHE                 | POSSIBLE À PARTIR DU
+0:04   | Vidéo    | Leçon 7 · Contre l'ordinateur| Leçon 7 · Lesson 7 · Lección 7   | 🤖 Ordi · Computer · Ordenador   | 17/01 (sortie leçon 7)
+0:17   | Playlist | Les leçons de la chouette    | 🦉 Leçons · Lessons · Lecciones  | 🦉 Toutes · All · Todas          | maintenant
+4:01   | Vidéo    | Leçon 5 · Les probabilités   | Leçon 5 · Lesson 5 · Lección 5   | 🎲 Probas · Odds · Probabilidad  | 20/12 (sortie leçon 5)
+4:20   | Vidéo    | Leçon 3 · Le videau          | Leçon 3 · Lesson 3 · Lección 3   | 🎲 Videau · Cube · Cubo          | 22/11 (sortie leçon 3)
+
+Pourquoi : 0:04 « La dernière fois, vous avez appris à progresser contre l'ordinateur » ; 4:01 « le compte de pips, le videau, les probabilités… » ;
+4:20 « Pensez à la règle des vingt-cinq pour cent ».

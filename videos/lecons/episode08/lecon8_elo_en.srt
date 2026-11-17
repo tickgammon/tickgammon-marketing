@@ -1,0 +1,232 @@
+1
+00:00:01,200 --> 00:00:08,235
+Hello and welcome to the Owl's Lessons! Last time, you learned how to improve against the computer.
+
+2
+00:00:07,935 --> 00:00:12,385
+Today, things get serious: online games against real players.
+
+3
+00:00:13,914 --> 00:00:18,455
+And with them comes a number everyone watches: the ELO rating.
+
+4
+00:00:18,155 --> 00:00:22,285
+How it's calculated, and how to make it climb. Let's go!
+
+5
+00:00:24,185 --> 00:00:28,186
+Playing online on TickGammon is simple and free.
+
+6
+00:00:27,886 --> 00:00:32,890
+Everything happens in your browser, on Android or on Windows.
+
+7
+00:00:33,313 --> 00:00:38,017
+Three steps are enough. First, create your free account, in one minute.
+
+8
+00:00:37,717 --> 00:00:43,475
+Next, choose your game: an online player, a friend or a bot. And finally, roll the dice!
+
+9
+00:00:46,883 --> 00:00:49,144
+Your account is the same everywhere.
+
+10
+00:00:48,844 --> 00:00:53,120
+You can start a game on your computer and carry on with it on your phone.
+
+11
+00:00:55,478 --> 00:01:01,272
+Before sending a challenge, you choose the match length, that is, the number of points needed to win.
+
+12
+00:01:02,951 --> 00:01:09,743
+You also choose the pace. In Zen, you take all the time you want. In Classic, the clock is comfortable.
+
+13
+00:01:10,329 --> 00:01:15,183
+In Blitz, you have to play fast. And in Bullet, every second counts!
+
+14
+00:01:14,883 --> 00:01:19,402
+Start with a relaxed pace, then speed up once you feel at ease.
+
+15
+00:01:19,552 --> 00:01:21,788
+You can also play with your friends.
+
+16
+00:01:21,488 --> 00:01:26,091
+Add them, and challenge them even when they're offline: they get a notification.
+
+17
+00:01:25,791 --> 00:01:28,565
+You can even watch their games as a spectator.
+
+18
+00:01:32,377 --> 00:01:34,578
+Now let's talk about the ELO rating.
+
+19
+00:01:34,278 --> 00:01:38,802
+It's a number that measures your playing level, compared with the other players.
+
+20
+00:01:39,343 --> 00:01:44,312
+The system comes from chess. Many games use it, because it's simple and fair.
+
+21
+00:01:45,247 --> 00:01:48,664
+On TickGammon, everyone starts at fifteen hundred.
+
+22
+00:01:48,364 --> 00:01:53,465
+After that, every game against a real player makes your rating go up or down.
+
+23
+00:01:54,119 --> 00:01:58,516
+And the higher your rating, the higher you climb in the rankings.
+
+24
+00:01:58,216 --> 00:02:01,983
+Only real players count: no bots, and no team accounts.
+
+25
+00:02:04,981 --> 00:02:09,041
+So how does your rating move? It all depends on your opponent.
+
+26
+00:02:09,191 --> 00:02:14,108
+If you beat a player at your level, you gain points, and they lose the same amount.
+
+27
+00:02:13,808 --> 00:02:17,501
+With two new players at fifteen hundred, it's sixteen points.
+
+28
+00:02:18,592 --> 00:02:21,388
+If you beat a stronger player, you gain more.
+
+29
+00:02:21,088 --> 00:02:26,268
+Against an opponent rated two hundred points higher, a win brings you about twenty-four.
+
+30
+00:02:27,164 --> 00:02:32,033
+On the other hand, beating a much weaker player brings you almost nothing.
+
+31
+00:02:31,733 --> 00:02:33,947
+And losing to them costs a lot!
+
+32
+00:02:36,084 --> 00:02:40,480
+Your rating also moves faster or slower depending on your experience.
+
+33
+00:02:40,743 --> 00:02:45,390
+During your first fifty games, it moves a lot: the system is getting to know you.
+
+34
+00:02:46,842 --> 00:02:49,470
+After that, it gradually settles down.
+
+35
+00:02:49,170 --> 00:02:53,636
+After three hundred games, each match only moves it by a few points.
+
+36
+00:02:54,585 --> 00:02:59,695
+So don't panic if you lose a few points at the start. It's normal, and you'll soon win them back.
+
+37
+00:03:02,376 --> 00:03:05,492
+The rankings are the showcase of your progress.
+
+38
+00:03:05,192 --> 00:03:09,566
+There you can see your rank, your rating, your wins and your losses.
+
+39
+00:03:10,913 --> 00:03:16,086
+Some rating milestones also unlock achievements, with rewards to show off on your profile.
+
+40
+00:03:16,588 --> 00:03:20,213
+And remember: on TickGammon, it's all just a game.
+
+41
+00:03:19,913 --> 00:03:26,465
+TGC are an in-game currency, offered every twelve hours. They can't be withdrawn or converted.
+
+42
+00:03:26,615 --> 00:03:31,483
+What really matters is your level. And the ELO rating is there to measure it.
+
+43
+00:03:33,383 --> 00:03:36,285
+Here are four tips to make your rating climb.
+
+44
+00:03:37,053 --> 00:03:43,974
+First tip: play regularly. A few games every day are better than one long session once a month.
+
+45
+00:03:45,156 --> 00:03:50,503
+Second tip: after a loss, don't jump straight back in out of frustration.
+
+46
+00:03:50,203 --> 00:03:52,992
+Take a break, then analyse the game.
+
+47
+00:03:53,875 --> 00:04:00,207
+Third tip: choose opponents at your level, or slightly stronger. That's where you learn the most.
+
+48
+00:04:01,116 --> 00:04:05,394
+And fourth tip: use everything you've seen in these lessons.
+
+49
+00:04:05,094 --> 00:04:10,235
+The pip count, the doubling cube, the probabilities… every detail counts.
+
+50
+00:04:12,831 --> 00:04:15,361
+A word about the doubling cube online.
+
+51
+00:04:15,061 --> 00:04:19,409
+In a match, it changes everything, and it also weighs on your rating.
+
+52
+00:04:19,559 --> 00:04:24,131
+A gammon, or a game with the cube at a high value, can decide the match.
+
+53
+00:04:23,831 --> 00:04:27,810
+Think of the twenty-five percent rule before you take or pass.
+
+54
+00:04:28,561 --> 00:04:34,976
+And after every match, open the analysis. Your cube decisions are rated there, just like your moves.
+
+55
+00:04:37,730 --> 00:04:47,857
+And there you go, you now know how to play online: match lengths, paces, your friends, and above all the ELO rating, which climbs when you beat stronger players!
+
+56
+00:04:48,007 --> 00:04:55,372
+To get started, play for free against other players or against the computer, in your browser, on Android or on Windows.
+
+57
+00:04:55,072 --> 00:05:00,655
+Next time, I'll introduce tournaments, clubs and lessons. Subscribe so you don't miss it!
+
+58
+00:05:00,355 --> 00:05:02,436
+See you soon around the board!
+
