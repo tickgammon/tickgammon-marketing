@@ -1,0 +1,12 @@
+FICHES YOUTUBE — LEÇON 9 · Tournois, clubs et cours (sortie 14/02/2027, durée 5:29, écran de fin à partir de 5:09)
+YouTube Studio → la vidéo → Fiches (crayon) → choisir le type → choisir la vidéo/playlist → taper le moment dans la case 0:00:00 en bas à gauche → remplir « Message personnalisé » et « Texte d accroche » → Enregistrer.
+Règle : une fiche ne peut viser qu une vidéo déjà PUBLIQUE ; ne rien mettre dans les 20 dernières secondes (écran de fin).
+Textes en 3 langues (YouTube ne traduit pas les fiches), 30 caractères maximum.
+
+MOMENT | TYPE     | VERS                         | MESSAGE PERSONNALISÉ             | TEXTE D'ACCROCHE                 | POSSIBLE À PARTIR DU
+0:04   | Vidéo    | Leçon 8 · Jouer en ligne     | Leçon 8 · Lesson 8 · Lección 8   | 🌍 ELO · ELO · ELO               | 31/01 (sortie leçon 8)
+0:17   | Playlist | Les leçons de la chouette    | 🦉 Leçons · Lessons · Lecciones  | 🦉 Toutes · All · Todas          | maintenant
+1:22   | Vidéo    | Leçon 6 · La chouette        | Leçon 6 · Lesson 6 · Lección 6   | 🦉 Chouette · Chouette · Chouette| 03/01 (sortie leçon 6)
+
+Pourquoi : 0:04 « La dernière fois, vous avez découvert les parties en ligne, le classement et l'ELO » ;
+1:22 début des formats de tournoi (pour ceux qui veulent aussi jouer à plusieurs autour d'une même table : la chouette).

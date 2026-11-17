@@ -1,0 +1,240 @@
+1
+00:00:01,200 --> 00:00:04,785
+¡Hola y bienvenidos a las Lecciones de la lechuza!
+
+2
+00:00:04,485 --> 00:00:09,844
+La última vez descubristeis las partidas en línea, la clasificación y el ELO.
+
+3
+00:00:09,994 --> 00:00:15,728
+Hoy vamos más allá del cara a cara: torneos, clubes y clases con un profesor.
+
+4
+00:00:15,428 --> 00:00:19,609
+El backgammon se disfruta más en compañía. ¡Vamos allá!
+
+5
+00:00:21,509 --> 00:00:28,758
+En TickGammon, todo empieza desde el inicio de la app. Allí os esperan dos botones: Eventos y Clases.
+
+6
+00:00:28,458 --> 00:00:32,061
+Vuestro club, en cambio, está en vuestro perfil.
+
+7
+00:00:32,211 --> 00:00:36,646
+Los Eventos son los torneos. Los Clubes son vuestra comunidad.
+
+8
+00:00:36,346 --> 00:00:40,048
+Y las Clases sirven para progresar con un profesor.
+
+9
+00:00:40,198 --> 00:00:45,929
+Para empezar, solo necesitáis una cuenta, en vuestro navegador, en Android o en Windows.
+
+10
+00:00:47,829 --> 00:00:49,749
+Empecemos por los torneos.
+
+11
+00:00:49,449 --> 00:00:57,478
+En TickGammon, los crean los miembros de la junta de un club o de un clan: el presidente, el vicepresidente o el secretario.
+
+12
+00:00:57,899 --> 00:01:03,711
+Puede ser público, abierto a toda la comunidad, o privado, para vuestros amigos o vuestro club.
+
+13
+00:01:03,861 --> 00:01:09,107
+El organizador elige la inscripción: gratuita, o en TGC, la moneda del juego.
+
+14
+00:01:08,807 --> 00:01:12,769
+Y unos moderadores pueden ayudarle a gestionar el torneo.
+
+15
+00:01:12,919 --> 00:01:19,036
+Si un torneo se cancela antes de terminar, las inscripciones se reembolsan. Nadie pierde nada.
+
+16
+00:01:20,936 --> 00:01:24,106
+Después hay que elegir el formato. Hay tres.
+
+17
+00:01:24,553 --> 00:01:28,594
+El primero es la eliminación directa, como en el tenis.
+
+18
+00:01:28,294 --> 00:01:33,627
+En cada ronda, un solo partido: si ganáis, avanzáis. Si perdéis, se acabó.
+
+19
+00:01:33,837 --> 00:01:36,369
+El segundo es el todos contra todos.
+
+20
+00:01:36,069 --> 00:01:41,948
+Nadie queda eliminado: cada uno se enfrenta a todos los demás, como en una liga de verdad.
+
+21
+00:01:42,098 --> 00:01:44,406
+Y el tercero es el sistema suizo.
+
+22
+00:01:44,106 --> 00:01:50,430
+Un partido por ronda, y en cada ronda os toca un adversario con los mismos resultados que vosotros.
+
+23
+00:01:52,330 --> 00:01:56,133
+Pasemos al día del torneo. Hay dos maneras de jugar.
+
+24
+00:01:56,283 --> 00:02:00,709
+En un torneo con fecha límite, cada ronda tiene su fecha de cierre.
+
+25
+00:02:00,409 --> 00:02:08,531
+Desafiáis a vuestro adversario cuando los dos estéis disponibles, y llega un recordatorio dos días antes del final de la ronda.
+
+26
+00:02:08,681 --> 00:02:12,374
+En un torneo en directo, todo se juega la misma noche.
+
+27
+00:02:12,074 --> 00:02:16,270
+En cada ronda, tenéis unos minutos para uniros a vuestra mesa.
+
+28
+00:02:15,970 --> 00:02:19,914
+En los torneos oficiales de TickGammon, son cinco minutos.
+
+29
+00:02:20,064 --> 00:02:24,808
+Cuidado: si vuestro adversario está y vosotros no, él gana el partido.
+
+30
+00:02:24,508 --> 00:02:27,220
+¡Así que quedaos cerca de la pantalla!
+
+31
+00:02:26,920 --> 00:02:33,568
+Y cada viernes a las nueve de la noche, no os perdáis la Friday Cup, el torneo oficial de la semana.
+
+32
+00:02:35,468 --> 00:02:37,506
+Hablemos ahora de los clubes.
+
+33
+00:02:37,206 --> 00:02:43,321
+Un club reúne a jugadores que se encuentran a menudo, en línea o alrededor de una mesa de verdad.
+
+34
+00:02:43,471 --> 00:02:49,213
+También existen los clanes: la misma idea, pero entre amigos que juegan sobre todo en línea.
+
+35
+00:02:49,363 --> 00:02:55,285
+¿Queréis crear el vuestro? Pedidlo desde la app. Una vez validado, os convertís en su presidente.
+
+36
+00:02:55,435 --> 00:03:02,294
+El club tiene su muro de noticias para los anuncios, y sus eventos: reunión, entrenamiento, encuentro…
+
+37
+00:03:01,994 --> 00:03:05,767
+Todos los miembros reciben un recordatorio la víspera.
+
+38
+00:03:07,667 --> 00:03:10,965
+Un club también es un lugar para medirse entre miembros.
+
+39
+00:03:11,227 --> 00:03:20,056
+Hay una clasificación interna, un desafío del mes con TGC de regalo cuando alcanzáis el objetivo, y un palmarés para guardar las victorias.
+
+40
+00:03:20,206 --> 00:03:27,720
+Los clubes oficiales pueden incluso desafiarse entre sí, durante uno a siete días: ¡es la guerra de clanes!
+
+41
+00:03:27,870 --> 00:03:37,585
+Y la fidelidad tiene premio: al cabo de un mes, de seis meses y luego en cada aniversario en el club, recibís TGC de regalo según vuestra antigüedad.
+
+42
+00:03:39,573 --> 00:03:46,646
+Ahora, las clases. Los profesores ofrecen clases de backgammon en directo, para todos los niveles.
+
+43
+00:03:46,796 --> 00:03:54,367
+Cada profesor está validado por el equipo de TickGammon y tiene un grado: Aficionado, Experto o Confirmado.
+
+44
+00:03:54,517 --> 00:04:00,341
+En la agenda de clases, elegís un horario y reserváis vuestra plaza. ¿La clase está completa?
+
+45
+00:04:00,041 --> 00:04:04,795
+Apuntaos a la lista de espera: se os avisa en cuanto queda una plaza libre.
+
+46
+00:04:04,945 --> 00:04:07,803
+Antes de la clase, os llegan recordatorios.
+
+47
+00:04:07,503 --> 00:04:11,728
+Y algunas clases tienen grabación, para volver a verlas más tarde.
+
+48
+00:04:13,628 --> 00:04:18,210
+¿Preferís una clase solo para vosotros? Elegid la clase particular.
+
+49
+00:04:18,360 --> 00:04:24,028
+Elegís a vuestro profesor, pedís un horario, y os responde en cuarenta y ocho horas.
+
+50
+00:04:23,728 --> 00:04:29,461
+Las clases pagadas en TGC, en grupo o particulares, están abiertas a todos, sin pack.
+
+51
+00:04:29,161 --> 00:04:33,487
+Solo las clases en grupo gratuitas requieren el Pack Sabiduría.
+
+52
+00:04:33,637 --> 00:04:39,981
+Y si sois buenos jugadores y os gusta enseñar, podéis haceros profesores, con el Pack Chouette.
+
+53
+00:04:39,681 --> 00:04:45,516
+Enviad vuestra candidatura desde vuestra cuenta: nivel, club, experiencia y motivación.
+
+54
+00:04:46,391 --> 00:04:49,568
+El equipo la estudia y os responde por correo.
+
+55
+00:04:49,268 --> 00:04:56,886
+Después fijáis vuestros horarios y vuestras tarifas en TGC, y recibís el noventa por ciento de los TGC de cada clase.
+
+56
+00:04:58,786 --> 00:04:59,663
+¡Y listo!
+
+57
+00:04:59,363 --> 00:05:08,888
+Ya sabéis jugar en compañía: crear un torneo, elegir su formato, llegar a tiempo a vuestra mesa, dar vida a un club y progresar con un profesor.
+
+58
+00:05:09,297 --> 00:05:16,694
+Para empezar, jugad gratis contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows.
+
+59
+00:05:16,394 --> 00:05:22,718
+La próxima vez os hablaré del jacquet, del trictrac y del backgammon. ¡Suscribíos para no perdérosla!
+
+60
+00:05:22,418 --> 00:05:25,104
+¡Hasta muy pronto alrededor del tablero!
+
