@@ -1,0 +1,80 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 10 — TEXTES À COLLER DANS ELEVENLABS (ENGLISH)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que pour le français.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1_en.mp3, bloc2_en.mp3, bloc3_en.mp3.
+
+########## BLOC 1 (P01 à P12, 1328 caractères) → bloc1_en.mp3 ##########
+============================================================
+Hello and welcome to the Owl's Lessons! Last time, you discovered tournaments, clubs and lessons with a teacher.
+
+Today, a question you often hear in France: "Shall we play a trictrac?" Jacquet, trictrac, backgammon… are they the same game? Let's go!
+
+These three games belong to the same family: the tables games. They have been played in Europe since Roman times.
+
+The folding wooden board, with its two halves and its points, is called a "tablier" in French.
+
+Over time, each country invented its own rules: backgammon in England, trictrac and jacquet in France, tavla in Turkey, nardy in Russia and the Caucasus.
+
+The equipment hardly changes. Each player has fifteen checkers.
+
+You roll two dice and move your checkers on a board with twenty-four points.
+
+So where is the difference? In how you start, which way you move, and what you must do to win. Let's look at each game.
+
+Let's start with backgammon, the most widely played version in the world, in clubs and online.
+
+The two players move in opposite directions, and the checkers start from four different points.
+
+A single checker is in danger: the opponent can hit it, and it goes back to the start, on the bar.
+
+And there is the doubling cube, which doubles the value of the game. It's the game of international tournaments and federations, like the FFBG in France.
+============================================================
+
+########## BLOC 2 (P13 à P24, 1329 caractères) → bloc2_en.mp3 ##########
+============================================================
+Now jacquet, a traditional French game, widely played in families in France and Belgium.
+
+First surprise: each player starts with all fifteen checkers stacked on a single point, in a corner of the board.
+
+Second surprise: both players go around the board in the same direction, one behind the other.
+
+In many families, a first checker, the courier, sets off alone as a scout before the others leave their stack.
+
+In jacquet, you never hit. A single checker is enough to block a point: the opponent cannot land on it.
+
+So the game becomes a battle of blocks: you build walls to slow down the opponent following you.
+
+There is no doubling cube: you simply play the game. As in backgammon, the first to bear off all fifteen checkers wins.
+
+Careful: the finer rules, like the courier or doubles, vary between regions and families. Agree on them before you play!
+
+Now trictrac. It was the great tables game of seventeenth- and eighteenth-century France.
+
+It was played at the king's court and in salons. But its principle is very different from the other two.
+
+Here, you don't win by bearing off your checkers: you score points for successful moves. Hitting a checker, for example, earns points.
+
+Points are counted with tokens and small pegs placed in the holes of the board. Its rules are famously complex… [laughs] even for an owl!
+============================================================
+
+########## BLOC 3 (P25 à P33, 1129 caractères) → bloc3_en.mp3 ##########
+============================================================
+Today, trictrac is only played by a few enthusiasts.
+
+And yet its name has stayed. Thanks to its prestige, "trictrac" came to mean the board, and then backgammon itself.
+
+That's why a French grandfather may offer you "a little trictrac"… when he really wants to play backgammon!
+
+Let's sum up. Direction: opposite in backgammon and trictrac, the same for both players in jacquet.
+
+The start: fifteen checkers on a single point in jacquet and trictrac, spread over four points in backgammon.
+
+The goal: bear off your fifteen checkers in backgammon and jacquet, score points in trictrac.
+
+The doubling cube only exists in backgammon. And it's the only one of the three played competitively all over the world.
+
+And there you go, you can now tell backgammon, jacquet and trictrac apart. If you know jacquet, backgammon will soon feel familiar: same board, same dice, same racing logic.
+
+To get started, play backgammon for free against other players or against the computer, in your browser, on Android or on Windows. Next time, I'll tell you the history of backgammon. Subscribe so you don't miss it! See you soon around the board!
+============================================================

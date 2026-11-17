@@ -1,0 +1,80 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 10 — TEXTES À COLLER DANS ELEVENLABS (FR)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que ton test.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1.mp3, bloc2.mp3, bloc3.mp3.
+
+########## BLOC 1 (P01 à P12, 1424 caractères) → bloc1.mp3 ##########
+============================================================
+Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez découvert les tournois, les clubs et les cours avec un professeur.
+
+Aujourd'hui, une question qu'on entend souvent en France : « On fait un trictrac ? » Jacquet, trictrac, backgammon… est-ce le même jeu ? On y va !
+
+Ces trois jeux sont de la même famille : celle des jeux de tables. On y joue en Europe depuis l'Antiquité romaine.
+
+Le plateau en bois qui se replie, avec ses deux moitiés et ses flèches, s'appelle en français un tablier.
+
+Avec le temps, chaque pays a inventé ses propres règles : le backgammon en Angleterre, le trictrac et le jacquet en France, le tavla en Turquie, le nardy en Russie et dans le Caucase.
+
+Le matériel, lui, ne change presque pas. Chaque joueur a quinze pions.
+
+On lance deux dés, et on avance ses pions sur un plateau de vingt-quatre flèches.
+
+Alors, où est la différence ? Dans la façon de partir, le sens de la marche, et ce qu'il faut faire pour gagner. Regardons chaque jeu.
+
+Commençons par le backgammon, la version la plus jouée au monde, en club comme en ligne.
+
+Les deux joueurs avancent en sens opposés, et les pions partent de quatre flèches différentes.
+
+Un pion seul est en danger : l'adversaire peut le frapper, et il retourne au départ, sur la barre.
+
+Et il y a le videau, qui double la valeur de la partie. C'est le jeu des tournois internationaux et des fédérations, comme la FFBG en France.
+============================================================
+
+########## BLOC 2 (P13 à P24, 1478 caractères) → bloc2.mp3 ##########
+============================================================
+Passons au jacquet, un jeu traditionnel français, très joué en famille, en France et en Belgique.
+
+Première surprise : chaque joueur commence avec ses quinze pions empilés sur une seule flèche, dans un coin du plateau.
+
+Deuxième surprise : les deux joueurs tournent dans le même sens autour du plateau, l'un derrière l'autre.
+
+Dans beaucoup de familles, un premier pion, le courrier, part seul en éclaireur avant que les autres quittent leur pile.
+
+Au jacquet, on ne frappe jamais. Un seul pion suffit à bloquer une flèche : l'adversaire ne peut pas s'y poser.
+
+Le jeu devient donc une bataille de blocages : on construit des murs pour ralentir l'adversaire qui vous suit.
+
+Il n'y a pas de videau : on joue la partie, tout simplement. Comme au backgammon, le premier qui sort ses quinze pions gagne.
+
+Attention : les règles de détail, comme le courrier ou les doubles, changent selon les régions et les familles. Avant de jouer, mettez-vous d'accord !
+
+Le trictrac, maintenant. C'est le grand jeu de tables de la France des dix-septième et dix-huitième siècles.
+
+On y jouait à la cour du roi et dans les salons. Mais son principe est très différent des deux autres.
+
+Ici, on ne gagne pas en sortant ses pions : on marque des points selon les coups réussis. Battre un pion, par exemple, rapporte des points.
+
+Les points se comptent avec des jetons et de petites fiches plantées dans les trous du plateau. Ses règles sont réputées très complexes… [laughs] même pour une chouette !
+============================================================
+
+########## BLOC 3 (P25 à P33, 1247 caractères) → bloc3.mp3 ##########
+============================================================
+Aujourd'hui, le trictrac n'est plus pratiqué que par quelques passionnés.
+
+Pourtant, son nom est resté. Grâce à son prestige, « trictrac » a désigné le plateau, puis le backgammon lui-même.
+
+Voilà pourquoi votre grand-père vous propose peut-être « un petit trictrac »… alors qu'il veut jouer au backgammon !
+
+Faisons le point. Le sens de la marche : opposé au backgammon et au trictrac, le même pour les deux joueurs au jacquet.
+
+Le départ : quinze pions sur une seule flèche au jacquet et au trictrac, répartis sur quatre flèches au backgammon.
+
+Le but : sortir ses quinze pions au backgammon et au jacquet, marquer des points au trictrac.
+
+Le videau n'existe qu'au backgammon. Et c'est le seul des trois qui se joue en compétition dans le monde entier.
+
+Et voilà, vous savez maintenant reconnaître le backgammon, le jacquet et le trictrac. Si vous connaissez le jacquet, le backgammon vous paraîtra vite familier : même plateau, mêmes dés, même logique de course.
+
+Pour vous lancer, jouez gratuitement au backgammon contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows. La prochaine fois, je vous raconte l'histoire du backgammon. Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
+============================================================

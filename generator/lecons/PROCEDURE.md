@@ -58,6 +58,13 @@ Travailler dans le scratchpad (`…/scratchpad/epN/`), y copier : les 9 MP3, `pa
    - **dernière scène (20 dernières secondes) : laisser VIDES le coin bas-gauche (élément vidéo YouTube) et le coin
      bas-droit (bouton S'abonner)** — les éléments de l'écran de fin YouTube ne se réduisent pas ;
    - écran titre et fin : `tickgammon.com`, « Web · Android · Windows », carte de la leçon suivante.
+   - **dès la leçon 10 (validé par Joyce le 17/11/2026) : nouvel écran d'abonnement de fin** (remplace l'ancienne pastille
+     rouge cloche ▶ ⏸, jugée moche) : la chouette officielle monte du bas et bat des ailes, une grosse cloche dorée sonne
+     (avec des ondes), puis un bouton rouge « S'abonner à la chouette » dont la petite cloche sonne deux fois, et dessous
+     « Une nouvelle leçon un dimanche sur deux ». Image commune aux 3 langues : le bouton et la phrase défilent FR → EN → ES
+     (« Subscribe to the owl » / « A new lesson every other Sunday », « Suscríbete a la lechuza » / « Una nueva lección cada
+     dos domingos »), toutes les 2,4 s. Bouton centré en bas, coins bas-gauche et bas-droit toujours vides.
+     **Modèle : fonction `subscribe()` de `episode10/lecon10.html`** (scène finale P33). Maquette : artifact « Bouton d'abonnement des leçons ».
    - **dès la leçon 5 (décidé par Joyce le 30/10/2026)** : la carte de transition vers la conclusion (chapitre 9) n'est plus
      le logo seul mais une carte **« Leçon N terminée ! · Lesson N complete! · ¡Lección N completada! »** avec un trophée doré
      et des confettis ; et pendant le premier passage de la conclusion (« vous savez maintenant… »), **3 ou 4 cartes récap**
