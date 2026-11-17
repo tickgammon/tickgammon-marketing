@@ -1,0 +1,84 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 9 — TEXTES À COLLER DANS ELEVENLABS (FR)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que ton test.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1.mp3, bloc2.mp3, bloc3.mp3.
+
+########## BLOC 1 (P01 à P13, 1536 caractères) → bloc1.mp3 ##########
+============================================================
+Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez découvert les parties en ligne, le classement et l'ELO.
+
+Aujourd'hui, on sort du face-à-face : tournois, clubs et cours avec un professeur. Le backgammon se joue mieux à plusieurs. On y va !
+
+Sur TickGammon, tout commence depuis l'accueil de l'appli. Trois portes vous y attendent : les Événements, les Clubs et les Cours.
+
+Les Événements, ce sont les tournois. Les Clubs, c'est votre communauté. Et les Cours, c'est pour progresser avec un professeur.
+
+Tout est gratuit pour commencer. Il suffit d'un compte, dans votre navigateur, sur Android ou sur Windows.
+
+Commençons par les tournois. Sur TickGammon, n'importe quel joueur peut créer son propre tournoi.
+
+Il peut être public, ouvert à toute la communauté, ou privé, pour vos amis ou votre club.
+
+L'organisateur choisit l'inscription : gratuite, ou en TGC, la monnaie du jeu. Et des modérateurs peuvent l'aider à gérer le tournoi.
+
+Si un tournoi est annulé avant la fin, les inscriptions sont remboursées. Personne ne perd rien.
+
+Ensuite, il faut choisir le format. Il y en a trois.
+
+Le premier, c'est l'élimination directe, comme au tennis. À chaque tour, un seul match : vous gagnez, vous avancez. Vous perdez, c'est fini.
+
+Le deuxième, c'est le toutes rondes. Personne n'est éliminé : chacun affronte tous les autres, comme dans un vrai championnat.
+
+Et le troisième, c'est le système suisse. Un match par ronde, et à chaque ronde, vous retrouvez un adversaire qui a les mêmes résultats que vous.
+============================================================
+
+########## BLOC 2 (P14 à P25, 1614 caractères) → bloc2.mp3 ##########
+============================================================
+Passons au jour du tournoi. Il y a deux façons de jouer.
+
+Dans un tournoi avec date limite, chaque tour a sa date de fin. Vous défiez votre adversaire quand vous êtes tous les deux disponibles, et un rappel arrive deux jours avant la fin du tour.
+
+Dans un tournoi en direct, tout se joue le même soir. À chaque tour, vous avez quelques minutes pour rejoindre votre table. Dans les tournois officiels de TickGammon, c'est cinq minutes.
+
+Attention : si votre adversaire est là et pas vous, il gagne le match. Alors restez près de votre écran ! Et chaque vendredi à vingt et une heures, ne manquez pas la Friday Cup, le tournoi officiel de la semaine.
+
+Parlons maintenant des clubs. Un club réunit des joueurs qui se retrouvent souvent, en ligne ou autour d'une vraie table.
+
+Il existe aussi les clans : le même principe, mais entre amis qui jouent surtout en ligne.
+
+Vous voulez créer le vôtre ? Faites la demande depuis l'appli. Une fois validé, vous en devenez le président.
+
+Le club a son fil d'actualité pour les annonces, et ses événements : réunion, entraînement, rencontre… Tous les membres reçoivent un rappel la veille.
+
+Un club, c'est aussi un endroit pour se mesurer entre membres.
+
+Il y a un classement interne, un défi du mois avec des TGC offerts quand vous atteignez l'objectif, et un palmarès pour garder la trace des victoires.
+
+Les clubs officiels peuvent même se défier entre eux, pendant un à sept jours : c'est la guerre des clans ! [laughs]
+
+Et la fidélité est récompensée : après un mois, six mois, puis à chaque anniversaire dans le club, vous recevez des TGC offerts, selon votre ancienneté.
+============================================================
+
+########## BLOC 3 (P26 à P35, 1594 caractères) → bloc3.mp3 ##########
+============================================================
+Place maintenant aux cours. Des professeurs proposent des cours de backgammon en direct, pour tous les niveaux.
+
+Chaque professeur est validé par l'équipe TickGammon, et porte un grade : Amateur, Expert ou Confirmé.
+
+Dans l'agenda des cours, vous choisissez un créneau et vous réservez votre place. Le cours est complet ? Inscrivez-vous sur la liste d'attente : vous êtes prévenu dès qu'une place se libère.
+
+Avant le cours, des rappels vous préviennent. Et certains cours ont un replay, pour les revoir plus tard.
+
+Vous préférez un cours rien que pour vous ? Choisissez le cours particulier.
+
+Vous choisissez votre professeur, vous demandez un créneau, et il vous répond sous quarante-huit heures. Les cours font partie du Pack Sagesse et du Pack Chouette.
+
+Et si vous êtes un bon joueur qui aime transmettre, vous pouvez devenir professeur à votre tour, avec le Pack Chouette. Envoyez votre candidature depuis votre compte : niveau, club, expérience et motivation.
+
+L'équipe l'étudie et vous répond par e-mail. Ensuite, vous fixez vos créneaux et vos tarifs en TGC, et vous recevez quatre-vingt-dix pour cent des TGC de chaque cours.
+
+Et voilà, vous savez maintenant jouer à plusieurs : créer un tournoi, choisir son format, rejoindre sa table à temps, faire vivre un club, et progresser avec un professeur !
+
+Pour vous lancer, jouez gratuitement contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows. La prochaine fois, je vous raconte le jacquet, le trictrac et le backgammon. Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
+============================================================

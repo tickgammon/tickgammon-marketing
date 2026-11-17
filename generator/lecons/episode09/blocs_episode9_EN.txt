@@ -1,0 +1,84 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 9 — TEXTES À COLLER DANS ELEVENLABS (ENGLISH)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que pour le français.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1_en.mp3, bloc2_en.mp3, bloc3_en.mp3.
+
+########## BLOC 1 (P01 à P13, 1366 caractères) → bloc1_en.mp3 ##########
+============================================================
+Hello and welcome to the Owl's Lessons! Last time, you discovered online games, the rankings and ELO.
+
+Today, we go beyond one-on-one: tournaments, clubs and lessons with a teacher. Backgammon is better with others. Let's go!
+
+On TickGammon, everything starts from the app's home screen. Three doors are waiting for you there: Events, Clubs and Lessons.
+
+Events are the tournaments. Clubs are your community. And Lessons are there to help you improve with a teacher.
+
+Everything is free to get started. All you need is an account, in your browser, on Android or on Windows.
+
+Let's start with tournaments. On TickGammon, any player can create their own tournament.
+
+It can be public, open to the whole community, or private, for your friends or your club.
+
+The organiser chooses the entry: free, or in TGC, the game's currency. And moderators can help run the tournament.
+
+If a tournament is cancelled before the end, entries are refunded. Nobody loses anything.
+
+Next, you need to choose the format. There are three.
+
+The first is direct elimination, like in tennis. Each round, a single match: win, and you move on. Lose, and it's over.
+
+The second is round robin. Nobody is eliminated: everyone plays everyone else, just like a real league.
+
+And the third is the Swiss system. One match per round, and each round, you face an opponent with the same results as you.
+============================================================
+
+########## BLOC 2 (P14 à P25, 1476 caractères) → bloc2_en.mp3 ##########
+============================================================
+Now, tournament day. There are two ways to play.
+
+In a tournament with deadlines, each round has its own end date. You challenge your opponent when you are both available, and a reminder arrives two days before the round ends.
+
+In a live tournament, everything is played on the same evening. Each round, you have a few minutes to join your table. In TickGammon's official tournaments, it's five minutes.
+
+Be careful: if your opponent is there and you are not, they win the match. So stay close to your screen! And every Friday at nine p.m., don't miss the Friday Cup, the official tournament of the week.
+
+Now let's talk about clubs. A club brings together players who meet often, online or around a real table.
+
+There are also clans: the same idea, but for friends who mostly play online.
+
+Want to create your own? Send a request from the app. Once it's approved, you become its president.
+
+The club has its own news feed for announcements, and its events: meetings, training, matches… Every member gets a reminder the day before.
+
+A club is also a place to compete with fellow members.
+
+There's an internal ranking, a monthly challenge with free TGC when you reach the goal, and a hall of fame to keep track of the wins.
+
+Official clubs can even challenge each other, for one to seven days: it's the clan war! [laughs]
+
+And loyalty is rewarded: after one month, six months, then on every anniversary in the club, you receive free TGC, based on how long you've been a member.
+============================================================
+
+########## BLOC 3 (P26 à P35, 1424 caractères) → bloc3_en.mp3 ##########
+============================================================
+Now for the lessons. Teachers offer live backgammon lessons for all levels.
+
+Every teacher is approved by the TickGammon team and holds a grade: Amateur, Expert or Confirmed.
+
+In the lesson calendar, you choose a time slot and book your place. Lesson full? Join the waiting list: you'll be told as soon as a place opens up.
+
+Before the lesson, reminders let you know. And some lessons have a replay, so you can watch them again later.
+
+Would you rather have a lesson just for you? Choose a private lesson.
+
+You choose your teacher, you ask for a time slot, and they reply within forty-eight hours. Lessons are part of the Wisdom Pack and the Chouette Pack.
+
+And if you're a strong player who loves to teach, you can become a teacher yourself, with the Chouette Pack. Send your application from your account: level, club, experience and motivation.
+
+The team reviews it and replies by email. Then you set your time slots and your prices in TGC, and you receive ninety percent of the TGC from each lesson.
+
+And there you go, you now know how to play with others: create a tournament, choose its format, join your table on time, bring a club to life, and improve with a teacher!
+
+To get started, play for free against other players or against the computer, in your browser, on Android or on Windows. Next time, I'll tell you about jacquet, trictrac and backgammon. Subscribe so you don't miss it! See you soon around the board!
+============================================================
