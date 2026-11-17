@@ -4,19 +4,19 @@ Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres
 Ne change rien au texte : les lignes vides servent de pauses entre les passages.
 Télécharge chaque résultat en MP3 et renomme-le : bloc1_en.mp3, bloc2_en.mp3, bloc3_en.mp3.
 
-########## BLOC 1 (P01 à P13, 1366 caractères) → bloc1_en.mp3 ##########
+########## BLOC 1 (P01 à P13, 1456 caractères) → bloc1_en.mp3 ##########
 ============================================================
 Hello and welcome to the Owl's Lessons! Last time, you discovered online games, the rankings and ELO.
 
 Today, we go beyond one-on-one: tournaments, clubs and lessons with a teacher. Backgammon is better with others. Let's go!
 
-On TickGammon, everything starts from the app's home screen. Three doors are waiting for you there: Events, Clubs and Lessons.
+On TickGammon, everything starts from the app's home screen. Two buttons are waiting for you there: Events and Lessons. Your club, meanwhile, is in your profile.
 
 Events are the tournaments. Clubs are your community. And Lessons are there to help you improve with a teacher.
 
-Everything is free to get started. All you need is an account, in your browser, on Android or on Windows.
+To get started, all you need is an account, in your browser, on Android or on Windows.
 
-Let's start with tournaments. On TickGammon, any player can create their own tournament.
+Let's start with tournaments. On TickGammon, tournaments are created by the board members of a club or a clan: the president, the vice-president or the secretary.
 
 It can be public, open to the whole community, or private, for your friends or your club.
 
@@ -60,7 +60,7 @@ Official clubs can even challenge each other, for one to seven days: it's the cl
 And loyalty is rewarded: after one month, six months, then on every anniversary in the club, you receive free TGC, based on how long you've been a member.
 ============================================================
 
-########## BLOC 3 (P26 à P35, 1424 caractères) → bloc3_en.mp3 ##########
+########## BLOC 3 (P26 à P35, 1496 caractères) → bloc3_en.mp3 ##########
 ============================================================
 Now for the lessons. Teachers offer live backgammon lessons for all levels.
 
@@ -72,7 +72,7 @@ Before the lesson, reminders let you know. And some lessons have a replay, so yo
 
 Would you rather have a lesson just for you? Choose a private lesson.
 
-You choose your teacher, you ask for a time slot, and they reply within forty-eight hours. Lessons are part of the Wisdom Pack and the Chouette Pack.
+You choose your teacher, you ask for a time slot, and they reply within forty-eight hours. Lessons paid in TGC, group or private, are open to everyone, with no pack needed. Only free group lessons require the Wisdom Pack.
 
 And if you're a strong player who loves to teach, you can become a teacher yourself, with the Chouette Pack. Send your application from your account: level, club, experience and motivation.
 

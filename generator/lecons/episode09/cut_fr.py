@@ -10,7 +10,7 @@ for L in LS:
     rows=[l.split('|',2) for l in open(f'passages_{L}.txt',encoding='utf8').read().strip().split('\n')]
     txt[L]={p:re.sub(r'\s*\[.*?\]','',t) for p,c,t in rows}; ch.update({p:int(c) for p,c,t in rows})
     src={}
-    for b in ('bloc1'+SUF,'bloc2'+SUF,'bloc3'+SUF):
+    for b in ('bloc1'+SUF,'bloc2'+SUF,'bloc3'+SUF,'patch'+SUF):
         subprocess.run(['ffmpeg','-loglevel','error','-y','-i',b+'.mp3','-ac','1','-ar',str(SR),b+'.wav'])
         src[b]=wavfile.read(b+'.wav')[1].astype(np.float32)/32768
     for a in A:

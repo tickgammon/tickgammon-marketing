@@ -1,9 +1,9 @@
 P01|0|¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez descubristeis las partidas en línea, la clasificación y el ELO.
 P02|0|Hoy vamos más allá del cara a cara: torneos, clubes y clases con un profesor. El backgammon se disfruta más en compañía. ¡Vamos allá!
-P03|1|En TickGammon, todo empieza desde el inicio de la app. Allí os esperan tres puertas: los Eventos, los Clubes y las Clases.
+P03|1|En TickGammon, todo empieza desde el inicio de la app. Allí os esperan dos botones: Eventos y Clases. Vuestro club, en cambio, está en vuestro perfil.
 P04|1|Los Eventos son los torneos. Los Clubes son vuestra comunidad. Y las Clases sirven para progresar con un profesor.
-P05|1|Empezar es gratis. Solo necesitáis una cuenta, en vuestro navegador, en Android o en Windows.
-P06|2|Empecemos por los torneos. En TickGammon, cualquier jugador puede crear su propio torneo.
+P05|1|Para empezar, solo necesitáis una cuenta, en vuestro navegador, en Android o en Windows.
+P06|2|Empecemos por los torneos. En TickGammon, los crean los miembros de la junta de un club o de un clan: el presidente, el vicepresidente o el secretario.
 P07|2|Puede ser público, abierto a toda la comunidad, o privado, para vuestros amigos o vuestro club.
 P08|2|El organizador elige la inscripción: gratuita, o en TGC, la moneda del juego. Y unos moderadores pueden ayudarle a gestionar el torneo.
 P09|2|Si un torneo se cancela antes de terminar, las inscripciones se reembolsan. Nadie pierde nada.
@@ -28,7 +28,7 @@ P27|7|Cada profesor está validado por el equipo de TickGammon y tiene un grado:
 P28|7|En la agenda de clases, elegís un horario y reserváis vuestra plaza. ¿La clase está completa? Apuntaos a la lista de espera: se os avisa en cuanto queda una plaza libre.
 P29|7|Antes de la clase, os llegan recordatorios. Y algunas clases tienen grabación, para volver a verlas más tarde.
 P30|8|¿Preferís una clase solo para vosotros? Elegid la clase particular.
-P31|8|Elegís a vuestro profesor, pedís un horario, y os responde en cuarenta y ocho horas. Las clases forman parte del Pack Sabiduría y del Pack Chouette.
+P31|8|Elegís a vuestro profesor, pedís un horario, y os responde en cuarenta y ocho horas. Las clases pagadas en TGC, en grupo o particulares, están abiertas a todos, sin pack. Solo las clases en grupo gratuitas requieren el Pack Sabiduría.
 P32|8|Y si sois buenos jugadores y os gusta enseñar, podéis haceros profesores, con el Pack Chouette. Enviad vuestra candidatura desde vuestra cuenta: nivel, club, experiencia y motivación.
 P33|8|El equipo la estudia y os responde por correo. Después fijáis vuestros horarios y vuestras tarifas en TGC, y recibís el noventa por ciento de los TGC de cada clase.
 P34|9|¡Y listo! Ya sabéis jugar en compañía: crear un torneo, elegir su formato, llegar a tiempo a vuestra mesa, dar vida a un club y progresar con un profesor.

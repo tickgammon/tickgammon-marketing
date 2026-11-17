@@ -1,9 +1,9 @@
 P01|0|Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez découvert les parties en ligne, le classement et l'ELO.
 P02|0|Aujourd'hui, on sort du face-à-face : tournois, clubs et cours avec un professeur. Le backgammon se joue mieux à plusieurs. On y va !
-P03|1|Sur TickGammon, tout commence depuis l'accueil de l'appli. Trois portes vous y attendent : les Événements, les Clubs et les Cours.
+P03|1|Sur TickGammon, tout commence depuis l'accueil de l'appli. Deux boutons vous y attendent : Événements et Cours. Votre club, lui, se trouve dans votre profil.
 P04|1|Les Événements, ce sont les tournois. Les Clubs, c'est votre communauté. Et les Cours, c'est pour progresser avec un professeur.
-P05|1|Tout est gratuit pour commencer. Il suffit d'un compte, dans votre navigateur, sur Android ou sur Windows.
-P06|2|Commençons par les tournois. Sur TickGammon, n'importe quel joueur peut créer son propre tournoi.
+P05|1|Pour commencer, il suffit d'un compte, dans votre navigateur, sur Android ou sur Windows.
+P06|2|Commençons par les tournois. Sur TickGammon, ce sont les membres du bureau d'un club ou d'un clan qui les créent : le président, le vice-président ou le secrétaire.
 P07|2|Il peut être public, ouvert à toute la communauté, ou privé, pour vos amis ou votre club.
 P08|2|L'organisateur choisit l'inscription : gratuite, ou en TGC, la monnaie du jeu. Et des modérateurs peuvent l'aider à gérer le tournoi.
 P09|2|Si un tournoi est annulé avant la fin, les inscriptions sont remboursées. Personne ne perd rien.
@@ -28,7 +28,7 @@ P27|7|Chaque professeur est validé par l'équipe TickGammon, et porte un grade 
 P28|7|Dans l'agenda des cours, vous choisissez un créneau et vous réservez votre place. Le cours est complet ? Inscrivez-vous sur la liste d'attente : vous êtes prévenu dès qu'une place se libère.
 P29|7|Avant le cours, des rappels vous préviennent. Et certains cours ont un replay, pour les revoir plus tard.
 P30|8|Vous préférez un cours rien que pour vous ? Choisissez le cours particulier.
-P31|8|Vous choisissez votre professeur, vous demandez un créneau, et il vous répond sous quarante-huit heures. Les cours font partie du Pack Sagesse et du Pack Chouette.
+P31|8|Vous choisissez votre professeur, vous demandez un créneau, et il vous répond sous quarante-huit heures. Les cours payés en TGC, collectifs ou particuliers, sont ouverts à tous, sans pack. Seuls les cours collectifs gratuits demandent le Pack Sagesse.
 P32|8|Et si vous êtes un bon joueur qui aime transmettre, vous pouvez devenir professeur à votre tour, avec le Pack Chouette. Envoyez votre candidature depuis votre compte : niveau, club, expérience et motivation.
 P33|8|L'équipe l'étudie et vous répond par e-mail. Ensuite, vous fixez vos créneaux et vos tarifs en TGC, et vous recevez quatre-vingt-dix pour cent des TGC de chaque cours.
 P34|9|Et voilà, vous savez maintenant jouer à plusieurs : créer un tournoi, choisir son format, rejoindre sa table à temps, faire vivre un club, et progresser avec un professeur !

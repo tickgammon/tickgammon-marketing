@@ -281,7 +281,7 @@ const GRADE=(c,s=110)=>MEDAL(s,c);
 const BRONZE='#d08b4e',SILVER='#cfd8dc',GOLD='#f6d77a';
 function door(icon,col,label,on,seen,a,h=330){return `<div class="card" style="position:relative;flex:1;height:${h}px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:${seen?col:'rgba(253,251,240,.12)'};color:#0d3326;opacity:${seen?(on?1:.6):.25};${on?sc(a):''}">${icon}<div style="text-align:center">${label}</div></div>`;}
 const NM=(fr,en,es,fs=30,col='#0d3326',c2='#3d5a4b')=>`<div class="bf" style="font-size:${fs}px;line-height:1.05;color:${col}">${fr}</div><div style="font-weight:800;font-size:${Math.round(fs*.55)}px;color:${c2};margin-top:4px">${en} · ${es}</div>`;
-const DOORS=()=>[[`<div style="display:flex;gap:6px;align-items:center">${TROPHY(96)}${CAL(70)}</div>`,'#f6d77a',NM('Événements','Events','Eventos')],[HOUSE(120,'#fdfbf0'),'#7fd3ff',NM('Clubs','Clubs','Clubes')],[BOARDT(120),'#7fe0a0',NM('Cours','Lessons','Clases')]];
+const DOORS=()=>[[`<div style="display:flex;gap:6px;align-items:center">${TROPHY(96)}${CAL(70)}</div>`,'#f6d77a',NM('Événements','Events','Eventos')],[`<div style="position:relative">${HOUSE(120,'#fdfbf0')}<div class="a" style="right:-22px;top:-8px">${av('A',48,{name:false})}</div></div>`,'#7fd3ff',NM('Clubs','Clubs','Clubes')],[BOARDT(120),'#7fe0a0',NM('Cours','Lessons','Clases')]];
 function doorsRow(lt,hi,D,o={}){const ds=DOORS();return `<div class="a" style="left:54px;top:${o.top||160}px;width:750px;display:flex;gap:22px">${ds.map((d,k)=>door(d[0],d[1],d[2],k===hi||hi===9,hi===9||k<=hi||(o.all),pop(lt,(o.t||[])[k]??.2),o.h)).join('')}</div>`;}
 // tableau à élimination directe : 4 joueurs → 2 → 1
 function bracket(lt,a,b,c){const P0=[['A',150],['B',270],['C',430],['D',550]],x0=120,x1=380,x2=620;let h='';
@@ -328,13 +328,22 @@ const SC={
    <div><span class="pill" style="background:#fdfbf0">9</span><div class="bf" style="font-size:34px;margin-top:8px;line-height:1.05">Tournois, clubs et cours</div><div style="font-size:20px;font-weight:800;color:#d9e6dc;margin-top:6px">Tournaments, clubs and lessons · Torneos, clubes y clases</div></div></div></div>`;},
  P02(lt,D,X){X.board=null;const t=[D*.2,D*.35,D*.5];X.ov=at(160,320,TROPHY(190),pop(lt,t[0]))+at(410,320,HOUSE(190),pop(lt,t[1]))+at(660,320,BOARDT(190),pop(lt,t[2]))+
   rcard(`<div style="display:flex;gap:10px;justify-content:center">${['A','B','C','D'].map(k=>av(k,70,{name:false})).join('')}</div>`,pop(lt,D*.7));},
- P03(lt,D,X){X.board=null;const t=[D*.45,D*.6,D*.75];X.ov=at(420,140,`<div style="display:flex;gap:14px;align-items:center">${PHONE(80)}${LAPTOP(80)}</div>`,pop(lt,.2))+doorsRow(lt,lt<t[0]?-1:9,D,{t,top:220,h:300,all:0}).replace(/opacity:\.25/g,'opacity:0');},
+ P03(lt,D,X){X.board=null;const a=D*.28,b=D*.42,c=D*.68;
+  const btn=(ic,l,al)=>`<div class="card" style="display:flex;align-items:center;gap:14px;padding:12px 18px;margin-top:14px;background:#fdfbf0;${sc(al)}">${ic}<div>${l}</div></div>`;
+  X.ov=`<div class="a card" style="left:60px;top:120px;width:360px;height:470px;padding:20px 22px;box-sizing:border-box;background:#0f4030;border:4px solid #c9a86a;${sc(pop(lt,.2))}">
+   <div style="display:flex;align-items:center;gap:10px"><span class="bf" style="font-size:22px;color:#c9a86a;letter-spacing:2px">TICKGAMMON</span><div style="margin-left:auto;border-radius:50%;box-shadow:0 0 0 ${lt>c?6+4*Math.sin(lt*6):0}px rgba(246,215,122,.8)">${av('A',58,{name:false})}</div></div>
+   ${btn(TROPHY(70),NM('Événements','Events','Eventos',28),pop(lt,a))}${btn(BOARDT(70),NM('Cours','Lessons','Clases',28),pop(lt,b))}
+   <div style="margin-top:14px;display:flex;gap:10px;opacity:.35">${dieSvg(5,'#fdfbf0',44)}${dieSvg(3,'#ff7a59',44)}</div></div>`+
+  lines([{x1:440,y1:165,x2:560,y2:300,p:eo(seg(lt,c-.2,c+.4)),c:'#f6d77a',w:7,head:1}])+
+  at(650,360,`<div class="card" style="padding:18px 22px;text-align:center;background:#7fd3ff;color:#0d3326"><div style="display:flex;gap:8px;justify-content:center;align-items:center">${HOUSE(100)}${FLAG(80)}</div>${NM('Profil','Profile','Perfil',28)}</div>`,pop(lt,c+.3));},
  P04(lt,D,X){X.board=null;const t=[D*.05,D*.35,D*.65];const hi=lt<t[1]?0:lt<t[2]?1:2;X.ov=doorsRow(lt,hi,D,{t,top:200});},
  P05(lt,D,X){X.board=null;const it=[[LAPTOP(170),'Web'],[PHONE(170),'Android'],[WINPC(170),'Windows']];
   X.ov=it.map((c,k)=>at(170+k*240,320,`<div style="text-align:center">${c[0]}<div class="bf" style="font-size:34px;margin-top:6px">${c[1]}</div></div>`,pop(lt,D*.45+k*.3))).join('')+
-  rcard(`<div class="bf" style="font-size:60px;line-height:1;color:#7fe0a0">Gratuit</div><div style="font-weight:800;font-size:24px;color:#c9a86a;margin-top:8px">Free · Gratis</div>`,pop(lt,D*.15));},
- P06(lt,D,X){X.board=null;const a=D*.4;X.ov=avAt('A',200,330,170,{pop:pop(lt,.2),name:false})+at(380,330,big('+',110,'#7fe0a0'),pop(lt,a))+at(580,320,TROPHY(220),pop(lt,a+.4))+
-  rcard(`<div style="display:flex;gap:16px;justify-content:center;align-items:center">${TROPHY(80)}${CAL(70)}</div>`,pop(lt,D*.7));},
+  rcard(`<div style="display:flex;gap:16px;justify-content:center;align-items:center"><div style="position:relative">${av('A',90,{name:false})}<div class="a" style="right:-16px;bottom:-4px">${ck(46)}</div></div>${FORM(90)}</div>`,pop(lt,D*.15));},
+ P06(lt,D,X){X.board=null;const a=D*.35,b=D*.7;
+  X.ov=at(210,230,`<div style="display:flex;gap:10px;align-items:center">${HOUSE(130)}${FLAG(110)}</div>`,pop(lt,.2))+
+  ['A','B','C'].map((k,i)=>avAt(k,100+i*115,430,96,{pop:pop(lt,a+i*.2),role:'cap',name:false})).join('')+avAt('D',215,560,70,{pop:pop(lt,a+.7),name:false,al:.35})+
+  lines([{x1:420,y1:430,x2:530,y2:430,p:eo(seg(lt,b-.3,b+.2)),c:'#c9a86a',w:7,head:1}])+at(650,400,TROPHY(200),pop(lt,b));},
  P07(lt,D,X){X.board=null;const a=D*.15,b=D*.55;
   X.ov=`<div class="a" style="left:54px;top:170px;width:750px;display:flex;gap:22px">${door(`<div style="display:flex;flex-direction:column;align-items:center;gap:10px">${GLOBE(110)}<div style="display:flex;gap:6px">${['A','B','C','D'].map(k=>av(k,44,{name:false})).join('')}</div></div>`,'#7fd3ff',NM('Public','Public','Público'),lt<b,1,pop(lt,a),330)}
   ${lt>b?door(`<div style="display:flex;flex-direction:column;align-items:center;gap:10px">${LOCK(110,'#0d3326')}<div style="display:flex;gap:6px">${av('A',44,{name:false})}${av('B',44,{name:false})}</div></div>`,'#f6d77a',NM('Privé','Private','Privado'),1,1,pop(lt,b),330):''}</div>`;},
@@ -383,9 +392,10 @@ const SC={
   at(580,320,`<div style="display:flex;align-items:center;gap:10px">${PLAY(130)}${LOOP(110)}</div>`,pop(lt,a));},
  P30(lt,D,X){X.board=null;X.ov=at(400,220,BOARDT(170),pop(lt,.2))+avAt('A',290,450,140,{pop:pop(lt,.4),role:'cap',name:false})+avAt('B',510,450,140,{pop:pop(lt,.6),name:false})+
   rcard(`<div class="bf" style="font-size:90px;line-height:1;color:#7fe0a0">1 : 1</div>`,pop(lt,D*.5));},
- P31(lt,D,X){X.board=null;const a=D*.3,b=D*.55,c=D*.78;X.ov=`<div class="a" style="left:54px;top:150px;display:flex;gap:16px">${['A','C','D'].map((k,i)=>`<div class="card" style="width:150px;height:180px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;${k==='C'&&lt>a?'background:#f6d77a;':''}${sc(pop(lt,.2+i*.12))}">${av(k,80,{name:false})}${GRADE([BRONZE,GOLD,SILVER][i],46)}</div>`).join('')}</div>`+
-  at(270,470,`<div style="display:flex;gap:14px;align-items:center">${CAL(90)}<span class="bf" style="font-size:44px;color:#c9a86a">→</span>${CLOCK(90,lt)}<span class="bf" style="font-size:56px">48 h</span></div>`,pop(lt,b))+
-  at(640,560,`<div style="display:flex;gap:10px"><span class="pill" style="font-size:20px;background:#7fd3ff">Sagesse</span><span class="pill" style="font-size:20px;background:#f6d77a">Chouette</span></div>`,pop(lt,c));},
+ P31(lt,D,X){X.board=null;const a=D*.2,b=D*.35,c=D*.55,d=D*.8;X.ov=`<div class="a" style="left:54px;top:140px;display:flex;gap:16px">${['A','C','D'].map((k,i)=>`<div class="card" style="width:130px;height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;${k==='C'&&lt>a?'background:#f6d77a;':''}${sc(pop(lt,.2+i*.12))}">${av(k,70,{name:false})}${GRADE([BRONZE,GOLD,SILVER][i],40)}</div>`).join('')}</div>`+
+  at(640,215,`<div style="display:flex;gap:10px;align-items:center">${CLOCK(80,lt)}<span class="bf" style="font-size:52px">48 h</span></div>`,pop(lt,b))+
+  at(400,420,`<div class="card" style="display:flex;gap:14px;align-items:center;padding:12px 22px;background:#7fe0a0">${COIN(80)}<span class="bf" style="font-size:40px;color:#0d3326">→</span>${['A','B','C','D'].map(k=>av(k,52,{name:false})).join('')}${ck(52)}</div>`,pop(lt,c))+
+  at(400,560,`<div class="card" style="display:flex;gap:14px;align-items:center;padding:12px 22px;background:#fdfbf0"><span class="card bf" style="font-size:40px;padding:2px 16px;background:#f6d77a">0 TGC</span><span class="bf" style="font-size:40px;color:#0d3326">→</span><span class="pill" style="font-size:22px;background:#7fd3ff">Pack Sagesse</span></div>`,pop(lt,d));},
  P32(lt,D,X){X.board=null;const a=D*.2,b=D*.5;X.ov=avAt('A',180,330,150,{pop:pop(lt,a),name:false})+at(180,480,`<span class="pill" style="font-size:20px;background:#f6d77a">Pack Chouette</span>`,pop(lt,a+.4))+
   lines([{x1:290,y1:330,x2:400,y2:330,p:eo(seg(lt,b-.3,b+.2)),c:'#c9a86a',w:7,head:1}])+at(540,330,FORM(240),pop(lt,b));},
  P33(lt,D,X){X.board=null;const a=D*.2,b=D*.45,c=D*.72;X.ov=at(160,260,`<div style="position:relative">${MAIL(130)}<div class="a" style="right:-14px;bottom:-6px;${sc(pop(lt,a+.3))}">${ck(54)}</div></div>`,pop(lt,a))+

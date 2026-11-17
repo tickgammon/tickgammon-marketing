@@ -4,19 +4,19 @@ Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres
 Ne change rien au texte : les lignes vides servent de pauses entre les passages.
 Télécharge chaque résultat en MP3 et renomme-le : bloc1.mp3, bloc2.mp3, bloc3.mp3.
 
-########## BLOC 1 (P01 à P13, 1536 caractères) → bloc1.mp3 ##########
+########## BLOC 1 (P01 à P13, 1613 caractères) → bloc1.mp3 ##########
 ============================================================
 Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez découvert les parties en ligne, le classement et l'ELO.
 
 Aujourd'hui, on sort du face-à-face : tournois, clubs et cours avec un professeur. Le backgammon se joue mieux à plusieurs. On y va !
 
-Sur TickGammon, tout commence depuis l'accueil de l'appli. Trois portes vous y attendent : les Événements, les Clubs et les Cours.
+Sur TickGammon, tout commence depuis l'accueil de l'appli. Deux boutons vous y attendent : Événements et Cours. Votre club, lui, se trouve dans votre profil.
 
 Les Événements, ce sont les tournois. Les Clubs, c'est votre communauté. Et les Cours, c'est pour progresser avec un professeur.
 
-Tout est gratuit pour commencer. Il suffit d'un compte, dans votre navigateur, sur Android ou sur Windows.
+Pour commencer, il suffit d'un compte, dans votre navigateur, sur Android ou sur Windows.
 
-Commençons par les tournois. Sur TickGammon, n'importe quel joueur peut créer son propre tournoi.
+Commençons par les tournois. Sur TickGammon, ce sont les membres du bureau d'un club ou d'un clan qui les créent : le président, le vice-président ou le secrétaire.
 
 Il peut être public, ouvert à toute la communauté, ou privé, pour vos amis ou votre club.
 
@@ -60,7 +60,7 @@ Les clubs officiels peuvent même se défier entre eux, pendant un à sept jours
 Et la fidélité est récompensée : après un mois, six mois, puis à chaque anniversaire dans le club, vous recevez des TGC offerts, selon votre ancienneté.
 ============================================================
 
-########## BLOC 3 (P26 à P35, 1594 caractères) → bloc3.mp3 ##########
+########## BLOC 3 (P26 à P35, 1682 caractères) → bloc3.mp3 ##########
 ============================================================
 Place maintenant aux cours. Des professeurs proposent des cours de backgammon en direct, pour tous les niveaux.
 
@@ -72,7 +72,7 @@ Avant le cours, des rappels vous préviennent. Et certains cours ont un replay, 
 
 Vous préférez un cours rien que pour vous ? Choisissez le cours particulier.
 
-Vous choisissez votre professeur, vous demandez un créneau, et il vous répond sous quarante-huit heures. Les cours font partie du Pack Sagesse et du Pack Chouette.
+Vous choisissez votre professeur, vous demandez un créneau, et il vous répond sous quarante-huit heures. Les cours payés en TGC, collectifs ou particuliers, sont ouverts à tous, sans pack. Seuls les cours collectifs gratuits demandent le Pack Sagesse.
 
 Et si vous êtes un bon joueur qui aime transmettre, vous pouvez devenir professeur à votre tour, avec le Pack Chouette. Envoyez votre candidature depuis votre compte : niveau, club, expérience et motivation.
 

@@ -4,19 +4,19 @@ Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres
 Ne change rien au texte : les lignes vides servent de pauses entre les passages.
 Télécharge chaque résultat en MP3 et renomme-le : bloc1_es.mp3, bloc2_es.mp3, bloc3_es.mp3.
 
-########## BLOC 1 (P01 à P13, 1461 caractères) → bloc1_es.mp3 ##########
+########## BLOC 1 (P01 à P13, 1546 caractères) → bloc1_es.mp3 ##########
 ============================================================
 ¡Hola y bienvenidos a las Lecciones de la lechuza! La última vez descubristeis las partidas en línea, la clasificación y el ELO.
 
 Hoy vamos más allá del cara a cara: torneos, clubes y clases con un profesor. El backgammon se disfruta más en compañía. ¡Vamos allá!
 
-En TickGammon, todo empieza desde el inicio de la app. Allí os esperan tres puertas: los Eventos, los Clubes y las Clases.
+En TickGammon, todo empieza desde el inicio de la app. Allí os esperan dos botones: Eventos y Clases. Vuestro club, en cambio, está en vuestro perfil.
 
 Los Eventos son los torneos. Los Clubes son vuestra comunidad. Y las Clases sirven para progresar con un profesor.
 
-Empezar es gratis. Solo necesitáis una cuenta, en vuestro navegador, en Android o en Windows.
+Para empezar, solo necesitáis una cuenta, en vuestro navegador, en Android o en Windows.
 
-Empecemos por los torneos. En TickGammon, cualquier jugador puede crear su propio torneo.
+Empecemos por los torneos. En TickGammon, los crean los miembros de la junta de un club o de un clan: el presidente, el vicepresidente o el secretario.
 
 Puede ser público, abierto a toda la comunidad, o privado, para vuestros amigos o vuestro club.
 
@@ -60,7 +60,7 @@ Los clubes oficiales pueden incluso desafiarse entre sí, durante uno a siete d�
 Y la fidelidad tiene premio: al cabo de un mes, de seis meses y luego en cada aniversario en el club, recibís TGC de regalo según vuestra antigüedad.
 ============================================================
 
-########## BLOC 3 (P26 à P35, 1480 caractères) → bloc3_es.mp3 ##########
+########## BLOC 3 (P26 à P35, 1566 caractères) → bloc3_es.mp3 ##########
 ============================================================
 Ahora, las clases. Los profesores ofrecen clases de backgammon en directo, para todos los niveles.
 
@@ -72,7 +72,7 @@ Antes de la clase, os llegan recordatorios. Y algunas clases tienen grabación, 
 
 ¿Preferís una clase solo para vosotros? Elegid la clase particular.
 
-Elegís a vuestro profesor, pedís un horario, y os responde en cuarenta y ocho horas. Las clases forman parte del Pack Sabiduría y del Pack Chouette.
+Elegís a vuestro profesor, pedís un horario, y os responde en cuarenta y ocho horas. Las clases pagadas en TGC, en grupo o particulares, están abiertas a todos, sin pack. Solo las clases en grupo gratuitas requieren el Pack Sabiduría.
 
 Y si sois buenos jugadores y os gusta enseñar, podéis haceros profesores, con el Pack Chouette. Enviad vuestra candidatura desde vuestra cuenta: nivel, club, experiencia y motivación.
 
