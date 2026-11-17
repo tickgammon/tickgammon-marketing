@@ -1,4 +1,4 @@
-# Posts Metricool « 👁️ L'œil de la chouette » (BROUILLONS à valider par Joyce) — usage : python3 mk_metricool.py <commit> <sortie.json>
+# Posts Metricool « 👁️ L'œil de la chouette » (validés par Joyce le 17/11 : publication automatique) — usage : python3 mk_metricool.py <commit> <sortie.json>
 import json,sys
 C=sys.argv[1]; OUTF=sys.argv[2]
 R='https://raw.githubusercontent.com/tickgammon/tickgammon-marketing/%s/videos/oeil-chouette/%%s_oeil_%%s_vertical.mp4'%C
@@ -23,8 +23,8 @@ TAGS=['backgammon','tickgammon','analyse']
 out=[]
 for v,d,H,TX in V:
   for L in 'fr','en','es':
-    txt,yt,t=TX[L]; txt=txt+"\n"+AI[L]
-    i={"autoPublish":True,"draft":True,"text":txt,"media":[R%(v,L)],
+    txt,yt,t=TX[L]   # 17/11 (Joyce) : plus de ligne « 🤖 … IA » dans les légendes
+    i={"autoPublish":True,"draft":False,"text":txt,"media":[R%(v,L)],
        "publicationDate":{"dateTime":d+"T"+H[L]+":00","timezone":"Europe/Paris"},
        "youtubeData":{"title":yt,"type":"short","privacy":"public","tags":TAGS,"category":"GAMING","madeForKids":False,"isAiGeneratedContent":True},
        "tiktokData":{"privacyOption":"PUBLIC_TO_EVERYONE","commercialContentOwnBrand":True,"title":t,"isAigc":True},
@@ -38,7 +38,7 @@ for v,d,H,TX in V:
     out.append(i)
   # LinkedIn FR du lancement : post à part (texte plus long, même vidéo)
   if v=='launch':
-    out.append({"autoPublish":True,"draft":True,"text":LINKEDIN_FR+"\n"+AI['fr'],"media":[R%(v,'fr')],
+    out.append({"autoPublish":True,"draft":False,"text":LINKEDIN_FR,"media":[R%(v,'fr')],
       "publicationDate":{"dateTime":d+"T10:30:00","timezone":"Europe/Paris"},
       "providers":[{"network":"linkedin"}],"linkedinData":{"previewIncluded":True,"type":"post"},"firstCommentText":""})
 json.dump(out,open(OUTF,'w'),ensure_ascii=False,indent=1)
