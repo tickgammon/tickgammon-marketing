@@ -1,0 +1,14 @@
+FICHES YOUTUBE — LEÇON 10 · Jacquet, trictrac et backgammon (sortie 28/02/2027, durée 4:45, écran de fin à partir de 4:25)
+YouTube Studio → la vidéo → Fiches (crayon) → choisir le type → choisir la vidéo/playlist → taper le moment dans la case 0:00:00 en bas à gauche → remplir « Message personnalisé » et « Texte d accroche » → Enregistrer.
+Règle : une fiche ne peut viser qu une vidéo déjà PUBLIQUE ; ne rien mettre dans les 20 dernières secondes (écran de fin).
+Textes en 3 langues (YouTube ne traduit pas les fiches), 30 caractères maximum.
+
+MOMENT | TYPE     | VERS                          | MESSAGE PERSONNALISÉ             | TEXTE D'ACCROCHE                 | POSSIBLE À PARTIR DU
+0:04   | Vidéo    | Leçon 9 · Tournois, clubs     | Leçon 9 · Lesson 9 · Lección 9   | 🏆 Tournois · Tournaments        | 14/02 (sortie leçon 9)
+0:17   | Playlist | Les leçons de la chouette     | 🦉 Leçons · Lessons · Lecciones  | 🦉 Toutes · All · Todas          | maintenant
+1:15   | Vidéo    | Leçon 1 · Les règles          | Leçon 1 · Lesson 1 · Lección 1   | 🎲 Règles · Rules · Reglas       | maintenant
+1:30   | Vidéo    | Leçon 3 · Le videau           | Leçon 3 · Lesson 3 · Lección 3   | 🎲 Videau · Cube · Cubo          | 22/11 (sortie leçon 3)
+
+Pourquoi : 0:04 « La dernière fois, vous avez découvert les tournois, les clubs et les cours » ;
+1:15 début du chapitre « Le backgammon » (les règles complètes sont dans la leçon 1) ;
+1:30 « Et il y a le videau » (tout sur le videau dans la leçon 3).

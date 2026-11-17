@@ -1,0 +1,200 @@
+1
+00:00:01,200 --> 00:00:04,848
+¡Hola y bienvenidos a las Lecciones de la lechuza!
+
+2
+00:00:04,548 --> 00:00:10,272
+La última vez descubristeis los torneos, los clubes y las clases con un profesor.
+
+3
+00:00:10,422 --> 00:00:18,379
+Hoy, una pregunta que se oye a menudo en Francia: «¿Echamos un trictrac?» Jacquet, trictrac, backgammon…
+
+4
+00:00:18,079 --> 00:00:20,808
+¿son el mismo juego? ¡Vamos allá!
+
+5
+00:00:22,708 --> 00:00:27,309
+Estos tres juegos son de la misma familia: la de los juegos de tablas.
+
+6
+00:00:27,009 --> 00:00:30,197
+Se juegan en Europa desde la Antigüedad romana.
+
+7
+00:00:30,347 --> 00:00:36,875
+El tablero de madera que se pliega, con sus dos mitades y sus puntas, se llama en francés «tablier».
+
+8
+00:00:37,025 --> 00:00:49,313
+Con el tiempo, cada país inventó sus propias reglas: el backgammon en Inglaterra, el trictrac y el jacquet en Francia, el tavla en Turquía, el nardy en Rusia y en el Cáucaso.
+
+9
+00:00:51,213 --> 00:00:56,418
+El material, en cambio, casi no cambia. Cada jugador tiene quince fichas.
+
+10
+00:00:56,568 --> 00:01:01,552
+Se lanzan dos dados y se avanzan las fichas en un tablero de veinticuatro puntas.
+
+11
+00:01:01,702 --> 00:01:04,326
+Entonces, ¿dónde está la diferencia?
+
+12
+00:01:04,026 --> 00:01:10,781
+En cómo se sale, en el sentido de la marcha y en lo que hay que hacer para ganar. Veamos cada juego.
+
+13
+00:01:12,681 --> 00:01:18,071
+Empecemos por el backgammon, la versión más jugada del mundo, en los clubes y en línea.
+
+14
+00:01:18,489 --> 00:01:24,491
+Los dos jugadores avanzan en sentidos opuestos, y las fichas salen de cuatro puntas distintas.
+
+15
+00:01:24,641 --> 00:01:30,561
+Una ficha sola está en peligro: el rival puede golpearla, y vuelve a la salida, a la barra.
+
+16
+00:01:30,842 --> 00:01:34,191
+Y está el cubo, que dobla el valor de la partida.
+
+17
+00:01:33,891 --> 00:01:39,791
+Es el juego de los torneos internacionales y de las federaciones, como la FFBG en Francia.
+
+18
+00:01:41,691 --> 00:01:48,154
+Pasemos al jacquet, un juego tradicional francés, muy jugado en familia, en Francia y en Bélgica.
+
+19
+00:01:48,304 --> 00:01:56,084
+Primera sorpresa: cada jugador empieza con sus quince fichas apiladas en una sola punta, en una esquina del tablero.
+
+20
+00:01:56,234 --> 00:02:03,313
+Segunda sorpresa: los dos jugadores dan la vuelta al tablero en el mismo sentido, uno detrás del otro.
+
+21
+00:02:03,463 --> 00:02:10,986
+En muchas familias, una primera ficha, el correo, sale sola como exploradora antes de que las demás dejen su pila.
+
+22
+00:02:12,886 --> 00:02:15,225
+En el jacquet nunca se golpea.
+
+23
+00:02:14,925 --> 00:02:20,662
+Una sola ficha basta para bloquear una punta: el rival no puede ponerse en ella.
+
+24
+00:02:20,812 --> 00:02:27,371
+Así, el juego se convierte en una batalla de bloqueos: construís muros para frenar al rival que os sigue.
+
+25
+00:02:27,521 --> 00:02:30,632
+No hay cubo: simplemente se juega la partida.
+
+26
+00:02:30,332 --> 00:02:34,754
+Como en el backgammon, gana el primero que saca sus quince fichas.
+
+27
+00:02:35,289 --> 00:02:41,849
+Cuidado: las reglas de detalle, como el correo o los dobles, cambian según las regiones y las familias.
+
+28
+00:02:41,549 --> 00:02:43,915
+¡Poneos de acuerdo antes de jugar!
+
+29
+00:02:45,815 --> 00:02:52,342
+Ahora, el trictrac. Fue el gran juego de tablas de la Francia de los siglos diecisiete y dieciocho.
+
+30
+00:02:52,492 --> 00:02:58,728
+Se jugaba en la corte del rey y en los salones. Pero su principio es muy distinto del de los otros dos.
+
+31
+00:02:58,878 --> 00:03:04,592
+Aquí no se gana sacando las fichas: se marcan puntos según las jugadas logradas.
+
+32
+00:03:04,292 --> 00:03:07,435
+Golpear una ficha, por ejemplo, da puntos.
+
+33
+00:03:07,585 --> 00:03:14,269
+Los puntos se cuentan con fichas de marcar y pequeñas clavijas que se clavan en los agujeros del tablero.
+
+34
+00:03:13,969 --> 00:03:18,585
+Sus reglas tienen fama de ser muy complejas… ¡incluso para una lechuza!
+
+35
+00:03:20,485 --> 00:03:24,551
+Hoy, el trictrac solo lo practican unos pocos aficionados.
+
+36
+00:03:24,701 --> 00:03:27,493
+Y sin embargo, su nombre se ha quedado.
+
+37
+00:03:27,193 --> 00:03:33,309
+Gracias a su prestigio, «trictrac» pasó a designar el tablero y luego el propio backgammon.
+
+38
+00:03:33,459 --> 00:03:37,126
+¡Por eso un abuelo francés quizá os proponga «un trictrac»…
+
+39
+00:03:36,826 --> 00:03:39,751
+cuando en realidad quiere jugar al backgammon!
+
+40
+00:03:41,651 --> 00:03:43,092
+Hagamos un resumen.
+
+41
+00:03:42,792 --> 00:03:49,756
+El sentido de la marcha: opuesto en el backgammon y el trictrac, el mismo para los dos jugadores en el jacquet.
+
+42
+00:03:49,906 --> 00:03:57,418
+La salida: quince fichas en una sola punta en el jacquet y el trictrac, repartidas en cuatro puntas en el backgammon.
+
+43
+00:03:57,568 --> 00:04:03,896
+El objetivo: sacar las quince fichas en el backgammon y el jacquet, marcar puntos en el trictrac.
+
+44
+00:04:04,046 --> 00:04:06,517
+El cubo solo existe en el backgammon.
+
+45
+00:04:06,217 --> 00:04:10,683
+Y es el único de los tres que se juega en competición en todo el mundo.
+
+46
+00:04:13,160 --> 00:04:18,022
+Y ya está, ahora sabéis distinguir el backgammon, el jacquet y el trictrac.
+
+47
+00:04:17,722 --> 00:04:25,564
+Si conocéis el jacquet, el backgammon os resultará familiar enseguida: mismo tablero, mismos dados, misma lógica de carrera.
+
+48
+00:04:25,714 --> 00:04:33,664
+Para empezar, jugad gratis al backgammon contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows.
+
+49
+00:04:33,364 --> 00:04:38,553
+La próxima vez, os cuento la historia del backgammon. ¡Suscribíos para no perdérosla!
+
+50
+00:04:38,253 --> 00:04:40,854
+¡Hasta muy pronto alrededor del tablero!
+

@@ -1,0 +1,204 @@
+1
+00:00:01,200 --> 00:00:04,467
+Bonjour et bienvenue dans les Leçons de la chouette !
+
+2
+00:00:04,167 --> 00:00:09,728
+La dernière fois, vous avez découvert les tournois, les clubs et les cours avec un professeur.
+
+3
+00:00:10,422 --> 00:00:15,857
+Aujourd'hui, une question qu'on entend souvent en France : « On fait un trictrac ?
+
+4
+00:00:15,557 --> 00:00:19,802
+» Jacquet, trictrac, backgammon… est-ce le même jeu ? On y va !
+
+5
+00:00:22,708 --> 00:00:26,776
+Ces trois jeux sont de la même famille : celle des jeux de tables.
+
+6
+00:00:26,476 --> 00:00:29,460
+On y joue en Europe depuis l'Antiquité romaine.
+
+7
+00:00:30,347 --> 00:00:36,706
+Le plateau en bois qui se replie, avec ses deux moitiés et ses flèches, s'appelle en français un tablier.
+
+8
+00:00:37,025 --> 00:00:49,215
+Avec le temps, chaque pays a inventé ses propres règles : le backgammon en Angleterre, le trictrac et le jacquet en France, le tavla en Turquie, le nardy en Russie et dans le Caucase.
+
+9
+00:00:51,213 --> 00:00:55,895
+Le matériel, lui, ne change presque pas. Chaque joueur a quinze pions.
+
+10
+00:00:56,568 --> 00:01:01,106
+On lance deux dés, et on avance ses pions sur un plateau de vingt-quatre flèches.
+
+11
+00:01:01,702 --> 00:01:03,749
+Alors, où est la différence ?
+
+12
+00:01:03,449 --> 00:01:10,016
+Dans la façon de partir, le sens de la marche, et ce qu'il faut faire pour gagner. Regardons chaque jeu.
+
+13
+00:01:12,681 --> 00:01:17,847
+Commençons par le backgammon, la version la plus jouée au monde, en club comme en ligne.
+
+14
+00:01:18,489 --> 00:01:23,743
+Les deux joueurs avancent en sens opposés, et les pions partent de quatre flèches différentes.
+
+15
+00:01:24,641 --> 00:01:30,510
+Un pion seul est en danger : l'adversaire peut le frapper, et il retourne au départ, sur la barre.
+
+16
+00:01:30,842 --> 00:01:34,448
+Et il y a le videau, qui double la valeur de la partie.
+
+17
+00:01:34,148 --> 00:01:39,558
+C'est le jeu des tournois internationaux et des fédérations, comme la FFBG en France.
+
+18
+00:01:41,691 --> 00:01:47,924
+Passons au jacquet, un jeu traditionnel français, très joué en famille, en France et en Belgique.
+
+19
+00:01:48,304 --> 00:01:55,114
+Première surprise : chaque joueur commence avec ses quinze pions empilés sur une seule flèche, dans un coin du plateau.
+
+20
+00:01:56,234 --> 00:02:02,296
+Deuxième surprise : les deux joueurs tournent dans le même sens autour du plateau, l'un derrière l'autre.
+
+21
+00:02:03,463 --> 00:02:10,368
+Dans beaucoup de familles, un premier pion, le courrier, part seul en éclaireur avant que les autres quittent leur pile.
+
+22
+00:02:12,886 --> 00:02:15,045
+Au jacquet, on ne frappe jamais.
+
+23
+00:02:14,745 --> 00:02:19,577
+Un seul pion suffit à bloquer une flèche : l'adversaire ne peut pas s'y poser.
+
+24
+00:02:20,812 --> 00:02:26,737
+Le jeu devient donc une bataille de blocages : on construit des murs pour ralentir l'adversaire qui vous suit.
+
+25
+00:02:27,521 --> 00:02:31,048
+Il n'y a pas de videau : on joue la partie, tout simplement.
+
+26
+00:02:30,748 --> 00:02:34,491
+Comme au backgammon, le premier qui sort ses quinze pions gagne.
+
+27
+00:02:35,289 --> 00:02:41,716
+Attention : les règles de détail, comme le courrier ou les doubles, changent selon les régions et les familles.
+
+28
+00:02:41,416 --> 00:02:43,814
+Avant de jouer, mettez-vous d'accord !
+
+29
+00:02:45,815 --> 00:02:47,354
+Le trictrac, maintenant.
+
+30
+00:02:47,054 --> 00:02:51,641
+C'est le grand jeu de tables de la France des dix-septième et dix-huitième siècles.
+
+31
+00:02:52,492 --> 00:02:57,792
+On y jouait à la cour du roi et dans les salons. Mais son principe est très différent des deux autres.
+
+32
+00:02:58,878 --> 00:03:04,218
+Ici, on ne gagne pas en sortant ses pions : on marque des points selon les coups réussis.
+
+33
+00:03:03,918 --> 00:03:06,993
+Battre un pion, par exemple, rapporte des points.
+
+34
+00:03:07,585 --> 00:03:12,830
+Les points se comptent avec des jetons et de petites fiches plantées dans les trous du plateau.
+
+35
+00:03:12,530 --> 00:03:16,214
+Ses règles sont réputées très complexes… même pour une chouette !
+
+36
+00:03:20,485 --> 00:03:24,321
+Aujourd'hui, le trictrac n'est plus pratiqué que par quelques passionnés.
+
+37
+00:03:24,701 --> 00:03:26,710
+Pourtant, son nom est resté.
+
+38
+00:03:26,410 --> 00:03:31,898
+Grâce à son prestige, « trictrac » a désigné le plateau, puis le backgammon lui-même.
+
+39
+00:03:33,459 --> 00:03:37,565
+Voilà pourquoi votre grand-père vous propose peut-être « un petit trictrac »…
+
+40
+00:03:37,265 --> 00:03:39,443
+alors qu'il veut jouer au backgammon !
+
+41
+00:03:41,651 --> 00:03:42,908
+Faisons le point.
+
+42
+00:03:42,608 --> 00:03:48,593
+Le sens de la marche : opposé au backgammon et au trictrac, le même pour les deux joueurs au jacquet.
+
+43
+00:03:49,906 --> 00:03:56,948
+Le départ : quinze pions sur une seule flèche au jacquet et au trictrac, répartis sur quatre flèches au backgammon.
+
+44
+00:03:57,568 --> 00:04:03,430
+Le but : sortir ses quinze pions au backgammon et au jacquet, marquer des points au trictrac.
+
+45
+00:04:04,046 --> 00:04:06,273
+Le videau n'existe qu'au backgammon.
+
+46
+00:04:05,973 --> 00:04:10,289
+Et c'est le seul des trois qui se joue en compétition dans le monde entier.
+
+47
+00:04:13,160 --> 00:04:18,328
+Et voilà, vous savez maintenant reconnaître le backgammon, le jacquet et le trictrac.
+
+48
+00:04:18,028 --> 00:04:25,372
+Si vous connaissez le jacquet, le backgammon vous paraîtra vite familier : même plateau, mêmes dés, même logique de course.
+
+49
+00:04:25,714 --> 00:04:33,743
+Pour vous lancer, jouez gratuitement au backgammon contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows.
+
+50
+00:04:33,443 --> 00:04:38,827
+La prochaine fois, je vous raconte l'histoire du backgammon. Abonnez-vous pour ne pas la manquer !
+
+51
+00:04:38,527 --> 00:04:40,435
+À très vite autour du plateau !
+
