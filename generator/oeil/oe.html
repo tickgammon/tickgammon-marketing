@@ -1,0 +1,208 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- 👁️ L'œil de la chouette — teasers (24/11, 26/11) + vidéo de lancement (1/12/2026) + couverture de l'Actu. Aucune mention IA à l'écran. -->
+<style>
+@font-face{font-family:'Bricolage Grotesque';font-weight:800;src:url(../fridaycup/fonts/bricolage-grotesque-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:700;src:url(../fridaycup/fonts/manrope-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:800;src:url(../fridaycup/fonts/manrope-latin-800-normal.woff2) format('woff2')}
+html,body{margin:0;overflow:hidden;background:#0d3326;font-family:Manrope,sans-serif;color:#fdfbf0}
+#s{position:relative;overflow:hidden;background-color:#0d3326;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.025) 0 2px,transparent 2px 14px)}
+.a{position:absolute}
+.scene{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;box-sizing:border-box}
+.txt{display:flex;flex-direction:column;flex:0 0 auto}
+.kick{align-self:var(--al);background:#ff7a59;color:#0d3326;font-weight:800;letter-spacing:3px;text-transform:uppercase;border-radius:999px;padding:.35em .9em;font-size:var(--kf)}
+.ttl{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;text-transform:uppercase;font-size:var(--tf);line-height:.95;letter-spacing:-.03em;margin:.22em 0 .2em}
+.ttl em,.sub em{font-style:normal;color:#c9a86a}
+.sub{font-size:var(--sf);font-weight:700;color:#d9e6dc;line-height:1.3}
+.vbox{flex:0 0 auto;position:relative}
+.vis{position:absolute;left:0;top:0;width:640px;height:560px;transform-origin:0 0}
+.bf{font-family:'Bricolage Grotesque',sans-serif;font-weight:800}
+.card{background:#fdfbf0;color:#0d3326;border-radius:24px;box-shadow:0 12px 0 rgba(0,0,0,.25);box-sizing:border-box}
+.chk{display:flex;align-items:center;gap:16px;font-weight:800;font-size:26px;line-height:1.15;padding:11px 0;border-bottom:3px dashed #e3d9bd}
+.chk:last-child{border-bottom:0}
+.chk i{flex:0 0 40px;height:40px;border-radius:50%;background:#0d3326;display:flex;align-items:center;justify-content:center;font-style:normal;font-size:22px}
+.btnff{display:inline-flex;align-items:center;gap:.45em;background:linear-gradient(#e6c47c,#c9a86a);color:#0d3326;border-radius:16px;padding:.42em .9em;box-shadow:0 6px 0 #8a6a3a}
+.mv{display:flex;align-items:center;gap:14px;font-weight:800;font-size:26px;padding:12px 16px;border-radius:14px}
+.mv b{font-family:'Bricolage Grotesque',sans-serif;min-width:150px}
+.mv .bar{flex:1;height:14px;border-radius:7px;background:#e3d9bd;overflow:hidden}
+.mv .bar i{display:block;height:100%;background:#0d3326;border-radius:7px}
+</style></head><body><div id="s">
+<div id="url" class="a" style="left:0;right:0;text-align:center;font-weight:800;letter-spacing:3px;color:#c9a86a">TICKGAMMON.COM</div>
+<div id="prog" class="a" style="left:0;bottom:0;height:6px;background:#ff7a59;width:0"></div>
+<div id="flash" class="a" style="inset:0;background:#fff;opacity:0;pointer-events:none;z-index:5"></div>
+<div id="conf" class="a" style="inset:0"></div>
+<div id="scenes"></div>
+</div>
+<script>
+const LY=window.LY, L=window.LANG, VID=window.VID;
+const $=q=>document.querySelector(q);
+const S=$('#s');S.style.width=LY.W+'px';S.style.height=LY.H+'px';
+const R=document.documentElement.style;
+R.setProperty('--tf',LY.tf+'px');R.setProperty('--sf',LY.sf+'px');R.setProperty('--kf',LY.kf+'px');
+R.setProperty('--al',LY.dir==='row'?'flex-start':'center');
+$('#url').style.top=LY.urlY+'px';$('#url').style.fontSize=LY.url+'px';
+// ---------- la chouette officielle (owl_base.png / owl_wing.png du générateur) ----------
+const LOGO=`<div style="position:relative;width:100%;height:100%">
+<svg viewBox="0 0 520 520" width="100%" height="100%" style="position:absolute;inset:0"><defs>
+<linearGradient id="gd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6d77a"/><stop offset=".5" stop-color="#c99a3a"/><stop offset="1" stop-color="#f1cf6e"/></linearGradient>
+<radialGradient id="gr" cx=".5" cy=".42" r=".6"><stop offset="0" stop-color="#1c5a3c"/><stop offset="1" stop-color="#0f3a26"/></radialGradient></defs>
+<circle cx="260" cy="260" r="256" fill="url(#gd)"/><circle cx="260" cy="260" r="243" fill="url(#gr)"/></svg>
+<div style="position:absolute;left:11.9%;top:14.6%;width:76.2%;height:72.3%">
+<img src="../owl_base.png" style="position:absolute;inset:0;width:100%;height:100%">
+<svg class="eyeW" viewBox="0 0 600 570" style="position:absolute;inset:0;width:100%;height:100%;opacity:0"><circle cx="365" cy="148" r="52" fill="#fdeecf"/><path d="M328 158 Q365 122 402 158" stroke="#0b2a17" stroke-width="10" fill="none" stroke-linecap="round"/></svg>
+<img class="wingI" src="../owl_wing.png" style="position:absolute;inset:0;width:100%;height:100%;transform-origin:70.8% 53.5%">
+</div></div>`;
+// ---------- textes ----------
+const T={
+tease1:{
+ fr:{s1:['CHUT… SURPRISE','La chouette <em>ouvre l’œil…</em>','Ton vrai plateau ne sera plus jamais le même.'],s2:['Mardi <em>1er décembre</em>','Rendez-vous sur tickgammon.com']},
+ en:{s1:['SHH… SURPRISE','The owl <em>opens its eye…</em>','Your real board will never be the same.'],s2:['Tuesday <em>December 1</em>','See you on tickgammon.com']},
+ es:{s1:['CHIS… SORPRESA','La lechuza <em>abre el ojo…</em>','Tu tablero de verdad nunca volverá a ser igual.'],s2:['Martes <em>1 de diciembre</em>','Nos vemos en tickgammon.com']}},
+tease2:{
+ fr:{s1:['INDICE','Un plateau, <em>une photo…</em>','… et la chouette sait déjà quoi jouer.'],s2:['Mardi <em>1er décembre</em>','Rendez-vous sur tickgammon.com']},
+ en:{s1:['CLUE','One board, <em>one photo…</em>','… and the owl already knows what to play.'],s2:['Tuesday <em>December 1</em>','See you on tickgammon.com']},
+ es:{s1:['PISTA','Un tablero, <em>una foto…</em>','… y la lechuza ya sabe qué jugar.'],s2:['Martes <em>1 de diciembre</em>','Nos vemos en tickgammon.com']}},
+launch:{
+ fr:{s1:['NOUVEAU','L’œil <em>de la chouette</em>','Prends ton vrai plateau en photo !'],
+  s2:['1 · LA PHOTO','Un clic sur <em>ton vrai plateau</em>','Au club, au café, à la maison.'],
+  s3:['2 · LA LECTURE','La chouette lit <em>la position</em>','Pions et dés : tu corriges d’un geste si besoin.'],
+  s4:['3 · LE BON COUP','Le meilleur coup, <em>expliqué</em>','Analyse gnubg, puis la chouette t’explique pourquoi.'],
+  s5:['OFFERT','Pour <em>bien commencer</em>'],
+  checks:['3 photos offertes à tous du 1er au 8 décembre','Ensuite 1 photo par mois, 10 avec Sagesse, 20 avec Chouette','Une photo en plus : 150 TGC','Pack Sagesse mensuel : -30 % le 1er mois jusqu’au 8/12'],
+  moves:['8/5 6/5','24/21 6/5','13/10 6/5'],best:'MEILLEUR COUP',
+  out:['Dès le <em>1er décembre</em>','Sur l’accueil','SCAN','Sur le site, Android et Windows']},
+ en:{s1:['NEW','The owl’s <em>eye</em>','Take a photo of your real board!'],
+  s2:['1 · THE PHOTO','One shot of <em>your real board</em>','At the club, the café, at home.'],
+  s3:['2 · THE READING','The owl reads <em>the position</em>','Checkers and dice: fix anything with one tap.'],
+  s4:['3 · THE RIGHT MOVE','The best move, <em>explained</em>','gnubg analysis, then the owl tells you why.'],
+  s5:['ON US','To get <em>you started</em>'],
+  checks:['3 free photos for everyone, December 1 to 8','Then 1 photo a month, 10 with Sagesse, 20 with Chouette','One extra photo: 150 TGC','Monthly Sagesse Pack: -30% on the 1st month until Dec 8'],
+  moves:['8/5 6/5','24/21 6/5','13/10 6/5'],best:'BEST MOVE',
+  out:['From <em>December 1</em>','On the home screen','SCAN','On the website, Android and Windows']},
+ es:{s1:['NUEVO','El ojo <em>de la lechuza</em>','¡Haz una foto de tu tablero de verdad!'],
+  s2:['1 · LA FOTO','Un clic en <em>tu tablero real</em>','En el club, en el café, en casa.'],
+  s3:['2 · LA LECTURA','La lechuza lee <em>la posición</em>','Fichas y dados: corriges con un gesto si hace falta.'],
+  s4:['3 · LA BUENA JUGADA','La mejor jugada, <em>explicada</em>','Análisis gnubg y la lechuza te explica por qué.'],
+  s5:['DE REGALO','Para <em>empezar bien</em>'],
+  checks:['3 fotos gratis para todos del 1 al 8 de diciembre','Después 1 foto al mes, 10 con Sagesse, 20 con Chouette','Una foto extra: 150 TGC','Pack Sagesse mensual: -30 % el 1.er mes hasta el 8/12'],
+  moves:['8/5 6/5','24/21 6/5','13/10 6/5'],best:'MEJOR JUGADA',
+  out:['Desde el <em>1 de diciembre</em>','En la pantalla de inicio','ESCÁNER','En la web, Android y Windows']}},
+cover:{fr:{t:'L’œil <em>de la chouette</em>',s:'Prends ton vrai plateau en photo'},en:{t:'The owl’s <em>eye</em>',s:'Take a photo of your real board'},es:{t:'El ojo <em>de la lechuza</em>',s:'Haz una foto de tu tablero real'}}
+}[VID]?.[L]||{};
+// ---------- un vrai plateau en bois (vu du dessus) : position de départ, Blancs à jouer 3-1 ----------
+function board(o={}){
+ const W=600,H=420,x0=20,y0=70,bw=30,pw=(W-2*bw-40)/12,ph=150;let s='';
+ s+=`<rect x="${x0}" y="${y0}" width="${W}" height="${H}" rx="22" fill="#6b3f22"/><rect x="${x0+14}" y="${y0+14}" width="${W-28}" height="${H-28}" rx="10" fill="#2f6b4c"/>`;
+ s+=`<rect x="${x0+W/2-bw/2}" y="${y0+14}" width="${bw}" height="${H-28}" fill="#6b3f22"/>`;
+ const cx=i=>{const k=i<6?i:i+0;const left=x0+20+(i<6?0:bw)+ (i%12)*pw;return left;};
+ for(let i=0;i<12;i++){const xl=x0+20+(i>=6?bw:0)+i*pw;const c=i%2?'#e9dcb8':'#b4532f';
+  s+=`<path d="M${xl} ${y0+14} L${xl+pw/2} ${y0+14+ph} L${xl+pw} ${y0+14} Z" fill="${c}"/>`;
+  s+=`<path d="M${xl} ${y0+H-14} L${xl+pw/2} ${y0+H-14-ph} L${xl+pw} ${y0+H-14} Z" fill="${i%2?'#b4532f':'#e9dcb8'}"/>`;}
+ // pions : [colonne 0..11, haut(1)/bas(0), nombre, couleur]
+ const st=[[11,1,2,'w'],[0,1,5,'w'],[4,0,3,'w'],[6,0,5,'w'],[11,0,2,'b'],[0,0,5,'b'],[4,1,3,'b'],[6,1,5,'b']];
+ const r=pw/2-3;
+ st.forEach(([c,top,n,col],k)=>{const xl=x0+20+(c>=6?bw:0)+c*pw+pw/2;for(let j=0;j<n;j++){const y=top?y0+14+r+2+j*(2*r+1):y0+H-14-r-2-j*(2*r+1);
+  s+=`<g class="pc" data-k="${k*6+j}"><circle cx="${xl}" cy="${y}" r="${r}" fill="${col==='w'?'#f6efe0':'#1d1a17'}" stroke="${col==='w'?'#c9b48a':'#000'}" stroke-width="2"/><circle cx="${xl}" cy="${y}" r="${r*.55}" fill="none" stroke="${col==='w'?'#d9c79f':'#3a332c'}" stroke-width="2"/></g>`;}});
+ // dés 3-1
+ const die=(x,y,n,rot)=>{const p={1:[[0,0]],3:[[-1,-1],[0,0],[1,1]]}[n];return `<g class="dice" transform="translate(${x} ${y}) rotate(${rot})"><rect x="-22" y="-22" width="44" height="44" rx="8" fill="#fdfbf0" stroke="#c9b48a" stroke-width="2"/>${p.map(([a,b])=>`<circle cx="${a*12}" cy="${b*12}" r="5" fill="#0d3326"/>`).join('')}</g>`;};
+ s+=die(x0+W*0.74,y0+H/2,3,-12)+die(x0+W*0.86,y0+H/2+6,1,9);
+ return `<svg class="a" viewBox="0 0 640 560" width="640" height="560" style="left:0;top:0;${o.blur?`filter:blur(${o.blur}px)`:''}">${s}</svg>`;}
+// téléphone qui vise le plateau
+function phone(){return `<div class="a ph" style="left:150px;top:40px;width:340px;height:500px;border-radius:44px;background:#18191b;box-shadow:0 20px 40px rgba(0,0,0,.5),inset 0 0 0 3px #3a3b3e">
+ <div class="a" style="left:16px;top:16px;right:16px;bottom:16px;border-radius:30px;overflow:hidden;background:#2f6b4c">
+  <div class="a" style="left:-150px;top:-60px;width:640px;height:560px;transform:scale(.95);transform-origin:300px 280px">${board()}</div>
+  <div class="a" style="left:22px;top:22px;width:40px;height:40px;border-left:5px solid #fdfbf0;border-top:5px solid #fdfbf0"></div>
+  <div class="a" style="right:22px;top:22px;width:40px;height:40px;border-right:5px solid #fdfbf0;border-top:5px solid #fdfbf0"></div>
+  <div class="a" style="left:22px;bottom:90px;width:40px;height:40px;border-left:5px solid #fdfbf0;border-bottom:5px solid #fdfbf0"></div>
+  <div class="a" style="right:22px;bottom:90px;width:40px;height:40px;border-right:5px solid #fdfbf0;border-bottom:5px solid #fdfbf0"></div>
+  <div class="a shut" style="left:50%;bottom:16px;width:64px;height:64px;margin-left:-32px;border-radius:50%;background:#fdfbf0;box-shadow:0 0 0 6px rgba(253,251,240,.4)"></div>
+ </div></div>`;}
+// scan : ligne de lecture + pions entourés
+function scan(){return `<div class="a" style="left:0;top:0;width:640px;height:560px">${board()}
+ <div class="a scl" style="left:34px;width:572px;top:84px;height:6px;background:#ff7a59;box-shadow:0 0 24px 6px rgba(255,122,89,.6);border-radius:3px"></div>
+ <div class="a okb card bf" style="left:180px;top:250px;padding:14px 22px;font-size:30px;opacity:0">✓ 30 / 30 · 3-1</div></div>`;}
+// analyse : 3 coups
+function moves(m,best){return `<div class="a card" style="left:20px;top:60px;width:600px;padding:26px 26px">
+ <div style="font-weight:800;letter-spacing:3px;font-size:20px;color:#8a6a3a;text-transform:uppercase;margin-bottom:10px">${best}</div>
+ ${m.map((x,i)=>`<div class="mv mi" data-i="${i}" style="${i===0?'background:#f3e7c6':''}"><b>${i+1}. ${x}</b><div class="bar"><i style="width:${[92,74,61][i]}%"></i></div></div>`).join('')}
+ <div class="a" style="right:-30px;bottom:-150px;width:200px;height:200px" class="owlS">${LOGO}</div></div>`;}
+function checks(list){const ic=['🎁','📅','🪙','🦉'];return `<div class="a card" style="left:20px;top:60px;width:600px;padding:18px 28px">${list.map((c,i)=>`<div class="chk ci" data-i="${i}"><i>${ic[i]}</i><span>${c}</span></div>`).join('')}</div>`;}
+// ---------- scènes ----------
+const scenes=[];
+function scene(s,e,txt,vis,kind,opt={}){const d=document.createElement('div');d.className='scene';
+ const sc=opt.sc||Math.min(LY.vbW/640,LY.vbH/560);const w=640*sc,h=(opt.vh||560)*sc;
+ d.innerHTML=(opt.visFirst?'':`<div class="txt">${txt}</div>`)+(vis?`<div class="vbox" style="width:${w}px;height:${h}px;${opt.clip?'overflow:hidden;border-radius:'+(24*sc)+'px;':''}"><div class="vis in" data-d=".1" data-sc="${sc}">${vis}</div></div>`:'')+(opt.visFirst?`<div class="txt">${txt}</div>`:'');
+ $('#scenes').appendChild(d);
+ d.style.flexDirection=LY.dir;d.style.gap=LY.gap+'px';d.style.padding=LY.padT+'px '+LY.pad+'px '+LY.pad+'px';
+ const tx=d.querySelector('.txt');tx.style.textAlign=LY.dir==='row'?'left':'center';tx.style.alignItems=LY.dir==='row'?'flex-start':'center';
+ if(LY.dir==='row')tx.style.width=(LY.W-w-LY.gap-2*LY.pad)+'px';else tx.style.maxWidth=(LY.W-2*LY.pad)+'px';
+ if(opt.tfk)tx.querySelectorAll('.ttl').forEach(t=>t.style.fontSize=`calc(var(--tf)*${opt.tfk})`);
+ scenes.push({el:d,s,e,kind,ins:[...d.querySelectorAll('.in')]});return d;}
+const K=(k,d='.05')=>`<div class="kick in" data-d="${d}">${k}</div>`;
+const TT=(t,d='.2')=>`<div class="ttl in" data-d="${d}">${t}</div>`;
+const SB=(t,d='.45')=>t?`<div class="sub in" data-d="${d}">${t}</div>`:'';
+const LOGOV=`<div class="a" style="left:100px;top:60px;width:440px;height:440px"><div class="logo" style="width:100%;height:100%">${LOGO}</div></div>`;
+// œil géant (teasers) : l'œil de la chouette s'ouvre sur un plateau flou
+const EYE=(blur)=>`<div class="a" style="left:0;top:0;width:640px;height:560px;overflow:hidden;border-radius:24px">${board({blur})}
+ <div class="a lidT" style="left:-40px;width:720px;top:-300px;height:580px;background:#0d3326;border-radius:0 0 50% 50%"></div>
+ <div class="a lidB" style="left:-40px;width:720px;top:280px;height:580px;background:#0d3326;border-radius:50% 50% 0 0"></div>
+ <div class="a bf qm" style="left:0;right:0;top:170px;text-align:center;font-size:170px;color:#fdfbf0;text-shadow:0 8px 0 rgba(0,0,0,.35);opacity:0">?</div></div>`;
+function outro(s,e,o){const card=`<div class="card in" data-d=".6" style="text-align:center;padding:calc(var(--sf)*.8) calc(var(--sf)*1.1);margin-top:calc(var(--sf)*.4);width:min(100%,calc(var(--sf)*17))">
+ <div style="font-weight:800;letter-spacing:3px;font-size:calc(var(--sf)*.6);color:#8a6a3a;text-transform:uppercase">${o[1]}</div>
+ <div class="btnff bf" style="font-size:calc(var(--sf)*1.15);margin:.35em 0 .1em">📷<span>${o[2]}</span></div>
+ <div style="border-top:3px dashed #d8ceb0;margin:.7em 0"></div>
+ <div class="cta bf" style="display:inline-block;background:#0d3326;color:#c9a86a;border-radius:999px;padding:.35em 1em;font-size:calc(var(--sf)*1.05)">tickgammon.com →</div></div>`;
+ return scene(s,e,`${TT(o[0],'.3')}${card}${SB(o[3],'1.0')}`,LOGOV,'outro',{visFirst:true,vh:LY.dir==='row'?560:(LY.H>1000?500:520),tfk:.8});}
+let END;
+if(VID==='launch'){END=26;
+ scene(0,3.6,`${K(T.s1[0],'.4')}${TT(T.s1[1],'.6')}${SB(T.s1[2],'.9')}`,LOGOV,'intro',{visFirst:true,tfk:1.15});
+ scene(3.6,8.2,`${K(T.s2[0])}${TT(T.s2[1])}${SB(T.s2[2])}`,phone(),'photo',{tfk:.85});
+ scene(8.2,12.6,`${K(T.s3[0])}${TT(T.s3[1])}${SB(T.s3[2])}`,scan(),'scan',{tfk:.85});
+ scene(12.6,17,`${K(T.s4[0])}${TT(T.s4[1])}${SB(T.s4[2])}`,moves(T.moves,T.best),'moves',{tfk:.85});
+ scene(17,21.4,`${K(T.s5[0])}${TT(T.s5[1])}`,checks(T.checks),'checks',{tfk:.9});
+ outro(21.4,END+1,T.out);
+}
+if(VID==='tease1'||VID==='tease2'){END=10;
+ scene(0,5.4,`${K(T.s1[0])}${TT(T.s1[1],'.3')}${SB(T.s1[2],'.7')}`,VID==='tease1'?EYE(9):phone(),VID==='tease1'?'eye':'tphoto',{clip:VID==='tease1',tfk:.85});
+ scene(5.4,END+1,`${TT(T.s2[0],'.3')}${SB(T.s2[1],'.7')}`,LOGOV,'outroT',{visFirst:true,vh:LY.dir==='row'?560:(LY.H>1000?500:520)});
+}
+if(VID==='cover'){END=1;const d=document.createElement('div');d.className='scene';d.style.opacity=1;
+ d.innerHTML=`<div class="a" style="left:70px;top:150px;width:420px;height:420px">${LOGO}</div>
+ <div class="a" style="left:560px;top:150px;width:640px;height:560px;transform:scale(1.08);transform-origin:0 0">${board()}</div>
+ <div class="a" style="left:70px;top:40px;width:1140px;text-align:left"><div class="ttl" style="font-size:66px;margin:0">${T.t}</div><div class="sub" style="font-size:28px">${T.s}</div></div>`;
+ $('#scenes').appendChild(d);$('#url').style.display='none';$('#prog').style.display='none';scenes.push({el:d,s:0,e:9,kind:'cover',ins:[]});}
+// confettis
+const CONF=[];(function(){let seed=11;const r=()=>{seed=(seed*16807)%2147483647;return seed/2147483647;};const cols=['#ff7a59','#c9a86a','#fdfbf0','#e0c27a'];
+ for(let i=0;i<46;i++){const d=document.createElement('div');d.className='a';const w=9+r()*11;d.style.cssText=`width:${w}px;height:${w*.5}px;background:${cols[i%4]};border-radius:2px`;$('#conf').appendChild(d);CONF.push({d,x:r()*LY.W,v:150+r()*200,r:r()*360,vr:(r()-.5)*400,ph:r()*6,sw:10+r()*30});}})();
+// ---------- animation ----------
+const cl=x=>Math.max(0,Math.min(1,x)),seg=(t,a,b)=>cl((t-a)/(b-a)),eo=x=>1-Math.pow(1-x,3),back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+function wink(el,on){el.querySelectorAll('.eyeW').forEach(x=>{x.style.opacity=on?1:0;});}
+function wave(el,lt,a,b){const e=Math.min(seg(lt,a,a+.3),1-seg(lt,b-.3,b));const ang=e*(52+22*Math.sin((lt-a)*Math.PI*2*2.2));el.querySelectorAll('.wingI').forEach(w=>w.style.transform=`rotate(${-ang}deg)`);}
+const OUTK=['outro','outroT'];
+function render(t){
+ $('#prog').style.width=(t/END*100)+'%';
+ const sOut=scenes.find(x=>OUTK.includes(x.kind));
+ $('#url').style.opacity=(t>(scenes[1]?scenes[1].s:0)&&(!sOut||t<sOut.s))?1:0;
+ let fl=0;
+ scenes.forEach(sc=>{const lt=t-sc.s,dur=sc.e-sc.s,on=t>=sc.s&&t<sc.e;
+  if(sc.kind==='cover')return;if(!on){sc.el.style.opacity=0;return;}
+  const out=OUTK.includes(sc.kind)?0:seg(lt,dur-.3,dur);sc.el.style.opacity=Math.min(seg(lt,0,.2),1-out);sc.el.style.transform=`translateX(${-out*60}px)`;
+  sc.ins.forEach(e=>{const p=seg(lt,+e.dataset.d,+e.dataset.d+.5);e.style.opacity=eo(p);e.style.transform=(e.dataset.sc?`scale(${e.dataset.sc}) `:'')+`translateY(${(1-back(p))*40}px) scale(${.85+.15*back(p)})`;});
+  const E=sc.el;
+  if(sc.kind==='intro'){wave(E,lt,.9,2.9);wink(E,lt>1.6&&lt<1.95);}
+  if(OUTK.includes(sc.kind)){wave(E,lt,.6,2.8);wink(E,(lt>1.3&&lt<1.65)||(lt>3.6&&lt<3.9));const c=E.querySelector('.cta');if(c)c.style.transform=`scale(${1+.04*Math.sin(Math.max(0,lt-1.2)*5)})`;}
+  if(sc.kind==='photo'||sc.kind==='tphoto'){const sh=E.querySelector('.shut');const p=seg(lt,1.8,2.1);sh.style.transform=`scale(${lt>1.8&&lt<2.1?.82:1})`;if(lt>2.0&&lt<2.6)fl=Math.max(fl,1-seg(lt,2.0,2.6));
+   E.querySelector('.ph').style.transform=`rotate(${-3+3*eo(seg(lt,0,1.5))}deg) translateY(${(1-eo(seg(lt,0,1.2)))*40}px)`;}
+  if(sc.kind==='scan'){const y=84+ (390)*((lt*0.55)%1);E.querySelector('.scl').style.top=y+'px';E.querySelector('.scl').style.opacity=lt<3?1:0;
+   E.querySelectorAll('.pc').forEach(g=>{const k=+g.dataset.k;const p=seg(lt,.3+(k%60)*.035,.6+(k%60)*.035);g.style.opacity=.35+.65*p;});
+   const ok=E.querySelector('.okb');const p=seg(lt,2.9,3.3);ok.style.opacity=eo(p);ok.style.transform=`scale(${.8+.2*back(p)})`;}
+  if(sc.kind==='moves'){E.querySelectorAll('.mi').forEach(m=>{const i=+m.dataset.i;const p=seg(lt,.5+i*.35,.9+i*.35);m.style.opacity=.1+.9*eo(p);m.style.transform=`translateX(${(1-eo(p))*30}px)`;m.querySelector('i').style.transform=`scaleX(${eo(p)})`;m.querySelector('i').style.transformOrigin='0 50%';});wave(E,lt,1.8,3.6);}
+  if(sc.kind==='checks'){E.querySelectorAll('.ci').forEach(c=>{const p=seg(lt,.5+(+c.dataset.i)*.4,.85+(+c.dataset.i)*.4);c.style.opacity=.15+.85*eo(p);c.style.transform=`translateX(${(1-eo(p))*30}px)`;});}
+  if(sc.kind==='eye'){const o=eo(seg(lt,.8,2.4));E.querySelector('.lidT').style.transform=`translateY(${-o*220}px)`;E.querySelector('.lidB').style.transform=`translateY(${o*220}px)`;
+   const q=E.querySelector('.qm');q.style.opacity=seg(lt,2.4,2.9);q.style.transform=`scale(${1+.08*Math.sin(lt*4)})`;}
+ });
+ $('#flash').style.opacity=fl*.85;
+ const ct=(scenes[0].kind==='intro'&&t<3)?t-.3:(sOut&&t>=sOut.s+.1?t-sOut.s-.1:-1);
+ CONF.forEach(c=>{if(ct<0||ct>5){c.d.style.opacity=0;return;}c.d.style.opacity=1;c.d.style.transform=`translate(${c.x+Math.sin(ct*2+c.ph)*c.sw}px,${-30+c.v*ct*(LY.H/900)}px) rotate(${c.r+c.vr*ct}deg)`;});
+}
+window.render=render;window.END=END;render(0);
+</script></body></html>
