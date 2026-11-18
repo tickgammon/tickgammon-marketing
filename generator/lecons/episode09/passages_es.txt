@@ -14,7 +14,7 @@ P13|3|Y el tercero es el sistema suizo. Un partido por ronda, y en cada ronda os
 P14|4|Pasemos al día del torneo. Hay dos maneras de jugar.
 P15|4|En un torneo con fecha límite, cada ronda tiene su fecha de cierre. Desafiáis a vuestro adversario cuando los dos estéis disponibles, y llega un recordatorio dos días antes del final de la ronda.
 P16|4|En un torneo en directo, todo se juega la misma noche. En cada ronda, tenéis unos minutos para uniros a vuestra mesa. En los torneos oficiales de TickGammon, son cinco minutos.
-P17|4|Cuidado: si vuestro adversario está y vosotros no, él gana el partido. ¡Así que quedaos cerca de la pantalla! Y cada viernes a las nueve de la noche, no os perdáis la Friday Cup, el torneo oficial de la semana.
+P17|4|Cuidado: si vuestro adversario está y vosotros no, él gana el partido. ¡Así que quedaos cerca de la pantalla! Y cada viernes a las ocho de la noche, no os perdáis la Friday Cup, el torneo oficial de la semana.
 P18|5|Hablemos ahora de los clubes. Un club reúne a jugadores que se encuentran a menudo, en línea o alrededor de una mesa de verdad.
 P19|5|También existen los clanes: la misma idea, pero entre amigos que juegan sobre todo en línea.
 P20|5|¿Queréis crear el vuestro? Pedidlo desde la app. Una vez validado, os convertís en su presidente.

@@ -41,7 +41,7 @@ Dans un tournoi avec date limite, chaque tour a sa date de fin. Vous défiez vot
 
 Dans un tournoi en direct, tout se joue le même soir. À chaque tour, vous avez quelques minutes pour rejoindre votre table. Dans les tournois officiels de TickGammon, c'est cinq minutes.
 
-Attention : si votre adversaire est là et pas vous, il gagne le match. Alors restez près de votre écran ! Et chaque vendredi à vingt et une heures, ne manquez pas la Friday Cup, le tournoi officiel de la semaine.
+Attention : si votre adversaire est là et pas vous, il gagne le match. Alors restez près de votre écran ! Et chaque vendredi à vingt heures, ne manquez pas la Friday Cup, le tournoi officiel de la semaine.
 
 Parlons maintenant des clubs. Un club réunit des joueurs qui se retrouvent souvent, en ligne ou autour d'une vraie table.
 

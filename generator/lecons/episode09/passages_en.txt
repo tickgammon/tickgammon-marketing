@@ -14,7 +14,7 @@ P13|3|And the third is the Swiss system. One match per round, and each round, yo
 P14|4|Now, tournament day. There are two ways to play.
 P15|4|In a tournament with deadlines, each round has its own end date. You challenge your opponent when you are both available, and a reminder arrives two days before the round ends.
 P16|4|In a live tournament, everything is played on the same evening. Each round, you have a few minutes to join your table. In TickGammon's official tournaments, it's five minutes.
-P17|4|Be careful: if your opponent is there and you are not, they win the match. So stay close to your screen! And every Friday at nine p.m., don't miss the Friday Cup, the official tournament of the week.
+P17|4|Be careful: if your opponent is there and you are not, they win the match. So stay close to your screen! And every Friday at eight p.m., don't miss the Friday Cup, the official tournament of the week.
 P18|5|Now let's talk about clubs. A club brings together players who meet often, online or around a real table.
 P19|5|There are also clans: the same idea, but for friends who mostly play online.
 P20|5|Want to create your own? Send a request from the app. Once it's approved, you become its president.

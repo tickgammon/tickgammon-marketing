@@ -14,7 +14,7 @@ body = {
 - **Jouer à plusieurs** : les boutons Événements et Cours sont sur l'accueil de l'appli ; votre club se trouve dans votre profil.
 - **Créer un tournoi** : ce sont les membres du bureau d'un club ou d'un clan (président, vice-président, secrétaire) qui créent les tournois, publics ou privés, avec une inscription gratuite ou en TGC. Tournoi annulé : inscriptions remboursées.
 - **Les trois formats** : élimination directe, toutes rondes et système suisse.
-- **Le jour du tournoi** : avec date limite par tour, ou en direct, avec 5 minutes pour rejoindre sa table dans les tournois officiels. Et chaque vendredi à 21 h, la Friday Cup !
+- **Le jour du tournoi** : avec date limite par tour, ou en direct, avec 5 minutes pour rejoindre sa table dans les tournois officiels. Et chaque vendredi à 20 h, la Friday Cup !
 - **Clubs et clans** : demandez la création du vôtre et devenez président ; fil d'actualité et événements avec rappel la veille.
 - **La vie du club** : classement interne, défi du mois, palmarès, guerre des clans entre clubs officiels, et des TGC offerts pour la fidélité.
 - **Les cours** : des professeurs validés (Amateur, Expert, Confirmé), un agenda, une liste d'attente, des rappels et des replays.
@@ -36,7 +36,7 @@ La vidéo existe en français, en anglais et en espagnol : choisissez la langue 
 - **Playing with others**: the Events and Lessons buttons are on the app's home screen; your club is in your profile.
 - **Creating a tournament**: tournaments are created by the board members of a club or a clan (president, vice-president, secretary), public or private, with free entry or entry in TGC. Cancelled tournament: entries refunded.
 - **The three formats**: direct elimination, round robin and the Swiss system.
-- **Tournament day**: with a deadline per round, or live, with 5 minutes to join your table in official tournaments. And every Friday at 9 p.m., the Friday Cup!
+- **Tournament day**: with a deadline per round, or live, with 5 minutes to join your table in official tournaments. And every Friday at 8 p.m., the Friday Cup!
 - **Clubs and clans**: request your own and become its president; news feed and events with a reminder the day before.
 - **Club life**: internal ranking, monthly challenge, hall of fame, clan war between official clubs, and free TGC for loyalty.
 - **Lessons**: approved teachers (Amateur, Expert, Confirmed), a calendar, a waiting list, reminders and replays.
@@ -58,7 +58,7 @@ The video is available in French, English and Spanish: choose the language in �
 - **Jugar en compañía**: los botones Eventos y Clases están en el inicio de la app; vuestro club está en vuestro perfil.
 - **Crear un torneo**: los crean los miembros de la junta de un club o de un clan (presidente, vicepresidente, secretario), públicos o privados, con inscripción gratuita o en TGC. Torneo cancelado: inscripciones reembolsadas.
 - **Los tres formatos**: eliminación directa, todos contra todos y sistema suizo.
-- **El día del torneo**: con fecha límite por ronda, o en directo, con 5 minutos para uniros a vuestra mesa en los torneos oficiales. ¡Y cada viernes a las 21 h, la Friday Cup!
+- **El día del torneo**: con fecha límite por ronda, o en directo, con 5 minutos para uniros a vuestra mesa en los torneos oficiales. ¡Y cada viernes a las 20 h, la Friday Cup!
 - **Clubes y clanes**: pedid la creación del vuestro y convertíos en presidente; muro de noticias y eventos con recordatorio la víspera.
 - **La vida del club**: clasificación interna, desafío del mes, palmarés, guerra de clanes entre clubes oficiales y TGC de regalo por fidelidad.
 - **Las clases**: profesores validados (Aficionado, Experto, Confirmado), una agenda, lista de espera, recordatorios y grabaciones.

@@ -14,7 +14,7 @@ P13|3|Et le troisième, c'est le système suisse. Un match par ronde, et à chaq
 P14|4|Passons au jour du tournoi. Il y a deux façons de jouer.
 P15|4|Dans un tournoi avec date limite, chaque tour a sa date de fin. Vous défiez votre adversaire quand vous êtes tous les deux disponibles, et un rappel arrive deux jours avant la fin du tour.
 P16|4|Dans un tournoi en direct, tout se joue le même soir. À chaque tour, vous avez quelques minutes pour rejoindre votre table. Dans les tournois officiels de TickGammon, c'est cinq minutes.
-P17|4|Attention : si votre adversaire est là et pas vous, il gagne le match. Alors restez près de votre écran ! Et chaque vendredi à vingt et une heures, ne manquez pas la Friday Cup, le tournoi officiel de la semaine.
+P17|4|Attention : si votre adversaire est là et pas vous, il gagne le match. Alors restez près de votre écran ! Et chaque vendredi à vingt heures, ne manquez pas la Friday Cup, le tournoi officiel de la semaine.
 P18|5|Parlons maintenant des clubs. Un club réunit des joueurs qui se retrouvent souvent, en ligne ou autour d'une vraie table.
 P19|5|Il existe aussi les clans : le même principe, mais entre amis qui jouent surtout en ligne.
 P20|5|Vous voulez créer le vôtre ? Faites la demande depuis l'appli. Une fois validé, vous en devenez le président.

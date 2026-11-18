@@ -41,7 +41,7 @@ En un torneo con fecha límite, cada ronda tiene su fecha de cierre. Desafiáis 
 
 En un torneo en directo, todo se juega la misma noche. En cada ronda, tenéis unos minutos para uniros a vuestra mesa. En los torneos oficiales de TickGammon, son cinco minutos.
 
-Cuidado: si vuestro adversario está y vosotros no, él gana el partido. ¡Así que quedaos cerca de la pantalla! Y cada viernes a las nueve de la noche, no os perdáis la Friday Cup, el torneo oficial de la semana.
+Cuidado: si vuestro adversario está y vosotros no, él gana el partido. ¡Así que quedaos cerca de la pantalla! Y cada viernes a las ocho de la noche, no os perdáis la Friday Cup, el torneo oficial de la semana.
 
 Hablemos ahora de los clubes. Un club reúne a jugadores que se encuentran a menudo, en línea o alrededor de una mesa de verdad.
 
