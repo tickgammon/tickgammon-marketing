@@ -1,1 +1,2 @@
 ElevenLabs flow UCSGqvGIfTjmxYrXvkss — L12 FR : nœuds bloc1 unTP2FOo2nMqJDZlmHsA, bloc2 w0HMfSbsSaDaSeXwvTTQ, bloc3 HFkKR0WE17q3QAjTOmho. Génération lancée une seule fois le 18/11 (1 prise) : si un nœud a déjà une génération, la retélécharger, NE PAS relancer.
+L12 FR générations : bloc1 mJTLYQZowCT7GI1btnmy, bloc2 bZuwaWyYvh16uSFde823, bloc3 x3LTa2vAXmq0i4xd3LvG. 4 129 crédits. NE PAS régénérer.
