@@ -1,0 +1,14 @@
+FICHES YOUTUBE — LEÇON 12 · Le vocabulaire du joueur (sortie 28/03/2027, durée 4:56, écran de fin à partir de 4:36)
+YouTube Studio → la vidéo → Fiches (crayon) → choisir le type → choisir la vidéo/playlist → taper le moment dans la case 0:00:00 en bas à gauche → remplir « Message personnalisé » et « Texte d accroche » → Enregistrer.
+Règle : une fiche ne peut viser qu une vidéo déjà PUBLIQUE ; ne rien mettre dans les 20 dernières secondes (écran de fin).
+Textes en 3 langues (YouTube ne traduit pas les fiches), 30 caractères maximum.
+
+MOMENT | TYPE     | VERS                          | MESSAGE PERSONNALISÉ             | TEXTE D'ACCROCHE                 | POSSIBLE À PARTIR DU
+0:04   | Vidéo    | Leçon 11 · L'histoire         | Leçon 11 · Lesson 11 · Lec. 11   | 📜 Histoire · History            | 14/03 (sortie leçon 11)
+0:17   | Playlist | Les leçons de la chouette     | 🦉 Leçons · Lessons · Lecciones  | 🦉 Toutes · All · Todas          | maintenant
+2:39   | Vidéo    | Leçon 3 · Le videau           | Leçon 3 · Lesson 3 · Lección 3   | 🎲 Videau · Cube · Cubo          | 22/11 (sortie leçon 3)
+3:49   | Vidéo    | Leçon 2 · Les ouvertures      | Leçon 2 · Lesson 2 · Lección 2   | 🎯 Ouvertures · Openings         | maintenant (sortie 08/11)
+
+Pourquoi : 0:04 « La dernière fois, vous avez remonté le temps avec l'histoire du backgammon » ;
+2:39 « Voici le videau… » (tout sur le videau dans la leçon 3) ;
+3:49 « Il n'en existe que quinze, et vous les avez découvertes dans la leçon deux » (les ouvertures).

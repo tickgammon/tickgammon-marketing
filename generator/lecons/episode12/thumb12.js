@@ -14,7 +14,7 @@ const L=process.argv[2]||'fr';const TX={fr:['Leçon 12','Parlez','backgammon !',
   const bd=document.querySelector('#board');if(bd)bd.style.transformOrigin='0 50%';bd.style.transform='translate(-14px,20px) scale(.84) rotate(-2deg)';const ow=document.querySelector('#owlw');if(ow){ow.style.left='1010px';ow.style.top='400px';ow.style.zIndex=6;}
   const t2=document.createElement('div');t2.style.cssText='position:absolute;inset:0;z-index:9';
   t2.innerHTML=`<div class="a" style="left:690px;top:34px"><span class="pill" style="font-size:24px;padding:8px 22px">${TX[0]}</span>
-   <div class="big" style="font-size:${Math.min(96,Math.floor(560/(Math.max(TX[1].length,TX[2].length)*0.66)))}px;margin-top:14px;line-height:.98;white-space:nowrap;text-shadow:0 10px 0 rgba(0,0,0,.35)">${TX[1]}<br><span style="color:#f6d77a">${TX[2]}</span></div></div>
+   <div class="big" style="font-size:${Math.min(70,Math.floor(560/(Math.max(TX[1].length,TX[2].length)*0.66)))}px;margin-top:14px;line-height:.98;white-space:nowrap;text-shadow:0 10px 0 rgba(0,0,0,.35)">${TX[1]}<br><span style="color:#f6d77a">${TX[2]}</span></div></div>
   <div class="a" style="left:560px;top:560px;transform:rotate(-4deg)"><span class="bf" style="display:inline-block;background:#fdfbf0;color:#0d3326;font-size:${TX[3].length>18?40:46}px;border-radius:20px;padding:10px 24px;box-shadow:0 12px 0 rgba(0,0,0,.3)">${TX[3]}</span></div>`;
   document.querySelector('#ov').parentElement.appendChild(t2);
  },[P.t0+P.d*.95,TX]);
