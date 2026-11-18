@@ -1,3 +1,4 @@
 ElevenLabs flow UCSGqvGIfTjmxYrXvkss — L11 FR : bloc1 Z2PkGzsVy8VtCdqVaj5t (node tob50md7qyHXTBTZi7hi), bloc2 11sRT1I8AIR4pBamrmWt (NgpLtx3DMpxVwWxM72Dy), bloc3 G0SabpBD1O2PISDH9GI8 (GOY6uiIJQZRQoVWlpXTF). 4 432 crédits. NE PAS régénérer.
 L11 EN/ES : nœuds créés le 18/11 (EN bloc1 TN88L0rmylNEd5JYNuIY, bloc2 BoR4lBij31GtMm1N0n8G, bloc3 Vbdk69EZCvmFz2qfFCi0 ; ES bloc1 ra20aeYZa13alSyj3nc9, bloc2 6fhlLnveLZlYTGsruSVf, bloc3 ftuzRrRrQcuAFxCweNVj). Génération lancée une seule fois (1 prise) : si un nœud a déjà une génération, la retélécharger, NE PAS relancer.
 L11 EN : bloc1 3WM24p7c2HGnJ9JcLPpv, bloc2 RsAWdf5qogFoaGg4gubG, bloc3 S0KzOyOp3rgwsAElWfmU ; ES : bloc1 wey7S0xsJ520PeLJxmmY, bloc2 66Kd4QwWoRT0H43gOiqH, bloc3 2B3ukJqzXjVVRmUYwBrY. 8 442 crédits. NE PAS régénérer.
+24 Shorts programmés dans Metricool le 18/11 (15→27/03/2027, ids 432466206 → 432467362). NE PAS reprogrammer.
