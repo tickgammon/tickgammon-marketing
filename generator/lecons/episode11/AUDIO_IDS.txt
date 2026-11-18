@@ -1,1 +1,2 @@
 ElevenLabs flow UCSGqvGIfTjmxYrXvkss — L11 FR : bloc1 Z2PkGzsVy8VtCdqVaj5t (node tob50md7qyHXTBTZi7hi), bloc2 11sRT1I8AIR4pBamrmWt (NgpLtx3DMpxVwWxM72Dy), bloc3 G0SabpBD1O2PISDH9GI8 (GOY6uiIJQZRQoVWlpXTF). 4 432 crédits. NE PAS régénérer.
+L11 EN/ES : nœuds créés le 18/11 (EN bloc1 TN88L0rmylNEd5JYNuIY, bloc2 BoR4lBij31GtMm1N0n8G, bloc3 Vbdk69EZCvmFz2qfFCi0 ; ES bloc1 ra20aeYZa13alSyj3nc9, bloc2 6fhlLnveLZlYTGsruSVf, bloc3 ftuzRrRrQcuAFxCweNVj). Génération lancée une seule fois (1 prise) : si un nœud a déjà une génération, la retélécharger, NE PAS relancer.
