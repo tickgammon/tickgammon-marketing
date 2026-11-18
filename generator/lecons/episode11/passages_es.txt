@@ -1,0 +1,33 @@
+P01|0|¡Hola y bienvenidos a Las lecciones de la lechuza! La última vez descubristeis el jacquet y el trictrac, los primos franceses del backgammon.
+P02|0|Hoy viajamos en el tiempo. El backgammon es uno de los juegos de tablero más antiguos que todavía se juegan. ¿Preparados para un viaje de varios miles de años? ¡Vamos allá!
+P03|1|Hace unos cuatro mil quinientos años, en Mesopotamia, en el actual Irak, ya se jugaba al juego real de Ur.
+P04|1|Se encontró un tablero de este juego en las tumbas reales de la ciudad de Ur. Las piezas avanzan según los dados.
+P05|1|En Egipto se jugaba al senet. Todavía no son backgammons, pero la idea ya está ahí: hacer una carrera con las piezas, al ritmo de los dados.
+P06|2|Próxima parada, Roma. Los romanos jugaban al juego de las doce líneas, y después a la tabula, el antepasado más directo del backgammon.
+P07|2|En la tabula ya encontramos veinticuatro casillas, quince fichas por jugador y la idea de golpear las fichas sueltas.
+P08|2|Un texto griego cuenta incluso una partida perdida por el emperador Zenón, en el siglo cinco. Su posición se parece mucho a un backgammon moderno… ¡salvo que entonces se jugaba con tres dados!
+P09|3|Mientras tanto, en Persia, se juega al nard.
+P10|3|Una famosa leyenda, contada en el Libro de los Reyes del poeta Ferdousí, atribuye su invención al sabio Bozorgmehr.
+P11|3|Un rey indio había enviado el ajedrez como un enigma. Bozorgmehr lo habría resuelto, y después habría respondido inventando el nard, un juego en el que los dados marcan el ritmo.
+P12|3|Es solo una leyenda. Pero el nard, o nardy, se sigue jugando mucho hoy, en Irán, en el Cáucaso y en Rusia.
+P13|4|En la Edad Media, en Europa, los juegos de tablas están por todas partes: en los castillos y también en las tabernas.
+P14|4|La Iglesia los prohíbe varias veces, sin mucho éxito: ¡todo el mundo sigue jugando!
+P15|4|En mil doscientos ochenta y tres, el rey Alfonso décimo de Castilla manda incluso escribir un gran libro de juegos, que describe muchas variantes de tablas.
+P16|5|La palabra «backgammon» aparece en Inglaterra en el siglo diecisiete.
+P17|5|En mil setecientos cuarenta y tres, Edmond Hoyle publica un pequeño tratado que fija las reglas del juego. Todavía se cita hoy.
+P18|5|En Francia, en la misma época, es el trictrac el que brilla en la corte del rey, y después el jacquet en las familias. ¡Los conocéis desde la última lección!
+P19|6|En el siglo veinte, un pequeño invento lo cambia todo. En los años mil novecientos veinte, jugadores de los clubes de Nueva York inventan el cubo doblador.
+P20|6|Este dado permite doblar el valor de la partida. El juego se vuelve mucho más estratégico: hay que saber cuándo proponer, aceptar o rechazar.
+P21|6|En los años sesenta y setenta, el backgammon se pone de moda en todo el mundo. El príncipe Alexis Obolensky organiza entonces los primeros grandes torneos internacionales.
+P22|6|Y desde finales de los años setenta, el campeonato del mundo se juega en Montecarlo.
+P23|7|A principios de los años noventa llega una revolución: TD-Gammon, un programa creado en IBM.
+P24|7|Aprende a jugar solo, disputando millones de partidas contra sí mismo. ¡Y alcanza el nivel de los mejores jugadores!
+P25|7|Incluso echa por tierra ideas aceptadas durante décadas: algunas aperturas que jugaban los campeones no eran las mejores. [laughs] ¡Los humanos tuvieron que volver al colegio!
+P26|7|Después llegan programas aún más fuertes, como GNU Backgammon, gratuito y libre. Hoy, los jugadores analizan sus partidas con estos programas para mejorar.
+P27|8|¿Y hoy? El backgammon se juega a cualquier hora, en línea, contra rivales de todo el mundo.
+P28|8|En TickGammon podéis jugar contra otros jugadores, o contra un robot basado en GNU Backgammon.
+P29|8|También podéis analizar vuestras jugadas, seguir clases y participar en torneos.
+P30|8|Una forma moderna de prolongar un juego de varios milenios… ¡con las mismas quince fichas y los mismos dos dados!
+P31|9|Y ya está, ahora conocéis la gran historia del backgammon: del juego real de Ur a la tabula de los romanos, del nard persa al cubo doblador de Nueva York, hasta los ordenadores.
+P32|9|En cada partida, jugáis a un juego que generaciones de jugadores amaron antes que vosotros.
+P33|9|Para seguir la aventura, jugad gratis al backgammon contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows. La próxima vez, última lección de la temporada: el vocabulario del jugador. ¡Suscribíos para no perdérosla! ¡Hasta muy pronto alrededor del tablero!

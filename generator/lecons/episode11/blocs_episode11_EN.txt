@@ -1,0 +1,80 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 11 — TEXTES À COLLER DANS ELEVENLABS (ENGLISH)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que pour le français.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1_en.mp3, bloc2_en.mp3, bloc3_en.mp3.
+
+########## BLOC 1 (P01 à P12, 1493 caractères) → bloc1_en.mp3 ##########
+============================================================
+Hello and welcome to The Owl's Lessons! Last time, you discovered jacquet and trictrac, the French cousins of backgammon.
+
+Today, we're going back in time. Backgammon is one of the oldest board games still played. Ready for a journey of several thousand years? Let's go!
+
+About four thousand five hundred years ago, in Mesopotamia, in present-day Iraq, people were already playing the Royal Game of Ur.
+
+A board from this game was found in the royal tombs of the city of Ur. The pieces move forward according to the dice.
+
+In Egypt, people played senet. These are not yet backgammon, but the idea is already there: racing your pieces to the rhythm of the dice.
+
+Next stop, Rome. The Romans played the game of twelve lines, then tabula, the most direct ancestor of backgammon.
+
+In tabula, you already find twenty-four points, fifteen checkers per player, and the idea of hitting lone checkers.
+
+A Greek text even tells of a game lost by Emperor Zeno, in the fifth century. His position looks very much like modern backgammon… except that it was played with three dice back then!
+
+Meanwhile, in Persia, people play nard.
+
+A famous legend, told in the poet Ferdowsi's Book of Kings, credits its invention to the sage Bozorgmehr.
+
+An Indian king had sent the game of chess as a riddle. Bozorgmehr is said to have solved it, then answered by inventing nard, a game where the dice set the pace.
+
+It's only a legend. But nard, or nardy, is still widely played today, in Iran, the Caucasus and Russia.
+============================================================
+
+########## BLOC 2 (P13 à P22, 1170 caractères) → bloc2_en.mp3 ##########
+============================================================
+In the Middle Ages, in Europe, tables games are everywhere: in castles and in taverns alike.
+
+The Church bans them several times, without much success: everyone keeps playing!
+
+In twelve eighty-three, King Alfonso the Tenth of Castile even has a great book of games written, describing many variants of tables.
+
+The word "backgammon" appears in England in the seventeenth century.
+
+In seventeen forty-three, Edmond Hoyle publishes a short treatise that sets the rules of the game. It is still quoted today.
+
+In France, at the same time, trictrac shines at the king's court, followed by jacquet in families. You've known them since the last lesson!
+
+In the twentieth century, a small invention changes everything. In the nineteen-twenties, players in New York clubs invent the doubling cube.
+
+This die lets you double the value of the game. The game becomes far more strategic: you need to know when to offer, accept or refuse.
+
+In the sixties and seventies, backgammon is all the rage around the world. Prince Alexis Obolensky then organises the first major international tournaments.
+
+And since the late seventies, the world championship has been played in Monte Carlo.
+============================================================
+
+########## BLOC 3 (P23 à P33, 1423 caractères) → bloc3_en.mp3 ##########
+============================================================
+In the early nineties comes a revolution: TD-Gammon, a program created at IBM.
+
+It learns to play on its own, by playing millions of games against itself. And it reaches the level of the best players!
+
+It even overturns ideas accepted for decades: some openings played by the champions were not the best. [laughs] The humans had to go back to school!
+
+Then come even stronger programs, like GNU Backgammon, which is free and open source. Today, players analyse their games with these programs to improve.
+
+And today? Backgammon is played around the clock, online, against opponents from all over the world.
+
+On TickGammon, you can play against other players, or against a bot based on GNU Backgammon.
+
+You can also analyse your moves, take lessons and join tournaments.
+
+A modern way to carry on a game that is thousands of years old… with the same fifteen checkers and the same two dice!
+
+And there you go, you now know the great history of backgammon: from the Royal Game of Ur to Roman tabula, from Persian nard to the New York doubling cube, all the way to computers.
+
+Every game you play is a game that generations of players loved before you.
+
+To keep the adventure going, play backgammon for free against other players or against the computer, in your browser, on Android or on Windows. Next time, the last lesson of the season: the player's vocabulary. Subscribe so you don't miss it! See you soon around the board!
+============================================================

@@ -1,0 +1,80 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 11 — TEXTES À COLLER DANS ELEVENLABS (FR)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que ton test.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1.mp3, bloc2.mp3, bloc3.mp3.
+
+########## BLOC 1 (P01 à P12, 1578 caractères) → bloc1.mp3 ##########
+============================================================
+Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez découvert le jacquet et le trictrac, les cousins français du backgammon.
+
+Aujourd'hui, on remonte le temps. Le backgammon est l'un des plus vieux jeux de plateau encore joués. Prêts pour un voyage de plusieurs milliers d'années ? On y va !
+
+Il y a environ quatre mille cinq cents ans, en Mésopotamie, dans l'actuel Irak, on jouait déjà au jeu royal d'Ur.
+
+Un plateau de ce jeu a été retrouvé dans les tombes royales de la ville d'Ur. Les pions y avancent au gré des dés.
+
+En Égypte, on jouait au senet. Ce ne sont pas encore des backgammons, mais l'idée est déjà là : faire la course avec ses pions, au rythme des dés.
+
+Direction Rome. Les Romains jouaient au jeu des douze lignes, puis à la tabula, l'ancêtre le plus direct du backgammon.
+
+À la tabula, on trouve déjà vingt-quatre cases, quinze pions par joueur, et l'idée de frapper les pions isolés.
+
+Un texte grec raconte même une partie perdue par l'empereur Zénon, au cinquième siècle. Sa position ressemble beaucoup à un backgammon moderne… sauf qu'on jouait alors avec trois dés !
+
+Pendant ce temps, en Perse, on joue au nard.
+
+Une légende célèbre, racontée dans le Livre des Rois du poète Ferdowsi, en attribue l'invention au sage Bozorgmehr.
+
+Un roi indien avait envoyé le jeu d'échecs comme une énigme. Bozorgmehr l'aurait résolue, puis aurait répondu en inventant le nard, un jeu où les dés donnent le rythme.
+
+Ce n'est qu'une légende. Mais le nard, ou nardy, est toujours très joué aujourd'hui, en Iran, dans le Caucase et en Russie.
+============================================================
+
+########## BLOC 2 (P13 à P22, 1271 caractères) → bloc2.mp3 ##########
+============================================================
+Au Moyen Âge, en Europe, les jeux de tables sont partout : dans les châteaux comme dans les tavernes.
+
+L'Église les interdit plusieurs fois, sans grand succès : tout le monde continue à jouer !
+
+En douze cent quatre-vingt-trois, le roi Alphonse dix de Castille fait même rédiger un grand livre des jeux, qui décrit de nombreuses variantes de tables.
+
+Le mot « backgammon » apparaît en Angleterre au dix-septième siècle.
+
+En dix-sept cent quarante-trois, Edmond Hoyle publie un petit traité qui fixe les règles du jeu. On le cite encore aujourd'hui.
+
+En France, à la même époque, c'est le trictrac qui brille à la cour du roi, puis le jacquet dans les familles. Vous les connaissez depuis la dernière leçon !
+
+Au vingtième siècle, une petite invention change tout. Dans les années mille neuf cent vingt, des joueurs des clubs de New York inventent le videau.
+
+Ce dé permet de doubler la valeur de la partie. Le jeu devient beaucoup plus stratégique : il faut savoir quand proposer, accepter ou refuser.
+
+Dans les années soixante et soixante-dix, le backgammon est à la mode dans le monde entier. Le prince Alexis Obolensky organise alors les premiers grands tournois internationaux.
+
+Et depuis la fin des années soixante-dix, le championnat du monde se joue à Monte-Carlo.
+============================================================
+
+########## BLOC 3 (P23 à P33, 1583 caractères) → bloc3.mp3 ##########
+============================================================
+Au début des années quatre-vingt-dix arrive une révolution : TD-Gammon, un programme créé chez IBM.
+
+Il apprend à jouer tout seul, en disputant des millions de parties contre lui-même. Et il atteint le niveau des meilleurs joueurs !
+
+Il bouscule même des idées admises depuis des décennies : certaines ouvertures jouées par les champions n'étaient pas les meilleures. [laughs] Les humains ont dû retourner à l'école !
+
+Viennent ensuite des logiciels encore plus forts, comme GNU Backgammon, gratuit et libre. Aujourd'hui, les joueurs analysent leurs parties avec ces programmes pour progresser.
+
+Et aujourd'hui ? Le backgammon se joue à toute heure, en ligne, contre des adversaires du monde entier.
+
+Sur TickGammon, vous pouvez jouer contre d'autres joueurs, ou contre un robot basé sur GNU Backgammon.
+
+Vous pouvez aussi analyser vos coups, suivre des cours et participer à des tournois.
+
+Une façon moderne de prolonger un jeu vieux de plusieurs millénaires… avec les mêmes quinze pions et les mêmes deux dés !
+
+Et voilà, vous connaissez maintenant la grande histoire du backgammon : du jeu royal d'Ur à la tabula des Romains, du nard perse au videau de New York, jusqu'aux ordinateurs.
+
+À chaque partie, vous jouez à un jeu que des générations de joueurs ont aimé avant vous.
+
+Pour continuer l'aventure, jouez gratuitement au backgammon contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows. La prochaine fois, dernière leçon de la saison : le vocabulaire du joueur. Abonnez-vous pour ne pas la manquer ! À très vite autour du plateau !
+============================================================
