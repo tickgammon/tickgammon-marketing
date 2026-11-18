@@ -1,0 +1,204 @@
+1
+00:00:01,200 --> 00:00:04,321
+Bonjour et bienvenue dans les Leçons de la chouette !
+
+2
+00:00:04,021 --> 00:00:08,314
+La dernière fois, vous avez remonté le temps avec l'histoire du backgammon.
+
+3
+00:00:09,263 --> 00:00:14,658
+Aujourd'hui, c'est la dernière leçon de la saison : le vocabulaire du joueur.
+
+4
+00:00:14,358 --> 00:00:21,275
+Blot, prime, gammon, videau… À la fin, vous parlerez backgammon comme un habitué du club ! On y va !
+
+5
+00:00:24,097 --> 00:00:29,870
+Commençons par le plateau. Chacun des vingt-quatre triangles s'appelle un point, ou une flèche.
+
+6
+00:00:30,776 --> 00:00:34,314
+La distance d'un point au suivant s'appelle un pip.
+
+7
+00:00:34,014 --> 00:00:38,059
+Un pion qui avance de cinq points avance donc de cinq pips.
+
+8
+00:00:38,561 --> 00:00:42,080
+Au milieu, la bande centrale s'appelle la barre.
+
+9
+00:00:41,780 --> 00:00:48,585
+Vos points un à six forment votre jan intérieur, et vos points sept à douze, votre jan extérieur.
+
+10
+00:00:51,913 --> 00:00:57,491
+Un pion seul sur un point s'appelle un blot. Il est fragile : l'adversaire peut le frapper.
+
+11
+00:00:58,374 --> 00:01:03,954
+Avec au moins deux pions, vous faites un point. Il est à vous : l'adversaire ne peut plus s'y poser.
+
+12
+00:01:05,334 --> 00:01:10,233
+Et un point que vous tenez dans le jan intérieur de l'adversaire s'appelle une ancre.
+
+13
+00:01:09,933 --> 00:01:12,452
+C'est un refuge sûr, au fond de son camp.
+
+14
+00:01:15,099 --> 00:01:21,715
+Pour gêner l'adversaire, on bloque. Votre point sept, juste à côté de la barre, s'appelle le bar point.
+
+15
+00:01:22,550 --> 00:01:25,815
+Plusieurs points faits à la suite forment une prime.
+
+16
+00:01:25,515 --> 00:01:30,433
+Avec six points d'affilée, la prime est complète : personne ne peut la franchir !
+
+17
+00:01:30,970 --> 00:01:36,268
+Et un pion placé à quelques pips d'un point que vous voulez faire s'appelle un constructeur.
+
+18
+00:01:35,968 --> 00:01:38,007
+Il prépare votre prochain point.
+
+19
+00:01:40,422 --> 00:01:46,177
+Quand votre pion s'arrête sur un blot adverse, vous le frappez : le pion frappé part sur la barre.
+
+20
+00:01:47,232 --> 00:01:54,264
+Ce pion doit ensuite rentrer, depuis la barre, dans le jan intérieur adverse, avant de pouvoir jouer quoi que ce soit d'autre.
+
+21
+00:01:55,548 --> 00:02:00,960
+Un blot à six pips ou moins peut être touché avec un seul dé : c'est un tir direct.
+
+22
+00:02:00,660 --> 00:02:06,687
+Plus loin, il faut additionner les deux dés : c'est un tir indirect, beaucoup moins probable.
+
+23
+00:02:09,365 --> 00:02:14,254
+Quand plus aucun pion ne peut croiser ceux de l'adversaire, la partie devient une course.
+
+24
+00:02:15,701 --> 00:02:21,789
+Pour savoir qui mène, on fait le compte de pips : la distance totale que vos pions doivent encore parcourir.
+
+25
+00:02:21,489 --> 00:02:24,362
+Au départ, c'est cent soixante-sept pour chacun.
+
+26
+00:02:27,081 --> 00:02:31,890
+Quand vos quinze pions sont tous dans votre jan intérieur, vous pouvez les sortir.
+
+27
+00:02:31,590 --> 00:02:34,309
+Le premier qui a tout sorti gagne la partie.
+
+28
+00:02:37,288 --> 00:02:43,678
+Voici le videau, ce gros dé marqué deux, quatre, huit, seize, trente-deux et soixante-quatre.
+
+29
+00:02:43,378 --> 00:02:45,839
+En anglais, on l'appelle le cube.
+
+30
+00:02:48,383 --> 00:02:53,578
+Avant de lancer les dés, vous pouvez doubler : c'est proposer de doubler la valeur de la partie.
+
+31
+00:02:53,850 --> 00:02:59,164
+L'adversaire choisit alors. Soit il prend, et la partie continue en valant deux fois plus.
+
+32
+00:02:58,864 --> 00:03:03,175
+Soit il passe, et il perd tout de suite la partie, à sa valeur actuelle.
+
+33
+00:03:05,747 --> 00:03:10,730
+Gagner normalement, c'est une victoire simple : la partie compte pour sa valeur de base.
+
+34
+00:03:11,211 --> 00:03:16,264
+Si le perdant n'a sorti aucun pion, c'est un gammon : la victoire compte double.
+
+35
+00:03:17,017 --> 00:03:25,118
+Et s'il lui reste en plus un pion sur la barre ou dans votre jan intérieur, c'est un backgammon : la victoire compte triple !
+
+36
+00:03:24,818 --> 00:03:28,425
+Le jeu porte donc le nom de la pire défaite possible.
+
+37
+00:03:30,834 --> 00:03:38,897
+En club et en tournoi, on joue des matchs : une série de parties en un nombre de points fixé à l'avance, par exemple en cinq ou en sept points.
+
+38
+00:03:40,492 --> 00:03:46,948
+Quand un joueur arrive à un point de la victoire, la partie suivante se joue sans videau : c'est la règle de Crawford.
+
+39
+00:03:47,808 --> 00:03:51,062
+Le tout premier coup de la partie s'appelle l'ouverture.
+
+40
+00:03:50,762 --> 00:03:55,018
+Il n'en existe que quinze, et vous les avez découvertes dans la leçon deux.
+
+41
+00:03:55,168 --> 00:03:56,354
+Et la chouette ?
+
+42
+00:03:56,054 --> 00:04:02,389
+C'est le backgammon à trois joueurs ou plus : le box joue seul contre toute l'équipe, menée par un capitaine.
+
+43
+00:04:02,089 --> 00:04:04,880
+Vous devinez pourquoi c'est mon jeu préféré !
+
+44
+00:04:07,731 --> 00:04:12,636
+Et voilà ! Point, blot, ancre, prime, compte de pips, videau, gammon…
+
+45
+00:04:12,336 --> 00:04:16,440
+vous connaissez maintenant les mots essentiels du joueur.
+
+46
+00:04:17,695 --> 00:04:21,993
+Pour les retrouver à tout moment, ouvrez le lexique du backgammon sur notre site.
+
+47
+00:04:22,414 --> 00:04:25,802
+Cette leçon termine la saison un des Leçons de la chouette.
+
+48
+00:04:25,502 --> 00:04:30,252
+Merci de l'avoir suivie avec moi, de la toute première règle jusqu'à ce dernier mot !
+
+49
+00:04:31,294 --> 00:04:35,160
+La saison deux arrive bientôt, avec de nouvelles leçons pour aller plus loin.
+
+50
+00:04:35,676 --> 00:04:44,046
+En attendant, jouez gratuitement au backgammon contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows.
+
+51
+00:04:44,196 --> 00:04:48,025
+Abonnez-vous pour ne pas manquer la suite. À très vite autour du plateau !
+

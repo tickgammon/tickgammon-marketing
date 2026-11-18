@@ -1,0 +1,208 @@
+1
+00:00:01,200 --> 00:00:04,672
+¡Hola y bienvenidos a Las lecciones de la lechuza!
+
+2
+00:00:04,372 --> 00:00:09,113
+La última vez, viajasteis en el tiempo con la historia del backgammon.
+
+3
+00:00:09,263 --> 00:00:14,460
+Hoy es la última lección de la temporada: el vocabulario del jugador.
+
+4
+00:00:14,160 --> 00:00:21,345
+Blot, prime, gammon, cubo doblador… ¡Al final, hablaréis de backgammon como un habitual del club!
+
+5
+00:00:21,045 --> 00:00:22,197
+¡Vamos allá!
+
+6
+00:00:24,097 --> 00:00:30,626
+Empecemos por el tablero. Cada uno de los veinticuatro triángulos se llama punto, o punta.
+
+7
+00:00:30,776 --> 00:00:38,411
+La distancia de un punto al siguiente se llama pip. Una ficha que avanza cinco puntos avanza cinco pips.
+
+8
+00:00:38,561 --> 00:00:41,981
+En el centro, la franja central se llama barra.
+
+9
+00:00:41,681 --> 00:00:50,013
+Vuestros puntos uno a seis forman vuestro cuadrante interior, y vuestros puntos siete a doce, vuestro cuadrante exterior.
+
+10
+00:00:51,913 --> 00:00:58,224
+Una ficha sola en un punto se llama blot. Es frágil: el adversario puede golpearla.
+
+11
+00:00:58,374 --> 00:01:05,184
+Con al menos dos fichas, hacéis un punto. Es vuestro: el adversario ya no puede ponerse en él.
+
+12
+00:01:05,334 --> 00:01:10,370
+Y un punto que tenéis en el cuadrante interior del adversario se llama ancla.
+
+13
+00:01:10,070 --> 00:01:13,199
+Es un refugio seguro, en el fondo de su campo.
+
+14
+00:01:15,099 --> 00:01:18,016
+Para molestar al adversario, se bloquea.
+
+15
+00:01:17,716 --> 00:01:22,400
+Vuestro punto siete, justo al lado de la barra, se llama bar point.
+
+16
+00:01:22,550 --> 00:01:25,984
+Varios puntos hechos seguidos forman un prime.
+
+17
+00:01:25,684 --> 00:01:30,820
+Con seis puntos seguidos, el prime está completo: ¡nadie puede pasarlo!
+
+18
+00:01:30,970 --> 00:01:36,630
+Y una ficha colocada a pocos pips de un punto que queréis hacer se llama constructor.
+
+19
+00:01:36,330 --> 00:01:38,522
+Prepara vuestro próximo punto.
+
+20
+00:01:40,422 --> 00:01:47,082
+Cuando vuestra ficha se para en un blot adversario, lo golpeáis: la ficha golpeada se va a la barra.
+
+21
+00:01:47,232 --> 00:01:55,398
+Esa ficha debe entrar después, desde la barra, en el cuadrante interior del adversario, antes de poder jugar cualquier otra cosa.
+
+22
+00:01:55,548 --> 00:02:01,656
+Un blot a seis pips o menos se puede alcanzar con un solo dado: es un tiro directo.
+
+23
+00:02:01,356 --> 00:02:07,465
+Más lejos, hay que sumar los dos dados: es un tiro indirecto, mucho menos probable.
+
+24
+00:02:09,365 --> 00:02:15,551
+Cuando ninguna ficha puede ya cruzarse con las del adversario, la partida se convierte en una carrera.
+
+25
+00:02:15,701 --> 00:02:23,535
+Para saber quién va por delante, se hace el conteo de pips: la distancia total que vuestras fichas todavía deben recorrer.
+
+26
+00:02:23,235 --> 00:02:26,931
+Al principio, son ciento sesenta y siete para cada uno.
+
+27
+00:02:27,081 --> 00:02:32,660
+Cuando vuestras quince fichas están todas en vuestro cuadrante interior, podéis sacarlas.
+
+28
+00:02:32,360 --> 00:02:35,388
+El primero que las saca todas gana la partida.
+
+29
+00:02:37,288 --> 00:02:46,147
+Aquí está el cubo doblador, ese dado grande marcado con dos, cuatro, ocho, dieciséis, treinta y dos y sesenta y cuatro.
+
+30
+00:02:45,847 --> 00:02:48,233
+En inglés, lo llaman el cube.
+
+31
+00:02:48,383 --> 00:02:53,700
+Antes de tirar los dados, podéis doblar: es proponer doblar el valor de la partida.
+
+32
+00:02:53,850 --> 00:02:59,147
+El adversario elige entonces. O acepta, y la partida sigue valiendo el doble.
+
+33
+00:02:58,847 --> 00:03:03,170
+O rechaza, y pierde la partida enseguida, con su valor actual.
+
+34
+00:03:05,747 --> 00:03:11,061
+Ganar normalmente es una victoria simple: la partida cuenta por su valor de base.
+
+35
+00:03:11,211 --> 00:03:16,867
+Si el perdedor no ha sacado ninguna ficha, es un gammon: la victoria cuenta doble.
+
+36
+00:03:17,017 --> 00:03:25,083
+Y si además le queda una ficha en la barra o en vuestro cuadrante interior, es un backgammon: ¡la victoria cuenta triple!
+
+37
+00:03:24,783 --> 00:03:28,934
+Así que el juego lleva el nombre de la peor derrota posible.
+
+38
+00:03:30,834 --> 00:03:40,342
+En los clubes y torneos se juegan matches: una serie de partidas a un número de puntos fijado de antemano, por ejemplo a cinco o a siete puntos.
+
+39
+00:03:40,492 --> 00:03:47,658
+Cuando un jugador llega a un punto de la victoria, la partida siguiente se juega sin cubo: es la regla Crawford.
+
+40
+00:03:47,808 --> 00:03:51,077
+La primera jugada de la partida se llama apertura.
+
+41
+00:03:50,777 --> 00:03:54,342
+Solo hay quince, y las descubristeis en la lección dos.
+
+42
+00:03:55,168 --> 00:03:56,393
+¿Y la chouette?
+
+43
+00:03:56,093 --> 00:04:03,117
+Es el backgammon para tres jugadores o más: el box juega solo contra todo el equipo, dirigido por un capitán.
+
+44
+00:04:02,817 --> 00:04:05,831
+¡Ya adivináis por qué es mi juego preferido!
+
+45
+00:04:07,731 --> 00:04:13,468
+¡Y ya está! Punto, blot, ancla, prime, conteo de pips, cubo, gammon…
+
+46
+00:04:13,168 --> 00:04:17,545
+ahora conocéis las palabras esenciales del jugador.
+
+47
+00:04:17,695 --> 00:04:22,264
+Para encontrarlas en cualquier momento, abrid el glosario del backgammon en nuestra web.
+
+48
+00:04:22,414 --> 00:04:26,587
+Esta lección cierra la temporada uno de Las lecciones de la lechuza.
+
+49
+00:04:26,287 --> 00:04:31,144
+¡Gracias por seguirla conmigo, desde la primera regla hasta esta última palabra!
+
+50
+00:04:31,294 --> 00:04:35,526
+La temporada dos llega pronto, con nuevas lecciones para ir más lejos.
+
+51
+00:04:35,676 --> 00:04:43,626
+Mientras tanto, jugad gratis al backgammon contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows.
+
+52
+00:04:44,196 --> 00:04:49,095
+Suscribíos para no perderos lo que viene. ¡Hasta muy pronto alrededor del tablero!
+

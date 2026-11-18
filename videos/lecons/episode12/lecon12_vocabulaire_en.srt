@@ -1,0 +1,204 @@
+1
+00:00:01,200 --> 00:00:03,835
+Hello and welcome to The Owl's Lessons!
+
+2
+00:00:03,535 --> 00:00:07,965
+Last time, you travelled back in time with the history of backgammon.
+
+3
+00:00:09,263 --> 00:00:16,565
+Today is the last lesson of the season: the player's vocabulary. Blot, prime, gammon, doubling cube…
+
+4
+00:00:16,265 --> 00:00:21,117
+By the end, you'll talk backgammon like a club regular! Let's go!
+
+5
+00:00:24,097 --> 00:00:28,931
+Let's start with the board. Each of the twenty-four triangles is called a point.
+
+6
+00:00:30,776 --> 00:00:34,707
+The distance from one point to the next is called a pip.
+
+7
+00:00:34,407 --> 00:00:37,884
+A checker that moves five points moves five pips.
+
+8
+00:00:38,561 --> 00:00:41,761
+In the middle, the central strip is called the bar.
+
+9
+00:00:41,461 --> 00:00:47,107
+Your points one to six are your home board, and your points seven to twelve, your outer board.
+
+10
+00:00:51,913 --> 00:00:57,452
+A single checker on a point is called a blot. It's fragile: your opponent can hit it.
+
+11
+00:00:58,374 --> 00:01:04,242
+With at least two checkers, you make a point. It's yours: your opponent can no longer land there.
+
+12
+00:01:05,334 --> 00:01:09,544
+And a point you hold in your opponent's home board is called an anchor.
+
+13
+00:01:09,244 --> 00:01:11,637
+It's a safe haven, deep in their camp.
+
+14
+00:01:15,099 --> 00:01:21,612
+To slow your opponent down, you block. Your seven-point, right next to the bar, is called the bar point.
+
+15
+00:01:22,550 --> 00:01:25,581
+Several made points in a row form a prime.
+
+16
+00:01:25,281 --> 00:01:30,264
+With six points in a row, the prime is complete: nobody can get past it!
+
+17
+00:01:30,970 --> 00:01:36,134
+And a checker placed a few pips away from a point you want to make is called a builder.
+
+18
+00:01:35,834 --> 00:01:37,699
+It prepares your next point.
+
+19
+00:01:40,422 --> 00:01:45,917
+When your checker lands on an opponent's blot, you hit it: the hit checker goes to the bar.
+
+20
+00:01:47,232 --> 00:01:53,354
+That checker must then enter from the bar into its opponent's home board, before anything else can be played.
+
+21
+00:01:55,548 --> 00:02:01,294
+A blot six pips away or less can be hit with a single die: that's a direct shot.
+
+22
+00:02:00,994 --> 00:02:06,945
+Further away, you have to add both dice: that's an indirect shot, much less likely.
+
+23
+00:02:09,365 --> 00:02:14,207
+When no checker can pass the opponent's checkers anymore, the game becomes a race.
+
+24
+00:02:15,701 --> 00:02:21,524
+To know who's ahead, you do a pip count: the total distance your checkers still have to travel.
+
+25
+00:02:21,224 --> 00:02:25,186
+At the start, it's one hundred and sixty-seven for each player.
+
+26
+00:02:27,081 --> 00:02:31,719
+When all fifteen of your checkers are in your home board, you can bear them off.
+
+27
+00:02:31,419 --> 00:02:34,702
+The first player to bear off all of them wins the game.
+
+28
+00:02:37,288 --> 00:02:44,231
+Here is the doubling cube, the big die marked two, four, eight, sixteen, thirty-two and sixty-four.
+
+29
+00:02:43,931 --> 00:02:46,646
+Players often just call it the cube.
+
+30
+00:02:48,383 --> 00:02:53,583
+Before rolling the dice, you can double: that means offering to double the value of the game.
+
+31
+00:02:53,850 --> 00:02:59,450
+Your opponent then chooses. Either they take, and the game goes on, worth twice as much.
+
+32
+00:02:59,150 --> 00:03:03,847
+Or they pass, and they lose the game straight away, at its current value.
+
+33
+00:03:05,747 --> 00:03:10,218
+Winning normally is a single game: it counts for its basic value.
+
+34
+00:03:11,211 --> 00:03:16,464
+If the loser hasn't borne off any checker, it's a gammon: the win counts double.
+
+35
+00:03:17,017 --> 00:03:24,900
+And if they also still have a checker on the bar or in the winner's home board, it's a backgammon: the win counts triple!
+
+36
+00:03:24,600 --> 00:03:28,221
+So the game is named after the worst possible defeat.
+
+37
+00:03:30,834 --> 00:03:39,658
+In clubs and tournaments, people play matches: a series of games to a number of points set in advance, for example five or seven points.
+
+38
+00:03:40,492 --> 00:03:47,364
+When a player gets to one point from victory, the next game is played without the doubling cube: that's the Crawford rule.
+
+39
+00:03:47,808 --> 00:03:50,988
+The very first move of the game is called the opening.
+
+40
+00:03:50,688 --> 00:03:54,722
+There are only fifteen of them, and you discovered them in lesson two.
+
+41
+00:03:55,168 --> 00:03:56,493
+And the chouette?
+
+42
+00:03:56,193 --> 00:04:02,762
+It's backgammon for three or more players: the box plays alone against the whole team, led by a captain.
+
+43
+00:04:02,462 --> 00:04:05,233
+You can guess why it's my favourite game!
+
+44
+00:04:07,731 --> 00:04:13,842
+And there you go! Point, blot, anchor, prime, pip count, doubling cube, gammon…
+
+45
+00:04:13,542 --> 00:04:17,299
+you now know the essential words of the player.
+
+46
+00:04:17,695 --> 00:04:22,213
+To find them again at any time, open the backgammon glossary on our website.
+
+47
+00:04:22,414 --> 00:04:25,611
+This lesson ends season one of The Owl's Lessons.
+
+48
+00:04:25,311 --> 00:04:30,282
+Thank you for following it with me, from the very first rule to this last word!
+
+49
+00:04:31,294 --> 00:04:35,076
+Season two is coming soon, with new lessons to go further.
+
+50
+00:04:35,676 --> 00:04:43,675
+In the meantime, play backgammon for free against other players or against the computer, in your browser, on Android or on Windows.
+
+51
+00:04:44,196 --> 00:04:48,358
+Subscribe so you don't miss what's next. See you soon around the board!
+
