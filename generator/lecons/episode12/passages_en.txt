@@ -1,0 +1,33 @@
+P01|0|Hello and welcome to The Owl's Lessons! Last time, you travelled back in time with the history of backgammon.
+P02|0|Today is the last lesson of the season: the player's vocabulary. Blot, prime, gammon, doubling cube… By the end, you'll talk backgammon like a club regular! Let's go!
+P03|1|Let's start with the board. Each of the twenty-four triangles is called a point.
+P04|1|The distance from one point to the next is called a pip. A checker that moves five points moves five pips.
+P05|1|In the middle, the central strip is called the bar. Your points one to six are your home board, and your points seven to twelve, your outer board.
+P06|2|A single checker on a point is called a blot. It's fragile: your opponent can hit it.
+P07|2|With at least two checkers, you make a point. It's yours: your opponent can no longer land there.
+P08|2|And a point you hold in your opponent's home board is called an anchor. It's a safe haven, deep in their camp.
+P09|3|To slow your opponent down, you block. Your seven-point, right next to the bar, is called the bar point.
+P10|3|Several made points in a row form a prime. With six points in a row, the prime is complete: nobody can get past it!
+P11|3|And a checker placed a few pips away from a point you want to make is called a builder. It prepares your next point.
+P12|4|When your checker lands on an opponent's blot, you hit it: the hit checker goes to the bar.
+P13|4|That checker must then enter from the bar into its opponent's home board, before anything else can be played.
+P14|4|A blot six pips away or less can be hit with a single die: that's a direct shot. Further away, you have to add both dice: that's an indirect shot, much less likely.
+P15|5|When no checker can pass the opponent's checkers anymore, the game becomes a race.
+P16|5|To know who's ahead, you do a pip count: the total distance your checkers still have to travel. At the start, it's one hundred and sixty-seven for each player.
+P17|5|When all fifteen of your checkers are in your home board, you can bear them off. The first player to bear off all of them wins the game.
+P18|6|Here is the doubling cube, the big die marked two, four, eight, sixteen, thirty-two and sixty-four. Players often just call it the cube.
+P19|6|Before rolling the dice, you can double: that means offering to double the value of the game.
+P20|6|Your opponent then chooses. Either they take, and the game goes on, worth twice as much. Or they pass, and they lose the game straight away, at its current value.
+P21|7|Winning normally is a single game: it counts for its basic value.
+P22|7|If the loser hasn't borne off any checker, it's a gammon: the win counts double.
+P23|7|And if they also still have a checker on the bar or in the winner's home board, it's a backgammon: the win counts triple! [laughs] So the game is named after the worst possible defeat.
+P24|8|In clubs and tournaments, people play matches: a series of games to a number of points set in advance, for example five or seven points.
+P25|8|When a player gets to one point from victory, the next game is played without the doubling cube: that's the Crawford rule.
+P26|8|The very first move of the game is called the opening. There are only fifteen of them, and you discovered them in lesson two.
+P27|8|And the chouette? It's backgammon for three or more players: the box plays alone against the whole team, led by a captain. You can guess why it's my favourite game!
+P28|9|And there you go! Point, blot, anchor, prime, pip count, doubling cube, gammon… you now know the essential words of the player.
+P29|9|To find them again at any time, open the backgammon glossary on our website.
+P30|9|This lesson ends season one of The Owl's Lessons. Thank you for following it with me, from the very first rule to this last word!
+P31|9|Season two is coming soon, with new lessons to go further.
+P32|9|In the meantime, play backgammon for free against other players or against the computer, in your browser, on Android or on Windows.
+P33|9|Subscribe so you don't miss what's next. See you soon around the board!

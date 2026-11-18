@@ -1,0 +1,33 @@
+P01|0|¡Hola y bienvenidos a Las lecciones de la lechuza! La última vez, viajasteis en el tiempo con la historia del backgammon.
+P02|0|Hoy es la última lección de la temporada: el vocabulario del jugador. Blot, prime, gammon, cubo doblador… ¡Al final, hablaréis de backgammon como un habitual del club! ¡Vamos allá!
+P03|1|Empecemos por el tablero. Cada uno de los veinticuatro triángulos se llama punto, o punta.
+P04|1|La distancia de un punto al siguiente se llama pip. Una ficha que avanza cinco puntos avanza cinco pips.
+P05|1|En el centro, la franja central se llama barra. Vuestros puntos uno a seis forman vuestro cuadrante interior, y vuestros puntos siete a doce, vuestro cuadrante exterior.
+P06|2|Una ficha sola en un punto se llama blot. Es frágil: el adversario puede golpearla.
+P07|2|Con al menos dos fichas, hacéis un punto. Es vuestro: el adversario ya no puede ponerse en él.
+P08|2|Y un punto que tenéis en el cuadrante interior del adversario se llama ancla. Es un refugio seguro, en el fondo de su campo.
+P09|3|Para molestar al adversario, se bloquea. Vuestro punto siete, justo al lado de la barra, se llama bar point.
+P10|3|Varios puntos hechos seguidos forman un prime. Con seis puntos seguidos, el prime está completo: ¡nadie puede pasarlo!
+P11|3|Y una ficha colocada a pocos pips de un punto que queréis hacer se llama constructor. Prepara vuestro próximo punto.
+P12|4|Cuando vuestra ficha se para en un blot adversario, lo golpeáis: la ficha golpeada se va a la barra.
+P13|4|Esa ficha debe entrar después, desde la barra, en el cuadrante interior del adversario, antes de poder jugar cualquier otra cosa.
+P14|4|Un blot a seis pips o menos se puede alcanzar con un solo dado: es un tiro directo. Más lejos, hay que sumar los dos dados: es un tiro indirecto, mucho menos probable.
+P15|5|Cuando ninguna ficha puede ya cruzarse con las del adversario, la partida se convierte en una carrera.
+P16|5|Para saber quién va por delante, se hace el conteo de pips: la distancia total que vuestras fichas todavía deben recorrer. Al principio, son ciento sesenta y siete para cada uno.
+P17|5|Cuando vuestras quince fichas están todas en vuestro cuadrante interior, podéis sacarlas. El primero que las saca todas gana la partida.
+P18|6|Aquí está el cubo doblador, ese dado grande marcado con dos, cuatro, ocho, dieciséis, treinta y dos y sesenta y cuatro. En inglés, lo llaman el cube.
+P19|6|Antes de tirar los dados, podéis doblar: es proponer doblar el valor de la partida.
+P20|6|El adversario elige entonces. O acepta, y la partida sigue valiendo el doble. O rechaza, y pierde la partida enseguida, con su valor actual.
+P21|7|Ganar normalmente es una victoria simple: la partida cuenta por su valor de base.
+P22|7|Si el perdedor no ha sacado ninguna ficha, es un gammon: la victoria cuenta doble.
+P23|7|Y si además le queda una ficha en la barra o en vuestro cuadrante interior, es un backgammon: ¡la victoria cuenta triple! [laughs] Así que el juego lleva el nombre de la peor derrota posible.
+P24|8|En los clubes y torneos se juegan matches: una serie de partidas a un número de puntos fijado de antemano, por ejemplo a cinco o a siete puntos.
+P25|8|Cuando un jugador llega a un punto de la victoria, la partida siguiente se juega sin cubo: es la regla Crawford.
+P26|8|La primera jugada de la partida se llama apertura. Solo hay quince, y las descubristeis en la lección dos.
+P27|8|¿Y la chouette? Es el backgammon para tres jugadores o más: el box juega solo contra todo el equipo, dirigido por un capitán. ¡Ya adivináis por qué es mi juego preferido!
+P28|9|¡Y ya está! Punto, blot, ancla, prime, conteo de pips, cubo, gammon… ahora conocéis las palabras esenciales del jugador.
+P29|9|Para encontrarlas en cualquier momento, abrid el glosario del backgammon en nuestra web.
+P30|9|Esta lección cierra la temporada uno de Las lecciones de la lechuza. ¡Gracias por seguirla conmigo, desde la primera regla hasta esta última palabra!
+P31|9|La temporada dos llega pronto, con nuevas lecciones para ir más lejos.
+P32|9|Mientras tanto, jugad gratis al backgammon contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows.
+P33|9|Suscribíos para no perderos lo que viene. ¡Hasta muy pronto alrededor del tablero!

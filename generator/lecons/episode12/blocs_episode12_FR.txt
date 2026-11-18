@@ -1,0 +1,80 @@
+LEÇONS DE LA CHOUETTE — ÉPISODE 12 — TEXTES À COLLER DANS ELEVENLABS (FR)
+Voix : MIMI · Modèle : Eleven v4 · mêmes réglages que ton test.
+Copie UN bloc à la fois (tout ce qui est entre les lignes ===), sans les titres.
+Ne change rien au texte : les lignes vides servent de pauses entre les passages.
+Télécharge chaque résultat en MP3 et renomme-le : bloc1.mp3, bloc2.mp3, bloc3.mp3.
+
+########## BLOC 1 (P01 à P11, 1359 caractères) → bloc1.mp3 ##########
+============================================================
+Bonjour et bienvenue dans les Leçons de la chouette ! La dernière fois, vous avez remonté le temps avec l'histoire du backgammon.
+
+Aujourd'hui, c'est la dernière leçon de la saison : le vocabulaire du joueur. Blot, prime, gammon, videau… À la fin, vous parlerez backgammon comme un habitué du club ! On y va !
+
+Commençons par le plateau. Chacun des vingt-quatre triangles s'appelle un point, ou une flèche.
+
+La distance d'un point au suivant s'appelle un pip. Un pion qui avance de cinq points avance donc de cinq pips.
+
+Au milieu, la bande centrale s'appelle la barre. Vos points un à six forment votre jan intérieur, et vos points sept à douze, votre jan extérieur.
+
+Un pion seul sur un point s'appelle un blot. Il est fragile : l'adversaire peut le frapper.
+
+Avec au moins deux pions, vous faites un point. Il est à vous : l'adversaire ne peut plus s'y poser.
+
+Et un point que vous tenez dans le jan intérieur de l'adversaire s'appelle une ancre. C'est un refuge sûr, au fond de son camp.
+
+Pour gêner l'adversaire, on bloque. Votre point sept, juste à côté de la barre, s'appelle le bar point.
+
+Plusieurs points faits à la suite forment une prime. Avec six points d'affilée, la prime est complète : personne ne peut la franchir !
+
+Et un pion placé à quelques pips d'un point que vous voulez faire s'appelle un constructeur. Il prépare votre prochain point.
+============================================================
+
+########## BLOC 2 (P12 à P20, 1176 caractères) → bloc2.mp3 ##########
+============================================================
+Quand votre pion s'arrête sur un blot adverse, vous le frappez : le pion frappé part sur la barre.
+
+Ce pion doit ensuite rentrer, depuis la barre, dans le jan intérieur adverse, avant de pouvoir jouer quoi que ce soit d'autre.
+
+Un blot à six pips ou moins peut être touché avec un seul dé : c'est un tir direct. Plus loin, il faut additionner les deux dés : c'est un tir indirect, beaucoup moins probable.
+
+Quand plus aucun pion ne peut croiser ceux de l'adversaire, la partie devient une course.
+
+Pour savoir qui mène, on fait le compte de pips : la distance totale que vos pions doivent encore parcourir. Au départ, c'est cent soixante-sept pour chacun.
+
+Quand vos quinze pions sont tous dans votre jan intérieur, vous pouvez les sortir. Le premier qui a tout sorti gagne la partie.
+
+Voici le videau, ce gros dé marqué deux, quatre, huit, seize, trente-deux et soixante-quatre. En anglais, on l'appelle le cube.
+
+Avant de lancer les dés, vous pouvez doubler : c'est proposer de doubler la valeur de la partie.
+
+L'adversaire choisit alors. Soit il prend, et la partie continue en valant deux fois plus. Soit il passe, et il perd tout de suite la partie, à sa valeur actuelle.
+============================================================
+
+########## BLOC 3 (P21 à P33, 1594 caractères) → bloc3.mp3 ##########
+============================================================
+Gagner normalement, c'est une victoire simple : la partie compte pour sa valeur de base.
+
+Si le perdant n'a sorti aucun pion, c'est un gammon : la victoire compte double.
+
+Et s'il lui reste en plus un pion sur la barre ou dans votre jan intérieur, c'est un backgammon : la victoire compte triple ! [laughs] Le jeu porte donc le nom de la pire défaite possible.
+
+En club et en tournoi, on joue des matchs : une série de parties en un nombre de points fixé à l'avance, par exemple en cinq ou en sept points.
+
+Quand un joueur arrive à un point de la victoire, la partie suivante se joue sans videau : c'est la règle de Crawford.
+
+Le tout premier coup de la partie s'appelle l'ouverture. Il n'en existe que quinze, et vous les avez découvertes dans la leçon deux.
+
+Et la chouette ? C'est le backgammon à trois joueurs ou plus : le box joue seul contre toute l'équipe, menée par un capitaine. Vous devinez pourquoi c'est mon jeu préféré !
+
+Et voilà ! Point, blot, ancre, prime, compte de pips, videau, gammon… vous connaissez maintenant les mots essentiels du joueur.
+
+Pour les retrouver à tout moment, ouvrez le lexique du backgammon sur notre site.
+
+Cette leçon termine la saison un des Leçons de la chouette. Merci de l'avoir suivie avec moi, de la toute première règle jusqu'à ce dernier mot !
+
+La saison deux arrive bientôt, avec de nouvelles leçons pour aller plus loin.
+
+En attendant, jouez gratuitement au backgammon contre d'autres joueurs ou contre l'ordinateur, dans votre navigateur, sur Android ou sur Windows.
+
+Abonnez-vous pour ne pas manquer la suite. À très vite autour du plateau !
+============================================================
