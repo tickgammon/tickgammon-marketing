@@ -1,0 +1,204 @@
+1
+00:00:01,200 --> 00:00:04,015
+Hello and welcome to The Owl's Lessons!
+
+2
+00:00:03,715 --> 00:00:09,238
+Last time, you discovered jacquet and trictrac, the French cousins of backgammon.
+
+3
+00:00:10,876 --> 00:00:16,852
+Today, we're going back in time. Backgammon is one of the oldest board games still played.
+
+4
+00:00:16,552 --> 00:00:20,384
+Ready for a journey of several thousand years? Let's go!
+
+5
+00:00:24,138 --> 00:00:32,267
+About four thousand five hundred years ago, in Mesopotamia, in present-day Iraq, people were already playing the Royal Game of Ur.
+
+6
+00:00:32,417 --> 00:00:36,668
+A board from this game was found in the royal tombs of the city of Ur.
+
+7
+00:00:36,368 --> 00:00:39,264
+The pieces move forward according to the dice.
+
+8
+00:00:39,696 --> 00:00:41,877
+In Egypt, people played senet.
+
+9
+00:00:41,577 --> 00:00:48,521
+These are not yet backgammon, but the idea is already there: racing your pieces to the rhythm of the dice.
+
+10
+00:00:51,210 --> 00:00:52,571
+Next stop, Rome.
+
+11
+00:00:52,271 --> 00:00:58,940
+The Romans played the game of twelve lines, then tabula, the most direct ancestor of backgammon.
+
+12
+00:01:00,918 --> 00:01:08,117
+In tabula, you already find twenty-four points, fifteen checkers per player, and the idea of hitting lone checkers.
+
+13
+00:01:08,631 --> 00:01:13,354
+A Greek text even tells of a game lost by Emperor Zeno, in the fifth century.
+
+14
+00:01:13,054 --> 00:01:19,386
+His position looks very much like modern backgammon… except that it was played with three dice back then!
+
+15
+00:01:22,627 --> 00:01:25,721
+Meanwhile, in Persia, people play nard.
+
+16
+00:01:26,054 --> 00:01:32,801
+A famous legend, told in the poet Ferdowsi's Book of Kings, credits its invention to the sage Bozorgmehr.
+
+17
+00:01:33,927 --> 00:01:37,464
+An Indian king had sent the game of chess as a riddle.
+
+18
+00:01:37,164 --> 00:01:43,817
+Bozorgmehr is said to have solved it, then answered by inventing nard, a game where the dice set the pace.
+
+19
+00:01:45,745 --> 00:01:53,110
+It's only a legend. But nard, or nardy, is still widely played today, in Iran, the Caucasus and Russia.
+
+20
+00:01:55,536 --> 00:02:02,065
+In the Middle Ages, in Europe, tables games are everywhere: in castles and in taverns alike.
+
+21
+00:02:03,742 --> 00:02:09,014
+The Church bans them several times, without much success: everyone keeps playing!
+
+22
+00:02:09,870 --> 00:02:17,917
+In twelve eighty-three, King Alfonso the Tenth of Castile even has a great book of games written, describing many variants of tables.
+
+23
+00:02:21,645 --> 00:02:25,548
+The word "backgammon" appears in England in the seventeenth century.
+
+24
+00:02:26,087 --> 00:02:32,120
+In seventeen forty-three, Edmond Hoyle publishes a short treatise that sets the rules of the game.
+
+25
+00:02:31,820 --> 00:02:33,583
+It is still quoted today.
+
+26
+00:02:34,340 --> 00:02:40,372
+In France, at the same time, trictrac shines at the king's court, followed by jacquet in families.
+
+27
+00:02:40,072 --> 00:02:42,712
+You've known them since the last lesson!
+
+28
+00:02:46,130 --> 00:02:50,153
+In the twentieth century, a small invention changes everything.
+
+29
+00:02:49,853 --> 00:02:54,703
+In the nineteen-twenties, players in New York clubs invent the doubling cube.
+
+30
+00:02:56,185 --> 00:02:59,415
+This die lets you double the value of the game.
+
+31
+00:02:59,115 --> 00:03:04,776
+The game becomes far more strategic: you need to know when to offer, accept or refuse.
+
+32
+00:03:05,590 --> 00:03:10,288
+In the sixties and seventies, backgammon is all the rage around the world.
+
+33
+00:03:09,988 --> 00:03:15,102
+Prince Alexis Obolensky then organises the first major international tournaments.
+
+34
+00:03:16,558 --> 00:03:21,188
+And since the late seventies, the world championship has been played in Monte Carlo.
+
+35
+00:03:23,474 --> 00:03:29,516
+In the early nineties comes a revolution: TD-Gammon, a program created at IBM.
+
+36
+00:03:30,538 --> 00:03:35,291
+It learns to play on its own, by playing millions of games against itself.
+
+37
+00:03:34,991 --> 00:03:37,999
+And it reaches the level of the best players!
+
+38
+00:03:38,281 --> 00:03:45,331
+It even overturns ideas accepted for decades: some openings played by the champions were not the best.
+
+39
+00:03:45,031 --> 00:03:47,714
+The humans had to go back to school!
+
+40
+00:03:49,037 --> 00:03:54,575
+Then come even stronger programs, like GNU Backgammon, which is free and open source.
+
+41
+00:03:54,275 --> 00:03:58,643
+Today, players analyse their games with these programs to improve.
+
+42
+00:04:01,611 --> 00:04:07,690
+And today? Backgammon is played around the clock, online, against opponents from all over the world.
+
+43
+00:04:07,840 --> 00:04:13,208
+On TickGammon, you can play against other players, or against a bot based on GNU Backgammon.
+
+44
+00:04:13,724 --> 00:04:17,746
+You can also analyse your moves, take lessons and join tournaments.
+
+45
+00:04:18,880 --> 00:04:22,965
+A modern way to carry on a game that is thousands of years old…
+
+46
+00:04:22,665 --> 00:04:26,150
+with the same fifteen checkers and the same two dice!
+
+47
+00:04:28,050 --> 00:04:39,204
+And there you go, you now know the great history of backgammon: from the Royal Game of Ur to Roman tabula, from Persian nard to the New York doubling cube, all the way to computers.
+
+48
+00:04:39,354 --> 00:04:43,973
+Every game you play is a game that generations of players loved before you.
+
+49
+00:04:45,267 --> 00:04:53,712
+To keep the adventure going, play backgammon for free against other players or against the computer, in your browser, on Android or on Windows.
+
+50
+00:04:53,412 --> 00:04:59,294
+Next time, the last lesson of the season: the player's vocabulary. Subscribe so you don't miss it!
+
+51
+00:04:58,994 --> 00:05:01,003
+See you soon around the board!
+

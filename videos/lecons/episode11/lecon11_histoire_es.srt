@@ -1,0 +1,212 @@
+1
+00:00:01,200 --> 00:00:04,795
+¡Hola y bienvenidos a Las lecciones de la lechuza!
+
+2
+00:00:04,495 --> 00:00:10,726
+La última vez descubristeis el jacquet y el trictrac, los primos franceses del backgammon.
+
+3
+00:00:10,876 --> 00:00:12,868
+Hoy viajamos en el tiempo.
+
+4
+00:00:12,568 --> 00:00:18,139
+El backgammon es uno de los juegos de tablero más antiguos que todavía se juegan.
+
+5
+00:00:17,839 --> 00:00:22,238
+¿Preparados para un viaje de varios miles de años? ¡Vamos allá!
+
+6
+00:00:24,138 --> 00:00:31,415
+Hace unos cuatro mil quinientos años, en Mesopotamia, en el actual Irak, ya se jugaba al juego real de Ur.
+
+7
+00:00:32,417 --> 00:00:37,412
+Se encontró un tablero de este juego en las tumbas reales de la ciudad de Ur.
+
+8
+00:00:37,112 --> 00:00:39,546
+Las piezas avanzan según los dados.
+
+9
+00:00:39,696 --> 00:00:41,939
+En Egipto se jugaba al senet.
+
+10
+00:00:41,639 --> 00:00:49,310
+Todavía no son backgammons, pero la idea ya está ahí: hacer una carrera con las piezas, al ritmo de los dados.
+
+11
+00:00:51,210 --> 00:00:52,961
+Próxima parada, Roma.
+
+12
+00:00:52,661 --> 00:01:00,768
+Los romanos jugaban al juego de las doce líneas, y después a la tabula, el antepasado más directo del backgammon.
+
+13
+00:01:00,918 --> 00:01:08,481
+En la tabula ya encontramos veinticuatro casillas, quince fichas por jugador y la idea de golpear las fichas sueltas.
+
+14
+00:01:08,631 --> 00:01:14,675
+Un texto griego cuenta incluso una partida perdida por el emperador Zenón, en el siglo cinco.
+
+15
+00:01:14,375 --> 00:01:20,727
+Su posición se parece mucho a un backgammon moderno… ¡salvo que entonces se jugaba con tres dados!
+
+16
+00:01:22,627 --> 00:01:25,904
+Mientras tanto, en Persia, se juega al nard.
+
+17
+00:01:26,054 --> 00:01:33,777
+Una famosa leyenda, contada en el Libro de los Reyes del poeta Ferdousí, atribuye su invención al sabio Bozorgmehr.
+
+18
+00:01:33,927 --> 00:01:37,631
+Un rey indio había enviado el ajedrez como un enigma.
+
+19
+00:01:37,331 --> 00:01:45,595
+Bozorgmehr lo habría resuelto, y después habría respondido inventando el nard, un juego en el que los dados marcan el ritmo.
+
+20
+00:01:45,745 --> 00:01:47,465
+Es solo una leyenda.
+
+21
+00:01:47,165 --> 00:01:53,498
+Pero el nard, o nardy, se sigue jugando mucho hoy, en Irán, en el Cáucaso y en Rusia.
+
+22
+00:01:55,536 --> 00:02:03,592
+En la Edad Media, en Europa, los juegos de tablas están por todas partes: en los castillos y también en las tabernas.
+
+23
+00:02:03,742 --> 00:02:09,720
+La Iglesia los prohíbe varias veces, sin mucho éxito: ¡todo el mundo sigue jugando!
+
+24
+00:02:09,870 --> 00:02:19,745
+En mil doscientos ochenta y tres, el rey Alfonso décimo de Castilla manda incluso escribir un gran libro de juegos, que describe muchas variantes de tablas.
+
+25
+00:02:21,645 --> 00:02:25,937
+La palabra «backgammon» aparece en Inglaterra en el siglo diecisiete.
+
+26
+00:02:26,087 --> 00:02:32,951
+En mil setecientos cuarenta y tres, Edmond Hoyle publica un pequeño tratado que fija las reglas del juego.
+
+27
+00:02:32,651 --> 00:02:34,190
+Todavía se cita hoy.
+
+28
+00:02:34,340 --> 00:02:41,894
+En Francia, en la misma época, es el trictrac el que brilla en la corte del rey, y después el jacquet en las familias.
+
+29
+00:02:41,594 --> 00:02:44,230
+¡Los conocéis desde la última lección!
+
+30
+00:02:46,130 --> 00:02:49,798
+En el siglo veinte, un pequeño invento lo cambia todo.
+
+31
+00:02:49,498 --> 00:02:56,035
+En los años mil novecientos veinte, jugadores de los clubes de Nueva York inventan el cubo doblador.
+
+32
+00:02:56,185 --> 00:02:59,555
+Este dado permite doblar el valor de la partida.
+
+33
+00:02:59,255 --> 00:03:05,440
+El juego se vuelve mucho más estratégico: hay que saber cuándo proponer, aceptar o rechazar.
+
+34
+00:03:05,590 --> 00:03:10,716
+En los años sesenta y setenta, el backgammon se pone de moda en todo el mundo.
+
+35
+00:03:10,416 --> 00:03:16,408
+El príncipe Alexis Obolensky organiza entonces los primeros grandes torneos internacionales.
+
+36
+00:03:16,558 --> 00:03:21,574
+Y desde finales de los años setenta, el campeonato del mundo se juega en Montecarlo.
+
+37
+00:03:23,474 --> 00:03:30,388
+A principios de los años noventa llega una revolución: TD-Gammon, un programa creado en IBM.
+
+38
+00:03:30,538 --> 00:03:35,277
+Aprende a jugar solo, disputando millones de partidas contra sí mismo.
+
+39
+00:03:34,977 --> 00:03:38,131
+¡Y alcanza el nivel de los mejores jugadores!
+
+40
+00:03:38,281 --> 00:03:46,139
+Incluso echa por tierra ideas aceptadas durante décadas: algunas aperturas que jugaban los campeones no eran las mejores.
+
+41
+00:03:45,839 --> 00:03:48,887
+¡Los humanos tuvieron que volver al colegio!
+
+42
+00:03:49,037 --> 00:03:54,726
+Después llegan programas aún más fuertes, como GNU Backgammon, gratuito y libre.
+
+43
+00:03:54,426 --> 00:03:59,711
+Hoy, los jugadores analizan sus partidas con estos programas para mejorar.
+
+44
+00:04:01,611 --> 00:04:07,551
+¿Y hoy? El backgammon se juega a cualquier hora, en línea, contra rivales de todo el mundo.
+
+45
+00:04:07,840 --> 00:04:13,574
+En TickGammon podéis jugar contra otros jugadores, o contra un robot basado en GNU Backgammon.
+
+46
+00:04:13,724 --> 00:04:18,730
+También podéis analizar vuestras jugadas, seguir clases y participar en torneos.
+
+47
+00:04:18,880 --> 00:04:22,805
+Una forma moderna de prolongar un juego de varios milenios…
+
+48
+00:04:22,505 --> 00:04:26,061
+¡con las mismas quince fichas y los mismos dos dados!
+
+49
+00:04:28,050 --> 00:04:39,132
+Y ya está, ahora conocéis la gran historia del backgammon: del juego real de Ur a la tabula de los romanos, del nard persa al cubo doblador de Nueva York, hasta los ordenadores.
+
+50
+00:04:39,354 --> 00:04:45,117
+En cada partida, jugáis a un juego que generaciones de jugadores amaron antes que vosotros.
+
+51
+00:04:45,267 --> 00:04:54,151
+Para seguir la aventura, jugad gratis al backgammon contra otros jugadores o contra el ordenador, en vuestro navegador, en Android o en Windows.
+
+52
+00:04:53,851 --> 00:04:58,622
+La próxima vez, última lección de la temporada: el vocabulario del jugador.
+
+53
+00:04:58,322 --> 00:05:02,914
+¡Suscribíos para no perdérosla! ¡Hasta muy pronto alrededor del tablero!
+
