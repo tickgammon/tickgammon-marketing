@@ -1,0 +1,1 @@
+ElevenLabs flow UCSGqvGIfTjmxYrXvkss — L12 FR : nœuds bloc1 unTP2FOo2nMqJDZlmHsA, bloc2 w0HMfSbsSaDaSeXwvTTQ, bloc3 HFkKR0WE17q3QAjTOmho. Génération lancée une seule fois le 18/11 (1 prise) : si un nœud a déjà une génération, la retélécharger, NE PAS relancer.
