@@ -111,16 +111,16 @@ Dans un tournoi en direct, tout se joue le même soir.
 Dans les tournois officiels de TickGammon, c'est cinq minutes.
 
 29
-00:02:20,064 --> 00:02:24,315
+00:02:20,064 --> 00:02:24,261
 Attention : si votre adversaire est là et pas vous, il gagne le match.
 
 30
-00:02:24,015 --> 00:02:26,234
+00:02:23,961 --> 00:02:26,153
 Alors restez près de votre écran !
 
 31
-00:02:25,934 --> 00:02:32,217
-Et chaque vendredi à vingt et une heures, ne manquez pas la Friday Cup, le tournoi officiel de la semaine.
+00:02:25,853 --> 00:02:31,664
+Et chaque vendredi à vingt heures, ne manquez pas la Friday Cup, le tournoi officiel de la semaine.
 
 32
 00:02:35,468 --> 00:02:37,263

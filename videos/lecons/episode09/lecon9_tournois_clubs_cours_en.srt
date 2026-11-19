@@ -103,12 +103,12 @@ Each round, you have a few minutes to join your table.
 In TickGammon's official tournaments, it's five minutes.
 
 27
-00:02:20,064 --> 00:02:26,570
+00:02:20,064 --> 00:02:26,552
 Be careful: if your opponent is there and you are not, they win the match. So stay close to your screen!
 
 28
-00:02:26,270 --> 00:02:32,179
-And every Friday at nine p.m., don't miss the Friday Cup, the official tournament of the week.
+00:02:26,252 --> 00:02:32,204
+And every Friday at eight p.m., don't miss the Friday Cup, the official tournament of the week.
 
 29
 00:02:35,468 --> 00:02:42,201

@@ -111,16 +111,16 @@ En cada ronda, tenéis unos minutos para uniros a vuestra mesa.
 En los torneos oficiales de TickGammon, son cinco minutos.
 
 29
-00:02:20,064 --> 00:02:24,808
+00:02:20,064 --> 00:02:24,828
 Cuidado: si vuestro adversario está y vosotros no, él gana el partido.
 
 30
-00:02:24,508 --> 00:02:27,220
+00:02:24,528 --> 00:02:27,251
 ¡Así que quedaos cerca de la pantalla!
 
 31
-00:02:26,920 --> 00:02:33,568
-Y cada viernes a las nueve de la noche, no os perdáis la Friday Cup, el torneo oficial de la semana.
+00:02:26,951 --> 00:02:33,564
+Y cada viernes a las ocho de la noche, no os perdáis la Friday Cup, el torneo oficial de la semana.
 
 32
 00:02:35,468 --> 00:02:37,506
